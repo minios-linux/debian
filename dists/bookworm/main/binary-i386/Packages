@@ -1,0 +1,609 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: elementary-xfce-minios-icon-theme
+Source: elementary-xfce-minios
+Version: 0.17-2-1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 15492
+Conflicts: adwaita-icon-theme, elementary-xfce-icon-theme
+Breaks: adwaita-icon-theme, elementary-xfce-icon-theme
+Replaces: adwaita-icon-theme, elementary-xfce-icon-theme
+Provides: adwaita-icon-theme, elementary-xfce-icon-theme
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2-1_all.deb
+Size: 6154812
+SHA256: e4c51812677b811d8e6f4aedef120e8947f6c5a35d5fcbb87311c37f910af8d3
+SHA1: 39549fa69377d3ca1760a97b9c40ba2ef36f0000
+MD5sum: 7421d1e10f6e12d2d33f7e4b55fa2b95
+Description: elementary icon theme modified for Xfce
+ elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
+ desktops.
+ .
+ This fork took place because the elementary OS maintainers wanted to focus
+ exclusively on their desktop environment and thus dropped a lot of icon
+ symlinks used by other desktops. elementary-xfce intends to keep these as-is,
+ while still pulling in new icons and integrating them occasionally.
+
+Package: gtkdialog
+Installed-Size: 363
+Maintainer: sfs
+Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
+Architecture: i386
+Version: 0.8.3-1
+Provides: gtkdialog
+Priority: extra
+Section: system
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.3-1_i386.deb
+Size: 177016
+SHA256: 7ea3453100a213e62774a1b1ebd183335c63226852aa7917d8f6b7eb78cffdd4
+SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
+MD5sum: 79aafe17908409452981f373bf66f8e5
+Description: gtkdialog
+
+Package: linux-headers-5.10.149-mos-686
+Source: linux-5.10.149-mos-686
+Version: 5.10.149-mos-686-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 48810
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-686/linux-headers-5.10.149-mos-686_5.10.149-mos-686-1_i386.deb
+Size: 7858412
+SHA256: 3896c3becc559e6904918eba26be87b428feea29fb99fade85c3defa4c3e7195
+SHA1: c5489a6b63bad0205e83f340aaa359e15c59906c
+MD5sum: 68170c4ecd9c64647baee0cbfa691796
+Description: Linux kernel headers for 5.10.149-mos-686 on i386
+ This package provides kernel header files for 5.10.149-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.149-mos-686-pae
+Source: linux-5.10.149-mos-686-pae
+Version: 5.10.149-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 48885
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-686-pae/linux-headers-5.10.149-mos-686-pae_5.10.149-mos-686-pae-1_i386.deb
+Size: 7861784
+SHA256: 8b2028024782456cc862b686d7efe6a2698e6a92392c826264993f50518ba68e
+SHA1: a5d7fe415c7c76f024aedd602fd04cc324b7e903
+MD5sum: e2f1bf5211bf5d644ce1d50e298233b6
+Description: Linux kernel headers for 5.10.149-mos-686-pae on i386
+ This package provides kernel header files for 5.10.149-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.149-mos-rt-686-pae
+Source: linux-5.10.149-mos-rt-686-pae
+Version: 5.10.149-mos-rt-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 48923
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-rt-686-pae/linux-headers-5.10.149-mos-rt-686-pae_5.10.149-mos-rt-686-pae-1_i386.deb
+Size: 7865676
+SHA256: 47bfded721522fd7005cacf287cef11b56e8ee91da732c4ad8679c7ff64e16d4
+SHA1: fab8611e4a9e03b17a5b0d48b0b5b37433f1e56c
+MD5sum: 8d9802ee665da9ce1a0a3a8e80095e8f
+Description: Linux kernel headers for 5.10.149-mos-rt-686-pae on i386
+ This package provides kernel header files for 5.10.149-mos-rt-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-mos-686
+Source: linux-upstream
+Version: 6.0.3-mos-686-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 50371
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-mos-686_6.0.3-mos-686-1_i386.deb
+Size: 8447640
+SHA256: 18d7c1d96db1f12cb50f7e8953431bec13ad3b5d0d5411ca5fa1a781644ada71
+SHA1: 916bd70229e7616ad55a96866ed7643e0e7475ab
+MD5sum: 4f53c1a04dbbb58530c887ec33bdf882
+Description: Linux kernel headers for 6.0.3-mos-686 on i386
+ This package provides kernel header files for 6.0.3-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-mos-686-pae
+Source: linux-upstream
+Version: 6.0.3-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 50417
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-mos-686-pae_6.0.3-mos-686-pae-1_i386.deb
+Size: 8446164
+SHA256: 7920b5f0433d1e38fa2ab2c8e781e75abb68bcc1387fd2d9fa65387750845de9
+SHA1: e6205405fdbb3157696ece1f1d73025451f6fbeb
+MD5sum: aaa3a1a070f6d44bcdf479ff4530d21e
+Description: Linux kernel headers for 6.0.3-mos-686-pae on i386
+ This package provides kernel header files for 6.0.3-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-mos-rt-686-pae
+Source: linux-upstream
+Version: 6.0.3-mos-rt-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 50460
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-mos-rt-686-pae_6.0.3-mos-rt-686-pae-1_i386.deb
+Size: 8447156
+SHA256: 1428ed42914a98453c48f8a7839c1e7971889c029246f96d369b7eb94d38e325
+SHA1: f00c317d49cab2b902be704f173714a45afeb3fc
+MD5sum: 79f7183329154ec2cd655b951b8de8ea
+Description: Linux kernel headers for 6.0.3-mos-rt-686-pae on i386
+ This package provides kernel header files for 6.0.3-mos-rt-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-mos-686
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-686/linux-headers-mos-686_1.0_i386.deb
+Size: 2252
+SHA256: fc4e85960154d3acdc4a019c5cc30bfb554b6a8359628aa67a02e014bbf87afc
+SHA1: 93211aab4ccafa148dbc3272c54f90c684ee0825
+MD5sum: ccfa1fbfcc95661bd1779b799bd03515
+Description: Header files for Linux 686 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686 configuration.
+
+Package: linux-headers-mos-686-bpo
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-686-bpo/linux-headers-mos-686-bpo_1.0_i386.deb
+Size: 2256
+SHA256: 4193d5f76b40526f958ed3709b6272b2bc1e3edd606b386f67a0510c9bae8aec
+SHA1: 9892cb9a8f848ac70ef9ac9145ad64701623bf37
+MD5sum: 9dba032f417373c32a055a3411c9fb51
+Description: Header files for Linux 686 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686 configuration.
+
+Package: linux-headers-mos-686-pae
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-686-pae
+Provides: linux-headers-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-686-pae/linux-headers-mos-686-pae_1.0_i386.deb
+Size: 2288
+SHA256: c07e51e7dc5aa22d5040043f9c312e335e5ff153b6efca77e8f8aaf609f4c7a2
+SHA1: 57de2ea545793f099a0709fd6c8e11482ecadc2e
+MD5sum: a3934d3ff2720802add006fd09fd1172
+Description: Header files for Linux 686-pae configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686-pae configuration.
+
+Package: linux-headers-mos-686-pae-bpo
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-686-pae
+Provides: linux-headers-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-686-pae-bpo/linux-headers-mos-686-pae-bpo_1.0_i386.deb
+Size: 2292
+SHA256: 61ad8a4ebfa856d2757337288a93ad77ea5d89bbaf916781ba0b517652f373fa
+SHA1: 4ca39dfc8a020d20191dc2f859b881993bd8ac92
+MD5sum: aabd77c9c970c06f40e20fe8728bc22a
+Description: Header files for Linux 686-pae configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686-pae configuration.
+
+Package: linux-headers-mos-rt-686-pae
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-rt-686-pae
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-rt-686-pae/linux-headers-mos-rt-686-pae_1.0_i386.deb
+Size: 2272
+SHA256: fadd5c09c655506ce68f8d6c4840126bbe4a9fdcd8bbc3f374d305b9ed7c66d5
+SHA1: 9da80e296e87fd9cc7d39ae8db32ee7da3e58f0f
+MD5sum: c5b56443bc42eb788b6b00cf299e1b35
+Description: Header files for Linux rt-686-pae configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel rt-686-pae configuration.
+
+Package: linux-headers-mos-rt-686-pae-bpo
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-rt-686-pae
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-rt-686-pae-bpo/linux-headers-mos-rt-686-pae-bpo_1.0_i386.deb
+Size: 2276
+SHA256: d7fcdb72416e5f1364c84d364b86dbcbd1f16ddc0b03150fd269b871cbb6dac2
+SHA1: e393e37a1a799d5f581aa9c0cabbde038874e92d
+MD5sum: d41d0b73c344b1f8fcb41be79f871bf6
+Description: Header files for Linux rt-686-pae configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel rt-686-pae configuration.
+
+Package: linux-image-5.10.149-mos-686
+Source: linux-5.10.149-mos-686
+Version: 5.10.149-mos-686-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 170372
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-686/linux-image-5.10.149-mos-686_5.10.149-mos-686-1_i386.deb
+Size: 45473084
+SHA256: 1304512bec5d8ca1b867076f6f7424d2a88143296343b82f07e4d7e26570bd96
+SHA1: e29cf28161e6b58ae6a2e68b87ca9e0306ea0231
+MD5sum: 0363cd9eb16d4514131e097aed99c1cb
+Description: Linux kernel, version 5.10.149-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.149-mos-686.
+
+Package: linux-image-5.10.149-mos-686-pae
+Source: linux-5.10.149-mos-686-pae
+Version: 5.10.149-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 170886
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-686-pae/linux-image-5.10.149-mos-686-pae_5.10.149-mos-686-pae-1_i386.deb
+Size: 45705188
+SHA256: 0570cb5f92a09bf740e85d9186c17ffacce22d3d26c0a105b5b39858306ffdb9
+SHA1: 5be3907859f57be3c3c614fe40bfd73a6006c09d
+MD5sum: 451610b3878a4b1d4ea1131202ba9225
+Description: Linux kernel, version 5.10.149-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.149-mos-686-pae.
+
+Package: linux-image-5.10.149-mos-rt-686-pae
+Source: linux-5.10.149-mos-rt-686-pae
+Version: 5.10.149-mos-rt-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 170785
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-rt-686-pae/linux-image-5.10.149-mos-rt-686-pae_5.10.149-mos-rt-686-pae-1_i386.deb
+Size: 45648444
+SHA256: d9cd5ee9d09bad828442f0b24ec2b0159f2ea55d33de88179ac5a74cff339c54
+SHA1: 6520fef4492a60e3128f40da335386dab45c085f
+MD5sum: 564243e0e7e21f47afbe70a72a2f04b0
+Description: Linux kernel, version 5.10.149-mos-rt-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.149-mos-rt-686-pae.
+
+Package: linux-image-6.0.3-mos-686
+Source: linux-upstream
+Version: 6.0.3-mos-686-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 190195
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-mos-686_6.0.3-mos-686-1_i386.deb
+Size: 51196028
+SHA256: 6d415b238b1d2ecc9ee5f39b6628405358b87cf978596e5dc719c23f9ad83096
+SHA1: 33f79dcb48744fc59f621762e85c0a16e63a9ebe
+MD5sum: bd0caf49b3a33a0f56ec358b388273ef
+Description: Linux kernel, version 6.0.3-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-mos-686.
+
+Package: linux-image-6.0.3-mos-686-pae
+Source: linux-upstream
+Version: 6.0.3-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 190698
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-mos-686-pae_6.0.3-mos-686-pae-1_i386.deb
+Size: 51411052
+SHA256: 1c0aed629c64a519b1cf31e47ab0db20ab2d791924a982ce8168cb1277c101d8
+SHA1: 36288279d424a7e2bb1283ccc0795382c9e17662
+MD5sum: 3b44bd7dacb66b516287f19ac56c1000
+Description: Linux kernel, version 6.0.3-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-mos-686-pae.
+
+Package: linux-image-6.0.3-mos-rt-686-pae
+Source: linux-upstream
+Version: 6.0.3-mos-rt-686-pae-1
+Architecture: i386
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 190716
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-mos-rt-686-pae_6.0.3-mos-rt-686-pae-1_i386.deb
+Size: 51433640
+SHA256: 5ec144a1d7eaad33c34c97f739e29b3083b326a5ce4e30189d869256429b2db4
+SHA1: c92b3d92c89c37073e7323ea0b8f437f4cebafe1
+MD5sum: 9430ed9f155297f733bef01076175475
+Description: Linux kernel, version 6.0.3-mos-rt-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-mos-rt-686-pae.
+
+Package: linux-image-mos-686
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.149-mos-686
+Provides: linux-latest-modules-5.10.149-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-686/linux-image-mos-686_1.0_i386.deb
+Size: 2364
+SHA256: ae0331f5049adb7e22203c756ffd0dcdcb35931f990bbb20dfcb9d16624a3310
+SHA1: 01d1656e840eab11de188831a15fa20f9edcdad9
+MD5sum: 2a1ee6a67bd852109b08a6016928c5c3
+Description: Linux for older PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors not supporting PAE.
+
+Package: linux-image-mos-686-bpo
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-686
+Provides: linux-latest-modules-6.0.3-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-686-bpo/linux-image-mos-686-bpo_1.0_i386.deb
+Size: 2368
+SHA256: 7e4bd9560046c2035e84f8921d8a3c554a6ffb681d49b4db43d7f8e1cadd3f79
+SHA1: 61be09a00badc651b2571449da9bb8bb6cb0f124
+MD5sum: 3f490b399011c307dbb50d002bb47b8f
+Description: Linux for older PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors not supporting PAE.
+
+Package: linux-image-mos-686-pae
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.149-mos-686-pae
+Provides: linux-image-mos-generic, linux-latest-modules-5.10.149-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-686-pae/linux-image-mos-686-pae_1.0_i386.deb
+Size: 2396
+SHA256: d6ebb0985b0637bb341eebf07a86f78b61bea9a4f0ab678091bd29dd66f4e5fa
+SHA1: 0e4a2e6d6b790159da08ba55a5111167967d3d91
+MD5sum: 25f0618b54179b1181be27c43ba55ecc
+Description: Linux for modern PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors supporting PAE.
+
+Package: linux-image-mos-686-pae-bpo
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-686-pae
+Provides: linux-image-mos-generic, linux-latest-modules-6.0.3-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-686-pae-bpo/linux-image-mos-686-pae-bpo_1.0_i386.deb
+Size: 2408
+SHA256: 5092393529424c05f08e8b4d0abac2349bf24598a1a367f0d2a5f97b4f33c1d0
+SHA1: 53ca37c97ae0e67a57e8e3ede4c0ad6c0d6d001f
+MD5sum: 0305fb126d40ed270d5b41963b679aad
+Description: Linux for modern PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors supporting PAE.
+
+Package: linux-image-mos-rt-686-pae
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.149-mos-rt-686-pae
+Provides: linux-latest-modules-5.10.149-mos-rt-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-rt-686-pae/linux-image-mos-rt-686-pae_1.0_i386.deb
+Size: 2392
+SHA256: 6fbc9386d14041a27a4f541ed6bbb1f595ae2169a79d694b7c58d901646e9e2b
+SHA1: ce3371689355b982c1962165cb8231e3567f717f
+MD5sum: 1c51d6f70bc94b6142b5a25ba9e53d16
+Description: Linux for modern PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors supporting PAE.
+
+Package: linux-image-mos-rt-686-pae-bpo
+Version: 1.0
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-rt-686-pae
+Provides: linux-latest-modules-6.0.3-mos-rt-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-rt-686-pae-bpo/linux-image-mos-rt-686-pae-bpo_1.0_i386.deb
+Size: 2392
+SHA256: d81afc55b1f41d6eb891bd8d499f6f3404dd6b91d959c394db4378dc02bf2132
+SHA1: 68ddf32ee6ef22639c04e9234a5308caed9b3371
+MD5sum: 7f1b75f41e6e612e78ff2214f09a74a6
+Description: Linux for modern PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors supporting PAE.
+
+Package: realtek-rtl8188eus-dkms
+Version: 5.3.9~git20220319.0958f29-0kali3
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 11774
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/aircrack-ng/rtl8188eus
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20220319.0958f29-0kali3_all.deb
+Size: 1493116
+SHA256: 202bbb89d25d2e5810f5ebfd5dc1d17a3e3a7723c2b172eee4e88f85a780cd12
+SHA1: 3f0889c45e0279f184583a0799f7aa1c4b437e80
+MD5sum: 0b493458771a0d093c6b907290e4b855
+Description: Realtek RTL8188EUS driver in DKMS format
+ This package provides the source code for RTL8188EUS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8723cs-dkms
+Version: 0.0~git20210902.0fb0c24-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 13017
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/Icenowy/rtl8723cs
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_0.0~git20210902.0fb0c24-0kali1_all.deb
+Size: 1445716
+SHA256: 37a705efe017e389c47e51d5e31e2a9966045132f8fd1f33c4ff67fe0015dbe0
+SHA1: 96fafa62075d3610e4632ca298acfa7fd6f3910b
+MD5sum: 3ab4349abbd5d196b9eb4ee67ca4dede
+Description: Realtek RTL8723CS driver in DKMS format
+ This package provides the source code for RTL8723CS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8814au-dkms
+Version: 5.8.5.1~git20220614.af00239-0kali3
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14334
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://github.com/morrownr/8814au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220614.af00239-0kali3_all.deb
+Size: 1659288
+SHA256: 2b5d179cfcedfaec56a2b2b8e8b9733555082cafbe52a05128bca6a03bdc3dd3
+SHA1: 29745b34c4bc046224ea6c94cd1a9640d67bfa24
+MD5sum: 4c356ff491073d6f378a840bde6a17b6
+Description: Realtek RTL8814AU driver in DKMS format
+ This package provides the source code for RTL8814AU Linux driver (with monitor
+ mode and frame injection) to be build with dkms. Kernel sources or headers are
+ required to compile this module.
+
+Package: realtek-rtl88xxau-dkms
+Version: 5.6.4.2~git20220606.cab4e4e-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14999
+Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220606.cab4e4e-0kali1_all.deb
+Size: 1793960
+SHA256: 22a9a3958e3e50eabfef67fcbabc7e4250e46d45f8aba0e3cd42fc312c6e33d2
+SHA1: a2be5d334455884e50c26f811cc808550cc0bbba
+MD5sum: 050b8ed4429fc2ad2ee8386db8aaa7ac
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+

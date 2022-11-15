@@ -1,0 +1,87 @@
+Origin: Debian
+Label: MiniOS Repository
+Suite: oldoldstable
+AlsoAcceptFor: unstable experimental
+Codename: stretch
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+Suite: oldstable
+AlsoAcceptFor: unstable experimental
+Codename: buster
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+Suite: stable
+AlsoAcceptFor: unstable experimental
+Codename: bullseye
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+Suite: testing, kali-rolling
+AlsoAcceptFor: unstable experimental
+Codename: bookworm
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+Suite: unstable
+AlsoAcceptFor: unstable experimental
+Codename: sid
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+Suite: unstable
+AlsoAcceptFor: unstable experimental
+Codename: orel
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Ubuntu
+Label: MiniOS Repository
+Suite: unstable
+AlsoAcceptFor: unstable experimental
+Codename: focal
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Ubuntu
+Label: MiniOS Repository
+Suite: unstable
+AlsoAcceptFor: unstable experimental
+Codename: jammy
+Architectures: amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C

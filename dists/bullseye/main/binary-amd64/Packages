@@ -1,0 +1,724 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: elementary-xfce-minios-icon-theme
+Source: elementary-xfce-minios
+Version: 0.17-2-1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 15492
+Conflicts: adwaita-icon-theme, elementary-xfce-icon-theme
+Breaks: adwaita-icon-theme, elementary-xfce-icon-theme
+Replaces: adwaita-icon-theme, elementary-xfce-icon-theme
+Provides: adwaita-icon-theme, elementary-xfce-icon-theme
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2-1_all.deb
+Size: 6154812
+SHA256: e4c51812677b811d8e6f4aedef120e8947f6c5a35d5fcbb87311c37f910af8d3
+SHA1: 39549fa69377d3ca1760a97b9c40ba2ef36f0000
+MD5sum: 7421d1e10f6e12d2d33f7e4b55fa2b95
+Description: elementary icon theme modified for Xfce
+ elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
+ desktops.
+ .
+ This fork took place because the elementary OS maintainers wanted to focus
+ exclusively on their desktop environment and thus dropped a lot of icon
+ symlinks used by other desktops. elementary-xfce intends to keep these as-is,
+ while still pulling in new icons and integrating them occasionally.
+
+Package: gtkdialog
+Installed-Size: 363
+Maintainer: sfs
+Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
+Architecture: amd64
+Version: 0.8.4-1
+Provides: gtkdialog
+Priority: extra
+Section: system
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.4-1_amd64.deb
+Size: 263246
+SHA256: a5c9b319bd690f489d9d7398518f266283423df62f261ef6deff5b6a22bfb874
+SHA1: 98ea01e1c5bbd3014381404dee073bb24bec3fb3
+MD5sum: 3c9589c721b181e9f32b100a242d63c3
+Description: gtkdialog
+
+Package: linux-headers-5.10.149-mos-amd64
+Source: linux-5.10.149-mos-amd64
+Version: 5.10.149-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 49912
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-amd64/linux-headers-5.10.149-mos-amd64_5.10.149-mos-amd64-1_amd64.deb
+Size: 8117408
+SHA256: fbd99962e01beae7a23376cc48b31d832d13fd307fc731c362b49fd757c5bb82
+SHA1: 167efd5299b8ade11054817cdfde1f8a7ce7c779
+MD5sum: dbdf8b2deece0891a11d23f803557b48
+Description: Linux kernel headers for 5.10.149-mos-amd64 on amd64
+ This package provides kernel header files for 5.10.149-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.149-mos-cloud-amd64
+Source: linux-5.10.149-mos-cloud-amd64
+Version: 5.10.149-mos-cloud-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 47201
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-cloud-amd64/linux-headers-5.10.149-mos-cloud-amd64_5.10.149-mos-cloud-amd64-1_amd64.deb
+Size: 7812060
+SHA256: 48aa2e2148dc212ea4695d71ed472e465a066396dd86dc2d79518afa91d8a878
+SHA1: cc9b2736f690acfaa8e50f4b20f42c77c36226ab
+MD5sum: 3ab5fa6d60bcf1531eff98cdbb72950b
+Description: Linux kernel headers for 5.10.149-mos-cloud-amd64 on amd64
+ This package provides kernel header files for 5.10.149-mos-cloud-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.149-mos-rt-amd64
+Source: linux-5.10.149-mos-rt-amd64
+Version: 5.10.149-mos-rt-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 49939
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-rt-amd64/linux-headers-5.10.149-mos-rt-amd64_5.10.149-mos-rt-amd64-1_amd64.deb
+Size: 8117404
+SHA256: 88fc41419b594549e51d833a8acaadad9edcc8878ceee5603c628f07fc276d10
+SHA1: 4dd858570b342a0af22beabbe23803c0320447a8
+MD5sum: 6deffc3ad4c018f71859b1243a54f689
+Description: Linux kernel headers for 5.10.149-mos-rt-amd64 on amd64
+ This package provides kernel header files for 5.10.149-mos-rt-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-mos-amd64
+Source: linux-upstream
+Version: 6.0.3-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 51500
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-mos-amd64_6.0.3-mos-amd64-1_amd64.deb
+Size: 8731864
+SHA256: ea700347fc2cc98fc8bee35323861b920a3eff2ecf5b4cdf139f80c7195febf5
+SHA1: e051ea90ca6e3c6811f5df986f3593e3010dfb06
+MD5sum: 1b6882db6537cfbf796ae139289f3c48
+Description: Linux kernel headers for 6.0.3-mos-amd64 on amd64
+ This package provides kernel header files for 6.0.3-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-mos-cloud-amd64
+Source: linux-upstream
+Version: 6.0.3-mos-cloud-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 50058
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-mos-cloud-amd64_6.0.3-mos-cloud-amd64-1_amd64.deb
+Size: 8527604
+SHA256: 897e44dbaa48137693fd1382f5af09510b3255409d6e04353782eca57987db00
+SHA1: 96bd37fe3070eee9fa5fe102c0c808347c53468c
+MD5sum: 6f30b8682b63f43322a7b4041ab70d9e
+Description: Linux kernel headers for 6.0.3-mos-cloud-amd64 on amd64
+ This package provides kernel header files for 6.0.3-mos-cloud-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-mos-rt-amd64
+Source: linux-upstream
+Version: 6.0.3-mos-rt-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 51540
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-mos-rt-amd64_6.0.3-mos-rt-amd64-1_amd64.deb
+Size: 8733840
+SHA256: c309375a80a480fd152d8a4e83c61beb56655f90e65cc9698a11d864543d74fb
+SHA1: 955ff811124ac6aabff94313a006402f032ac2e1
+MD5sum: 7e9f2b35a52721ad6dc4eb13d8f408ff
+Description: Linux kernel headers for 6.0.3-mos-rt-amd64 on amd64
+ This package provides kernel header files for 6.0.3-mos-rt-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-mos-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-amd64
+Provides: linux-headers-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-amd64/linux-headers-mos-amd64_1.0_amd64.deb
+Size: 2280
+SHA256: 5ab8e28e675c669798e9a01dcf5a0b28cc1965a99267abbf8b15a63963f2e56c
+SHA1: 73f098f3336af30c86c00256d596e49f49fad6b6
+MD5sum: 3ebb8727eb0112db833d61c0a7255fac
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-mos-amd64-bpo
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-amd64
+Provides: linux-headers-mos-generic-bpo
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-amd64-bpo/linux-headers-mos-amd64-bpo_1.0_amd64.deb
+Size: 2296
+SHA256: be81c98ddfe45e0a337f86815f5205307df6f21dcab61da584eed33ff35cbe4a
+SHA1: cab50700e36493aca78943d46c366712b6c238a0
+MD5sum: 73d10ffa26e9d5ef77a0dbc53ee0f34d
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-mos-cloud-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-cloud-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-cloud-amd64/linux-headers-mos-cloud-amd64_1.0_amd64.deb
+Size: 2268
+SHA256: c6136d84c05cc315f4245cf57cbbea1404b852e51fab02a3df531c3bd4c7b68b
+SHA1: 0e42507c47ab6cc89ba91b6addcacccb62948714
+MD5sum: bace368668c4021846cbb7044f1450eb
+Description: Header files for Linux cloud-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel cloud-amd64 configuration.
+
+Package: linux-headers-mos-cloud-amd64-bpo
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-cloud-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-cloud-amd64-bpo/linux-headers-mos-cloud-amd64-bpo_1.0_amd64.deb
+Size: 2276
+SHA256: 7f014d70baa6fb6ee76787ed7e98dff4b10ccbb4194493720caaac318c1ab88e
+SHA1: bf64e058d0722a4aa45c927d5ee5946074056604
+MD5sum: f3ebf59ebe698d69d8f3af96712dc79c
+Description: Header files for Linux cloud-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel cloud-amd64 configuration.
+
+Package: linux-headers-mos-rt-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-rt-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-rt-amd64/linux-headers-mos-rt-amd64_1.0_amd64.deb
+Size: 2268
+SHA256: a11acf365f8317285c78518c73616e131b82ea2106df1d61055492280ba81377
+SHA1: 89bb50773fb1c730b33e04662d8cb424e3dc6bef
+MD5sum: 56e42ef8c7db54a85575b323c3ade467
+Description: Header files for Linux rt-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel rt-amd64 configuration.
+
+Package: linux-headers-mos-rt-amd64-bpo
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-rt-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-mos-rt-amd64-bpo/linux-headers-mos-rt-amd64-bpo_1.0_amd64.deb
+Size: 2268
+SHA256: 436db8948b145a6b9cff2dce832e7b88cf4d07d73a8089caf0c2df0d2ba55e76
+SHA1: 1b2b1802ac2f2227b0c28ae52cb12978996249d1
+MD5sum: 7963c01f44b393b1b3f2f837202f31be
+Description: Header files for Linux rt-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel rt-amd64 configuration.
+
+Package: linux-image-5.10.149-mos-amd64
+Source: linux-5.10.149-mos-amd64
+Version: 5.10.149-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 317947
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-amd64/linux-image-5.10.149-mos-amd64_5.10.149-mos-amd64-1_amd64.deb
+Size: 55094252
+SHA256: 3f90c98979e4da36318ec77b2e13f523bf3c6019bfa5a884942e64630d196fab
+SHA1: 126ec5a57c6a3c7fd8304de55978bbe5d6051554
+MD5sum: 0678d929b4c6db86d547b761bac6c208
+Description: Linux kernel, version 5.10.149-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.149-mos-amd64.
+
+Package: linux-image-5.10.149-mos-cloud-amd64
+Source: linux-5.10.149-mos-cloud-amd64
+Version: 5.10.149-mos-cloud-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 86694
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-cloud-amd64/linux-image-5.10.149-mos-cloud-amd64_5.10.149-mos-cloud-amd64-1_amd64.deb
+Size: 20711740
+SHA256: 3857654e0f9394e31b703147a78bef8c5a8fb0ff5310e2a8987455d8b80390d6
+SHA1: fd91d4eac671779301ac3b80c1f805f9e770d29d
+MD5sum: b10eb5ee94990010edab04db14f91589
+Description: Linux kernel, version 5.10.149-mos-cloud-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.149-mos-cloud-amd64.
+
+Package: linux-image-5.10.149-mos-rt-amd64
+Source: linux-5.10.149-mos-rt-amd64
+Version: 5.10.149-mos-rt-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 317530
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.149-mos-rt-amd64/linux-image-5.10.149-mos-rt-amd64_5.10.149-mos-rt-amd64-1_amd64.deb
+Size: 55000568
+SHA256: 7a1b1665dc51f8174d36812871516f0a8c97e279c7b7f44db8d62f6b079b937f
+SHA1: 86e3e2d0b11645c216cb0f4f5ebd5fd1c305bfb6
+MD5sum: a171cf22e0701350878350aeee7c02ab
+Description: Linux kernel, version 5.10.149-mos-rt-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.149-mos-rt-amd64.
+
+Package: linux-image-6.0.3-mos-amd64
+Source: linux-upstream
+Version: 6.0.3-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 507706
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-mos-amd64_6.0.3-mos-amd64-1_amd64.deb
+Size: 73848584
+SHA256: 076ef133a9b8cfb638eeba11590d405c775c5568b82d034ecc3a4302c6e36fb8
+SHA1: caaa808fe63137d09a053db92b7ca1b9b381f913
+MD5sum: 5e834af1d7a836b4686b528036e5d466
+Description: Linux kernel, version 6.0.3-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-mos-amd64.
+
+Package: linux-image-6.0.3-mos-cloud-amd64
+Source: linux-upstream
+Version: 6.0.3-mos-cloud-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 148798
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-mos-cloud-amd64_6.0.3-mos-cloud-amd64-1_amd64.deb
+Size: 26985420
+SHA256: b4f5c60ccdfddfc99594bd3121d2c7a0e785aea943c251ce101d43418174884c
+SHA1: 4f005e720b125215b199a38ac01f40cf97772dd6
+MD5sum: 001854cdf7211684753e0b7355d9ff67
+Description: Linux kernel, version 6.0.3-mos-cloud-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-mos-cloud-amd64.
+
+Package: linux-image-6.0.3-mos-rt-amd64
+Source: linux-upstream
+Version: 6.0.3-mos-rt-amd64-1
+Architecture: amd64
+Maintainer: root <root@debian.niitnn.tn.corp>
+Installed-Size: 506853
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-mos-rt-amd64_6.0.3-mos-rt-amd64-1_amd64.deb
+Size: 73798508
+SHA256: 2fdd55b0f74d1f14720c6ca0abed802895051cc61969fdd276963440a13b0102
+SHA1: 07a836a4fe79aac13f8d1585069cd483c0a6e1bd
+MD5sum: 2eb2409a6eb44db5079c74af299f0601
+Description: Linux kernel, version 6.0.3-mos-rt-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-mos-rt-amd64.
+
+Package: linux-image-mos-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.149-mos-amd64
+Provides: linux-image-mos-generic, linux-latest-modules-5.10.149-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-amd64/linux-image-mos-amd64_1.0_amd64.deb
+Size: 2392
+SHA256: 8ef1f3be29d84a3e65485463ea4c22af65e0cbc13049c140fc66b43f46b3a4f1
+SHA1: 5b3ecf82716700bed4e1cffe3ab5bf96ef413ef1
+MD5sum: 2e44d7726432ea43c2d7b6b5b4e6f7bf
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-mos-amd64-bpo
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-amd64
+Provides: linux-image-mos-generic, linux-latest-modules-6.0.3-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-amd64-bpo/linux-image-mos-amd64-bpo_1.0_amd64.deb
+Size: 2396
+SHA256: a84bbf6fad5cd9445e01487f7960b5e6ae5a72d1942e252964003799d68f6283
+SHA1: 983db580429f94e0ef3c0cf15e9d0fd45fca7280
+MD5sum: 942d135adc87e3dda8364245c8d60a3e
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-mos-cloud-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.149-mos-cloud-amd64
+Provides: linux-latest-modules-5.10.149-mos-cloud-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-cloud-amd64/linux-image-mos-cloud-amd64_1.0_amd64.deb
+Size: 2412
+SHA256: 80e1e3b9119887a0ef1ab111b476ab970386f99aff254c314a73199bfc20e3a2
+SHA1: 08e00fae37466fc9c36955e2e302606a1e594de3
+MD5sum: 312e36e1cd9366077b3a5f0f048858ef
+Description: Linux for x86-64 cloud (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute
+ Engine.
+
+Package: linux-image-mos-cloud-amd64-bpo
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-cloud-amd64
+Provides: linux-latest-modules-6.0.3-mos-cloud-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-cloud-amd64-bpo/linux-image-mos-cloud-amd64-bpo_1.0_amd64.deb
+Size: 2420
+SHA256: 5d416195397d97ba003b95c3fd3defcca05aa9f7fce06efc6bfa2ec01383a5f7
+SHA1: 87176bd71714f79150733dce928985cf750a7b87
+MD5sum: ef15db33dafe2f58ac0996250c139ff1
+Description: Linux for x86-64 cloud (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute
+ Engine.
+
+Package: linux-image-mos-rt-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.149-mos-rt-amd64
+Provides: linux-latest-modules-5.10.149-mos-rt-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-rt-amd64/linux-image-mos-rt-amd64_1.0_amd64.deb
+Size: 2380
+SHA256: bb79a3e79c0205985a3f20fc975f949ec60f9b62dfea4c593b977ab7acc36602
+SHA1: f98bedf9f896316239d75acb40553e0df4ba5b5d
+MD5sum: 0654d73997d24c287087b8e216240977
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-mos-rt-amd64-bpo
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-rt-amd64
+Provides: linux-latest-modules-6.0.3-mos-rt-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-mos-rt-amd64-bpo/linux-image-mos-rt-amd64-bpo_1.0_amd64.deb
+Size: 2388
+SHA256: 2e5197e7e0d41c3285d1d6dfb635740296c6c96bf92b4bf34f7c218072b8cc25
+SHA1: f75fc1a0687679c1b8ba870a6c48019141c1f2f4
+MD5sum: 2f6c0192341bc03bfdd2faec4273bc66
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: mousepad
+Version: 0.5.2-1.minios
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2078
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libgtksourceview-3.0-1 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0), libxfconf-0-3 (>= 4.12)
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Priority: optional
+Section: xfce
+Filename: pool/main/m/mousepad/mousepad_0.5.2-1.minios_amd64.deb
+Size: 482500
+SHA256: 51b00ce5c4e52c1210eb7e83a784c891759161940d985d4e20c5b5240d641b47
+SHA1: 6977edc12fa3e389a65e20890e2df3743dcca564
+MD5sum: 46d71e359b3ef2d3afeae0d3057d3713
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: pcmanfm
+Version: 1.3.2-1.minios
+Architecture: amd64
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1593
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.minios_amd64.deb
+Size: 292592
+SHA256: 0b34c9a083d4f99168bd44f6650ece8886d43b5df1e34a2fb3c955b41afa4551
+SHA1: 4f653c6806f501f0f7ab289772960cd5c5eef678
+MD5sum: 94228b2e50f2a952ebeffee705eddfa7
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: realtek-rtl8188eus-dkms
+Version: 5.3.9~git20220319.0958f29-0kali3
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 11774
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/aircrack-ng/rtl8188eus
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20220319.0958f29-0kali3_all.deb
+Size: 1493116
+SHA256: 202bbb89d25d2e5810f5ebfd5dc1d17a3e3a7723c2b172eee4e88f85a780cd12
+SHA1: 3f0889c45e0279f184583a0799f7aa1c4b437e80
+MD5sum: 0b493458771a0d093c6b907290e4b855
+Description: Realtek RTL8188EUS driver in DKMS format
+ This package provides the source code for RTL8188EUS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8723cs-dkms
+Version: 0.0~git20210902.0fb0c24-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 13017
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/Icenowy/rtl8723cs
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_0.0~git20210902.0fb0c24-0kali1_all.deb
+Size: 1445716
+SHA256: 37a705efe017e389c47e51d5e31e2a9966045132f8fd1f33c4ff67fe0015dbe0
+SHA1: 96fafa62075d3610e4632ca298acfa7fd6f3910b
+MD5sum: 3ab4349abbd5d196b9eb4ee67ca4dede
+Description: Realtek RTL8723CS driver in DKMS format
+ This package provides the source code for RTL8723CS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8814au-dkms
+Version: 5.8.5.1~git20220614.af00239-0kali3
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14334
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://github.com/morrownr/8814au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220614.af00239-0kali3_all.deb
+Size: 1659288
+SHA256: 2b5d179cfcedfaec56a2b2b8e8b9733555082cafbe52a05128bca6a03bdc3dd3
+SHA1: 29745b34c4bc046224ea6c94cd1a9640d67bfa24
+MD5sum: 4c356ff491073d6f378a840bde6a17b6
+Description: Realtek RTL8814AU driver in DKMS format
+ This package provides the source code for RTL8814AU Linux driver (with monitor
+ mode and frame injection) to be build with dkms. Kernel sources or headers are
+ required to compile this module.
+
+Package: realtek-rtl88xxau-dkms
+Version: 5.6.4.2~git20220606.cab4e4e-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14999
+Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220606.cab4e4e-0kali1_all.deb
+Size: 1793960
+SHA256: 22a9a3958e3e50eabfef67fcbabc7e4250e46d45f8aba0e3cd42fc312c6e33d2
+SHA1: a2be5d334455884e50c26f811cc808550cc0bbba
+MD5sum: 050b8ed4429fc2ad2ee8386db8aaa7ac
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: thunar
+Version: 4.16.8-1.minios
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1508
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.8-1.minios), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libexo-2-0 (>= 0.11.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar_4.16.8-1.minios_amd64.deb
+Size: 778956
+SHA256: 92418d2d410c6d289a5677799f1e28684b9a2d33d81955ef8ca96098d59ac0c3
+SHA1: 7498f1f979a423da4506e5e50f265ca6f7bc986e
+MD5sum: 5d3176a0b60b1b8cd88432980e53a2dc
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: thunar-data
+Source: thunar
+Version: 4.16.8-1.minios
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5323
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar-data_4.16.8-1.minios_all.deb
+Size: 1191664
+SHA256: 408469ed8bd6195e64aa225414620ad0e22c0e08cd23cb941164b004fb033c6a
+SHA1: 9f89e3d791abf07f62b36110e557dde4981af996
+MD5sum: 27fe3d2ad4e7321be5f31c6ca0d7738a
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+

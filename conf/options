@@ -1,0 +1,3 @@
+#ask-passphrase
+#verbose
+basedir /build/minios-live/submodules/debian
