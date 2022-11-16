@@ -3472,19 +3472,19 @@ Description: Linux for 64-bit PCs (meta-package)
  with AMD64, Intel 64 or VIA Nano processors.
 
 Package: mousepad
-Version: 0.5.8-1.minios
+Version: 0.5.8-1.minios.u2204
 Architecture: amd64
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 1806
+Installed-Size: 1802
 Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
 Homepage: https://docs.xfce.org/apps/mousepad/start
 Priority: optional
 Section: xfce
-Filename: pool/main/m/mousepad/mousepad_0.5.8-1.minios_amd64.deb
-Size: 343708
-SHA256: f376ca559f7a729899f32977862882e0e6ab36edeeddf31cd1a694a347fe922e
-SHA1: dd5d00ffda699f71e416a61a6e0e3a2ecd900e29
-MD5sum: 027ec7b52276c61de414a1e9ccb66d1f
+Filename: pool/main/m/mousepad/mousepad_0.5.8-1.minios.u2204_amd64.deb
+Size: 340998
+SHA256: 1edf884b7e3d04496f7c061a266711ea715b408a37d48603bdd5d9c4ee01da44
+SHA1: 34b53c36c35f7a6d84b54a768ca2ced33930f86a
+MD5sum: cfa1c7a85bb3ef321cf072afc822941f
 Description: simple Xfce oriented text editor
  Mousepad is a graphical text editor for Xfce based on Leafpad.
  .
@@ -3507,6 +3507,39 @@ Description: simple Xfce oriented text editor
    * Display line numbers
    * Drag and Drop
    * Printing
+
+Package: pcmanfm
+Version: 1.3.2-1.minios.u2204
+Architecture: amd64
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1605
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.minios.u2204_amd64.deb
+Size: 334978
+SHA256: c69243603df145d17a29f6d3f99a96904d3807cbb04b938949d913a5b400c6fb
+SHA1: 5f2063bb05e5e7e1c921a7fd339c830ed7f2a40f
+MD5sum: 9a8b68c9bbab5d945a1b2fb10f5a5e62
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
 
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20220319.0958f29-0kali3
@@ -3608,11 +3641,11 @@ Description: Graphical hard drive backup and restore
  Acronis True Image and Macrium Reflect.
 
 Package: thunar
-Version: 4.16.10-1.minios
+Version: 4.16.10-1.minios.u2204
 Architecture: amd64
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
 Installed-Size: 1030
-Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.10-1.minios), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libexo-2-0 (>= 4.15.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.10-1.minios.u2204), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libexo-2-0 (>= 4.15.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
 Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
 Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
 Breaks: thunar-data (<< 1.2.3-3)
@@ -3620,11 +3653,11 @@ Replaces: thunar-data (<< 1.2.3-3)
 Homepage: https://docs.xfce.org/xfce/thunar/start
 Priority: optional
 Section: xfce
-Filename: pool/main/t/thunar/thunar_4.16.10-1.minios_amd64.deb
-Size: 348252
-SHA256: 1f2924006149eaf7df69b1f03ec61516108a3e536acd20fd1e9765bfa5adc0f9
-SHA1: 1cb3d62c6f44b315a99eee5a4fcdf0a6a0f90d03
-MD5sum: 173b0fc87cd2bbbfc8bd09ed0b751e57
+Filename: pool/main/t/thunar/thunar_4.16.10-1.minios.u2204_amd64.deb
+Size: 348224
+SHA256: 13c7db65b2350a2d921463664a9fb84311699df06ea7ee043160e17b69ea0c34
+SHA1: 5d6a995c16e224e7d2df8bc62b2cbcef503ac0e5
+MD5sum: 70ddb74f809ffa748a745d9d32ef9e95
 Description: File Manager for Xfce
  Thunar is the file manager designed to be the default file manager for the
  Xfce desktop environment. It has been designed to be fast and easy to use.
@@ -3633,7 +3666,7 @@ Description: File Manager for Xfce
 
 Package: thunar-data
 Source: thunar
-Version: 4.16.10-1.minios
+Version: 4.16.10-1.minios.u2204
 Architecture: all
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
 Installed-Size: 4874
@@ -3641,11 +3674,11 @@ Multi-Arch: foreign
 Homepage: https://docs.xfce.org/xfce/thunar/start
 Priority: optional
 Section: xfce
-Filename: pool/main/t/thunar/thunar-data_4.16.10-1.minios_all.deb
-Size: 847362
-SHA256: 879cdfe747b993a0826fef67d903ebcde7bcd94d3af2ef2291e22c741ded1aab
-SHA1: afcdbb7a5421170c62ab41868004e472045846fe
-MD5sum: 8af395271c3849b1997b1963a8207634
+Filename: pool/main/t/thunar/thunar-data_4.16.10-1.minios.u2204_all.deb
+Size: 847336
+SHA256: 72c02458e6935a32142a16006a9a73133cd7b59840d5a2dfc7c0b874216103fb
+SHA1: 98618966b882c3d9eb714ddfc0489c05637245e1
+MD5sum: 6a1c52868d164a34a5b101daf57c0b50
 Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
