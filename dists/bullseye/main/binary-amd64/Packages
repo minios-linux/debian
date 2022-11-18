@@ -547,6 +547,36 @@ Description: simple Xfce oriented text editor
    * Drag and Drop
    * Printing
 
+Package: partclone-nbd
+Installed-Size: 116
+Maintainer: root@as05
+Architecture: amd64
+Version: 0.0.3-1
+Provides: partclone-nbd
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-nbd/partclone-nbd_0.0.3-1_amd64.deb
+Size: 37628
+SHA256: 8999c3de08f49bc62fd910b8c4ea1fafd1ef6d405ee1bf71032d93d91f1ad2e5
+SHA1: 8eddc2f1875a485660c814de84686eaa8ebab819
+MD5sum: 8169e31e74d2aab51172ec579d52e293
+Description: Package created with checkinstall 1.6.3
+
+Package: partclone-utils
+Installed-Size: 256
+Maintainer: root@as05
+Architecture: amd64
+Version: 0.4.2-1
+Provides: partclone-utils
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-utils/partclone-utils_0.4.2-1_amd64.deb
+Size: 38304
+SHA256: defc2894b390d550137fe3f651433c04adc35a21a9e2ee04a0b894e907e48e17
+SHA1: 077ed976b55e195636e8ccb9d5ef3a0911822cd7
+MD5sum: a1fe720f3673771a9ca0211ce9d18acd
+Description: Package created with checkinstall 1.6.3
+
 Package: pcmanfm
 Version: 1.3.2-1.minios
 Architecture: amd64
