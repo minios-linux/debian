@@ -549,32 +549,34 @@ Description: simple Xfce oriented text editor
 
 Package: partclone-nbd
 Installed-Size: 116
-Maintainer: root@as05
+Maintainer: admin@minios.dev
 Architecture: amd64
 Version: 0.0.3-1
+Depends: partclone
 Provides: partclone-nbd
 Priority: extra
 Section: checkinstall
 Filename: pool/main/p/partclone-nbd/partclone-nbd_0.0.3-1_amd64.deb
-Size: 37628
-SHA256: 8999c3de08f49bc62fd910b8c4ea1fafd1ef6d405ee1bf71032d93d91f1ad2e5
-SHA1: 8eddc2f1875a485660c814de84686eaa8ebab819
-MD5sum: 8169e31e74d2aab51172ec579d52e293
+Size: 37636
+SHA256: abcb50f2a7ed8d49f1f4dabf662858610074360676f8992d456b08e284aec562
+SHA1: f5d94b041878aca75b44f0537e0a5fe5012c583f
+MD5sum: 48077c23e858d14b43dd3827fa2e91c8
 Description: Package created with checkinstall 1.6.3
 
 Package: partclone-utils
-Installed-Size: 256
-Maintainer: root@as05
+Installed-Size: 248
+Maintainer: admin@minios.dev
 Architecture: amd64
 Version: 0.4.2-1
+Depends: partclone
 Provides: partclone-utils
 Priority: extra
 Section: checkinstall
 Filename: pool/main/p/partclone-utils/partclone-utils_0.4.2-1_amd64.deb
-Size: 38304
-SHA256: defc2894b390d550137fe3f651433c04adc35a21a9e2ee04a0b894e907e48e17
-SHA1: 077ed976b55e195636e8ccb9d5ef3a0911822cd7
-MD5sum: a1fe720f3673771a9ca0211ce9d18acd
+Size: 37528
+SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
+SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
+MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
 Description: Package created with checkinstall 1.6.3
 
 Package: pcmanfm
