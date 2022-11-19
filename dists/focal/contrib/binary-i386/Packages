@@ -1,0 +1,114 @@
+Package: firmware-b43-installer
+Source: b43-fwcutter
+Version: 1:019-7
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 32
+Depends: b43-fwcutter (>= 1:019-7), pciutils, bzip2, ca-certificates, wget
+Breaks: firmware-b43-lpphy-installer (<= 1:015-14)
+Replaces: firmware-b43-lpphy-installer (<= 1:015-14)
+Homepage: https://wireless.wiki.kernel.org/en/users/drivers/b43
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43-installer_019-7_all.deb
+Size: 12812
+SHA256: eb68b61b53bab8a83426ee86f3d7b40addd7dfde87bdb3117581dd5ad5c3c8f5
+SHA1: 08e94288d8c741099a786c83ac65c7b12fa699a0
+MD5sum: 8f913c03eceb24fd13aaae32e068e773
+Description: firmware installer for the b43 driver
+ This package downloads and installs the firmware needed by the b43
+ kernel driver for some Broadcom 43xx wireless network cards.
+ .
+ Supported chipsets:
+  * BCM4306/3 (chip revision 3 only);
+  * BCM4311 (NOT PCI Id 14e4:4313);
+  * BCM4312;
+  * BCM43131;
+  * BCM4318;
+  * BCM4321 (only partial support, not all versions tested);
+  * BCM43217;
+  * BCM4322 (only partial support for some versions, not all versions tested);
+  * BCM43222 (not all versions tested);
+  * BCM43224 (not all versions tested);
+  * BCM43225;
+  * BCM43227;
+  * BCM43228;
+  * BCM4331;
+  * BCM47xx (detection not reliable, may not support all versions).
+
+Package: realtek-rtl8188eus-dkms
+Version: 5.3.9~git20221105.dab6e02-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 11776
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/aircrack-ng/rtl8188eus
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20221105.dab6e02-0kali1_all.deb
+Size: 1492988
+SHA256: bfd16d89b84be8f30b0fac942a93068454012610adcd81f3c3c90f4bd6584be2
+SHA1: 027f5c2e803927c0006a5a80874782b66cd27ebe
+MD5sum: f3a71dd0e7ae3b6a6ea734f104ec9923
+Description: Realtek RTL8188EUS driver in DKMS format
+ This package provides the source code for RTL8188EUS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8723cs-dkms
+Version: 0.0~git20210902.0fb0c24-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 13017
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/Icenowy/rtl8723cs
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_0.0~git20210902.0fb0c24-0kali1_all.deb
+Size: 1445716
+SHA256: 37a705efe017e389c47e51d5e31e2a9966045132f8fd1f33c4ff67fe0015dbe0
+SHA1: 96fafa62075d3610e4632ca298acfa7fd6f3910b
+MD5sum: 3ab4349abbd5d196b9eb4ee67ca4dede
+Description: Realtek RTL8723CS driver in DKMS format
+ This package provides the source code for RTL8723CS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8814au-dkms
+Version: 5.8.5.1~git20220905.3f2f680-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14335
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://github.com/morrownr/8814au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220905.3f2f680-0kali1_all.deb
+Size: 1659176
+SHA256: 915d1ab1683b8af757d3ec37eae52c18c595df2b5e26e1fc2b9a464143ca9034
+SHA1: ad4705ddc67b6c8dcf712c817a629edfc80d5eee
+MD5sum: 0db3e6fb2d41b6ea0a61db6b4e313fb1
+Description: Realtek RTL8814AU driver in DKMS format
+ This package provides the source code for RTL8814AU Linux driver (with monitor
+ mode and frame injection) to be build with dkms. Kernel sources or headers are
+ required to compile this module.
+
+Package: realtek-rtl88xxau-dkms
+Version: 5.6.4.2~git20220827.e7a4a39-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 15001
+Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220827.e7a4a39-0kali1_all.deb
+Size: 1794412
+SHA256: 991d743ad63268bd1e96cf1488e95b0d06a5f4a2859d02f5ce60b849b56f23c9
+SHA1: 5da3a21dc6d449a5b189e678ee6f4dc7f92d5c51
+MD5sum: 5bbb6f8a8a5fc8f02c744e708f78f8d4
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.
+

@@ -3492,6 +3492,38 @@ Description: Linux kernel, version 6.0.3-mos-rt-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.0.3-mos-rt-amd64.
 
+Package: partclone-nbd
+Installed-Size: 116
+Maintainer: admin@minios.dev
+Architecture: amd64
+Version: 0.0.3-1
+Depends: partclone
+Provides: partclone-nbd
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-nbd/partclone-nbd_0.0.3-1_amd64.deb
+Size: 37636
+SHA256: abcb50f2a7ed8d49f1f4dabf662858610074360676f8992d456b08e284aec562
+SHA1: f5d94b041878aca75b44f0537e0a5fe5012c583f
+MD5sum: 48077c23e858d14b43dd3827fa2e91c8
+Description: Package created with checkinstall 1.6.3
+
+Package: partclone-utils
+Installed-Size: 248
+Maintainer: admin@minios.dev
+Architecture: amd64
+Version: 0.4.2-1
+Depends: partclone
+Provides: partclone-utils
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-utils/partclone-utils_0.4.2-1_amd64.deb
+Size: 37528
+SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
+SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
+MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
+Description: Package created with checkinstall 1.6.3
+
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20221105.dab6e02-0kali1
 Architecture: all
