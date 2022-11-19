@@ -3044,6 +3044,61 @@ SHA1: 98ea01e1c5bbd3014381404dee073bb24bec3fb3
 MD5sum: 3c9589c721b181e9f32b100a242d63c3
 Description: gtkdialog
 
+Package: linux-headers-5.10-mos-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-amd64
+Provides: linux-headers-5.10-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-5.10-mos-amd64/linux-headers-5.10-mos-amd64_1.0_amd64.deb
+Size: 2284
+SHA256: bf622ca37f15959e31fa3498805c68feada6d46ddee4c0fe63fb503a5249f18a
+SHA1: e9a8769dd4b2b941acbdeb01f795a6c954f8f0fc
+MD5sum: 85f1c9b091e6af365e77823ef6719077
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-5.10-mos-cloud-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-cloud-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-5.10-mos-cloud-amd64/linux-headers-5.10-mos-cloud-amd64_1.0_amd64.deb
+Size: 2280
+SHA256: f9d646a6d75592d3f2c6b70f5d8fd928e668a3905d35d91bdfd144dd96eca088
+SHA1: d14f7c16362ba685c76e2e2ba4bb27a36640c1a9
+MD5sum: 5c536ff8a93d19876a527d7a2be605e8
+Description: Header files for Linux cloud-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel cloud-amd64 configuration.
+
+Package: linux-headers-5.10-mos-rt-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.149-mos-rt-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-5.10-mos-rt-amd64/linux-headers-5.10-mos-rt-amd64_1.0_amd64.deb
+Size: 2276
+SHA256: 56ed45f765d03c037eb2a1ee23d789bd3108afdf41002c26346314af39dc9bcf
+SHA1: 7fc4f1c700270f0d65810bd9f458368afe1c2265
+MD5sum: 85b3ecfdaaa8f3d620ac1e566b119df0
+Description: Header files for Linux rt-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel rt-amd64 configuration.
+
 Package: linux-headers-5.10.149-mos-amd64
 Source: linux-5.10.149-mos-amd64
 Version: 5.10.149-mos-amd64-1
@@ -3100,6 +3155,61 @@ Description: Linux kernel headers for 5.10.149-mos-rt-amd64 on amd64
  This package provides kernel header files for 5.10.149-mos-rt-amd64 on amd64
  .
  This is useful for people who need to build external modules
+
+Package: linux-headers-6.0-mos-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-amd64
+Provides: linux-headers-6.0-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.0-mos-amd64/linux-headers-6.0-mos-amd64_1.0_amd64.deb
+Size: 2288
+SHA256: c0abba97870845a2e197fa0ebac10e96b888edecf9c149a849ba954e1839bb2b
+SHA1: 1783cdda858b1da463674ce186db8feb2ee4aa22
+MD5sum: 146d26afa84d262aa2ddbd62e61d61de
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-6.0-mos-cloud-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-cloud-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.0-mos-cloud-amd64/linux-headers-6.0-mos-cloud-amd64_1.0_amd64.deb
+Size: 2272
+SHA256: 84185ad90702656fb95f6cb35dd615c1a5f3bb80735c960bf887cb171bb11a76
+SHA1: 5b00a030a34550e5660c7d694dec903785ee21c2
+MD5sum: 9c1b9e056a91f6b39b4a63d5069497f0
+Description: Header files for Linux cloud-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel cloud-amd64 configuration.
+
+Package: linux-headers-6.0-mos-rt-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.0.3-mos-rt-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.0-mos-rt-amd64/linux-headers-6.0-mos-rt-amd64_1.0_amd64.deb
+Size: 2268
+SHA256: 4da790e3a7183a30dc856495be232488cafbec906003f4dfec6eca1ad57b200f
+SHA1: 50aced8c04683cbe696b84a8e3af959435f58a96
+MD5sum: 5ef68deb81a3cab345d0833e4b8f8a34
+Description: Header files for Linux rt-amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel rt-amd64 configuration.
 
 Package: linux-headers-6.0.3-mos-amd64
 Source: linux-upstream
@@ -3158,115 +3268,63 @@ Description: Linux kernel headers for 6.0.3-mos-rt-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-mos-amd64
+Package: linux-image-5.10-mos-amd64
 Version: 1.0
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-5.10.149-mos-amd64
-Provides: linux-headers-mos-generic
+Depends: linux-image-5.10.149-mos-amd64
+Provides: linux-image-5.10-mos-generic, linux-latest-modules-5.10.149-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-mos-amd64/linux-headers-mos-amd64_1.0_amd64.deb
-Size: 2280
-SHA256: 5ab8e28e675c669798e9a01dcf5a0b28cc1965a99267abbf8b15a63963f2e56c
-SHA1: 73f098f3336af30c86c00256d596e49f49fad6b6
-MD5sum: 3ebb8727eb0112db833d61c0a7255fac
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
+Filename: pool/main/l/linux-image-5.10-mos-amd64/linux-image-5.10-mos-amd64_1.0_amd64.deb
+Size: 2400
+SHA256: 26afa37b01606a2b6d436e55a941883e4fbd1994e3fbf73dab8d65b6ad7fc9af
+SHA1: 8496fbd3641e254fbd7241af33b08ea2bd73b3b2
+MD5sum: fc67cf412906a7db5047ec597e46f2e9
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
 
-Package: linux-headers-mos-amd64-bpo
+Package: linux-image-5.10-mos-cloud-amd64
 Version: 1.0
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.0.3-mos-amd64
-Provides: linux-headers-mos-generic-bpo
+Depends: linux-image-5.10.149-mos-cloud-amd64
+Provides: linux-latest-modules-5.10.149-mos-cloud-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-mos-amd64-bpo/linux-headers-mos-amd64-bpo_1.0_amd64.deb
-Size: 2296
-SHA256: be81c98ddfe45e0a337f86815f5205307df6f21dcab61da584eed33ff35cbe4a
-SHA1: cab50700e36493aca78943d46c366712b6c238a0
-MD5sum: 73d10ffa26e9d5ef77a0dbc53ee0f34d
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
+Filename: pool/main/l/linux-image-5.10-mos-cloud-amd64/linux-image-5.10-mos-cloud-amd64_1.0_amd64.deb
+Size: 2416
+SHA256: fb60280b15c71ee12feea94a56bfb2421ee4efa94d9c8697fe642e0b2be14a4b
+SHA1: 2a4dfc341f801a1ffd929115a8f4fe9e322fb53d
+MD5sum: 77afda06a7e3f40e0146a30b2dce6823
+Description: Linux for x86-64 cloud (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute
+ Engine.
 
-Package: linux-headers-mos-cloud-amd64
+Package: linux-image-5.10-mos-rt-amd64
 Version: 1.0
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-5.10.149-mos-cloud-amd64
+Depends: linux-image-5.10.149-mos-rt-amd64
+Provides: linux-latest-modules-5.10.149-mos-rt-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-mos-cloud-amd64/linux-headers-mos-cloud-amd64_1.0_amd64.deb
-Size: 2268
-SHA256: c6136d84c05cc315f4245cf57cbbea1404b852e51fab02a3df531c3bd4c7b68b
-SHA1: 0e42507c47ab6cc89ba91b6addcacccb62948714
-MD5sum: bace368668c4021846cbb7044f1450eb
-Description: Header files for Linux cloud-amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel cloud-amd64 configuration.
-
-Package: linux-headers-mos-cloud-amd64-bpo
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.0.3-mos-cloud-amd64
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-mos-cloud-amd64-bpo/linux-headers-mos-cloud-amd64-bpo_1.0_amd64.deb
-Size: 2276
-SHA256: 7f014d70baa6fb6ee76787ed7e98dff4b10ccbb4194493720caaac318c1ab88e
-SHA1: bf64e058d0722a4aa45c927d5ee5946074056604
-MD5sum: f3ebf59ebe698d69d8f3af96712dc79c
-Description: Header files for Linux cloud-amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel cloud-amd64 configuration.
-
-Package: linux-headers-mos-rt-amd64
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-5.10.149-mos-rt-amd64
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-mos-rt-amd64/linux-headers-mos-rt-amd64_1.0_amd64.deb
-Size: 2268
-SHA256: a11acf365f8317285c78518c73616e131b82ea2106df1d61055492280ba81377
-SHA1: 89bb50773fb1c730b33e04662d8cb424e3dc6bef
-MD5sum: 56e42ef8c7db54a85575b323c3ade467
-Description: Header files for Linux rt-amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel rt-amd64 configuration.
-
-Package: linux-headers-mos-rt-amd64-bpo
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.0.3-mos-rt-amd64
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-mos-rt-amd64-bpo/linux-headers-mos-rt-amd64-bpo_1.0_amd64.deb
-Size: 2268
-SHA256: 436db8948b145a6b9cff2dce832e7b88cf4d07d73a8089caf0c2df0d2ba55e76
-SHA1: 1b2b1802ac2f2227b0c28ae52cb12978996249d1
-MD5sum: 7963c01f44b393b1b3f2f837202f31be
-Description: Header files for Linux rt-amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel rt-amd64 configuration.
+Filename: pool/main/l/linux-image-5.10-mos-rt-amd64/linux-image-5.10-mos-rt-amd64_1.0_amd64.deb
+Size: 2388
+SHA256: 43c7d95b8ddd57e03bf1f44e9b145967e9d12ea2f488063f20befbc74e5e4ad0
+SHA1: 11fd371433b688c962a3e572d77c1c80bfc019d7
+MD5sum: 33cc121c550f3135c40b8b39c871e693
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-5.10.149-mos-amd64
 Source: linux-5.10.149-mos-amd64
@@ -3322,6 +3380,64 @@ Description: Linux kernel, version 5.10.149-mos-rt-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.149-mos-rt-amd64.
 
+Package: linux-image-6.0-mos-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-amd64
+Provides: linux-image-6.0-mos-generic, linux-latest-modules-6.0.3-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.0-mos-amd64/linux-image-6.0-mos-amd64_1.0_amd64.deb
+Size: 2396
+SHA256: 84b7c94038694fe328269136d9f06932c2bcab5008e3b998caf883ba9fe2a868
+SHA1: 4d5882c3817f2dbfc62f961553fc0e5bad6a5daf
+MD5sum: 46c58d6b94b75ff9fd6d827ae6422af5
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-6.0-mos-cloud-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-cloud-amd64
+Provides: linux-latest-modules-6.0.3-mos-cloud-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.0-mos-cloud-amd64/linux-image-6.0-mos-cloud-amd64_1.0_amd64.deb
+Size: 2408
+SHA256: 1e2049ce5eb18a596a07e5e2a97a2d4190f96d159d3ac84a2a8797450ad5c430
+SHA1: 4d6e81c4f7b8175f7efcf3e182d66ca5dffd14fb
+MD5sum: 3312770598668cdbb8bf54d54dc623ac
+Description: Linux for x86-64 cloud (meta-package)
+ This package depends on the latest Linux kernel and modules for use on
+ cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute
+ Engine.
+
+Package: linux-image-6.0-mos-rt-amd64
+Version: 1.0
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.0.3-mos-rt-amd64
+Provides: linux-latest-modules-6.0.3-mos-rt-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.0-mos-rt-amd64/linux-image-6.0-mos-rt-amd64_1.0_amd64.deb
+Size: 2384
+SHA256: 5594e34b69218385480e2c821a671e8c17f8f84b67c565790d32a36cdec923c1
+SHA1: 5ed9298b2ffbcc1da4fe216877794cb08a0d8b5d
+MD5sum: 6568597a384ece374ece9998ea126c47
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
 Package: linux-image-6.0.3-mos-amd64
 Source: linux-upstream
 Version: 6.0.3-mos-amd64-1
@@ -3375,122 +3491,6 @@ MD5sum: 2eb2409a6eb44db5079c74af299f0601
 Description: Linux kernel, version 6.0.3-mos-rt-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.0.3-mos-rt-amd64.
-
-Package: linux-image-mos-amd64
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-5.10.149-mos-amd64
-Provides: linux-image-mos-generic, linux-latest-modules-5.10.149-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-mos-amd64/linux-image-mos-amd64_1.0_amd64.deb
-Size: 2392
-SHA256: 8ef1f3be29d84a3e65485463ea4c22af65e0cbc13049c140fc66b43f46b3a4f1
-SHA1: 5b3ecf82716700bed4e1cffe3ab5bf96ef413ef1
-MD5sum: 2e44d7726432ea43c2d7b6b5b4e6f7bf
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
-
-Package: linux-image-mos-amd64-bpo
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.0.3-mos-amd64
-Provides: linux-image-mos-generic, linux-latest-modules-6.0.3-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-mos-amd64-bpo/linux-image-mos-amd64-bpo_1.0_amd64.deb
-Size: 2396
-SHA256: a84bbf6fad5cd9445e01487f7960b5e6ae5a72d1942e252964003799d68f6283
-SHA1: 983db580429f94e0ef3c0cf15e9d0fd45fca7280
-MD5sum: 942d135adc87e3dda8364245c8d60a3e
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
-
-Package: linux-image-mos-cloud-amd64
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-5.10.149-mos-cloud-amd64
-Provides: linux-latest-modules-5.10.149-mos-cloud-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-mos-cloud-amd64/linux-image-mos-cloud-amd64_1.0_amd64.deb
-Size: 2412
-SHA256: 80e1e3b9119887a0ef1ab111b476ab970386f99aff254c314a73199bfc20e3a2
-SHA1: 08e00fae37466fc9c36955e2e302606a1e594de3
-MD5sum: 312e36e1cd9366077b3a5f0f048858ef
-Description: Linux for x86-64 cloud (meta-package)
- This package depends on the latest Linux kernel and modules for use on
- cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute
- Engine.
-
-Package: linux-image-mos-cloud-amd64-bpo
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.0.3-mos-cloud-amd64
-Provides: linux-latest-modules-6.0.3-mos-cloud-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-mos-cloud-amd64-bpo/linux-image-mos-cloud-amd64-bpo_1.0_amd64.deb
-Size: 2420
-SHA256: 5d416195397d97ba003b95c3fd3defcca05aa9f7fce06efc6bfa2ec01383a5f7
-SHA1: 87176bd71714f79150733dce928985cf750a7b87
-MD5sum: ef15db33dafe2f58ac0996250c139ff1
-Description: Linux for x86-64 cloud (meta-package)
- This package depends on the latest Linux kernel and modules for use on
- cloud platforms including Amazon EC2, Microsoft Azure, and Google Compute
- Engine.
-
-Package: linux-image-mos-rt-amd64
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-5.10.149-mos-rt-amd64
-Provides: linux-latest-modules-5.10.149-mos-rt-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-mos-rt-amd64/linux-image-mos-rt-amd64_1.0_amd64.deb
-Size: 2380
-SHA256: bb79a3e79c0205985a3f20fc975f949ec60f9b62dfea4c593b977ab7acc36602
-SHA1: f98bedf9f896316239d75acb40553e0df4ba5b5d
-MD5sum: 0654d73997d24c287087b8e216240977
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
-
-Package: linux-image-mos-rt-amd64-bpo
-Version: 1.0
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.0.3-mos-rt-amd64
-Provides: linux-latest-modules-6.0.3-mos-rt-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-mos-rt-amd64-bpo/linux-image-mos-rt-amd64-bpo_1.0_amd64.deb
-Size: 2388
-SHA256: 2e5197e7e0d41c3285d1d6dfb635740296c6c96bf92b4bf34f7c218072b8cc25
-SHA1: f75fc1a0687679c1b8ba870a6c48019141c1f2f4
-MD5sum: 2f6c0192341bc03bfdd2faec4273bc66
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
 
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20221105.dab6e02-0kali1
