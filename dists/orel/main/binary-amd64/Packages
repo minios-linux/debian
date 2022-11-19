@@ -42,10 +42,10 @@ Description: utility for extracting Broadcom 43xx firmware
 
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
-Version: 0.17-2-1
+Version: 0.17-2-2
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 15492
+Installed-Size: 15506
 Conflicts: adwaita-icon-theme, elementary-xfce-icon-theme
 Breaks: adwaita-icon-theme, elementary-xfce-icon-theme
 Replaces: adwaita-icon-theme, elementary-xfce-icon-theme
@@ -53,11 +53,11 @@ Provides: adwaita-icon-theme, elementary-xfce-icon-theme
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2-1_all.deb
-Size: 6154812
-SHA256: e4c51812677b811d8e6f4aedef120e8947f6c5a35d5fcbb87311c37f910af8d3
-SHA1: 39549fa69377d3ca1760a97b9c40ba2ef36f0000
-MD5sum: 7421d1e10f6e12d2d33f7e4b55fa2b95
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2-2_all.deb
+Size: 6155044
+SHA256: 652028de2e7a0b95a6d784846b8bc14729af83eb2c98cfe8e5763ac5e42cf772
+SHA1: 400a9ccb209e7ef53d6254aea1704fde482e78fd
+MD5sum: b17448072236805ca653709b293454d0
 Description: elementary icon theme modified for Xfce
  elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
  desktops.
