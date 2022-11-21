@@ -226,35 +226,6 @@ Description: Realtek RTL88xxAU driver in DKMS format
  driver (with monitor mode and frame injection) to be build with dkms. Kernel
  sources or headers are required to compile this module.
 
-Package: remmina-common
-Source: remmina
-Version: 1.4.27+dfsg-2~mos10+1
-Architecture: all
-Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
-Installed-Size: 3637
-Recommends: remmina
-Multi-Arch: foreign
-Homepage: https://www.remmina.org/
-Priority: optional
-Section: x11
-Filename: pool/main/r/remmina/remmina-common_1.4.27+dfsg-2~mos10+1_all.deb
-Size: 640444
-SHA256: e3f0a747526b70aa976874e414c2db29de4bdef63552084a64a8ecc7c53fcff0
-SHA1: 168a8d6cc011ce7c6d16c47074cde60e367c2615
-MD5sum: da8c281c66135096fcce84e7a578abb2
-Description: Common files for Remmina
- Remmina is a remote desktop client written in GTK+, aiming to be
- useful for system administrators and travellers, who need to work
- with lots of remote computers in front of either large monitors or
- tiny netbooks.
- .
- Remmina supports multiple network protocols in an integrated and
- consistent user interface.
- .
- Currently RDP, VNC, SPICE, WWW, X2Go, EXEC and SSH are supported.
- .
- This package contains the common files.
-
 Package: rescuezilla
 Version: 2.3.1-1-1
 Architecture: all

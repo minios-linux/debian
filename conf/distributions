@@ -11,6 +11,17 @@ SignWith: EC20F18C68B62F6C
 
 Origin: Debian
 Label: MiniOS Repository
+Suite: oldoldstable
+AlsoAcceptFor: unstable experimental
+Codename: stretch-backports
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
 Suite: oldstable
 AlsoAcceptFor: unstable experimental
 Codename: buster
@@ -36,6 +47,17 @@ Label: MiniOS Repository
 Suite: stable
 AlsoAcceptFor: unstable experimental
 Codename: bullseye
+Architectures: i386 amd64 source
+Components: main contrib non-free
+UDebComponents: main contrib non-free
+Description: MiniOS Repository
+SignWith: EC20F18C68B62F6C
+
+Origin: Debian
+Label: MiniOS Repository
+Suite: stable
+AlsoAcceptFor: unstable experimental
+Codename: bullseye-backports
 Architectures: i386 amd64 source
 Components: main contrib non-free
 UDebComponents: main contrib non-free
