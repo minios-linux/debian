@@ -1,3 +1,31 @@
+Package: doublecmd-common
+Source: doublecmd
+Version: 1.0.8-1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 16583
+Depends: desktop-file-utils
+Recommends: doublecmd-gtk | doublecmd-qt
+Suggests: doublecmd-help-en | doublecmd-help, libffmpegthumbnailer4v5, libunrar5, mplayer, rabbitvcs-core, xterm | x-terminal-emulator
+Multi-Arch: foreign
+Homepage: https://doublecmd.sourceforge.io
+Priority: optional
+Section: utils
+Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1_all.deb
+Size: 2626644
+SHA256: 75a768f446d0d600df05f9ce2bfe3215b518ed566290eb57904f032322238056
+SHA1: 96da3d0b8d5441ac6954f123a4870694fd05312e
+MD5sum: 994a5744a6ccb3579606e684315a52a9
+Description: twin-panel (commander-style) file manager
+ Double Commander is a cross platform open source file manager
+ with two panels side by side. It is inspired by Total Commander
+ and features some new ideas.
+ .
+ Support for RAR archives can be enabled by installing the
+ libunrar-dev package from non-free.
+ .
+ This package contains common files.
+
 Package: inkscape-tutorials
 Source: inkscape
 Version: 1.2.1+ds-1
