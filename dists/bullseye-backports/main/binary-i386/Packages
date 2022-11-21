@@ -1,0 +1,29 @@
+Package: inkscape-tutorials
+Source: inkscape
+Version: 1.2.1+ds-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 75795
+Recommends: inkscape
+Breaks: inkscape (<= 0.92.3-2~)
+Replaces: inkscape (<= 0.92.3-2~)
+Multi-Arch: foreign
+Homepage: https://inkscape.org
+Priority: optional
+Section: graphics
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1_all.deb
+Size: 1890592
+SHA256: bef71257cc1ae086275c0cfb469694703c9472212ec95d5a1e3d653b0ca7d6e4
+SHA1: 6bfaef00c4821850afb1355791881b2751a58ae3
+MD5sum: 925547c6bf4ef8e988d9794596b6baac
+Description: vector-based drawing program - tutorials
+ Inkscape is an illustration editor which has everything needed to
+ create professional-quality computer art. You can use it to make
+ diagrams and illustrations, technical drawings, web graphics, clip art,
+ icons and logos. A collection of hands-on tutorials show you how to
+ combine lines, shapes and text of different types and styles to build
+ up a picture.
+ .
+ This package contains the tutorials, accessible from the Help > Tutorials
+ menu.
+

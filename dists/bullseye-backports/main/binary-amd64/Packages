@@ -1,0 +1,139 @@
+Package: inkscape
+Version: 1.2.1+ds-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 98774
+Depends: librsvg2-common, python3:any, lib2geom1.1.0 (>= 1.2), libatkmm-1.6-1v5 (>= 2.24.0), libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.29), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.15.10), libcairomm-1.0-1v5 (>= 1.12.0), libcdr-0.1-1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.7.1), libgc1 (>= 1:7.2d), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.63.1), libglibmm-2.4-1v5 (>= 2.64.2), libgomp1 (>= 4.9), libgsl25 (>= 2.6), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.21.5), libgtkmm-3.0-1v5 (>= 3.24.0), libharfbuzz0b (>= 2.6.5), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmagick++-6.q16-8, libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpangomm-1.4-1v5 (>= 2.42.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.18.0), libpoppler102 (>= 20.09.0), libpotrace0, libreadline8 (>= 6.0), librevenge-0.0-0, libsigc++-2.0-0v5 (>= 2.8.0), libsoup2.4-1 (>= 2.41.90), libstdc++6 (>= 9), libvisio-0.1-1, libwpg-0.3-3, libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Recommends: aspell, fig2dev, imagemagick, libimage-magick-perl, libwmf-bin, python3-cssselect, python3-lxml, python3-numpy, python3-scour
+Suggests: dia, inkscape-tutorials, libsvg-perl, pstoedit, python3-packaging, python3-uniconvertor, ruby
+Homepage: https://inkscape.org
+Priority: optional
+Section: graphics
+Filename: pool/main/i/inkscape/inkscape_1.2.1+ds-1_amd64.deb
+Size: 20657556
+SHA256: 45e770c18c209fcd296ef3135d7e324ef208f9b1c82f464e4cb52dc2525d6f8d
+SHA1: 13615e11d9783dba7f8ac89e2ddd976773e7e8e1
+MD5sum: 4b91d040a49a4b7a4186f2e2f4657c68
+Description: vector-based drawing program
+ Inkscape is an illustration editor which has everything needed to
+ create professional-quality computer art. You can use it to make
+ diagrams and illustrations, technical drawings, web graphics, clip art,
+ icons and logos. A collection of hands-on tutorials show you how to
+ combine lines, shapes and text of different types and styles to build
+ up a picture.
+ .
+ A selection of powerful vector graphics editing tools comes as
+ standard. There is excellent support for paths, gradients, layers,
+ alpha transparency and text flow control. An extensive library of
+ filters allow you to apply realistic effects and extensions allow you
+ to work with bitmaps, barcodes and printing marks, amongst other things.
+ .
+ Most of the common vector formats are supported, including PDF, Adobe
+ Illustrator and AutoCAD files, and it has unrivalled support for the
+ SVG web graphics standard.
+ .
+ Between the suggested packages:
+  * dia: to export Dia shapes;
+  * libsvg-perl: to import .txt files (txt2svg extension);
+  * python3-packaging: used by the Optimized SVG extension;
+  * python3-uniconvertor: enables several import/export extensions;
+  * pstoedit: to work with eps files;
+  * ruby: there are several extensions written in ruby;
+
+Package: inkscape-tutorials
+Source: inkscape
+Version: 1.2.1+ds-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 75795
+Recommends: inkscape
+Breaks: inkscape (<= 0.92.3-2~)
+Replaces: inkscape (<= 0.92.3-2~)
+Multi-Arch: foreign
+Homepage: https://inkscape.org
+Priority: optional
+Section: graphics
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1_all.deb
+Size: 1890592
+SHA256: bef71257cc1ae086275c0cfb469694703c9472212ec95d5a1e3d653b0ca7d6e4
+SHA1: 6bfaef00c4821850afb1355791881b2751a58ae3
+MD5sum: 925547c6bf4ef8e988d9794596b6baac
+Description: vector-based drawing program - tutorials
+ Inkscape is an illustration editor which has everything needed to
+ create professional-quality computer art. You can use it to make
+ diagrams and illustrations, technical drawings, web graphics, clip art,
+ icons and logos. A collection of hands-on tutorials show you how to
+ combine lines, shapes and text of different types and styles to build
+ up a picture.
+ .
+ This package contains the tutorials, accessible from the Help > Tutorials
+ menu.
+
+Package: lib2geom-dev
+Source: lib2geom
+Version: 1.2-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 839
+Depends: lib2geom1.1.0 (= 1.2-1)
+Multi-Arch: same
+Homepage: https://gitlab.com/inkscape/lib2geom
+Priority: optional
+Section: libdevel
+Filename: pool/main/lib2/lib2geom/lib2geom-dev_1.2-1_amd64.deb
+Size: 127672
+SHA256: d2bce4a39bc4273f8a67e57a4c22755489b71737cb8ebe7d0b13bc08b2ef450c
+SHA1: 6daf97fbbd3a904472a6b1d02e76a931364019e0
+MD5sum: 0db6a3a6816204e980d79e87f9e4a1f7
+Description: robust computational geometry framework -- development library
+ 2Geom is a C++ 2D geometry library geared towards robust processing of
+ computational geometry data associated with vector graphics. The primary
+ design consideration is ease of use and clarity. It is dual-licensed
+ under LGPL 2.1 and MPL 1.1.
+ .
+ The library is descended from a set of geometric routines present in
+ Inkscape, a vector graphics editor based around the Scalable Vector
+ Graphics format, the most widespread vector graphics interchange format
+ on the Web and a W3C Recommendation. Due to this legacy, not all parts
+ of the API form a coherent whole (yet).
+ .
+ Rendering is outside the scope of this library, and it is assumed
+ something like libcairo or similar is employed for this.  2geom
+ concentrates on higher level algorithms and geometric computations.
+ .
+ This package contains the development files needed to build against 2geom.
+
+Package: lib2geom1.1.0
+Source: lib2geom
+Version: 1.2-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1128
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgsl25 (>= 2.6), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://gitlab.com/inkscape/lib2geom
+Priority: optional
+Section: libs
+Filename: pool/main/lib2/lib2geom/lib2geom1.1.0_1.2-1_amd64.deb
+Size: 370156
+SHA256: 05bafb3e382a30c171c37a74626c5763ccf909e298da67fb54e677721f0e7889
+SHA1: 2d69e2846d0b411937acaaf1362decf7cca3b7f2
+MD5sum: 2b99c6cfb113159f63d0546f426ed302
+Description: robust computational geometry framework -- shared library
+ 2Geom is a C++ 2D geometry library geared towards robust processing of
+ computational geometry data associated with vector graphics. The primary
+ design consideration is ease of use and clarity. It is dual-licensed
+ under LGPL 2.1 and MPL 1.1.
+ .
+ The library is descended from a set of geometric routines present in
+ Inkscape, a vector graphics editor based around the Scalable Vector
+ Graphics format, the most widespread vector graphics interchange format
+ on the Web and a W3C Recommendation. Due to this legacy, not all parts
+ of the API form a coherent whole (yet).
+ .
+ Rendering is outside the scope of this library, and it is assumed
+ something like libcairo or similar is employed for this.  2geom
+ concentrates on higher level algorithms and geometric computations.
+ .
+ This package contains the shared library.
+
