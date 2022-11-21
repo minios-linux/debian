@@ -1,6 +1,6 @@
 Package: doublecmd-common
 Source: doublecmd
-Version: 1.0.8-1
+Version: 1.0.8-1~bpo11+1
 Architecture: all
 Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
 Installed-Size: 16583
@@ -11,11 +11,11 @@ Multi-Arch: foreign
 Homepage: https://doublecmd.sourceforge.io
 Priority: optional
 Section: utils
-Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1_all.deb
-Size: 2626644
-SHA256: 75a768f446d0d600df05f9ce2bfe3215b518ed566290eb57904f032322238056
-SHA1: 96da3d0b8d5441ac6954f123a4870694fd05312e
-MD5sum: 994a5744a6ccb3579606e684315a52a9
+Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1~bpo11+1_all.deb
+Size: 2626816
+SHA256: 2051238d8b04220d43de1cf7ee1a80bdcce5758c8908e7fc0b164f647802e77e
+SHA1: b46d49162c3b2033a5e37cb6744e7e5810f06226
+MD5sum: 04b359e8572a1b061b4c93204b1c7244
 Description: twin-panel (commander-style) file manager
  Double Commander is a cross platform open source file manager
  with two panels side by side. It is inspired by Total Commander
@@ -26,9 +26,78 @@ Description: twin-panel (commander-style) file manager
  .
  This package contains common files.
 
+Package: doublecmd-help-en
+Source: doublecmd-help
+Version: 1.0.8-1~bpo11+1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3096
+Recommends: www-browser
+Provides: doublecmd-help
+Multi-Arch: foreign
+Homepage: http://doublecmd.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/d/doublecmd-help/doublecmd-help-en_1.0.8-1~bpo11+1_all.deb
+Size: 2115220
+SHA256: 59aaffa8048bc1c88e3eb0947223a52f4c907296bb0209e4d0d3f46b431c7c9a
+SHA1: 2d958b1d11477b5617a723ac7cdf2c3878e4fe55
+MD5sum: a33635d9fa2407a4ae309a645f983020
+Description: Documentation for Double Commander (English)
+ This package contains the documentation files for the Double Commander
+ designed to be viewed in an external web browser.
+ .
+ This package contains the English documentation.
+
+Package: doublecmd-help-ru
+Source: doublecmd-help
+Version: 1.0.8-1~bpo11+1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3478
+Recommends: www-browser
+Provides: doublecmd-help
+Multi-Arch: foreign
+Homepage: http://doublecmd.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/d/doublecmd-help/doublecmd-help-ru_1.0.8-1~bpo11+1_all.deb
+Size: 2219828
+SHA256: 64588f1056e2de9134904666cf106b6d9b074f6915f60e7e991222502bc1adb4
+SHA1: 826577b34d7de540be45cd6cc3a2faae113c24fc
+MD5sum: 6e160e86edfb801de6590142aa92a763
+Description: Documentation for Double Commander (Russian)
+ This package contains the documentation files for the Double Commander
+ designed to be viewed in an external web browser.
+ .
+ This package contains the Russian documentation.
+
+Package: doublecmd-help-uk
+Source: doublecmd-help
+Version: 1.0.8-1~bpo11+1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3064
+Recommends: www-browser
+Provides: doublecmd-help
+Multi-Arch: foreign
+Homepage: http://doublecmd.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/d/doublecmd-help/doublecmd-help-uk_1.0.8-1~bpo11+1_all.deb
+Size: 2711552
+SHA256: 2710eb7272fee4da54283a65cbf847d5a55dbad27fb24f72afb84af359f1903b
+SHA1: 66607827843d0358303004bad72c57c40f978d2e
+MD5sum: 1cda27a38c8d371e879ecf5748b843cd
+Description: Documentation for Double Commander (Ukrainian)
+ This package contains the documentation files for the Double Commander
+ designed to be viewed in an external web browser.
+ .
+ This package contains the Ukranian documentation.
+
 Package: inkscape-tutorials
 Source: inkscape
-Version: 1.2.1+ds-1
+Version: 1.2.1+ds-1~bpo11+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 75795
@@ -39,11 +108,11 @@ Multi-Arch: foreign
 Homepage: https://inkscape.org
 Priority: optional
 Section: graphics
-Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1_all.deb
-Size: 1890592
-SHA256: bef71257cc1ae086275c0cfb469694703c9472212ec95d5a1e3d653b0ca7d6e4
-SHA1: 6bfaef00c4821850afb1355791881b2751a58ae3
-MD5sum: 925547c6bf4ef8e988d9794596b6baac
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1~bpo11+1_all.deb
+Size: 1890620
+SHA256: b4574183f7602a58b5b46dffbd683c2b014032fb0a65db4961f9afe3c811cae7
+SHA1: 5083b50792b112794b20126ff953c39b0fd9c09e
+MD5sum: 1b0bf9e18eb2f31b727020858ccafe1f
 Description: vector-based drawing program - tutorials
  Inkscape is an illustration editor which has everything needed to
  create professional-quality computer art. You can use it to make

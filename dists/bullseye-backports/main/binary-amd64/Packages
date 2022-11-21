@@ -1,6 +1,6 @@
 Package: doublecmd-common
 Source: doublecmd
-Version: 1.0.8-1
+Version: 1.0.8-1~bpo11+1
 Architecture: all
 Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
 Installed-Size: 16583
@@ -11,11 +11,11 @@ Multi-Arch: foreign
 Homepage: https://doublecmd.sourceforge.io
 Priority: optional
 Section: utils
-Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1_all.deb
-Size: 2626644
-SHA256: 75a768f446d0d600df05f9ce2bfe3215b518ed566290eb57904f032322238056
-SHA1: 96da3d0b8d5441ac6954f123a4870694fd05312e
-MD5sum: 994a5744a6ccb3579606e684315a52a9
+Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1~bpo11+1_all.deb
+Size: 2626816
+SHA256: 2051238d8b04220d43de1cf7ee1a80bdcce5758c8908e7fc0b164f647802e77e
+SHA1: b46d49162c3b2033a5e37cb6744e7e5810f06226
+MD5sum: 04b359e8572a1b061b4c93204b1c7244
 Description: twin-panel (commander-style) file manager
  Double Commander is a cross platform open source file manager
  with two panels side by side. It is inspired by Total Commander
@@ -28,22 +28,22 @@ Description: twin-panel (commander-style) file manager
 
 Package: doublecmd-gtk
 Source: doublecmd
-Version: 1.0.8-1
+Version: 1.0.8-1~bpo11+1
 Architecture: amd64
 Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
 Installed-Size: 16879
-Depends: doublecmd-common (= 1.0.8-1), doublecmd-plugins (= 1.0.8-1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.10), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
+Depends: doublecmd-common (= 1.0.8-1~bpo11+1), doublecmd-plugins (= 1.0.8-1~bpo11+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.10), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
 Conflicts: doublecmd
 Replaces: doublecmd
 Provides: doublecmd
 Homepage: https://doublecmd.sourceforge.io
 Priority: optional
 Section: utils
-Filename: pool/main/d/doublecmd/doublecmd-gtk_1.0.8-1_amd64.deb
-Size: 4601640
-SHA256: 56cf3276daab21f6105b5f26088b6c09b13fb37f85e5baa93cce168c3296a1ed
-SHA1: 88c375b42b1d0fda4a515fc32851a7f8c0bb6974
-MD5sum: f5b03e955e441fbeaa66e407c4cb4d7f
+Filename: pool/main/d/doublecmd/doublecmd-gtk_1.0.8-1~bpo11+1_amd64.deb
+Size: 4601644
+SHA256: 490c3a752741382683ae7d382621aa604379c003c9fbc16c0839e79045419595
+SHA1: 827200aed0331d65aff85eb5051bc0d8d7be06e7
+MD5sum: a70eed726b57b53dd8c72ec2d4850fb1
 Description: twin-panel (commander-style) file manager (GTK2)
  Double Commander is a cross platform open source file manager
  with two panels side by side. It is inspired by Total Commander
@@ -54,9 +54,78 @@ Description: twin-panel (commander-style) file manager (GTK2)
  .
  This package contains the GTK2 user interface.
 
+Package: doublecmd-help-en
+Source: doublecmd-help
+Version: 1.0.8-1~bpo11+1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3096
+Recommends: www-browser
+Provides: doublecmd-help
+Multi-Arch: foreign
+Homepage: http://doublecmd.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/d/doublecmd-help/doublecmd-help-en_1.0.8-1~bpo11+1_all.deb
+Size: 2115220
+SHA256: 59aaffa8048bc1c88e3eb0947223a52f4c907296bb0209e4d0d3f46b431c7c9a
+SHA1: 2d958b1d11477b5617a723ac7cdf2c3878e4fe55
+MD5sum: a33635d9fa2407a4ae309a645f983020
+Description: Documentation for Double Commander (English)
+ This package contains the documentation files for the Double Commander
+ designed to be viewed in an external web browser.
+ .
+ This package contains the English documentation.
+
+Package: doublecmd-help-ru
+Source: doublecmd-help
+Version: 1.0.8-1~bpo11+1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3478
+Recommends: www-browser
+Provides: doublecmd-help
+Multi-Arch: foreign
+Homepage: http://doublecmd.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/d/doublecmd-help/doublecmd-help-ru_1.0.8-1~bpo11+1_all.deb
+Size: 2219828
+SHA256: 64588f1056e2de9134904666cf106b6d9b074f6915f60e7e991222502bc1adb4
+SHA1: 826577b34d7de540be45cd6cc3a2faae113c24fc
+MD5sum: 6e160e86edfb801de6590142aa92a763
+Description: Documentation for Double Commander (Russian)
+ This package contains the documentation files for the Double Commander
+ designed to be viewed in an external web browser.
+ .
+ This package contains the Russian documentation.
+
+Package: doublecmd-help-uk
+Source: doublecmd-help
+Version: 1.0.8-1~bpo11+1
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 3064
+Recommends: www-browser
+Provides: doublecmd-help
+Multi-Arch: foreign
+Homepage: http://doublecmd.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/main/d/doublecmd-help/doublecmd-help-uk_1.0.8-1~bpo11+1_all.deb
+Size: 2711552
+SHA256: 2710eb7272fee4da54283a65cbf847d5a55dbad27fb24f72afb84af359f1903b
+SHA1: 66607827843d0358303004bad72c57c40f978d2e
+MD5sum: 1cda27a38c8d371e879ecf5748b843cd
+Description: Documentation for Double Commander (Ukrainian)
+ This package contains the documentation files for the Double Commander
+ designed to be viewed in an external web browser.
+ .
+ This package contains the Ukranian documentation.
+
 Package: doublecmd-plugins
 Source: doublecmd
-Version: 1.0.8-1
+Version: 1.0.8-1~bpo11+1
 Architecture: amd64
 Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
 Installed-Size: 6577
@@ -64,11 +133,11 @@ Depends: libc6 (>= 2.10)
 Homepage: https://doublecmd.sourceforge.io
 Priority: optional
 Section: utils
-Filename: pool/main/d/doublecmd/doublecmd-plugins_1.0.8-1_amd64.deb
-Size: 918916
-SHA256: fc30aa79016297ebb2e3fe454f4e73c35da9b45661c46eee253c6fea32748895
-SHA1: 70a86ae387c0a4c3074ae163142097979943a023
-MD5sum: 69cbe5d2ccd2520277e635ce7485b5ff
+Filename: pool/main/d/doublecmd/doublecmd-plugins_1.0.8-1~bpo11+1_amd64.deb
+Size: 918928
+SHA256: b2867483ed15a095715c67fa7ce59d68d39c4e914860143f5a9626102e769e04
+SHA1: ccf83bfe28a4e7161f721a8ea338629b5281c952
+MD5sum: 9cad793101d61e7ec89e7f275e0cf402
 Description: twin-panel (commander-style) file manager (plugins)
  Double Commander is a cross platform open source file manager
  with two panels side by side. It is inspired by Total Commander
@@ -81,22 +150,22 @@ Description: twin-panel (commander-style) file manager (plugins)
 
 Package: doublecmd-qt
 Source: doublecmd
-Version: 1.0.8-1
+Version: 1.0.8-1~bpo11+1
 Architecture: amd64
 Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
 Installed-Size: 16801
-Depends: doublecmd-common (= 1.0.8-1), doublecmd-plugins (= 1.0.8-1), libc6 (>= 2.10), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0), libqt5pas1 (>= 2.6~beta-1), libx11-6
+Depends: doublecmd-common (= 1.0.8-1~bpo11+1), doublecmd-plugins (= 1.0.8-1~bpo11+1), libc6 (>= 2.10), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0), libqt5pas1 (>= 2.6~beta-1), libx11-6
 Conflicts: doublecmd
 Replaces: doublecmd
 Provides: doublecmd
 Homepage: https://doublecmd.sourceforge.io
 Priority: optional
 Section: utils
-Filename: pool/main/d/doublecmd/doublecmd-qt_1.0.8-1_amd64.deb
-Size: 4546964
-SHA256: ceabd2aa732bc8dd83dedee275692f4e6b90966e50861221a02e1d4ef10a41fc
-SHA1: 795242e7dfeb510f725919684d2855140ad7467e
-MD5sum: 107b3ef37c05500b4b4ad35bf74f9f9c
+Filename: pool/main/d/doublecmd/doublecmd-qt_1.0.8-1~bpo11+1_amd64.deb
+Size: 4546976
+SHA256: ce395a655ae59331920e334b59322d33996bbd2fe0fdf2028b8e760020e24346
+SHA1: caad4cd9019abb28c56bf6c1431b13e3644ae7da
+MD5sum: e83c2ddf9b0396addc19ef5b81caa7e6
 Description: twin-panel (commander-style) file manager (Qt5)
  Double Commander is a cross platform open source file manager
  with two panels side by side. It is inspired by Total Commander
@@ -108,7 +177,7 @@ Description: twin-panel (commander-style) file manager (Qt5)
  This package contains the Qt5 user interface.
 
 Package: inkscape
-Version: 1.2.1+ds-1
+Version: 1.2.1+ds-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 98774
@@ -118,11 +187,11 @@ Suggests: dia, inkscape-tutorials, libsvg-perl, pstoedit, python3-packaging, pyt
 Homepage: https://inkscape.org
 Priority: optional
 Section: graphics
-Filename: pool/main/i/inkscape/inkscape_1.2.1+ds-1_amd64.deb
-Size: 20657556
-SHA256: 45e770c18c209fcd296ef3135d7e324ef208f9b1c82f464e4cb52dc2525d6f8d
-SHA1: 13615e11d9783dba7f8ac89e2ddd976773e7e8e1
-MD5sum: 4b91d040a49a4b7a4186f2e2f4657c68
+Filename: pool/main/i/inkscape/inkscape_1.2.1+ds-1~bpo11+1_amd64.deb
+Size: 20640176
+SHA256: f539cbd225bc94dd13a9e3e03f0c97235c252ee8d77e244d1d20bfc8dc7ee7ee
+SHA1: 152cda22b5b87e75e31dd1f9782c6278158c346c
+MD5sum: 124b9847099512d3e2fcc4322bf3666c
 Description: vector-based drawing program
  Inkscape is an illustration editor which has everything needed to
  create professional-quality computer art. You can use it to make
@@ -151,7 +220,7 @@ Description: vector-based drawing program
 
 Package: inkscape-tutorials
 Source: inkscape
-Version: 1.2.1+ds-1
+Version: 1.2.1+ds-1~bpo11+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 75795
@@ -162,11 +231,11 @@ Multi-Arch: foreign
 Homepage: https://inkscape.org
 Priority: optional
 Section: graphics
-Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1_all.deb
-Size: 1890592
-SHA256: bef71257cc1ae086275c0cfb469694703c9472212ec95d5a1e3d653b0ca7d6e4
-SHA1: 6bfaef00c4821850afb1355791881b2751a58ae3
-MD5sum: 925547c6bf4ef8e988d9794596b6baac
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1~bpo11+1_all.deb
+Size: 1890620
+SHA256: b4574183f7602a58b5b46dffbd683c2b014032fb0a65db4961f9afe3c811cae7
+SHA1: 5083b50792b112794b20126ff953c39b0fd9c09e
+MD5sum: 1b0bf9e18eb2f31b727020858ccafe1f
 Description: vector-based drawing program - tutorials
  Inkscape is an illustration editor which has everything needed to
  create professional-quality computer art. You can use it to make
@@ -180,20 +249,20 @@ Description: vector-based drawing program - tutorials
 
 Package: lib2geom-dev
 Source: lib2geom
-Version: 1.2-1
+Version: 1.2-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 839
-Depends: lib2geom1.1.0 (= 1.2-1)
+Depends: lib2geom1.1.0 (= 1.2-1~bpo11+1)
 Multi-Arch: same
 Homepage: https://gitlab.com/inkscape/lib2geom
 Priority: optional
 Section: libdevel
-Filename: pool/main/lib2/lib2geom/lib2geom-dev_1.2-1_amd64.deb
-Size: 127672
-SHA256: d2bce4a39bc4273f8a67e57a4c22755489b71737cb8ebe7d0b13bc08b2ef450c
-SHA1: 6daf97fbbd3a904472a6b1d02e76a931364019e0
-MD5sum: 0db6a3a6816204e980d79e87f9e4a1f7
+Filename: pool/main/lib2/lib2geom/lib2geom-dev_1.2-1~bpo11+1_amd64.deb
+Size: 127688
+SHA256: c16e9f06caa7fc79c0f51ceae5cd18f73a2d3e5f54f829707e0d24968773fc73
+SHA1: 25c32252233d8dd830d3670559ca5f783c7baf15
+MD5sum: 8ab6d8fd9ab636901087e80cef930c83
 Description: robust computational geometry framework -- development library
  2Geom is a C++ 2D geometry library geared towards robust processing of
  computational geometry data associated with vector graphics. The primary
@@ -214,7 +283,7 @@ Description: robust computational geometry framework -- development library
 
 Package: lib2geom1.1.0
 Source: lib2geom
-Version: 1.2-1
+Version: 1.2-1~bpo11+1
 Architecture: amd64
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 1128
@@ -223,11 +292,11 @@ Multi-Arch: same
 Homepage: https://gitlab.com/inkscape/lib2geom
 Priority: optional
 Section: libs
-Filename: pool/main/lib2/lib2geom/lib2geom1.1.0_1.2-1_amd64.deb
-Size: 370156
-SHA256: 05bafb3e382a30c171c37a74626c5763ccf909e298da67fb54e677721f0e7889
-SHA1: 2d69e2846d0b411937acaaf1362decf7cca3b7f2
-MD5sum: 2b99c6cfb113159f63d0546f426ed302
+Filename: pool/main/lib2/lib2geom/lib2geom1.1.0_1.2-1~bpo11+1_amd64.deb
+Size: 370184
+SHA256: 112fb89e5c70f5b61ee7886849d8ed08bdb12a0479317675d07b0c370c204a2d
+SHA1: 6cc3ab92f5f9143167e8e5e9b8adbebfe1645f4c
+MD5sum: c468651e53ea5a4e6f058ca8b6ea3dad
 Description: robust computational geometry framework -- shared library
  2Geom is a C++ 2D geometry library geared towards robust processing of
  computational geometry data associated with vector graphics. The primary
