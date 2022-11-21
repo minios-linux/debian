@@ -2,7 +2,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: focal
-Date: Mon, 21 Nov 2022 08:15:55 UTC
+Date: Mon, 21 Nov 2022 10:39:49 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository

@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: focal
-Date: Mon, 21 Nov 2022 08:15:55 UTC
+Date: Mon, 21 Nov 2022 10:39:49 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmN7M7sACgkQ7CDxjGi2
-L2wCawv/RW5tLkpEUBqZI+nsNoQ7f4q9I46g4B5YJ7eD1d6IP1ETQXo3bZoa9HDy
-eo8t4xivKQtnC/sKe74jIPo9qHfOaM/LOHDSL/IcL6IKjPYZl3RV9JiiUA82rgZk
-6NvM7+uHiH7B/pnajHGftUeNxPCqESMA7pqzgVGHfmK+Qb2s4snRP9Gqii+WmrQ7
-q4bAQCQNpAiXUNIGzDP5/HAIV97k931BrsDQbRjxHuPN7hP9Qgn+dzxwWkFXjtzU
-UL00xu4m1JAfTYFhfcmSML5Z6EsR/NgTyufsZUrBKc1xK2LBXaBevmRwkfpxqGLY
-hsPfFn2i3UbwksD9t3hN0uKb8O6whyKQHyToZ6mJiW18yyB30rqk3Zn8Z4yuTU2V
-moehUsunJ0DrBi1WsPB+QmeDaVd6nm4XJxr6wR83B+4g91ulpvFAst8I7rg3oAV8
-tzpAjoAa5f2qrUQ/g0fFNBBEsrqcNTl4/CnDoVnc4hQ8BpkhMQl/onYw/Rg3U9kq
-pQR/Y+7D
-=OHf6
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmN7VXUACgkQ7CDxjGi2
+L2wtuQv/XqGUEXg3NJTSEfhiGFCS94LmFWWH5uaoM9AnOLn1iM932l+GPGPXO60e
+rMK4qKyvuzmDsjWj6fx1sTZWxr1lQhxnIQ6UoBOCzRHR1pLKgrSiD+UteWwwpfGn
+Kvpw0c/cKwjEzG08zCCdYnDSnOccCoStRsZm5KoLZh/Sz1Q/VeD3I1ZwCMu3nz2m
+Kh/zk1zNicvuYflu6kGm7e6EzmEOXy+Ib7ZfErZMKf1wJg+bIWN1mx/zf6vQOKSs
+vBSh7T7i+j1m11KVsx6GmRRnJuX9Iujbi94mNTJ5b9a2mr1df8rdYtavVFMy2x95
+UQ0Azvhbc8T4YP84XZrrP6Rt2u3aEspX/PxAdHz0+sjPlGrwMMZyPSh0zFPsTVzn
+3fs7gXmCfh2imS5NyoxI6/i7B+h5CrUjeJn4LWOcxMvaTBo9Xr9WMCNWtBc2mOri
+6qY1N8jcK+ToC7nvIPCmNsc4ymsIiJl66mog0ikNFcIHG6q6z1ZFe7xiDKm71oo/
+k7Vx68w/
+=UUX5
 -----END PGP SIGNATURE-----
