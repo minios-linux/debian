@@ -19,6 +19,23 @@ Description: default icon theme of GNOME.
  This version is a much strippd down version for antiX Linux.
  No cursers theme included.
 
+Package: adwaita-icon-theme-fake
+Version: 0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
+Size: 756
+SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
+SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
+MD5sum: 383a6a5bd758655cfacd84adb625b325
+Description: Fake package to prevent adwaita-icon-theme from being installed
+
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
 Version: 0.17-2~mos+1
@@ -45,23 +62,6 @@ Description: elementary icon theme modified for Xfce
  exclusively on their desktop environment and thus dropped a lot of icon
  symlinks used by other desktops. elementary-xfce intends to keep these as-is,
  while still pulling in new icons and integrating them occasionally.
-
-Package: fake-adwaita-icon-theme
-Version: 0.1
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Conflicts: adwaita-icon-theme
-Breaks: adwaita-icon-theme
-Replaces: adwaita-icon-theme
-Provides: adwaita-icon-theme
-Priority: optional
-Section: x11
-Filename: pool/main/f/fake-adwaita-icon-theme/fake-adwaita-icon-theme_0.1_all.deb
-Size: 760
-SHA256: 29f6117367e49019d8040b10c410124bb2999e21a3246dc28a70f878ede1f3de
-SHA1: 33dd54e7d8c17d11aab4b83333edcd5f5a399083
-MD5sum: 23b9edf05963766a5060855e95f2a9a1
-Description: Fake package to prevent adwaita-icon-theme from being installed
 
 Package: firmware-linux
 Source: firmware-nonfree
