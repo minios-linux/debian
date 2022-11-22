@@ -1,6 +1,6 @@
 Package: doublecmd-common
 Source: doublecmd
-Version: 1.0.8-1~bpo11+1
+Version: 1.0.8-1~mos~bpo11+1
 Architecture: all
 Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
 Installed-Size: 16583
@@ -11,11 +11,11 @@ Multi-Arch: foreign
 Homepage: https://doublecmd.sourceforge.io
 Priority: optional
 Section: utils
-Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1~bpo11+1_all.deb
-Size: 2626816
-SHA256: 2051238d8b04220d43de1cf7ee1a80bdcce5758c8908e7fc0b164f647802e77e
-SHA1: b46d49162c3b2033a5e37cb6744e7e5810f06226
-MD5sum: 04b359e8572a1b061b4c93204b1c7244
+Filename: pool/main/d/doublecmd/doublecmd-common_1.0.8-1~mos~bpo11+1_all.deb
+Size: 2626852
+SHA256: d9932222b6c89ddc9a806b64f0b859346b37ef8f8894efce2b5ddd0f90a2d1bb
+SHA1: 0e2e7d6d277d116327322d3cd58d2e12a02c2b9d
+MD5sum: c0dfe7555e47dc15bf9e20061318e61c
 Description: twin-panel (commander-style) file manager
  Double Commander is a cross platform open source file manager
  with two panels side by side. It is inspired by Total Commander
@@ -97,7 +97,7 @@ Description: Documentation for Double Commander (Ukrainian)
 
 Package: inkscape-tutorials
 Source: inkscape
-Version: 1.2.1+ds-1~bpo11+1
+Version: 1.2.1+ds-1~mos~bpo11+1
 Architecture: all
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Installed-Size: 75795
@@ -108,11 +108,11 @@ Multi-Arch: foreign
 Homepage: https://inkscape.org
 Priority: optional
 Section: graphics
-Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1~bpo11+1_all.deb
-Size: 1890620
-SHA256: b4574183f7602a58b5b46dffbd683c2b014032fb0a65db4961f9afe3c811cae7
-SHA1: 5083b50792b112794b20126ff953c39b0fd9c09e
-MD5sum: 1b0bf9e18eb2f31b727020858ccafe1f
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1~mos~bpo11+1_all.deb
+Size: 1890648
+SHA256: 1f0fbb37b9f145955cdbc92a753f46d4844a05e075ee8f1406da9ff6c70783b6
+SHA1: c5ffda55b2f0fb3b331f395cfb2c0252f35ff2df
+MD5sum: f9e5f47fd0c2f722a0a7223157637b40
 Description: vector-based drawing program - tutorials
  Inkscape is an illustration editor which has everything needed to
  create professional-quality computer art. You can use it to make

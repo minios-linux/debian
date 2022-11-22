@@ -1,6 +1,6 @@
 Package: remmina-common
 Source: remmina
-Version: 1.4.27+dfsg-2~mos10+1
+Version: 1.4.27+dfsg-2~mos~bpo10+1
 Architecture: all
 Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
 Installed-Size: 3637
@@ -9,11 +9,11 @@ Multi-Arch: foreign
 Homepage: https://www.remmina.org/
 Priority: optional
 Section: x11
-Filename: pool/main/r/remmina/remmina-common_1.4.27+dfsg-2~mos10+1_all.deb
-Size: 640444
-SHA256: e3f0a747526b70aa976874e414c2db29de4bdef63552084a64a8ecc7c53fcff0
-SHA1: 168a8d6cc011ce7c6d16c47074cde60e367c2615
-MD5sum: da8c281c66135096fcce84e7a578abb2
+Filename: pool/main/r/remmina/remmina-common_1.4.27+dfsg-2~mos~bpo10+1_all.deb
+Size: 639508
+SHA256: 40ba5fc0a5dbc71042298e90e7c796ad0229e6d9a9d069d1a3467996b2da8b8a
+SHA1: 6c7291922c625fe92b3655857beb870f13fcd55a
+MD5sum: aa76967585b18ea063749db6909e8d4b
 Description: Common files for Remmina
  Remmina is a remote desktop client written in GTK+, aiming to be
  useful for system administrators and travellers, who need to work
