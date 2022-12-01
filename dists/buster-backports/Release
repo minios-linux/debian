@@ -2,13 +2,13 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: oldstable
 Codename: buster-backports
-Date: Wed, 30 Nov 2022 12:37:43 UTC
+Date: Thu, 01 Dec 2022 18:17:58 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
 MD5Sum:
- 52c0c9b14efedfdcd02c13a2e946bd4e 1012 main/binary-i386/Packages
- e759ef7fea17df3e9aaf20a1e41757b0 657 main/binary-i386/Packages.gz
+ 2f6af213c63bc7c3d05d04f5b278cbd5 16754 main/binary-i386/Packages
+ a266f39ec6c89e495ec3325caac6fdd4 3077 main/binary-i386/Packages.gz
  d5baa7b280cbeed60bb49e6be741bd40 125 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
@@ -47,8 +47,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  33a26405cad32fb78eab4f7b4fec6f08 131 non-free/source/Release
 SHA1:
- 0e71cf2e12b49ce54493aa5305cf37b3f61b913d 1012 main/binary-i386/Packages
- 1f7af9d89410db9320a1d86ed743597a5090a7cf 657 main/binary-i386/Packages.gz
+ 23cd556e695d4382302a7e103757a8b6423d7926 16754 main/binary-i386/Packages
+ 1ab30b388dd68168698b7b9498fc2dffb1807562 3077 main/binary-i386/Packages.gz
  43c3e66bd3e3b30f2b314c8107a389b0147336f3 125 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
@@ -87,8 +87,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  c1b4909f9582cbddaa51a2415a7a27336a91b761 131 non-free/source/Release
 SHA256:
- 108874487653311f04506d15e673aa6fff2eefac9d2e9ae9f3dbf66c2fd7a5f6 1012 main/binary-i386/Packages
- 71e4d5c7e7e939b0cff0f032826bd1ac10e454ad2e66100b88c20032454dec56 657 main/binary-i386/Packages.gz
+ cbe7a3f1100094b3e18e453c44e17cbd1e61eb7cd6b6a41e49749342611acae2 16754 main/binary-i386/Packages
+ 00d662dddf5e1403daa55f8ed551f9c00a52c88f91d4e8f0d25b981b4b4447d5 3077 main/binary-i386/Packages.gz
  5a3ad5eb0d2e4b0985720f4d384f95b407cab769bbaca6d722508c5e55058be8 125 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
