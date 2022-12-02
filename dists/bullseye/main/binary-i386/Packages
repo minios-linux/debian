@@ -63,6 +63,25 @@ Description: elementary icon theme modified for Xfce
  symlinks used by other desktops. elementary-xfce intends to keep these as-is,
  while still pulling in new icons and integrating them occasionally.
 
+Package: fbxkb
+Version: 0.6-3~mos+1
+Architecture: i386
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 175
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3~mos+1_i386.deb
+Size: 93720
+SHA256: b987a07134c8628733320d5c5b64ecf4ff12cc907bc331c510189a2f90681951
+SHA1: 40e6ca963f702627b98e26815efb77d49bf28ba7
+MD5sum: 5e3d48734f20947583308ae6e112dc9c
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
 Package: firmware-linux
 Source: firmware-nonfree
 Version: 20221012-1
