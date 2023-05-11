@@ -1,0 +1,329 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: adwaita-icon-theme-fake
+Version: 0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
+Size: 756
+SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
+SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
+MD5sum: 383a6a5bd758655cfacd84adb625b325
+Description: Fake package to prevent adwaita-icon-theme from being installed
+
+Package: elementary-xfce-minios-icon-theme
+Source: elementary-xfce-minios
+Version: 0.17-2~mos+1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 15506
+Conflicts: elementary-xfce-icon-theme
+Breaks: elementary-xfce-icon-theme
+Replaces: elementary-xfce-icon-theme
+Provides: elementary-xfce-icon-theme
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2~mos+1_all.deb
+Size: 6155196
+SHA256: df29e2f3c8a14345aa1034ecfcf3321d4c99e57dc63cc17d76ad4290a84c0123
+SHA1: 773f212c50bfbb03b91e5a6a2e70184a64b065b4
+MD5sum: 9e6e631132e3417f510e9ded6279447d
+Description: elementary icon theme modified for Xfce
+ elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
+ desktops.
+ .
+ This fork took place because the elementary OS maintainers wanted to focus
+ exclusively on their desktop environment and thus dropped a lot of icon
+ symlinks used by other desktops. elementary-xfce intends to keep these as-is,
+ while still pulling in new icons and integrating them occasionally.
+
+Package: fbxkb
+Version: 0.6-2~mos+1
+Architecture: i386
+Maintainer: Dmitry Borisyuk <q1werty@i.com.ua>
+Installed-Size: 170
+Depends: libc6 (>= 2.7), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-2~mos+1_i386.deb
+Size: 93208
+SHA256: 2b47f265bcd53fc0517ea517b07180caddd586683921cae0752cc576a1ac6faf
+SHA1: d6372ad37ecd608fc4aaaea27d3d0ea3672cf4bd
+MD5sum: 0b68dbcde7462e378d8eb01c92a7141f
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20221012-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 248
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
+Recommends: intel-microcode, amd64-microcode
+Priority: optional
+Section: non-free/metapackages
+Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
+Size: 47416
+SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
+SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
+MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
+
+Package: gtkdialog
+Installed-Size: 363
+Maintainer: sfs
+Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
+Architecture: i386
+Version: 0.8.3-1
+Provides: gtkdialog
+Priority: extra
+Section: system
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.3-1_i386.deb
+Size: 177016
+SHA256: 7ea3453100a213e62774a1b1ebd183335c63226852aa7917d8f6b7eb78cffdd4
+SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
+MD5sum: 79aafe17908409452981f373bf66f8e5
+Description: gtkdialog
+
+Package: mousepad
+Version: 0.4.0-4.minios
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 1328
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libgtksourceview2.0-0 (>= 2.10.0), libpango-1.0-0 (>= 1.14.0), dconf-gsettings-backend | gsettings-backend
+Priority: optional
+Section: xfce
+Filename: pool/main/m/mousepad/mousepad_0.4.0-4.minios_i386.deb
+Size: 307218
+SHA256: dda8edcb453a8828c13f1c38a81ab4e73a04f74e5262bd09ec017dccfe2f6ace
+SHA1: a387b0dae9ffb7dd927b6551d17c1e4bf1ef8c42
+MD5sum: ae12a3dad3ad35912efdef84c16755bb
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: pcmanfm
+Version: 1.2.5-3.minios
+Architecture: i386
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1539
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.2.5-3.minios_i386.deb
+Size: 290348
+SHA256: bfa0a79e7fd956b85052c378c2e8bc36b581a040f6011d9695e72df05e17da6b
+SHA1: b8604c0e3e80b3e4fceb43cf92ccfebd4e259005
+MD5sum: e133e6fc308aeb021d1e4df5e28b367f
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: realtek-rtl8188eus-dkms
+Version: 5.3.9~git20221105.dab6e02-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 11776
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/aircrack-ng/rtl8188eus
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20221105.dab6e02-0kali1_all.deb
+Size: 1492988
+SHA256: bfd16d89b84be8f30b0fac942a93068454012610adcd81f3c3c90f4bd6584be2
+SHA1: 027f5c2e803927c0006a5a80874782b66cd27ebe
+MD5sum: f3a71dd0e7ae3b6a6ea734f104ec9923
+Description: Realtek RTL8188EUS driver in DKMS format
+ This package provides the source code for RTL8188EUS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8723cs-dkms
+Version: 0.0~git20210902.0fb0c24-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 13017
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/Icenowy/rtl8723cs
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_0.0~git20210902.0fb0c24-0kali1_all.deb
+Size: 1445716
+SHA256: 37a705efe017e389c47e51d5e31e2a9966045132f8fd1f33c4ff67fe0015dbe0
+SHA1: 96fafa62075d3610e4632ca298acfa7fd6f3910b
+MD5sum: 3ab4349abbd5d196b9eb4ee67ca4dede
+Description: Realtek RTL8723CS driver in DKMS format
+ This package provides the source code for RTL8723CS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8814au-dkms
+Version: 5.8.5.1~git20220905.3f2f680-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14335
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://github.com/morrownr/8814au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220905.3f2f680-0kali1_all.deb
+Size: 1659176
+SHA256: 915d1ab1683b8af757d3ec37eae52c18c595df2b5e26e1fc2b9a464143ca9034
+SHA1: ad4705ddc67b6c8dcf712c817a629edfc80d5eee
+MD5sum: 0db3e6fb2d41b6ea0a61db6b4e313fb1
+Description: Realtek RTL8814AU driver in DKMS format
+ This package provides the source code for RTL8814AU Linux driver (with monitor
+ mode and frame injection) to be build with dkms. Kernel sources or headers are
+ required to compile this module.
+
+Package: realtek-rtl88xxau-dkms
+Version: 5.6.4.2~git20220827.e7a4a39-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 15001
+Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/main/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220827.e7a4a39-0kali1_all.deb
+Size: 1794412
+SHA256: 991d743ad63268bd1e96cf1488e95b0d06a5f4a2859d02f5ce60b849b56f23c9
+SHA1: 5da3a21dc6d449a5b189e678ee6f4dc7f92d5c51
+MD5sum: 5bbb6f8a8a5fc8f02c744e708f78f8d4
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: thunar
+Version: 1.6.11-1.minios
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 1012
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libexo-1-0 (>= 0.10.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libsm6, libthunarx-2-0 (>= 1.1.0), libxfce4ui-1-0 (>= 4.9.1), libxfce4util7 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), thunar-data (= 1.6.11-1.minios), desktop-file-utils, shared-mime-info, exo-utils
+Recommends: default-dbus-session-bus | dbus-session-bus, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), xfce4-panel (>= 4.11), xfce4-panel (<< 4.13), thunar-volman, tumbler, xdg-user-dirs, gvfs
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar_1.6.11-1.minios_i386.deb
+Size: 307550
+SHA256: a76f7023cdb3d9f5d0d990b58e706d4244c384dbae0c73bed677a8e680170cc7
+SHA1: a4cdb626fd8460d9a0215de8e3ba1cb885afb27a
+MD5sum: 814acf9a01591b95bd0f5a79441067d3
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: thunar-data
+Source: thunar
+Version: 1.6.11-1.minios
+Architecture: all
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 4710
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar-data_1.6.11-1.minios_all.deb
+Size: 981132
+SHA256: d764ad51c5b834f58ff1de7fcbc18b0b8dcfbefb748d2f8cf33a1db3e3ca505f
+SHA1: 2c43cf606f9413ce681047b2d956a2f4aedb31a7
+MD5sum: ee83a3fe3c6d49bd5464f04963ca5670
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+
