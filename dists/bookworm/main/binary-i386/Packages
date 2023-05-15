@@ -191,6 +191,44 @@ Description: Linux kernel headers for 5.10.178-mos-686-pae on i386
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.179-mos-686
+Source: linux-5.10.179-mos-686
+Version: 5.10.179-mos-686-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 48841
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686/linux-headers-5.10.179-mos-686_5.10.179-mos-686-1_i386.deb
+Size: 7872400
+SHA256: 17a2e77170bd91b2ec7ee5feba732831300223e609a6c106f2547ff1b4746059
+SHA1: 0b59719d57654881d65480f572d2ae2f62bfd5df
+MD5sum: f765fd6a007c937c308a945a41216133
+Description: Linux kernel headers for 5.10.179-mos-686 on i386
+ This package provides kernel header files for 5.10.179-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.179-mos-686-pae
+Source: linux-5.10.179-mos-686-pae
+Version: 5.10.179-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 48918
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686-pae/linux-headers-5.10.179-mos-686-pae_5.10.179-mos-686-pae-1_i386.deb
+Size: 7876136
+SHA256: f7d15b9fe7367c484e04c27771c0c8482a24cef529d79bf339d93c040c69c628
+SHA1: ece08b9a8b8eb5639e7966be1bb0e518e8b921c7
+MD5sum: 59974b3f8b6469d970cbb0c851676940
+Description: Linux kernel headers for 5.10.179-mos-686-pae on i386
+ This package provides kernel header files for 5.10.179-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.0-mos-686
 Version: 6.0.12
 Architecture: i386
@@ -470,6 +508,42 @@ MD5sum: f18ae1bf4e9bf1b9b00c4040e1eb9093
 Description: Linux kernel, version 5.10.178-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.178-mos-686-pae.
+
+Package: linux-image-5.10.179-mos-686
+Source: linux-5.10.179-mos-686
+Version: 5.10.179-mos-686-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 170472
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686/linux-image-5.10.179-mos-686_5.10.179-mos-686-1_i386.deb
+Size: 45518040
+SHA256: 055bdbb4f34aba373df5faf7e7bb396943a75f795f3e20e28830be0bb14a451a
+SHA1: b9bbe0b3d9bd064a5c4ddfb9c7e69654a721d5f7
+MD5sum: 27a71fe0a2c315fff51f01c79f0b0ab0
+Description: Linux kernel, version 5.10.179-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.179-mos-686.
+
+Package: linux-image-5.10.179-mos-686-pae
+Source: linux-5.10.179-mos-686-pae
+Version: 5.10.179-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 170998
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686-pae/linux-image-5.10.179-mos-686-pae_5.10.179-mos-686-pae-1_i386.deb
+Size: 45755380
+SHA256: f0c7abf7c268634c1cdf2ba03486994fa04dfbc941ed447736f740d6acea2bad
+SHA1: aa68980596fae0b30b10960e2976164b450de1a9
+MD5sum: 730279748d21bd8085fd19e89f9b6f28
+Description: Linux kernel, version 5.10.179-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.179-mos-686-pae.
 
 Package: linux-image-6.0-mos-686
 Version: 6.0.12

@@ -191,6 +191,25 @@ Description: Linux kernel headers for 5.10.178-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.179-mos-amd64
+Source: linux-5.10.179-mos-amd64
+Version: 5.10.179-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bullseye>
+Installed-Size: 49951
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-amd64/linux-headers-5.10.179-mos-amd64_5.10.179-mos-amd64-1_amd64.deb
+Size: 8129580
+SHA256: 17b54bb9b507c07d241ea17a9d80aa9e8432073c872587e50818139a4c25aab1
+SHA1: b43ab4d69897c1ac802779247114eb01ecbef0b1
+MD5sum: 2dc3db88c353e8451943cf356818c965
+Description: Linux kernel headers for 5.10.179-mos-amd64 on amd64
+ This package provides kernel header files for 5.10.179-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.0-mos-amd64
 Version: 6.0.12
 Architecture: amd64
@@ -416,6 +435,24 @@ MD5sum: 0111fb8d326da8860434cbc777977e90
 Description: Linux kernel, version 5.10.178-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 5.10.178-mos-amd64.
+
+Package: linux-image-5.10.179-mos-amd64
+Source: linux-5.10.179-mos-amd64
+Version: 5.10.179-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bullseye>
+Installed-Size: 318206
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-amd64/linux-image-5.10.179-mos-amd64_5.10.179-mos-amd64-1_amd64.deb
+Size: 55176964
+SHA256: 253e753886e1dab0ee7a873890d2412709ac344b2e2e2c2b7288e078403d8814
+SHA1: 2925fce77b3b9ed2daddfef0fa114f2993fd436f
+MD5sum: c357c33cb50c0dcc3e98a057e4d3540b
+Description: Linux kernel, version 5.10.179-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.179-mos-amd64.
 
 Package: linux-image-6.0-mos-amd64
 Version: 6.0.12
