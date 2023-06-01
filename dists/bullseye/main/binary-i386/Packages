@@ -193,77 +193,77 @@ Description: Linux kernel headers for 5.10.179-mos-686-pae on i386
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.1-mos-686
-Version: 6.1.20
+Version: 6.1.27
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.20-mos-686
+Depends: linux-headers-6.1.27-mos-686
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.20_i386.deb
-Size: 2256
-SHA256: 616631320fd96b5494c273729e16fd98badf3f3ee37bf035041a2a6f7903e725
-SHA1: 2294e49ece50e4e46e1b2fef01db3f0e874f7c30
-MD5sum: 3fa2cd1aeec10905c9dbf1166c4bc33a
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.27_i386.deb
+Size: 2260
+SHA256: 4f71921cb1e9aefc41de70454a2993105b887d1235274e532cb743dd567b2d2b
+SHA1: 8d2ea7691575e3caee0ccb5222304541dc91c8d0
+MD5sum: 48653d04a26f8ef06a813882d9b900a5
 Description: Header files for Linux 686 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686 configuration.
 
 Package: linux-headers-6.1-mos-686-pae
-Version: 6.1.20
+Version: 6.1.27
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.20-mos-686-pae
+Depends: linux-headers-6.1.27-mos-686-pae
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.20_i386.deb
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.27_i386.deb
 Size: 2288
-SHA256: d0784ba4281c53f39460d3485451ad74c29da97b23ae89bd27f6b50a008e3ebf
-SHA1: 2d7a17a86d04f662b1c98b5622ccb6b6b6b375c9
-MD5sum: 03e6418ed207bab461d2ca899537dc86
+SHA256: e53cbbd95c413671e8c092f43c98754143cd211893e7d0a9e3ef04857fe318a8
+SHA1: dafb4874f9ebb1028365b95714a272138a312698
+MD5sum: 330db4715b9e5a9335793f41137b0ba0
 Description: Header files for Linux 686-pae configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686-pae configuration.
 
-Package: linux-headers-6.1.20-mos-686
+Package: linux-headers-6.1.27-mos-686
 Source: linux-upstream
-Version: 6.1.20-mos-686-1
+Version: 6.1.27-mos-686-1
 Architecture: i386
-Maintainer: root <root@debian>
+Maintainer: root <root@bookworm>
 Installed-Size: 51390
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.20-mos-686_6.1.20-mos-686-1_i386.deb
-Size: 8563980
-SHA256: e5d0a15893d78a68225ee257a76d25f424ff39952570b5d913af8b4627faa5d0
-SHA1: 1e4e2b8ae87598c02415cd394841fed8518ea87a
-MD5sum: 0ba37a183c304acc853d008cdbaee1ad
-Description: Linux kernel headers for 6.1.20-mos-686 on i386
- This package provides kernel header files for 6.1.20-mos-686 on i386
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
+Size: 8564876
+SHA256: 0f4bc6c93f1221a4695a9fc5151271c524fa98de5dbd2c07c1850b40de76dd58
+SHA1: 141c2ed219a8a8cb9f1b3dfe810fc2c4d05c56f0
+MD5sum: d73902f5bde7db2e9bb69b6374414975
+Description: Linux kernel headers for 6.1.27-mos-686 on i386
+ This package provides kernel header files for 6.1.27-mos-686 on i386
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.1.20-mos-686-pae
+Package: linux-headers-6.1.27-mos-686-pae
 Source: linux-upstream
-Version: 6.1.20-mos-686-pae-1
+Version: 6.1.27-mos-686-pae-1
 Architecture: i386
-Maintainer: root <root@debian>
+Maintainer: root <root@bookworm>
 Installed-Size: 51441
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.20-mos-686-pae_6.1.20-mos-686-pae-1_i386.deb
-Size: 8564172
-SHA256: 8a4a24d2881c78ed4194ca7d6797b62797115124bf20e441215247458685545c
-SHA1: 6e2e35246f1483dc5be70693046e497d730b9776
-MD5sum: 14b97e0f2d47a5a760351dc4175eb0eb
-Description: Linux kernel headers for 6.1.20-mos-686-pae on i386
- This package provides kernel header files for 6.1.20-mos-686-pae on i386
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
+Size: 8565124
+SHA256: d75823bc15763a9fe21750e05a824c3405b4535fee93c17c2e5933481d6f8df2
+SHA1: ef9d0eb6c1580c752e7692a3176254ea49c9bd96
+MD5sum: 96e58762a72fde1c3f0b0c3643f00a7b
+Description: Linux kernel headers for 6.1.27-mos-686-pae on i386
+ This package provides kernel header files for 6.1.27-mos-686-pae on i386
  .
  This is useful for people who need to build external modules
 
@@ -342,78 +342,78 @@ Description: Linux kernel, version 5.10.179-mos-686-pae
  files, version: 5.10.179-mos-686-pae.
 
 Package: linux-image-6.1-mos-686
-Version: 6.1.20
+Version: 6.1.27
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.20-mos-686
-Provides: linux-latest-modules-6.1.20-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.27-mos-686
+Provides: linux-latest-modules-6.1.27-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.20_i386.deb
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.27_i386.deb
 Size: 2380
-SHA256: a6a7263cbc8f91d0ab62c2c074a460b1799946c8c338714ded218e01c3b4ef21
-SHA1: 50d9e160b22999a4897ca976890793de7abecc07
-MD5sum: ef8410984bd50f5ca478843f1ec06c93
+SHA256: 27796915198f28398f6f03cb99e76fe329f9232284935201dbcd9f3636831b99
+SHA1: 50b589062115fb45e65ab37b71384f7b8c03a889
+MD5sum: cf108a8214778e4bfbedc81428464d6c
 Description: Linux for older PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors not supporting PAE.
 
 Package: linux-image-6.1-mos-686-pae
-Version: 6.1.20
+Version: 6.1.27
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.20-mos-686-pae
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.20-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.27-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.27-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.20_i386.deb
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.27_i386.deb
 Size: 2408
-SHA256: 250256e010b081199613fe5f9e16f8d3378875db9c31b585bc248e0c099158b3
-SHA1: 0d621e3fb8257ec2e74c431ceb849674f4abd482
-MD5sum: 3715593e1950cfcad725263d04383624
+SHA256: a8e01c7839966d6ff8a5cd2a9ab9f4df3035202517b8259fc00b411d79ce3616
+SHA1: b1a12e6615a440fcb0c442a07ffc44ba4aaab652
+MD5sum: e78f60ade8a5486ec26eef84fa340fe9
 Description: Linux for modern PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors supporting PAE.
 
-Package: linux-image-6.1.20-mos-686
+Package: linux-image-6.1.27-mos-686
 Source: linux-upstream
-Version: 6.1.20-mos-686-1
+Version: 6.1.27-mos-686-1
 Architecture: i386
-Maintainer: root <root@debian>
-Installed-Size: 191570
+Maintainer: root <root@bookworm>
+Installed-Size: 191600
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.20-mos-686_6.1.20-mos-686-1_i386.deb
-Size: 51847296
-SHA256: 34dc82272c5cc3a4e861cbd08005b454c8ae944937277dacc5057095dcc36d9e
-SHA1: 739cad259f24b19b0db92c76bf8fd1f4d7b049b0
-MD5sum: 29e972ff1a56211d470a401d9a7578ea
-Description: Linux kernel, version 6.1.20-mos-686
+Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
+Size: 51845852
+SHA256: 4c9081a836db6bec1854a4522ec459c868e8959993ec4558b87095547f8cf87d
+SHA1: b53e187b6e2269633c387340dcf3e6b5cb35574f
+MD5sum: a0f81df21406593728cad74edaa7dc01
+Description: Linux kernel, version 6.1.27-mos-686
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.20-mos-686.
+ files, version: 6.1.27-mos-686.
 
-Package: linux-image-6.1.20-mos-686-pae
+Package: linux-image-6.1.27-mos-686-pae
 Source: linux-upstream
-Version: 6.1.20-mos-686-pae-1
+Version: 6.1.27-mos-686-pae-1
 Architecture: i386
-Maintainer: root <root@debian>
-Installed-Size: 192069
+Maintainer: root <root@bookworm>
+Installed-Size: 192096
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.20-mos-686-pae_6.1.20-mos-686-pae-1_i386.deb
-Size: 52046784
-SHA256: 889379f3bf423096175a3e68ea0d5667683cb33ecc078e72aface953376fa2de
-SHA1: ff980f1b687c3ddfce537572ac97459b8d61b36b
-MD5sum: 2bcb923ad0cb28ce555ceaaef68e3994
-Description: Linux kernel, version 6.1.20-mos-686-pae
+Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
+Size: 52077828
+SHA256: ce07c35d2a5dbbd04c4cf4b95b0c435a1419e39e2ef33a1ebcdcf14ca42a19ae
+SHA1: de128a83d013171d696cd9772e75a6e8ba9ff2d8
+MD5sum: c5a0ee025a84c2983b1d0e9b7ba53d31
+Description: Linux kernel, version 6.1.27-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.20-mos-686-pae.
+ files, version: 6.1.27-mos-686-pae.
 
 Package: mousepad
 Version: 0.5.2-1.minios
