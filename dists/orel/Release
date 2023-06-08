@@ -2,7 +2,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: orel
-Date: Tue, 22 Nov 2022 15:10:54 UTC
+Date: Thu, 08 Jun 2023 11:08:14 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository

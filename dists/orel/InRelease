@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: orel
-Date: Tue, 22 Nov 2022 15:10:54 UTC
+Date: Thu, 08 Jun 2023 11:08:14 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmN85n8ACgkQ7CDxjGi2
-L2x9AAwAkcXTxGJt1oty1BYBu++cQHOFO4oolEraEYLovh+T2pau5ZOxoxlkfIzC
-idzODV6rfmuJUFFIx+Oq+Sjn+h1dkkmiXkvPapmst96JedqZ3yzq/dfyxpQAz2us
-8gzWMdrQ23PedVSWPt8F2l6lTAOcR7RLQvDz2WqGQtfshfT4mtOvwfJsBVVcD8ZN
-T3CPp2pfX57xVN0A4q6srhs+AbGXdg0g8wOhGIY9PPXVqxqe268cKovXkLJBnhto
-sWiZPewaqE7ZN/XTTf2gWeJ+Tq/XmdfCzjiO20B1RM+M7XPnSTyqdSH3BodjFMgw
-b+n+zULGbkVb1clfJbyfirylbqDo85QZZzbEn7g2iRKMmWbr5Dghaod6czc6DSVK
-EuTTcoYy/gGtciLefVpK7Qz3T7OsAzDEx345Isd1/q07o/NMwTv8Tya3MMr3+YQy
-o/9TGD4ruSkL/rYKx98TOwpZPYQx9tuDPNGqeP4YEnxO7BBvb3IBf2bjV0hCFhEm
-nMJb1quT
-=OO9T
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmSBtp8ACgkQ7CDxjGi2
+L2xv/QwAjPgY82exAlF9TNon+WDVBnagJksH39VzRF8L6Pcqip6jqX4px9vgwRKr
+0PEDdU8NisKbpJNtmp2a0+yroe9rpFKbhnEMJLhMWigUKXGwMPDbooATnWC6Cm5H
+Qt0Zh6Wzc5sQX9z5eNdazoiRAXKXIzQHIrCj29EXfWTbc6NuIXOUXKmQfpLw/xXh
+YRibKdcKfEV2CLfhUIj7V6G/PkEGzcFp+pw0U6kV+PAJY4SBMNqqoDJV7jdFrmta
+qEIEoJ1TBNv83eLsRnpNKdDhVezNJvClHLC5JmxNo/ufyuMGqBGKU6JqJx8FcOg7
+UvvFlMTGBasJzD8OJuDOHQwp5kVAhsPLbpRUFru8WmUr6fGCqTxXu2C4fSDW+xQq
+LbZGcwZ455ax1VY3hzpV/69VoLW8Krk8K3jQrm5FkRH6knkvCKuXU1gNu32twTZn
+Lk1CLyDukKIAIiDf4iXx1W2FagsTygzGct7ngdz+5X+24pcoMNu9dET1kRVZkwWW
+7HsVCkhp
+=a55B
 -----END PGP SIGNATURE-----

@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: focal
-Date: Thu, 01 Jun 2023 15:46:07 UTC
+Date: Thu, 08 Jun 2023 11:08:13 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmR4vT8ACgkQ7CDxjGi2
-L2wg1gwAkQwEdIOyfNviAGpAm9r9rRhvonWI6l1QbPaMYkm2KAFoKDXBEGJTqrJ8
-qNM7p4mbTBAeMJHf4NSuI3J7Qk5CevA/wD1i4CwNaki2ZLFiW1W08VQwAvl1QZQE
-K6iNDX780hSUvWj9Mj3qMwIkbAuvwKUPlYgf3pMTyRKN89dxOv6w2ytxWDnEN2yv
-gVsivpZNPp4tvJYc5D0PJ75J+Jyci1KWXqstzzScltOf9fflTd5BUmkacZ5JESzk
-8ig82cR0+QD+h64/K/0+TtbbI858ozzhrUyUjiq22U6IQMtzm+isJlg40j5E01Uc
-6mNZarR9Rhl2FNmAw0Ouba/NPr9RDKAFh4rtmFxZmjWiVIxhoNpJJqGiMYaHcfBq
-xRtn6QgXfEs5ar5Bcro1cpaKRLk8Z+m0cSOZCWd+qFbUXZ8lPtRj9Spt4XCixBIt
-CXStYJ7lKo6VQnhpy97TeA8ge0oK788izwSjYLJDkcZ7S6Q0uC7RakPq4qWyU34z
-QfkVkLji
-=0R3W
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmSBtp0ACgkQ7CDxjGi2
+L2xZEwv+OKxeImZOMV++mBH5wVnR948S42e/EKhDanTIeZ1s9H0+VgTjVIobgCoD
+NTZR+Ecw4dbbZsUyqP9N/ZvSxi6RolC/NQVf/FY2rx9P35gJYrAMEmdnkSz5Z+MZ
+evYE7Xr8XKR7EOmFnqvrYKxYDI1oc81xceBd00KI6GnUYENybfzOGm0CPQjFCSry
+iYSxatL6bRMGPAGNtLTbZoKmIUf9S90JVVkwweU7mKhLDqQLKLGV1ebm/Z1rQeXe
+bxe2enc+Lmao1vkZKXacnOvmrvQJmr1pa4sG3kHmU1ptoNgDpCnOKohHZRPnRk1S
+WX2DIKLp3uiKfIKfIpanXnX4tnDBwDn6HSWUItuQ7TNaF0H+z/21u/Xr6g0rCb6J
+xH4DW/bck8FXMM3nP/0Ykn/tKkB/ice2xm/hrppXvCHob2YlgNmBetugCo2Wd/be
+nBvq+6scbuTa5h4PhKTej/E+zmxVj7ZjyU8eZypNU2/11aXB6rh3533d1Ysy6bQX
+dDwY0rwQ
+=E+dv
 -----END PGP SIGNATURE-----

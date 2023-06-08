@@ -2,7 +2,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: stable
 Codename: bullseye
-Date: Thu, 01 Jun 2023 15:46:05 UTC
+Date: Thu, 08 Jun 2023 11:08:11 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
