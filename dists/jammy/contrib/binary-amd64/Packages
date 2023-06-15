@@ -58,7 +58,7 @@ Description: firmware installer for the b43 driver
   * BCM47xx (detection not reliable, may not support all versions).
 
 Package: realtek-rtl8188eus-dkms
-Version: 5.3.9~git20221105.dab6e02-0kali1
+Version: 5.3.9~git20230101.f8ead57-0kali1
 Architecture: all
 Maintainer: Kali Developers <devel@kali.org>
 Installed-Size: 11776
@@ -66,11 +66,11 @@ Depends: dkms (>= 2.1.0.0)
 Homepage: https://github.com/aircrack-ng/rtl8188eus
 Priority: optional
 Section: contrib/kernel
-Filename: pool/contrib/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20221105.dab6e02-0kali1_all.deb
-Size: 1492988
-SHA256: bfd16d89b84be8f30b0fac942a93068454012610adcd81f3c3c90f4bd6584be2
-SHA1: 027f5c2e803927c0006a5a80874782b66cd27ebe
-MD5sum: f3a71dd0e7ae3b6a6ea734f104ec9923
+Filename: pool/contrib/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20230101.f8ead57-0kali1_all.deb
+Size: 1493328
+SHA256: 235b43f15e29f663ff2251618c59889aeeca59d7ca5acfccef5815298ccc372f
+SHA1: 37a11afc1e51974ca16fdf7d33d4372acd431ed0
+MD5sum: 48beb4510c29c6e7c73d85a943566f52
 Description: Realtek RTL8188EUS driver in DKMS format
  This package provides the source code for RTL8188EUS Linux driver (with
  monitor mode and frame injection) to be build with dkms. Kernel sources or
@@ -96,40 +96,144 @@ Description: Realtek RTL8723CS driver in DKMS format
  headers are required to compile this module.
 
 Package: realtek-rtl8814au-dkms
-Version: 5.8.5.1~git20220905.3f2f680-0kali1
+Version: 5.8.5.1~git20221110.932df6f-0kali1
 Architecture: all
 Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 14335
+Installed-Size: 14336
 Depends: dkms (>= 2.1.0.0), bc
 Homepage: https://github.com/morrownr/8814au
 Priority: optional
 Section: contrib/kernel
-Filename: pool/contrib/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220905.3f2f680-0kali1_all.deb
-Size: 1659176
-SHA256: 915d1ab1683b8af757d3ec37eae52c18c595df2b5e26e1fc2b9a464143ca9034
-SHA1: ad4705ddc67b6c8dcf712c817a629edfc80d5eee
-MD5sum: 0db3e6fb2d41b6ea0a61db6b4e313fb1
+Filename: pool/contrib/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20221110.932df6f-0kali1_all.deb
+Size: 1660200
+SHA256: 6eaa8377b5a249edd43184bba8ff2aca36314ad1b1d81b98f45ba801d612ebbb
+SHA1: e447f80e370d04cb6b9e65b9412b9cd60106d0ad
+MD5sum: 51ddb24195f459616b5194ab0af4eaff
 Description: Realtek RTL8814AU driver in DKMS format
  This package provides the source code for RTL8814AU Linux driver (with monitor
  mode and frame injection) to be build with dkms. Kernel sources or headers are
  required to compile this module.
 
 Package: realtek-rtl88xxau-dkms
-Version: 5.6.4.2~git20220827.e7a4a39-0kali1
+Version: 5.6.4.2~git20230203.d98018d-0kali1
 Architecture: all
 Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 15001
+Installed-Size: 14989
 Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
 Homepage: https://github.com/aircrack-ng/rtl8812au
 Priority: optional
 Section: contrib/kernel
-Filename: pool/contrib/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220827.e7a4a39-0kali1_all.deb
-Size: 1794412
-SHA256: 991d743ad63268bd1e96cf1488e95b0d06a5f4a2859d02f5ce60b849b56f23c9
-SHA1: 5da3a21dc6d449a5b189e678ee6f4dc7f92d5c51
-MD5sum: 5bbb6f8a8a5fc8f02c744e708f78f8d4
+Filename: pool/contrib/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20230203.d98018d-0kali1_all.deb
+Size: 1793316
+SHA256: 923e115b773b3d7dbd7ded68da158b0400294fcec3aec58abf6638f617a0ee13
+SHA1: ca657ba32d216d25d4c2b50d05b8c48d3b9e41de
+MD5sum: 86259dcbfd18e71e54b78a10665fe11c
 Description: Realtek RTL88xxAU driver in DKMS format
  This package provides the source code for RTL8812AU/21AU Linux
  driver (with monitor mode and frame injection) to be build with dkms. Kernel
  sources or headers are required to compile this module.
+
+Package: rtl8812au-dkms
+Source: rtl8812au
+Version: 5.13.6+git20221020-1~mx21
+Architecture: all
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 15128
+Depends: dkms
+Homepage: https://github.com/morrownr/8812au-20210629
+Priority: optional
+Section: misc
+Filename: pool/contrib/r/rtl8812au/rtl8812au-dkms_5.13.6+git20221020-1~mx21_all.deb
+Size: 1867436
+SHA256: 75d5f789fb7bef074df035e9c8a4d844788399a0cab87404a47db0e71132f92a
+SHA1: 32ec2d079e7a56d3b4a8216d07c6a34768b3d432
+MD5sum: 4ee2b2c93e002f076e4ef32f1f67835a
+Description: rtl8812au driver in DKMS format.
+ The rtl8812au driver provides the driver for Realtek 802.11ac (rtl8812au).
+ This package contains the DKMS files to build and install rtl8812au.
+
+Package: rtl8814au-dkms
+Source: rtl8814au
+Version: 5.8.5.1+git20221029-1~mx21
+Architecture: all
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 14331
+Depends: debconf (>= 0.5) | debconf-2.0, dkms (>= 2.1.0.0), linux-libc-dev, libc6-dev
+Homepage: http://www.realtek.com.tw/
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8814au/rtl8814au-dkms_5.8.5.1+git20221029-1~mx21_all.deb
+Size: 1652900
+SHA256: 0185bdee143431e7ff2ea7290576a8f96638db434f6d267a214081524cccc28a
+SHA1: b9d8261244a03f6738323769f3b937525026c0bd
+MD5sum: bf44d9533439f79db72092c225da331b
+Description: dkms source for the rtl8814au network driver
+ rtl8814au is the Linux device driver released for the RealTek RTL8814AU WiFi
+ controllers with USB interface.
+ .
+ This package provides the dkms source code for the rtl8814au kernel module.
+ Kernel source or headers are required to compile these modules.
+Original-Maintainer: jimmy <jimmy@jimmy-alpha>
+
+Package: rtl8821au-dkms
+Source: rtl8821au
+Version: 5.12.5.2+git20221018-1~mx21
+Architecture: all
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 15691
+Depends: dkms
+Homepage: https://github.com/morrownr/8821au-20210708
+Priority: optional
+Section: misc
+Filename: pool/contrib/r/rtl8821au/rtl8821au-dkms_5.12.5.2+git20221018-1~mx21_all.deb
+Size: 1890232
+SHA256: 55f201f5f1713eb312d98aa604309f51a1a6b97edb4a347d52fcb14968f653f8
+SHA1: f0350c8d5bb87b8e187c64433b674bd3de15327d
+MD5sum: b899faa56f28a1f9567c9124a580aadc
+Description: rtl8821au/rtl8811au driver in DKMS format.
+ Driver for Realtek rtl8811au & rtl8821au wifi chipsets.
+ This package contains the DKMS files to build and install rtl8821au.
+
+Package: rtl8821ce-dkms
+Source: rtl8821ce
+Version: 5.5.2.1-7~mx21+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 24644
+Depends: bc, dkms (>= 2.1.0.0)
+Homepage: https://launchpad.net/ubuntu/+source/rtl8821ce
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8821ce/rtl8821ce-dkms_5.5.2.1-7~mx21+1_all.deb
+Size: 2197332
+SHA256: 65f5c19a0e91f8ea450ba81108c926f4f9cc0bf02ae738c0f43ffffabba821cc
+SHA1: 3c71f98a130005ac6d9cbdf0d1a80ca8cc81b9b4
+MD5sum: ba9be75e3768d40fbd712b9c3a8c58d3
+Description: DKMS source for the Realtek 8821C PCIe Wi-Fi driver
+ Realtek provides the solution for WLAN in hardware and software. The software
+ package could be adopted for Realtek RTL8821CE WLAN series hardware on Linux
+ based platforms.
+ .
+ This package provides the DKMS source code for the rtl8821ce kernel module.
+ Kernel source or headers are required to compile these modules.
+Modaliases: rtl8821ce(pci:v000010ECd0000C821sv*sd*bc*sc*i*, pci:v000010ECd0000C82Asv*sd*bc*sc*i*, pci:v000010ECd0000C82Bsv*sd*bc*sc*i*)
+Original-Maintainer: Canonical HWE Team <canonical-hwe@lists.canonical.com>
+
+Package: rtl8821cu-dkms
+Version: 5.12.0+git20230215-1~mx21+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 38300
+Depends: bc, dkms (>= 2.1.0.0)
+Homepage: https://github.com/morrownr/8821cu
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8821cu-dkms/rtl8821cu-dkms_5.12.0+git20230215-1~mx21+1_all.deb
+Size: 12009880
+SHA256: ed854aaf1d1eb8958e818665c221929480584682995065df73cb5f71d0cd7c66
+SHA1: d528eca8a99774f3e5fdf2aef820107c41074bbc
+MD5sum: c1219ffbf5456347a2d197fba8fc19f6
+Description: rtl8821cu driver in DKMS format, builds up to 5.17 kernels.
+Modaliases: 8821cu(usb:v2001p331Dd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC80Cd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp8731d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp2006d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp8811d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC811d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Cd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Bd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Ad*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC820d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC821d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApB820d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApB82Bd*dc*dsc*dp*icFFiscFFipFFin*)
+Original-Maintainer: Gökhan Gökkaya <wirelessanten@gmail.com>
 
