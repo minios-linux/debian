@@ -1,21 +1,21 @@
 Package: firmware-amd-graphics
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 71437
+Installed-Size: 80647
 Suggests: initramfs-tools
 Breaks: firmware-linux-nonfree (<< 20151018-1~)
 Replaces: firmware-linux-nonfree (<< 20151018-1~)
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-amd-graphics_20221012-1_all.deb
-Size: 10823960
-SHA256: cc7b38880ea723c0b98b2720049d32787cabcb1a6d9548311c5229738e0cf847
-SHA1: 567a3b7afa41a1f5f1f55fa8f26a8931342bdfc8
-MD5sum: ad9368c2caa72029cf4f77f8807345d7
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-amd-graphics_20230210-5_all.deb
+Size: 11866996
+SHA256: 02ad4ee1facea4eef0902880783a6922a1fb790385d2bf67987623f7f2ae5a16
+SHA1: 7729c6797c248b3cf0ff4552ecc479666c3aad30
+MD5sum: ee5aea8019864c4c62cc885c97c8fd53
 Description: Binary firmware for AMD/ATI graphics chips
  This package contains the binary firmware for AMD/ATI graphics chips
  supported by the radeon, amdgpu and r128 drivers.
@@ -24,6 +24,8 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Aldebaran" MEC firmware (amdgpu/aldebaran_mec.bin)
   * "Aldebaran" MEC2 firmware (amdgpu/aldebaran_mec2.bin)
   * "Aldebaran" RLC firmware (amdgpu/aldebaran_rlc.bin)
+  * "Aldebaran" SJT MEC firmware (amdgpu/aldebaran_sjt_mec.bin)
+  * "Aldebaran" SJT MEC2 firmware (amdgpu/aldebaran_sjt_mec2.bin)
   * "Aldebaran" SDMA firmware (amdgpu/aldebaran_sdma.bin)
   * "Aldebaran" SMC firmware (amdgpu/aldebaran_smc.bin)
   * "Aldebaran" SOS firmware (amdgpu/aldebaran_sos.bin)
@@ -83,8 +85,11 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Cyan Skillfish2" RLC firmware (amdgpu/cyan_skillfish2_rlc.bin)
   * "Cyan Skillfish2" SDMA firmware (amdgpu/cyan_skillfish2_sdma.bin)
   * "Cyan Skillfish2" SDMA1 firmware (amdgpu/cyan_skillfish2_sdma1.bin)
+  * DCN 3.1.4 DMCUB firmware (amdgpu/dcn_3_1_4_dmcub.bin)
   * DCN 3.1.5 DMCUB firmware (amdgpu/dcn_3_1_5_dmcub.bin)
   * DCN 3.1.6 DMCUB firmware (amdgpu/dcn_3_1_6_dmcub.bin)
+  * DCN 3.2.0 DMCUB firmware (amdgpu/dcn_3_2_0_dmcub.bin)
+  * DCN 3.2.1 DMCUB firmware (amdgpu/dcn_3_2_1_dmcub.bin)
   * "Dimgrey Cavefish" CE firmware (amdgpu/dimgrey_cavefish_ce.bin)
   * "Dimgrey Cavefish" DMCUB firmware
     (amdgpu/dimgrey_cavefish_dmcub.bin)
@@ -122,6 +127,27 @@ Description: Binary firmware for AMD/ATI graphics chips
   * GC 10.3.7 MEC2 firmware (amdgpu/gc_10_3_7_mec2.bin)
   * GC 10.3.7 PFP firmware (amdgpu/gc_10_3_7_pfp.bin)
   * GC 10.3.7 RLC firmware (amdgpu/gc_10_3_7_rlc.bin)
+  * GC 11.0.0 IMU firmware (amdgpu/gc_11_0_0_imu.bin)
+  * GC 11.0.0 ME firmware (amdgpu/gc_11_0_0_me.bin)
+  * GC 11.0.0 MEC firmware (amdgpu/gc_11_0_0_mec.bin)
+  * GC 11.0.0 MES1 firmware (amdgpu/gc_11_0_0_mes1.bin)
+  * GC 11.0.0 MES firmware (amdgpu/gc_11_0_0_mes.bin)
+  * GC 11.0.0 PFP firmware (amdgpu/gc_11_0_0_pfp.bin)
+  * GC 11.0.0 RLC firmware (amdgpu/gc_11_0_0_rlc.bin)
+  * GC 11.0.1 IMU firmware (amdgpu/gc_11_0_1_imu.bin)
+  * GC 11.0.1 ME firmware (amdgpu/gc_11_0_1_me.bin)
+  * GC 11.0.1 MEC firmware (amdgpu/gc_11_0_1_mec.bin)
+  * GC 11.0.1 MES firmware (amdgpu/gc_11_0_1_mes.bin)
+  * GC 11.0.1 MES1 firmware (amdgpu/gc_11_0_1_mes1.bin)
+  * GC 11.0. PFP firmware (amdgpu/gc_11_0_1_pfp.bin)
+  * GC 11.0.1 RLC firmware (amdgpu/gc_11_0_1_rlc.bin)
+  * GC 11.0.2 IMU firmware (amdgpu/gc_11_0_2_imu.bin)
+  * GC 11.0.2 ME firmware (amdgpu/gc_11_0_2_me.bin)
+  * GC 11.0.2 MEC firmware (amdgpu/gc_11_0_2_mec.bin)
+  * GC 11.0.2 MES1 firmware (amdgpu/gc_11_0_2_mes1.bin)
+  * GC 11.0.2 MES firmware (amdgpu/gc_11_0_2_mes.bin)
+  * GC 11.0.2 PFP firmware (amdgpu/gc_11_0_2_pfp.bin)
+  * GC 11.0.2 RLC firmware (amdgpu/gc_11_0_2_rlc.bin)
   * Ryzen 5000 ASD firmware (amdgpu/green_sardine_asd.bin)
   * Ryzen 5000 CE firmware (amdgpu/green_sardine_ce.bin)
   * Ryzen 5000 DMCUB firmware (amdgpu/green_sardine_dmcub.bin)
@@ -350,9 +376,15 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Polaris 12" SMC firmware (amdgpu/polaris12_smc.bin)
   * "Polaris 12" UVD firmware, version 1.130 (amdgpu/polaris12_uvd.bin)
   * "Polaris 12" VCE firmware, version 53.26 (amdgpu/polaris12_vce.bin)
+  * PSP 13.0.0 SOS firmware (amdgpu/psp_13_0_0_sos.bin)
+  * PSP 13.0.0 TA firmware (amdgpu/psp_13_0_0_ta.bin)
+  * PSP 13.0.4 TA firmware (amdgpu/psp_13_0_4_ta.bin)
+  * PSP 13.0.4 TOC firmware (amdgpu/psp_13_0_4_toc.bin)
   * PSP 13.0.5 ASD firmware (amdgpu/psp_13_0_5_asd.bin)
   * PSP 13.0.5 TA firmware (amdgpu/psp_13_0_5_ta.bin)
   * PSP 13.0.5 TOC firmware (amdgpu/psp_13_0_5_toc.bin)
+  * PSP 13.0.7 SOS firmware (amdgpu/psp_13_0_7_sos.bin)
+  * PSP 13.0.7 TA firmware (amdgpu/psp_13_0_7_ta.bin)
   * PSP 13.0.8 ASD firmware (amdgpu/psp_13_0_8_asd.bin)
   * PSP 13.0.8 TA firmware (amdgpu/psp_13_0_8_ta.bin)
   * PSP 13.0.8 TOC firmware (amdgpu/psp_13_0_8_toc.bin)
@@ -394,6 +426,11 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Renoir" VCN firmware (amdgpu/renoir_vcn.bin)
   * SDMA 5.2.6 firmware (amdgpu/sdma_5_2_6.bin)
   * SDMA 5.2.7 firmware (amdgpu/sdma_5_2_7.bin)
+  * SDMA 6.0.0 firmware (amdgpu/sdma_6_0_0.bin)
+  * SDMA 6.0.1 firmware (amdgpu/sdma_6_0_1.bin)
+  * SDMA 6.0.2 firmware (amdgpu/sdma_6_0_2.bin)
+  * SMU 13.0.0 firmware (amdgpu/smu_13_0_0.bin)
+  * SMU 13.0.7 firmware (amdgpu/smu_13_0_7.bin)
   * Radeon "SI58" MC microcode (amdgpu/si58_mc.bin)
   * amdgpu/sienna_cichlid_ce.bin
   * amdgpu/sienna_cichlid_dmcub.bin
@@ -459,6 +496,9 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Van Gogh" TOC firmware (amdgpu/vangogh_toc.bin)
   * "Van Gogh" VNC firmware (amdgpu/vangogh_vcn.bin)
   * VCN 3.1.2 firmware (amdgpu/vcn_3_1_2.bin)
+  * VCN 4.0.0 firmware (amdgpu/vcn_4_0_0.bin)
+  * VCN 4.0.2 firmware (amdgpu/vcn_4_0_2.bin)
+  * VCN 4.0.4 firmware (amdgpu/vcn_4_0_4.bin)
   * "Vega 10" ACG-SMC firmware (amdgpu/vega10_acg_smc.bin)
   * "Vega 10" ASD firmware (amdgpu/vega10_asd.bin)
   * "Vega 10" CE firmware (amdgpu/vega10_ce.bin)
@@ -836,24 +876,24 @@ Description: Binary firmware for AMD/ATI graphics chips
 
 Package: firmware-atheros
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 60901
+Installed-Size: 60998
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-atheros_20221012-1_all.deb
-Size: 16708716
-SHA256: 62d8c1b1e404ebf128817a765fb657a69766d45cd7f3bd93be12f6f79dca6015
-SHA1: e044674c78f6e34d6b83dc8acfb41c1d5208b1f2
-MD5sum: 8e5525c4b884a53e70be2e00a56bd63e
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-atheros_20230210-5_all.deb
+Size: 16827872
+SHA256: 37b948b5b54dd399ef969ea3b23fc4ee129d83c81391d06acbc754f5e85fae83
+SHA1: d6e9357af2170d7ba851e04dbdd57f8057f3411c
+MD5sum: 69e4b39d326d7c5aef62a30d1733cc0a
 Description: Binary firmware for Qualcomm Atheros wireless cards
  This package contains the binary firmware for USB wireless network and
  Bluetooth cards supported by the ar5523, ath3k, ath6kl_sdio, ath6kl_usb,
- ath9k_htc, ath10k, or wilc6210 drivers.
+ ath10k, or wilc6210 drivers.
  .
  Contents:
   * Atheros AR3012 rev 01020001 patch (ar3k/AthrBT_0x01020001.dfu)
@@ -1123,8 +1163,6 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
   * ath6k/AR6004/hw1.2/fw-2.bin
   * ath6k/AR6004/hw1.3/bdata.bin
   * ath6k/AR6004/hw1.3/fw-3.bin
-  * Atheros AR7010 firmware, version 1.4.0 (ath9k_htc/htc_7010-1.4.0.fw)
-  * Atheros AR9271 firmware, version 1.4.0 (ath9k_htc/htc_9271-1.4.0.fw)
   * Atheros AR7010 firmware, version 1.3.1 (htc_7010.fw)
   * Atheros AR9271 firmware, version 1.3.1 (htc_9271.fw)
   * Qualcomm WCN3990 Bluetooth firmware (qca/crbtfw21.tlv)
@@ -1185,6 +1223,8 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     (qca/nvm_usb_00130201_gf_010b.bin)
   * Qualcomm Atheros WCN685x gf 0303 NVM BT firmware
     (qca/nvm_usb_00130201_gf_0303.bin)
+  * Qualcomm Atheros WCN785x NVM Bluetooth firmware
+    (qca/nvm_usb_00190200.bin)
   * Qualcomm Atheros QCA61x4 version 3.0 UART BT rampatch
     (qca/rampatch_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT rampatch
@@ -1203,26 +1243,28 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     (qca/rampatch_usb_00130200.bin)
   * Qualcomm Atheros WCN685x RAM BT firmware
     (qca/rampatch_usb_00130201.bin)
+  * Qualcomm Atheros WCN785x RAM Bluetooth firmware
+    (qca/rampatch_usb_00190200.bin)
   * Qualcomm Atheros Wil62x0 default board parameters, version 5.2.0.18
     (wil6210.brd)
   * Qualcomm Atheros Wil62x0 firmware, version 5.2.0.18 (wil6210.fw)
 
 Package: firmware-bnx2
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 467
+Installed-Size: 470
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2_20221012-1_all.deb
-Size: 130736
-SHA256: 087f308d49d4b5fd048663c03d4e6ecb6959290d533ef32513d5f8374e4adc1f
-SHA1: af7c9e84e74a04affceacc64e427edf5360ccd9f
-MD5sum: 00920e9ea9f0854be734c3039e62d8c8
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-bnx2_20230210-5_all.deb
+Size: 133120
+SHA256: 36e3cc703c59130207cf288d8dbf20c765c8956df6a74c7865c706aa61e694ae
+SHA1: 28ae37c403c45c603142d2657734aacd05184bac
+MD5sum: 036dc65dbd3b083492e18e5f03b6a5dc
 Description: Binary firmware for Broadcom NetXtremeII
  This package contains the binary firmware for Broadcom NetXtremeII network
  adapters supported by the bnx2 driver.
@@ -1240,20 +1282,20 @@ Description: Binary firmware for Broadcom NetXtremeII
 
 Package: firmware-brcm80211
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 18084
+Installed-Size: 18104
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-brcm80211_20221012-1_all.deb
-Size: 5351556
-SHA256: fa683afbeacd50fc872cf4421c42c9a0f877160721a06b542c932c02dd2d5203
-SHA1: 780684e96ca8f1c4cf8b3ac0baadda0353c41ce1
-MD5sum: 3671012f3368ac20fb383e0d46d35b7a
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-brcm80211_20230210-5_all.deb
+Size: 5355748
+SHA256: 602b8c2dd176edbb187fe8d0d2ad8fadbfb7885e5fc3425b579c2d36ec72aa19
+SHA1: c62d4428ad4c87bc6158f5a038a74e16e5d8a85c
+MD5sum: 0c0b0a6a0b5ebc398881758bf975d2e6
 Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
  This package contains the binary firmware for wireless network cards
  supported by the brcmsmac or brcmfmac driver.
@@ -1289,11 +1331,11 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM43430a Chuwi Hi8 (CWI509) tablet NVRAM
     (brcm/brcmfmac43430a0-sdio.ilife-S806.txt)
   * Broadcom BCM43430 rev 0 firmware (brcm/brcmfmac43430a0-sdio.bin)
-  * brcm/brcmfmac43430-sdio.AP6212.txt,
+  * BCM43430 NRVAM AP6212 config (brcm/brcmfmac43430-sdio.AP6212.txt,
     brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt,
     brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt,
     brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt,
-    brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt)
   * Broadcom BCM43430 Chuwi Vi8 Plus tablet NVRAM
     (brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt)
   * Broadcom BCM43430 Murata 1DX NVRAM
@@ -1301,6 +1343,11 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * BCM43430 NVRAM for the Raspberry Pi 3 B
     (brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt,
     brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt)
+  * BCM43455 NVRAM for AzureWave AW-CM256SM
+    (brcm/brcmfmac43455-sdio.AW-CM256SM.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt,
+    brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt,
+    brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt)
   * BCM43455 NVRAM for the Raspberry Pi 3 B+
     (brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt,
     brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt)
@@ -1311,6 +1358,11 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
   * Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
     (brcm/brcmfmac4356-pcie.gpd-win-pocket.txt)
+  * Broadcom AP6356S WiFi module NVRAM
+    (brcm/brcmfmac4356-sdio.AP6356S.txt,
+    brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt,
+    brcm/brcmfmac4356-sdio.khadas,vim2.txt,
+    brcm/brcmfmac4356-sdio.vamrs,rock960.txt)
   * Broadcom BCM4358 firmware (brcm/brcmfmac4358-pcie.bin)
   * Broadcom BCM43602 AP-mode firmware (brcm/brcmfmac43602-pcie.ap.bin)
   * Broadcom BCM43602 firmware (brcm/brcmfmac43602-pcie.bin)
@@ -1369,20 +1421,20 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
 
 Package: firmware-cavium
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 5220
+Installed-Size: 5223
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-cavium_20221012-1_all.deb
-Size: 677932
-SHA256: 9269612b77224a25a05e4209fbd9c5b3aa4a1931a5f489c97c3af922947dd97a
-SHA1: 9b97f721cc6e566dd96365bebe23454a7a9fdddd
-MD5sum: eb51f5f66a14b7010bb4133e2faac88f
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-cavium_20230210-5_all.deb
+Size: 680568
+SHA256: 95fed31bc232d8926247fbe1d189e4db0e94bbfe5a02109c87b9d9383b350aa9
+SHA1: 476937b227822924e05af43675a955bd979ee5f3
+MD5sum: 0110553b110df72fbcfe94e74d0fc242
 Description: Binary firmware for Cavium Ethernet adapters
  This package contains the binary firmware for Cavium crypto and Ethernet
  adapters supported by the nitrox and liquidio drivers.
@@ -1403,22 +1455,22 @@ Description: Binary firmware for Cavium Ethernet adapters
 
 Package: firmware-ipw2x00
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 1413
+Installed-Size: 1416
 Pre-Depends: debconf | debconf-2.0
 Depends: debconf (>= 0.5) | debconf-2.0
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: http://ipw2100.sourceforge.net/firmware.php, http://ipw2200.sourceforge.net/firmware.php
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-ipw2x00_20221012-1_all.deb
-Size: 277180
-SHA256: cac1645db94e827978446c1c93b2211360a2977a523d2d9d74f3760991cd4bdc
-SHA1: 078b84f09e3dec79fa3cb3d22dcf728448f5eb9a
-MD5sum: 528d73227508d587c7420f1a98046fac
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-ipw2x00_20230210-5_all.deb
+Size: 279760
+SHA256: e0e208dedda09dce9b2229f97764a731ff6cfc6dfb16885d23f0ba6cfdc0eb64
+SHA1: eaed070317c7239eb0eccda6e93f477b24e3a189
+MD5sum: 44176dd791e3e359d8b738b4548a26e8
 Description: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
  This package contains the binary firmware for Intel Pro Wireless 2100,
  2200 and 2915 cards supported by the ipw2100 and ipw2200 drivers.
@@ -1443,20 +1495,20 @@ Description: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
 
 Package: firmware-iwlwifi
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 140726
+Installed-Size: 82286
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20221012-1_all.deb
-Size: 18630724
-SHA256: d15dc62d187bcd393828f0239c08c03be6b15f49ca5ddc36dc23a7c00f8db41f
-SHA1: 600b2886d602293443632ab55cbc428c937732f1
-MD5sum: 6ffa6eec3a127f544d1beffbcbeaac8d
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20230210-5_all.deb
+Size: 9336376
+SHA256: 673743831cadfa3e7cf2598e87cbd2113dfdd65d65779d056c0e81c7a372ffd0
+SHA1: 53e1c02946aabd856ac6b23b25e5f8ca84835b96
+MD5sum: a4879ab997af980aa0dd8b0d51dcde2e
 Description: Binary firmware for Intel Wireless cards
  This package contains the binary firmware for Intel Wireless cards
  supported by the iwl3945, iwl4965, and iwlwifi drivers.
@@ -1477,7 +1529,7 @@ Description: Binary firmware for Intel Wireless cards
   * Intel Wireless 9460/9650 (var 16 rev 1) Bluetooth configuration,
     version 20.60.0.2 (intel/ibt-17-16-1.ddc)
   * Intel Wireless 9460/9650 (var 16 rev 1) Bluetooth firmware, version
-    21.30.0.4 (intel/ibt-17-16-1.sfi)
+    22.200.0.2 (intel/ibt-17-16-1.sfi)
   * Intel Wireless 9160/9260 (var 0 rev 1) Bluetooth configuration,
     version 20.10 (intel/ibt-18-0-1.ddc)
   * Intel Wireless 9160/9260 (var 0 rev 1) Bluetooth firmware, version
@@ -1485,59 +1537,73 @@ Description: Binary firmware for Intel Wireless cards
   * Intel Wireless 9160/9260 (var 16 rev 1) Bluetooth configuration,
     version 20.60.0.2 (intel/ibt-18-16-1.ddc)
   * Intel Wireless 9160/9260 (var 16 rev 1) Bluetooth firmware, version
-    21.30.0.4 (intel/ibt-18-16-1.sfi)
+    22.200.0.2 (intel/ibt-18-16-1.sfi)
   * Intel Bluetooth AX201 (var 0 rev 0) configuration, version 21.20.0.4
     (intel/ibt-19-0-0.ddc)
-  * Intel Bluetooth AX201 (var 0 rev 0) firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 (var 0 rev 0) firmware, version 22.200.0.2
     (intel/ibt-19-0-0.sfi)
-  * Intel Bluetooth AX201 (var 0 rev 1) configuration, version 21.20.0.4
-    (intel/ibt-19-0-1.ddc)
-  * Intel Bluetooth AX201 (var 0 rev 1) firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 (var 0 rev 1) configuration, version
+    22.200.0.2 (intel/ibt-19-0-1.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 1) firmware, version 22.180.0.2
     (intel/ibt-19-0-1.sfi)
   * Intel Bluetooth AX201 (var 0 rev 4) configuration, version 21.20.0.4
     (intel/ibt-19-0-4.ddc)
-  * Intel Bluetooth AX201 (var 0 rev 4) firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 (var 0 rev 4) firmware, version 22.200.0.2
     (intel/ibt-19-0-4.sfi)
   * Intel Bluetooth AX201 (var 16 rev 4) configuration, version
     21.20.0.4 (intel/ibt-19-16-4.ddc)
-  * Intel Bluetooth AX201 (var 16 rev 4) firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 (var 16 rev 4) firmware, version 22.200.0.2
     (intel/ibt-19-16-4.sfi)
   * Intel Bluetooth AX201 firmware, version 21.110.0.3
     (intel/ibt-19-240-1.ddc)
-  * Intel Bluetooth AX201 firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 firmware, version 22.200.0.2
     (intel/ibt-19-240-1.sfi)
   * Intel Bluetooth AX201 firmware, version 21.90.0.3
     (intel/ibt-19-240-4.ddc)
-  * Intel Bluetooth AX201 firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 firmware, version 22.200.0.2
     (intel/ibt-19-240-4.sfi)
   * Intel Bluetooth AX201 (var 32 rev 0) configuration
     (intel/ibt-19-32-0.ddc)
-  * Intel Bluetooth AX201 (var 32 rev 0) firmware
+  * Intel Bluetooth AX201 (var 32 rev 0) firmware, version 22.200.0.2
     (intel/ibt-19-32-0.sfi)
   * Intel Bluetooth AX201 (var 32 rev 1) configuration, version
     21.20.0.4 (intel/ibt-19-32-1.ddc)
-  * Intel Bluetooth AX201 (var 32 rev 1) firmware, version 22.60.0.3
+  * Intel Bluetooth AX201 (var 32 rev 1) firmware, version 22.200.0.2
     (intel/ibt-19-32-1.sfi)
   * Intel Bluetooth AX201 (var 32 rev 4) configuration, version
     21.90.0.3 (intel/ibt-19-32-4.ddc)
-  * Intel Bluetooth AX201 (var 32 rev 4) firmware, version 21.90.0.3
+  * Intel Bluetooth AX201 (var 32 rev 4) firmware, version 22.200.0.2
     (intel/ibt-19-32-4.sfi)
   * Intel Wireless 22161 (var 0 rev 3) Bluetooth configuration, version
-    21.0.0.4 (intel/ibt-20-0-3.ddc)
+    22.200.0.2 (intel/ibt-20-0-3.ddc)
   * Intel Wireless 22161 (var 0 rev 3) Bluetooth firmware, version
-    21.30.0.4 (intel/ibt-20-0-3.sfi)
+    22.180.0.2 (intel/ibt-20-0-3.sfi)
   * Intel Wireless 22161 (var 1 rev 3) Bluetooth configuration, version
     21.0.0.4 (intel/ibt-20-1-3.ddc)
   * Intel Wireless 22161 (var 1 rev 3) Bluetooth firmware, version
-    21.30.0.4 (intel/ibt-20-1-3.sfi)
+    22.200.0.2 (intel/ibt-20-1-3.sfi)
   * Intel Wireless 22161 (var 1 rev 4) Bluetooth configuration
     (intel/ibt-20-1-4.ddc)
-  * Intel Wireless 22161 (var 1 rev 4) Bluetooth firmware
-    (intel/ibt-20-1-4.sfi)
-  * Intel Wireless AX2100 Bluethooth configuration
+  * Intel Wireless 22161 (var 1 rev 4) Bluetooth firmware, version
+    22.200.0.2 (intel/ibt-20-1-4.sfi)
+  * Intel Wireless AX211 Bluethooth configuration, version 22.80.0.4
+    (intel/ibt-0040-0041.ddc)
+  * Intel Wireless AX211 Bluethooth firmware, version 22.200.0.2
+    (intel/ibt-0040-0041.sfi)
+  * intel/ibt-1040-0041.ddc
+  * intel/ibt-1040-0041.sfi
+  * Intel Wireless AX2100 Bluethooth configuration, version 22.00.0.0
     (intel/ibt-0041-0041.ddc)
-  * Intel Wireless AX2100 Bluethooth firmware, version 22.60.0.3
+  * Intel Wireless AX2100 Bluethooth firmware, version 22.200.0.2
     (intel/ibt-0041-0041.sfi)
+  * Intel Wireless Bluetooth AX201 configuration, version 22.80.0.4
+    (intel/ibt-0040-4150.ddc)
+  * Intel Wireless Bluetooth AX201 firmware, version 22.200.0.2
+    (intel/ibt-0040-4150.sfi)
+  * Intel Wireless Bluetooth AX201 configuration, version 22.80.0.4
+    (intel/ibt-1040-4150.ddc)
+  * Intel Wireless Bluetooth AX201 firmware, version 22.200.0.2
+    (intel/ibt-1040-4150.sfi)
   * Intel Wireless 3160 (B6) Bluetooth firmware patch, version 19.30
     (intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq)
   * Intel Wireless 3160 (B4) Bluetooth firmware patch, version 19.01
@@ -1569,8 +1635,6 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-2030-6.ucode)
   * Intel Wireless 3160 firmware, version 17.bfb58538.0
     (iwlwifi-3160-17.ucode)
-  * Intel Wireless 3168 firmware, version 22.391740.0
-    (iwlwifi-3168-22.ucode)
   * Intel Wireless 3168 firmware, version 29.0bd893f3.0
     (iwlwifi-3168-29.ucode)
   * Intel Wireless 3945 firmware, version 15.32.2.9
@@ -1583,8 +1647,6 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-5150-2.ucode)
   * Intel Wireless 6000 firmware, version 9.221.4.1
     (iwlwifi-6000-4.ucode)
-  * Intel Wireless 6005/6205 firmware, version 17.168.5.3
-    (iwlwifi-6000g2a-5.ucode)
   * Intel Wireless 6005/6205 firmware, version 18.168.6.1
     (iwlwifi-6000g2a-6.ucode)
   * Intel Wireless 6030 firmware, version 18.168.6.1
@@ -1595,183 +1657,92 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-7260-17.ucode)
   * Intel Wireless 7265 firmware, version 17.bfb58538.0
     (iwlwifi-7265-17.ucode)
-  * Intel Wireless 7265D firmware, version 22.391740.0
-    (iwlwifi-7265D-22.ucode)
   * Intel Wireless 7265D firmware, version 29.0bd893f3.0
     (iwlwifi-7265D-29.ucode)
-  * Intel Wireless 8000C firmware, version 22.391740.0
-    (iwlwifi-8000C-22.ucode)
   * Intel Wireless 8000C firmware, version 36.ca7b901d.0
     (iwlwifi-8000C-36.ucode)
-  * Intel Wireless 8265 firmware, version 22.391740.0
-    (iwlwifi-8265-22.ucode)
   * Intel Wireless 8265 firmware, version 36.ca7b901.0
     (iwlwifi-8265-36.ucode)
   * Intel Wireless 9000 firmware, version 34.ba501b11.0
     (iwlwifi-9000-pu-b0-jf-b0-34.ucode)
   * Intel Wireless 9000 firmware, version 38.755cfdd8.0
     (iwlwifi-9000-pu-b0-jf-b0-38.ucode)
-  * Intel Wireless 9000 firmware, version 41.fc1a7aea.0
-    (iwlwifi-9000-pu-b0-jf-b0-41.ucode)
-  * Intel Wireless 9000 firmware, version 43.95eb4e97
-    (iwlwifi-9000-pu-b0-jf-b0-43.ucode)
-  * Intel Wireless 9000 firmware, version 46.6b541b68.0
+  * Intel Wireless 9000 firmware, version 46.ea3728ee.0
     (iwlwifi-9000-pu-b0-jf-b0-46.ucode)
   * Intel Wireless 9260 firmware, version 34.ba501b11.0
     (iwlwifi-9260-th-b0-jf-b0-34.ucode)
   * Intel Wireless 9260 firmware, version 38.755cfdd8.0
     (iwlwifi-9260-th-b0-jf-b0-38.ucode)
-  * Intel Wireless 9260 firmware, version 41.fc1a7aea.0
-    (iwlwifi-9260-th-b0-jf-b0-41.ucode)
-  * Intel Wireless 9260 firmware, version 43.95eb4e97
-    (iwlwifi-9260-th-b0-jf-b0-43.ucode)
-  * Intel Wireless 9260 firmware, version 46.6b541b68.0
+  * Intel Wireless 9260 firmware, version 46.ea3728ee.0
     (iwlwifi-9260-th-b0-jf-b0-46.ucode)
-  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
-    48.13675109.0 (iwlwifi-Qu-b0-hr-b0-48.ucode)
   * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
     50.3e391d3e.0 (iwlwifi-Qu-b0-hr-b0-50.ucode)
   * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
-    53.c31ac674.0 (iwlwifi-Qu-b0-hr-b0-53.ucode)
-  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
-    55.d9698065.0 (iwlwifi-Qu-b0-hr-b0-55.ucode)
-  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
     59.601f3a66.0 (iwlwifi-Qu-b0-hr-b0-59.ucode)
   * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
-    62.49eeb572.0 (iwlwifi-Qu-b0-hr-b0-62.ucode)
-  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
-    63.49eeb572.0 (iwlwifi-Qu-b0-hr-b0-63.ucode)
-  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
-    71.058653f6.0 (iwlwifi-Qu-b0-hr-b0-71.ucode)
-  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
-    48.13675109.0 (iwlwifi-Qu-b0-jf-b0-48.ucode)
+    72.daa05125.0 (iwlwifi-Qu-b0-hr-b0-72.ucode)
   * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
     50.3e391d3e.0 (iwlwifi-Qu-b0-jf-b0-50.ucode)
   * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
-    53.c31ac674.0 (iwlwifi-Qu-b0-jf-b0-53.ucode)
-  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
-    55.d9698065.0 (iwlwifi-Qu-b0-jf-b0-55.ucode)
-  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
     59.601f3a66.0 (iwlwifi-Qu-b0-jf-b0-59.ucode)
   * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
-    62.49eeb572.0 (iwlwifi-Qu-b0-jf-b0-62.ucode)
-  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
-    63.49eeb572.0 (iwlwifi-Qu-b0-jf-b0-63.ucode)
-  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
-    71.058653f6.0 (iwlwifi-Qu-b0-jf-b0-71.ucode)
-  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
-    48.13675109.0 (iwlwifi-Qu-c0-hr-b0-48.ucode)
+    72.daa05125.0 (iwlwifi-Qu-b0-jf-b0-72.ucode)
   * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
     50.3e391d3e.0 (iwlwifi-Qu-c0-hr-b0-50.ucode)
   * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
-    53.c31ac674.0 (iwlwifi-Qu-c0-hr-b0-53.ucode)
-  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
-    55.d9698065.0 (iwlwifi-Qu-c0-hr-b0-55.ucode)
-  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
     59.601f3a66.0 (iwlwifi-Qu-c0-hr-b0-59.ucode)
   * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
-    62.49eeb572.0 (iwlwifi-Qu-c0-hr-b0-62.ucode)
-  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
-    63.49eeb572.0 (iwlwifi-Qu-c0-hr-b0-63.ucode)
-  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
-    71.058653f6.0 (iwlwifi-Qu-c0-hr-b0-71.ucode)
-  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
-    48.13675109.0 (iwlwifi-Qu-c0-jf-b0-48.ucode)
+    72.daa05125.0 (iwlwifi-Qu-c0-hr-b0-72.ucode)
   * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
     50.3e391d3e.0 (iwlwifi-Qu-c0-jf-b0-50.ucode)
   * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
-    53.c31ac674.0 (iwlwifi-Qu-c0-jf-b0-53.ucode)
-  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
-    55.d9698065.0 (iwlwifi-Qu-c0-jf-b0-55.ucode)
-  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
     59.601f3a66.0 (iwlwifi-Qu-c0-jf-b0-59.ucode)
   * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
-    62.49eeb572.0 (iwlwifi-Qu-c0-jf-b0-62.ucode)
-  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
-    63.49eeb572.0 (iwlwifi-Qu-c0-jf-b0-63.ucode)
-  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
-    71.058653f6.0 (iwlwifi-Qu-c0-jf-b0-71.ucode)
-  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
-    48.13675109.0 (iwlwifi-QuZ-a0-hr-b0-48.ucode)
+    72.daa05125.0 (iwlwifi-Qu-c0-jf-b0-72.ucode)
   * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
     50.3e391d3e.0 (iwlwifi-QuZ-a0-hr-b0-50.ucode)
   * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
-    53.c31ac674.0 (iwlwifi-QuZ-a0-hr-b0-53.ucode)
-  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
-    55.d9698065.0 (iwlwifi-QuZ-a0-hr-b0-55.ucode)
-  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
     59.601f3a66.0 (iwlwifi-QuZ-a0-hr-b0-59.ucode)
   * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
-    62.49eeb572.0 (iwlwifi-QuZ-a0-hr-b0-62.ucode)
-  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
-    62.49eeb572.0 (iwlwifi-QuZ-a0-hr-b0-63.ucode)
-  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
-    71.058653f6.0 (iwlwifi-QuZ-a0-hr-b0-71.ucode)
-  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
-    48.13675109.0 (iwlwifi-QuZ-a0-jf-b0-48.ucode)
+    72.daa05125.0 (iwlwifi-QuZ-a0-hr-b0-72.ucode)
   * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
     50.3e391d3e.0 (iwlwifi-QuZ-a0-jf-b0-50.ucode)
   * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
-    53.c31ac674.0 (iwlwifi-QuZ-a0-jf-b0-53.ucode)
-  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
-    55.d9698065.0 (iwlwifi-QuZ-a0-jf-b0-55.ucode)
-  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
     59.601f3a66.0 (iwlwifi-QuZ-a0-jf-b0-59.ucode)
   * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
-    62.49eeb572.0 (iwlwifi-QuZ-a0-jf-b0-62.ucode)
-  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
-    63.49eeb572.0 (iwlwifi-QuZ-a0-jf-b0-63.ucode)
-  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
-    71.058653f6.0 (iwlwifi-QuZ-a0-jf-b0-71.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 46.3cfab8da.0
-    (iwlwifi-cc-a0-46.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 48.13675109.0
-    (iwlwifi-cc-a0-48.ucode)
+    72.daa05125.0 (iwlwifi-QuZ-a0-jf-b0-72.ucode)
   * Intel Wireless series (CC-A0) firmware, version 50.3e391d3e.0
     (iwlwifi-cc-a0-50.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 53.c31ac674.0
-    (iwlwifi-cc-a0-53.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 55.d9698065.0
-    (iwlwifi-cc-a0-55.ucode)
   * Intel Wireless series (CC-A0) firmware, version 59.601f3a66.0
     (iwlwifi-cc-a0-59.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 62.49eeb572.0
-    (iwlwifi-cc-a0-62.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 63.49eeb572.0
-    (iwlwifi-cc-a0-63.ucode)
-  * Intel Wireless series (CC-A0) firmware, version 71.058653f6.0
-    (iwlwifi-cc-a0-71.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 72.daa05125.0
+    (iwlwifi-cc-a0-72.ucode)
   * Intel Wireless (TY-A0-GF-A0) firmware, version 59.601f3a66.0
     (iwlwifi-ty-a0-gf-a0-59.ucode)
-  * Intel Wireless (TY-A0-GF-A0) firmware, version 62.49eeb572.0
-    (iwlwifi-ty-a0-gf-a0-62.ucode)
-  * Intel Wireless (TY-A0-GF-A0) firmware, version 63.49eeb572.0
-    (iwlwifi-ty-a0-gf-a0-63.ucode)
   * Intel Wireless (TY-A0-GF-A0) firmware, version 66.55c64978.0
     (iwlwifi-ty-a0-gf-a0-66.ucode)
-  * Intel Wireless (TY-A0-GF-A0) firmware, version 71.058653f6.0
-    (iwlwifi-ty-a0-gf-a0-71.ucode)
-  * Intel Wireless (TY-A0-GF-A0) PNVM firmware, version 71.058653f6.0
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 72.daa05125.0
+    (iwlwifi-ty-a0-gf-a0-72.ucode)
+  * Intel Wireless (TY-A0-GF-A0) PNVM firmware, version 76.27f1c37b.0
     (iwlwifi-ty-a0-gf-a0.pnvm)
-  * Intel Wireless (SO-A0-GF-A0) firmware, version 71.058653f6.0
-    (iwlwifi-so-a0-gf-a0-71.ucode)
-  * Intel Wireless (SO-A0-GF-A0) PNVM firmware, version 71.058653f6.0
+  * Intel Wireless (SO-A0-GF-A0) firmware, version 72.daa05125.0
+    (iwlwifi-so-a0-gf-a0-72.ucode)
+  * Intel Wireless (SO-A0-GF-A0) PNVM firmware, version 76.27f1c37b.0
     (iwlwifi-so-a0-gf-a0.pnvm)
-  * Intel Wireless (SO-A0-GF4-A0) firmware, version 71.058653f6.0
-    (iwlwifi-so-a0-gf4-a0-71.ucode)
-  * Intel Wireless (SO-A0-GF4-A0) PNVM firmware, version 71.058653f6.0
+  * iwlwifi-so-a0-gf4-a0-72.ucode
+  * Intel Wireless (SO-A0-GF4-A0) PNVM firmware, version 76.27f1c37b.0
     (iwlwifi-so-a0-gf4-a0.pnvm)
-  * Intel Wireless (SO-A0-HR-B0) firmware, version 71.058653f6.0
-    (iwlwifi-so-a0-hr-b0-71.ucode)
-  * Intel Wireless (SO-A0-JF-B0) firmware, version 71.058653f6.0
-    (iwlwifi-so-a0-jf-b0-71.ucode)
+  * Intel Wireless (SO-A0-HR-B0) firmware, version 72.daa05125.0
+    (iwlwifi-so-a0-hr-b0-72.ucode)
+  * Intel Wireless (SO-A0-JF-B0) firmware, version 72.daa05125.0
+    (iwlwifi-so-a0-jf-b0-72.ucode)
 
 Package: firmware-libertas
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 38053
+Installed-Size: 38056
 Suggests: initramfs-tools
 Breaks: libertas-firmware (<< 9.70.7.p0.0-2)
 Replaces: libertas-firmware
@@ -1779,12 +1750,12 @@ Provides: libertas-firmware
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-libertas_20221012-1_all.deb
-Size: 31219004
-SHA256: 821ef934b3f3f58c42cc2c534612e98c3bf8a09ce253b308789e63805b8b9afe
-SHA1: f04c9131d557a629bf098dfc66f64eefa75b0e26
-MD5sum: def0794de92483daed23f09dc6b38e90
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-libertas_20230210-5_all.deb
+Size: 31221552
+SHA256: 8fa2f6f5396503bd191f243d2d5bc16d4d468cdf9e5c8841095bea31e7fad9dd
+SHA1: beaf7a2d152f6acdd40f4f6d450940de472edf90
+MD5sum: 670ca7ef2072766d81446a30b619669a
 Description: Binary firmware for Marvell wireless cards
  This package contains the binary firmware for wireless network cards with
  Marvell and NXP 88W8xxx chips supported by the libertas_cs, libertas_sdio,
@@ -1867,31 +1838,50 @@ Description: Binary firmware for Marvell wireless cards
   * TopDog 88W8366 boot code (mwl8k/helper_8366.fw)
   * TopDog 88W8687 boot code (mwl8k/helper_8687.fw)
 
-Package: firmware-linux-nonfree
+Package: firmware-linux
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 245
-Depends: firmware-misc-nonfree (= 20221012-1), firmware-amd-graphics (= 20221012-1)
+Installed-Size: 251
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20230210-5)
 Recommends: intel-microcode, amd64-microcode
 Priority: optional
-Section: non-free/metapackages
-Filename: pool/non-free/f/firmware-nonfree/firmware-linux-nonfree_20221012-1_all.deb
-Size: 47148
-SHA256: 2983258da4cd36eaceb6c3b9760a122303b352d06a0557f7d04b38994b8b4946
-SHA1: 7111766893c0cff94883e637b74053db59f964af
-MD5sum: 9bfc981713164ef85bf702b3c7eadc07
+Section: non-free-firmware/metapackages
+Filename: pool/non-free/f/firmware-nonfree/firmware-linux_20230210-5_all.deb
+Size: 49704
+SHA256: e7ee2944d5097f734b822ddbc593cd7f3c8bd8c4991282373e9a419fd81d3ed4
+SHA1: 93b0c75ba6fa73cfd5019edf6322c323c3adbb39
+MD5sum: a58cf2068a10d8e9b5ac32bf639e0dd0
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
+
+Package: firmware-linux-nonfree
+Source: firmware-nonfree
+Version: 20230210-5
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 248
+Depends: firmware-misc-nonfree (= 20230210-5), firmware-amd-graphics (= 20230210-5)
+Recommends: intel-microcode, amd64-microcode
+Priority: optional
+Section: non-free-firmware/metapackages
+Filename: pool/non-free/f/firmware-nonfree/firmware-linux-nonfree_20230210-5_all.deb
+Size: 49460
+SHA256: 028ba8b4f0ad68b166885a2ffbbd5f015184d4152e0c3b9b9aafd876bffce387
+SHA1: d7f75cf64e43230fb7cfaf4c703fd810221f0e86
+MD5sum: c841a95227c61147c694ec03fd3eab1a
 Description: Binary firmware for various drivers in the Linux kernel (metapackage)
  This package depends on non-free firmware which may be used with drivers
  in the Linux kernel.
 
 Package: firmware-misc-nonfree
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 48722
+Installed-Size: 51731
 Suggests: initramfs-tools
 Breaks: firmware-adi (<< 20151018-1~), firmware-ivtv (<< 0.38~), firmware-linux (<< 0.19), firmware-linux-nonfree (<< 20151018-1~), firmware-ralink (<< 20151018-1~)
 Replaces: firmware-adi (<< 20151018-1~), firmware-ivtv (<< 0.38~), firmware-linux (<< 0.19), firmware-linux-nonfree (<< 20151018-1~), firmware-ralink (<< 20151018-1~)
@@ -1899,12 +1889,12 @@ Provides: firmware-adi, firmware-ralink
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-misc-nonfree_20221012-1_all.deb
-Size: 12150720
-SHA256: 7b6e126269061fb0fc0bf21ddb74ce8a6f600d170dbf7ce96e245a5b12a73280
-SHA1: 46870c2a3f6a01c627536de3252f7217f917c256
-MD5sum: c53c2d8a38d7b03e952d9032c108a203
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-misc-nonfree_20230210-5_all.deb
+Size: 13012568
+SHA256: bc837b3c19f046d48e4f2fb5530ab10b93a6e9e263d60ba06a345d13cee96422
+SHA1: 8dd9729358261cdf435b959f7807e02361109272
+MD5sum: 344ec666ab34643c1fd0bf1f06cc1a46
 Description: Binary firmware for various drivers in the Linux kernel
  This package contains the binary firmware for  various drivers in the
  Linux kernel.  This is a collection of firmware blobs which are not
@@ -1942,11 +1932,11 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Chelsio T3 main firmware, version 7.12.0 (cxgb3/t3fw-7.12.0.bin)
   * Chelsio T4 10GBASE-T firmware (AQ1202 PHY) (cxgb4/aq1202_fw.cld)
   * Chelsio T4 10GBASE-T firmware (BCM84834 PHY) (cxgb4/bcm8483.bin)
-  * Chelsio T4 firmware, version 1.27.0.0 (cxgb4/t4fw-1.27.0.0.bin,
+  * Chelsio T4 firmware, version 1.27.1.0 (cxgb4/t4fw-1.27.1.0.bin,
     cxgb4/t4fw.bin)
-  * Chelsio T5 firmware, version 1.27.0.0 (cxgb4/t5fw-1.27.0.0.bin,
+  * Chelsio T5 firmware, version 1.27.1.0 (cxgb4/t5fw-1.27.1.0.bin,
     cxgb4/t5fw.bin)
-  * Chelsio T6 firmware, version 1.27.0.0 (cxgb4/t6fw-1.27.0.0.bin,
+  * Chelsio T6 firmware, version 1.27.1.0 (cxgb4/t6fw-1.27.1.0.bin,
     cxgb4/t6fw.bin)
   * Chelsio T4 config (cxgb4/configs/t4-config-default.txt,
     cxgb4/t4-config.txt)
@@ -1999,9 +1989,11 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Intel ADL-P DMC firmware, version 2.12 (i915/adlp_dmc_ver2_12.bin)
   * Intel ADL-P DMC firmware, version 2.14 (i915/adlp_dmc_ver2_14.bin)
   * Intel ADL-P DMC firmware, version 2.16 (i915/adlp_dmc_ver2_16.bin)
+  * Intel ADL-P DMC firmware, version 2.18 (i915/adlp_dmc.bin)
   * Intel ADL-P GuC firmware, version 62.0.3 (i915/adlp_guc_62.0.3.bin)
   * Intel ADL-P GuC firmware, version 69.0.3 (i915/adlp_guc_69.0.3.bin)
   * Intel ADL-P GuC firmware, version 70.1.1 (i915/adlp_guc_70.1.1.bin)
+  * Intel ADL-P GuC firmware, version 70.5.1 (i915/adlp_guc_70.bin)
   * Intel "Adler Lake" DMC firmware, version 2.01
     (i915/adls_dmc_ver2_01.bin)
   * Intel "Broxton" DMC firmware, version 1.07
@@ -2045,12 +2037,16 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Intel DG1 GuC firmware, version 62.0.0 (i915/dg1_guc_62.0.0.bin)
   * Intel DG1 GuC firmware, version 69.0.3 (i915/dg1_guc_69.0.3.bin)
   * Intel DG1 GuC firmware, version 70.1.1 (i915/dg1_guc_70.1.1.bin)
+  * Intel DG1 GuC firmware, version 70.5.1 (i915/dg1_guc_70.bin)
   * Intel DG1 HUC firmware, version 7.7.1 (i915/dg1_huc_7.7.1.bin)
   * Intel DG1 HUC firmware, version 7.9.3 (i915/dg1_huc_7.9.3.bin)
+  * Intel DG1 HUC firmware, version 7.9.3 (i915/dg1_huc.bin)
   * Intel DG2 GuC firmware, version 70.1.2 (i915/dg2_guc_70.1.2.bin)
   * Intel DG2 GuC firmware, version 70.4.1 (i915/dg2_guc_70.4.1.bin)
+  * Intel DG2 GuC firmware, version 70.5.1 (i915/dg2_guc_70.bin)
   * Intel DG2 DMC firmware, version 2.06 (i915/dg2_dmc_ver2_06.bin)
   * Intel DG2 DMC firmware, version 2.07 (i915/dg2_dmc_ver2_07.bin)
+  * Intel DG2 DMC firmware, version 2.08 (i915/dg2_dmc_ver2_08.bin)
   * Intel "Elkhart Lake" GuC firmware, version 33.0.4
     (i915/ehl_guc_33.0.4.bin)
   * Intel "Elkhart Lake" GuC firmware, version 49.0.1
@@ -2124,6 +2120,7 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/kbl_huc_4.0.0.bin)
   * Intel "Kabylake" HuC firmware, version 2.0.1810
     (i915/kbl_huc_ver02_00_1810.bin)
+  * Intel "Meteorlake" DMC firmware, version 2.11 (i915/mtl_dmc.bin)
   * Intel "Skylake" DMC firmware, version 1.23
     (i915/skl_dmc_ver1_23.bin)
   * Intel "Skylake" DMC firmware, version 1.26
@@ -2172,6 +2169,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/tgl_guc_69.0.3.bin)
   * Intel "Tiger Lake" GuC firmware, version 70.1.1
     (i915/tgl_guc_70.1.1.bin)
+  * Intel "Tiger Lake" GuC firmware, version 70.5.1
+    (i915/tgl_guc_70.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.0.12
     (i915/tgl_huc_7.0.12.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.0.3
@@ -2180,6 +2179,7 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/tgl_huc_7.5.0.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.9.3
     (i915/tgl_huc_7.9.3.bin)
+  * Intel "Tiger Lake" HuC firmware, version 7.9.3 (i915/tgl_huc.bin)
   * Intel "Kabylake" IPU3 firmware, version 20161208_0213_20170112_1500
     (intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin)
   * Intel E800 comms package, version 1.3.20
@@ -2194,8 +2194,10 @@ Description: Binary firmware for various drivers in the Linux kernel
     (lt9611uxc_fw.bin)
   * Matrox G200 WARP engine microcode (matrox/g200_warp.fw)
   * Matrox G400/G550 WARP engine microcode (matrox/g400_warp.fw)
-  * MediaTek MT7961 bluetooth firmware, version 20220908211234
+  * MediaTek MT7961 bluetooth firmware, version 20230117171152
     (mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin)
+  * MediaTek MT7922 bluetooth firmware, version 20221227123429
+    (mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7610e.bin)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7610u.bin)
   * MediaTek MT7615 cr4 firmware (mediatek/mt7615_cr4.bin)
@@ -2225,13 +2227,13 @@ Description: Binary firmware for various drivers in the Linux kernel
     (mediatek/mt8186/scp.img)
   * MediaTek mt8195 SCP firmware, version v2.0.11956
     (mediatek/mt8195/scp.img)
-  * MediaTek MT7922 hdr firmware, version 20220908203203a
+  * MediaTek MT7922 hdr firmware, version 20221227123154a
     (mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin)
-  * MediaTek MT7922 firmware, version 20220908203253
+  * MediaTek MT7922 firmware, version 20221227123243
     (mediatek/WIFI_RAM_CODE_MT7922_1.bin)
-  * MediaTek MT7921 hdr firmware, version 20220908210919a
+  * MediaTek MT7921 hdr firmware, version 20230117170855a
     (mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin)
-  * MediaTek MT7921 firmware, version 20220908211021
+  * MediaTek MT7921 firmware, version 20230117170942
     (mediatek/WIFI_RAM_CODE_MT7961_1.bin)
   * MOXA UPort 1110 firmware (moxa/moxa-1110.fw)
   * MOXA UPort 1130 firmware (moxa/moxa-1130.fw)
@@ -2632,20 +2634,20 @@ Description: Binary firmware for various drivers in the Linux kernel
 
 Package: firmware-realtek
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 5845
+Installed-Size: 6881
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-realtek_20221012-1_all.deb
-Size: 1337224
-SHA256: 0455b303fcc1a764d453a303c2cd73bf4d23876b19ac241bc13f3693893c5a63
-SHA1: 984a9f8e608c2b1749845e5c882c5466ae7c3c91
-MD5sum: 94b077353cd73c98c8bfe7f85a73b6c3
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-realtek_20230210-5_all.deb
+Size: 1490944
+SHA256: 586ce39fc23f8b1d121bd430f5e187c80701df650f4baba05771d828444b075c
+SHA1: 4ca0c9fe5b2821457b4fc591af5d0d47f5023e72
+MD5sum: 007a2aa25b0c964d406d46a47d6bdaf4
 Description: Binary firmware for Realtek wired/wifi/BT adapters
  This package contains the binary firmware for Realtek Ethernet, wifi and
  Bluetooth adapters supported by various drivers.
@@ -2770,25 +2772,27 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek 8822C firmware (rtw88/rtw8822c_wow_fw.bin)
   * rtw88/rtw8723d_fw.bin
   * Realtek RTL8852A firmware, version v0.9.12.2 (rtw89/rtw8852a_fw.bin)
-  * Realtek RTL8852C firmware, version v0.27.56.1
+  * Realtek RTL8852B firmware, version v0.27.32.1
+    (rtw89/rtw8852b_fw.bin)
+  * Realtek RTL8852C firmware, version v0.27.56.10
     (rtw89/rtw8852c_fw.bin)
 
 Package: firmware-ti-connectivity
 Source: firmware-nonfree
-Version: 20221012-1
+Version: 20230210-5
 Architecture: all
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 4688
+Installed-Size: 4691
 Suggests: initramfs-tools
 Multi-Arch: foreign
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/f/firmware-nonfree/firmware-ti-connectivity_20221012-1_all.deb
-Size: 1065376
-SHA256: 8943b25d27f59a7b0e4b99462ff2b3843edd334081d7d9ba3b14ef2db47de2a7
-SHA1: c86adf9d816bd632504f5f1570174ee698ddb137
-MD5sum: ff17356b535d3129c31645bc74dfcb94
+Section: non-free-firmware/kernel
+Filename: pool/non-free/f/firmware-nonfree/firmware-ti-connectivity_20230210-5_all.deb
+Size: 1067840
+SHA256: a4cdb8c79bcf0fe1dc038edb3aeca19a720a96f6f19dec577c5160db4c0cc1df
+SHA1: 6540bc20628657abadd36350cd133aecfb6a8575
+MD5sum: 58d8d9254a30e96a815f5433a014630c
 Description: Binary firmware for TI Connectivity wifi and BT/FM/GPS adapters
  This package contains the binary firmware for Texas Instruments WL1251,
  WL127x, WL128x and WL18xx wireless network chips supported by the wl1251,
@@ -2824,22 +2828,22 @@ Description: Binary firmware for TI Connectivity wifi and BT/FM/GPS adapters
 
 Package: firmware-zd1211
 Source: zd1211-firmware
-Version: 1:1.5-8
+Version: 1:1.5-10
 Architecture: all
 Maintainer: Christian Kastner <ckk@debian.org>
-Installed-Size: 65
+Installed-Size: 60
 Suggests: initramfs-tools
 Breaks: zd1211-firmware (<< 2.21.0.0-2~)
 Replaces: zd1211-firmware (<< 2.21.0.0-2~)
 Provides: zd1211-firmware
 Homepage: https://sourceforge.net/projects/zd1211/
 Priority: optional
-Section: non-free/kernel
-Filename: pool/non-free/z/zd1211-firmware/firmware-zd1211_1.5-8_all.deb
-Size: 14972
-SHA256: bdbf3208d36dafeff9a028faf64f6d90bbb52d31c72913e13daf6e5ba70e1537
-SHA1: 115634396758d7f7121fa070c61c9611fe988b4a
-MD5sum: 6987e9fe59030a7f5407419f2cc37fba
+Section: non-free-firmware/kernel
+Filename: pool/non-free/z/zd1211-firmware/firmware-zd1211_1.5-10_all.deb
+Size: 12608
+SHA256: 5e87a7c7e9d3cc9f17098511226c7b23799135a3c2ad09b1fdb8a8c71ecb4a9a
+SHA1: db8639c3b19710401e1c5ed465af6638de9bce16
+MD5sum: 947b26d1fc1e79f4921d925aee8f6304
 Description: binary firmware for the zd1211rw wireless driver
  This package contains the firmware to be used with the zd1211rw Linux kernel
  driver for USB wireless dongles based on the following chipsets:

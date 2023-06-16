@@ -1,20 +1,20 @@
 Package: firmware-b43-installer
 Source: b43-fwcutter
-Version: 1:019-7
+Version: 1:019-8
 Architecture: all
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Installed-Size: 32
-Depends: b43-fwcutter (>= 1:019-7), pciutils, bzip2, ca-certificates, wget
+Installed-Size: 27
+Depends: b43-fwcutter (>= 1:019-8), pciutils, bzip2, ca-certificates, wget
 Breaks: firmware-b43-lpphy-installer (<= 1:015-14)
 Replaces: firmware-b43-lpphy-installer (<= 1:015-14)
 Homepage: https://wireless.wiki.kernel.org/en/users/drivers/b43
 Priority: optional
 Section: contrib/kernel
-Filename: pool/contrib/b/b43-fwcutter/firmware-b43-installer_019-7_all.deb
-Size: 12812
-SHA256: eb68b61b53bab8a83426ee86f3d7b40addd7dfde87bdb3117581dd5ad5c3c8f5
-SHA1: 08e94288d8c741099a786c83ac65c7b12fa699a0
-MD5sum: 8f913c03eceb24fd13aaae32e068e773
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43-installer_019-8_all.deb
+Size: 7384
+SHA256: fa2662276289e51987a16fc9ab0dcd8bcc2afca45c5f9c842b6d5642897566a5
+SHA1: 4763a617966fdb3b67355f7732b88ed54ac4d264
+MD5sum: e820f3f53b635c290fb6569f580871cc
 Description: firmware installer for the b43 driver
  This package downloads and installs the firmware needed by the b43
  kernel driver for some Broadcom 43xx wireless network cards.
