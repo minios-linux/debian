@@ -506,3 +506,22 @@ Description: File Manager for Xfce
  .
  Also included is an Xfce panel plugin which can manage the desktop trash.
 
+Package: thunar-data
+Source: thunar
+Version: 4.18.4-1.mos
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5278
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar-data_4.18.4-1.mos_all.deb
+Size: 853328
+SHA256: b137fe1cbb32047e6d365be77996a3fb7ff4b580b5c032f54e228ee5b0ff9dab
+SHA1: 566fe3ef45b46b15654e35b14db263c68f4e5560
+MD5sum: a683f8eeccc17c8ffd32b79432d537e7
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+
