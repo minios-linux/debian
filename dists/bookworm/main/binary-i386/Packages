@@ -496,11 +496,11 @@ Description: Graphical hard drive backup and restore
  Acronis True Image and Macrium Reflect.
 
 Package: thunar
-Version: 4.16.8-1~mos~d12+1
+Version: 4.16.8-1.mos+1
 Architecture: i386
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
 Installed-Size: 1617
-Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.8-1~mos~d12+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libexo-2-0 (>= 4.15.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.8-1.mos+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libexo-2-0 (>= 4.15.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
 Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
 Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
 Breaks: thunar-data (<< 1.2.3-3)
@@ -508,11 +508,11 @@ Replaces: thunar-data (<< 1.2.3-3)
 Homepage: https://docs.xfce.org/xfce/thunar/start
 Priority: optional
 Section: xfce
-Filename: pool/main/t/thunar/thunar_4.16.8-1~mos~d12+1_i386.deb
-Size: 802488
-SHA256: 1c947e616d000f456257be264630b462946f34ac9abbceb391320bdc0111e035
-SHA1: 982a11938e48f01ca930657db39f801ce4a99241
-MD5sum: 6d9910abbe2f0286244e35f144dc715f
+Filename: pool/main/t/thunar/thunar_4.16.8-1.mos+1_i386.deb
+Size: 802484
+SHA256: f39c7d10852304b6bf0c452b3e16be25478165fed80b91427939056263baea16
+SHA1: dcfbe32e07214346108c2482e1b38e08bfaa310f
+MD5sum: 7ddb6182b36473f4537b66b59da34d61
 Description: File Manager for Xfce
  Thunar is the file manager designed to be the default file manager for the
  Xfce desktop environment. It has been designed to be fast and easy to use.
@@ -521,7 +521,7 @@ Description: File Manager for Xfce
 
 Package: thunar-data
 Source: thunar
-Version: 4.16.8-1~mos~d12+1
+Version: 4.16.8-1.mos+1
 Architecture: all
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
 Installed-Size: 5314
@@ -529,11 +529,11 @@ Multi-Arch: foreign
 Homepage: https://docs.xfce.org/xfce/thunar/start
 Priority: optional
 Section: xfce
-Filename: pool/main/t/thunar/thunar-data_4.16.8-1~mos~d12+1_all.deb
-Size: 1181664
-SHA256: b2da4c3ac66692ea132ad598055e7beabe33e4c38d4dabb3dc3422898df29242
-SHA1: d87ce947b25f5ae37ce5f310bb5598debe2da868
-MD5sum: 62588e7b29d98df2f53cc780e72ddc0e
+Filename: pool/main/t/thunar/thunar-data_4.16.8-1.mos+1_all.deb
+Size: 1181656
+SHA256: 190289159909679de89ece3b136c58d86c243d9cd6a2caa28f1467d5da574f63
+SHA1: 21ee987eddc6bbd1ac156ba66ebd6fdce7e0f65b
+MD5sum: 8d6ad30115854f404669b94aef7f5e5a
 Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
