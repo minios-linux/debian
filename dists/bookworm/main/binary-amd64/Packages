@@ -249,19 +249,19 @@ Description: Linux kernel, version 6.1.27-mos-amd64
  files, version: 6.1.27-mos-amd64.
 
 Package: mousepad
-Version: 0.5.10-2.mos
+Version: 0.5.10-2.mos+1
 Architecture: amd64
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 2114
-Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.13.7), libmousepad0 (>= 0.5.9), libxfce4ui-2-0 (>= 4.11.0)
+Installed-Size: 2084
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
 Homepage: https://docs.xfce.org/apps/mousepad/start
 Priority: optional
 Section: xfce
-Filename: pool/main/m/mousepad/mousepad_0.5.10-2.mos_amd64.deb
-Size: 526272
-SHA256: 462b5e6fb3bf5a07e3d0edd10c4e00569a612437f9a9e7d498739baeae285105
-SHA1: bd36dcd81bdafbea6ceaf05b8c347f78dbb33ee8
-MD5sum: b485517d4da04c871436ff28f813b6c1
+Filename: pool/main/m/mousepad/mousepad_0.5.10-2.mos+1_amd64.deb
+Size: 520544
+SHA256: 26a4bcb9a518fcbcf4b0796e24b75a00919cd036f83b205c7faa001da62ae80b
+SHA1: 09edc73d2374808dfa1085e558a422c2c9155168
+MD5sum: 00574df95e14881d5319a61887ac6650
 Description: simple Xfce oriented text editor
  Mousepad is a graphical text editor for Xfce based on Leafpad.
  .
@@ -318,7 +318,7 @@ MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
 Description: Package created with checkinstall 1.6.3
 
 Package: pcmanfm
-Version: 1.3.2-1.mos
+Version: 1.3.2-1.mos+1
 Architecture: amd64
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 1583
@@ -327,11 +327,11 @@ Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: utils
-Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.mos_amd64.deb
-Size: 282052
-SHA256: 68901fee9fb6f2717cdd19475fd6d616211111ceaeb045543851b98524ad5982
-SHA1: 4995e25535b3048bf7a7ab0971d06a61dec34482
-MD5sum: e5a5aa77dfd36eaa9c98b6542252a0c0
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.mos+1_amd64.deb
+Size: 282048
+SHA256: 56e7468e52b7ba2a5d34a4eaf10a6b28332f8f33ab95d18c552eee387d0bbbba
+SHA1: 9d776a7829b7f5e8757698cd7cf7243c9716734c
+MD5sum: 642337cc6990de2f9454f070221e30f6
 Description: extremely fast and lightweight file manager
  PCMan File Manager is a GTK+ based file manager, featuring:
  .
@@ -483,11 +483,11 @@ Description: Graphical hard drive backup and restore
  Acronis True Image and Macrium Reflect.
 
 Package: thunar
-Version: 4.16.8-1.mos+1
+Version: 4.18.4-1.mos+1
 Architecture: amd64
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 1495
-Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.8-1.mos+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libexo-2-0 (>= 4.15.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
+Installed-Size: 1230
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.18.4-1.mos+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libexo-2-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.65.1), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.17.6), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
 Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
 Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
 Breaks: thunar-data (<< 1.2.3-3)
@@ -495,11 +495,11 @@ Replaces: thunar-data (<< 1.2.3-3)
 Homepage: https://docs.xfce.org/xfce/thunar/start
 Priority: optional
 Section: xfce
-Filename: pool/main/t/thunar/thunar_4.16.8-1.mos+1_amd64.deb
-Size: 768180
-SHA256: 11a92439757c6ace87975093434f337b230a4ae594afdabfed3a13ed2dd18b12
-SHA1: 98cbf77865812bc00578afaa8e3514338cc95dc0
-MD5sum: 87f92d754391acd579a35a8c424bb295
+Filename: pool/main/t/thunar/thunar_4.18.4-1.mos+1_amd64.deb
+Size: 404904
+SHA256: a4dbcb67fe2d822bdff63afa76edf0cbf43e00e7a92b15796866d9f85086a924
+SHA1: d4ea8381a1f027d0d0c46c155e953e1caecbb724
+MD5sum: 75407c5fd656e8ce3fd11aa7b99ac47f
 Description: File Manager for Xfce
  Thunar is the file manager designed to be the default file manager for the
  Xfce desktop environment. It has been designed to be fast and easy to use.
@@ -508,19 +508,19 @@ Description: File Manager for Xfce
 
 Package: thunar-data
 Source: thunar
-Version: 4.16.8-1.mos+1
+Version: 4.18.4-1.mos+1
 Architecture: all
 Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 5314
+Installed-Size: 5278
 Multi-Arch: foreign
 Homepage: https://docs.xfce.org/xfce/thunar/start
 Priority: optional
 Section: xfce
-Filename: pool/main/t/thunar/thunar-data_4.16.8-1.mos+1_all.deb
-Size: 1181656
-SHA256: 190289159909679de89ece3b136c58d86c243d9cd6a2caa28f1467d5da574f63
-SHA1: 21ee987eddc6bbd1ac156ba66ebd6fdce7e0f65b
-MD5sum: 8d6ad30115854f404669b94aef7f5e5a
+Filename: pool/main/t/thunar/thunar-data_4.18.4-1.mos+1_all.deb
+Size: 853548
+SHA256: b8557e5f52af2d374d6c77ec1b3515ba454f2dd5bd656c8f758ff416d3da338f
+SHA1: e10686d7a9cd4315e9c800fa25503b7fe9c4fd05
+MD5sum: 328a91868b69633d07a4ac05da2ee0ba
 Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
