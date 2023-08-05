@@ -2,7 +2,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: oldstable
 Codename: buster
-Date: Sat, 08 Jul 2023 11:22:51 UTC
+Date: Sat, 05 Aug 2023 16:45:11 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
