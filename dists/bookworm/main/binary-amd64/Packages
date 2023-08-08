@@ -248,43 +248,6 @@ Description: Linux kernel, version 6.1.27-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.27-mos-amd64.
 
-Package: mousepad
-Version: 0.5.10-2.mos+1
-Architecture: amd64
-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 2084
-Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
-Homepage: https://docs.xfce.org/apps/mousepad/start
-Priority: optional
-Section: xfce
-Filename: pool/main/m/mousepad/mousepad_0.5.10-2.mos+1_amd64.deb
-Size: 520544
-SHA256: 26a4bcb9a518fcbcf4b0796e24b75a00919cd036f83b205c7faa001da62ae80b
-SHA1: 09edc73d2374808dfa1085e558a422c2c9155168
-MD5sum: 00574df95e14881d5319a61887ac6650
-Description: simple Xfce oriented text editor
- Mousepad is a graphical text editor for Xfce based on Leafpad.
- .
- The initial reason for Mousepad was to provide printing support, which would
- have been difficult for Leafpad for various reasons.
- .
- Although some features are under development, currently Mousepad has the
- following features:
-   * Complete support for UTF-8 text
-   * Cut/Copy/Paste and Select All text
-   * Search and Replace
-   * Font selection
-   * Word Wrap
-   * Character coding selection
-   * Auto character coding detection (UTF-8 and some code-sets)
-   * Manual code-set setting
-   * Infinite Undo/Redo by word
-   * Auto Indent
-   * Multi-line Indent
-   * Display line numbers
-   * Drag and Drop
-   * Printing
-
 Package: partclone-nbd
 Installed-Size: 116
 Maintainer: admin@minios.dev
@@ -316,39 +279,6 @@ SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
 SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
 MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
 Description: Package created with checkinstall 1.6.3
-
-Package: pcmanfm
-Version: 1.3.2-1.mos+1
-Architecture: amd64
-Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
-Installed-Size: 1583
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
-Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
-Homepage: http://pcmanfm.sourceforge.net/
-Priority: optional
-Section: utils
-Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.mos+1_amd64.deb
-Size: 282048
-SHA256: 56e7468e52b7ba2a5d34a4eaf10a6b28332f8f33ab95d18c552eee387d0bbbba
-SHA1: 9d776a7829b7f5e8757698cd7cf7243c9716734c
-MD5sum: 642337cc6990de2f9454f070221e30f6
-Description: extremely fast and lightweight file manager
- PCMan File Manager is a GTK+ based file manager, featuring:
- .
-  * Extremely fast and lightweight
-  * Can be started in one second on normal machine
-  * Tabbed browsing (similar to Firefox)
-  * Drag & Drop support
-  * Files can be dragged among tabs
-  * Load large directories in reasonable time
-  * File association support (Default application)
-  * Basic thumbnail support
-  * Bookmarks support
-  * Handles non-UTF-8 encoded filenames correctly
-  * Provide icon view and detailed list view
-  * Standard compliant (Follows FreeDesktop.org)
-  * Clean and user-friendly interface (GTK+ 2)
-  * Support GVFS for auto-mount handling on removable devices
 
 Package: pulseaudio-module-xrdp
 Version: 0.7-0.mos~d12+1

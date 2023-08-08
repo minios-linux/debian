@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: oldoldstable
 Codename: stretch
-Date: Sat, 05 Aug 2023 21:57:43 UTC
+Date: Tue, 08 Aug 2023 10:03:36 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  8b80b11dd508dd86fd1f23db9b7caeb6d09b50e41258b938a39891e1f78d5ede 134 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmTOxdcACgkQ7CDxjGi2
-L2wvSQwAp5gA6UEztKrgaRI+z1xwQYNPSQbqhqQHnh2sr2oSxKNOB4LBPzrqC0LX
-vWShIStMxDyqm8DIgi61n97TgBwdW7DCfgiazjKmO/GqCgY/4KKjw2rNhONeajIS
-oepCOiZNCGKhm3eDHHV5eiJsSHB+sbcTTjSYBxkWMfp5dHr1I3U0LfY5VE2/vWXJ
-rLyR9+iXE9Xt+1BCSfo1o/Pj0CU+wZGLngpMXnh15fIFLMCHvs6m4rpOC6wiw1QR
-cgRhuNgRx7OO9aQEOn9JRNVuHYbpUtESmVt/N15pSfnFubYB7Qvn8EPAzE/diwRh
-4fnBMX4naTMiYc43vPsggwlVx3D7vXFNtCun3QLDhzh9R7I0ZOCX2Z/2VJ3P0nMX
-8m4RWmY3ZHkH+zqNJDli6nkZnDgyooh3UqJXeWsdn1QI9J/yFdvFU3NY6MFqg8Qp
-bSvKdf8uyEgTXkBo100EBICTEcARMK3ph0Ouqbyc+5U0C2Efoxi+6VihAd7qE3UR
-NHOh5hdl
-=TztB
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmTSEvgACgkQ7CDxjGi2
+L2xSbgwAoJJZdzA5hp4xNpMTnCXrD+i26SS7APOSmzdhXBQLAGBofrTmf0N69F2F
+jx8LVT8uCCAyYP8ijPeAEjdggxXbkwdEwu4uQj6ZXi2/Z+KPAOrN8Y7e23XCV9dp
+9ghLEgL4ur18XA383HYeoXT1zH2ZQK13P4oDxijjxSqAi7fiIyu/F11DWjVT1Nu2
+9hrCKieoRybHWtoWdSCWA6F7hztIWmFobm+RHnLfXZXzutBfUVyTdKTSJnxfi3jR
+NdYkF75duZsCH9enkf824UTNesQx4Fi20afPpWa8RqoHucVMkjxgcVHKsnZsmbVC
+Jw7ZXmCiLAmW/m4MRiuh0zOL9rTS7e+bUWAymqpOvXYCLLw8m2CICG5uNkuvLddL
+dUcvie6hzvS2GqVurK+z3glegnQ+OJRpFKZWc/LUrHiLLJFXPS3h24F9snzrWGNy
+aMNWg+jKwF5glSjL2Hs8YtaigSayp0vP+I8h2xceCmhwmuGf7EkeNgX5oBDMM8CS
+1HBCRhbf
+=XFO/
 -----END PGP SIGNATURE-----

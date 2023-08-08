@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: stable
 Codename: bullseye
-Date: Sun, 06 Aug 2023 11:06:14 UTC
+Date: Tue, 08 Aug 2023 10:03:38 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  4bfe1fe2f034f9be7d42bdc2fe6120772b9140cb483563dcbeaa6169414f9f97 128 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmTPfqYACgkQ7CDxjGi2
-L2x2Agv+ONfpUM4hpoI3/dIOvV8faL3giPFHXzYYPr4sTMB1mJ7+Y9Iu6eu7nsvl
-lcNXYX3qQJVxXJAnEXrDgysZ+W2u4n+kJ5WCMsLKf59tHOFRCPN/8H7xIMfAcIcT
-xtqg037pZ+wXw6hf7vepLOo1/QgZvzATmmavTMnuctt2zJ5KDNm6QM9Hiq47VYQy
-m5GBOGhuIRtTQ06di30eDCLCYWeIedOIxBZUR9Pl4E776vtkJ4z04dyt/yaiCct4
-1ZRNSeXsGpE1et8FHAtftC5akas+t3IQW2mqf1URRGvg+Jsw9vpUvsP2miIW+kJl
-3sqYiAx1Isy1o82zAs21EmeTc9zxc54RwTYI5zWtXhTG6z9bG1JlJbnFsPJ8AaQM
-lLpS4VIDN6+/9vnC51XRz8qwVTL83rzxNPtjT6ilzr2xtc/pvXlM6q1JxhJit4we
-Td06ssl/uB9gYSBQ29dbLLM20WuMEpptBmwk8GRosT/XP89+FAZMG7PUMVVeuo97
-lDdaPz3H
-=4cKt
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmTSEvoACgkQ7CDxjGi2
+L2wfLgv8DVzbDC4nnY7B9pULbaJnQHikNVhB1Tp1fDEtNPOpXD1RQKCi3LzAhkyT
+6aGqe0luyPt7XLkZhVmuhiBOIejoUXZM5o74rhWTdRsaSLvK0Q0tVmz19z3gkXvq
+9bQL97FUppJAXX+gzCdrTzLqYg0CgxDb91iitREARgtcoWjGIycmImPU5aQVJMZA
+p0m6XWWxmWBZ2rU7qNQeB7vBsWxQY3EXIgDhgKrl8lHQrEpsWEhY9hb96zPrlgnz
+k497HgeFBpqNfruwXZ8uZztub36ADfjLhF6AtmmmaShiiPFeSRIzwkD91f6PtgOo
+ZI3h0IOvKO5zrwNxeW6qowsWeogBPkFXaYEJmR7ZyjjhYCou2b00OH0ByoVB+RDT
+yLzA2vAUgbco9hlyNhwI34ci4lBigsHZDOsQDpgqPys0Dhn41dFEy9qbMBCP+k9n
+Q3SJsLmmbvIDHwpFQNeVCIIgcySTeQypkFhjUMOlSt8gtmLLGMXjfclqbPYDDU1D
+GwRxS97Z
+=UXQq
 -----END PGP SIGNATURE-----
