@@ -67,20 +67,20 @@ Package: fluxbox-slax
 Version: 1.3.5-2.1
 Architecture: i386
 Maintainer: Dmitry E. Oboukhov <unera@debian.org>
-Installed-Size: 4086
-Depends: menu (>= 2.1.19), libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1 (>= 2:1.1.4), libxpm4, libxrandr2, libxrender1
-Conflicts: fluxbox
+Installed-Size: 4081
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 4.2), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
 Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
 Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
 Provides: x-window-manager
 Homepage: http://fluxbox.org
 Priority: optional
 Section: x11
 Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_i386.deb
-Size: 1244236
-SHA256: f53db96c4d4537c5f531bf952514469b74cb124068a94eb28cb6b53189105192
-SHA1: 9c3c454d78e9459dc67d4b47e0503c7dac407b8c
-MD5sum: 709b05d359a4b72c5312dbba6dc5cd23
+Size: 1244544
+SHA256: c2c151efbd9a4abb9960d6c3c4b49f6f78966fd37a7bdbc8b112581e3d1153fb
+SHA1: 369c65b6e76ec9c85a68d313ff061895bb6c15ba
+MD5sum: 737bfe57c18747fe1c104536b42ef237
 Description: Highly configurable and low resource X11 Window manager
  Fairly similar to blackbox, from which it is derived, but has been
  extended with features such as pwm-style window tabs, configurable
