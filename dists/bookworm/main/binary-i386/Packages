@@ -19,6 +19,23 @@ Description: default icon theme of GNOME.
  This version is a much strippd down version for antiX Linux.
  No cursers theme included.
 
+Package: adwaita-icon-theme-fake
+Version: 0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
+Size: 756
+SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
+SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
+MD5sum: 383a6a5bd758655cfacd84adb625b325
+Description: Fake package to prevent adwaita-icon-theme from being installed
+
 Package: cbatticon
 Version: 1.6.13-1
 Architecture: i386
@@ -44,6 +61,33 @@ Description: lightweight and fast battery icon status and more
  graceful shutdown on critical status, by user-defined thresholds and commands
  on low power/critical.
 
+Package: elementary-xfce-minios-icon-theme
+Source: elementary-xfce-minios
+Version: 0.17-2~mos+1
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 15506
+Conflicts: elementary-xfce-icon-theme
+Breaks: elementary-xfce-icon-theme
+Replaces: elementary-xfce-icon-theme
+Provides: elementary-xfce-icon-theme
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2~mos+1_all.deb
+Size: 6155196
+SHA256: df29e2f3c8a14345aa1034ecfcf3321d4c99e57dc63cc17d76ad4290a84c0123
+SHA1: 773f212c50bfbb03b91e5a6a2e70184a64b065b4
+MD5sum: 9e6e631132e3417f510e9ded6279447d
+Description: elementary icon theme modified for Xfce
+ elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
+ desktops.
+ .
+ This fork took place because the elementary OS maintainers wanted to focus
+ exclusively on their desktop environment and thus dropped a lot of icon
+ symlinks used by other desktops. elementary-xfce intends to keep these as-is,
+ while still pulling in new icons and integrating them occasionally.
+
 Package: fbxkb
 Version: 0.6-3.mos+1
 Architecture: i386
@@ -62,6 +106,25 @@ Description: X11 keyboard indicator and switcher
  It shows a flag of current keyboard in a systray area and
  allows you to switch to another one. It's written in C and
  uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20221012-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 248
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
+Recommends: intel-microcode, amd64-microcode
+Priority: optional
+Section: non-free/metapackages
+Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
+Size: 47416
+SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
+SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
+MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
 
 Package: fluxbox-slax
 Version: 1.3.5-2.1
@@ -88,6 +151,22 @@ Description: Highly configurable and low resource X11 Window manager
  fixes over blackbox.
  .
  This package contains support for GNOME and KDE.
+
+Package: gtkdialog
+Installed-Size: 363
+Maintainer: sfs
+Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
+Architecture: i386
+Version: 0.8.3-1
+Provides: gtkdialog
+Priority: extra
+Section: system
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.3-1_i386.deb
+Size: 177016
+SHA256: 7ea3453100a213e62774a1b1ebd183335c63226852aa7917d8f6b7eb78cffdd4
+SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
+MD5sum: 79aafe17908409452981f373bf66f8e5
+Description: gtkdialog
 
 Package: gtkdialog-slax
 Version: 1.0-1
@@ -126,6 +205,304 @@ Description: mousepad plugins library
  Mousepad is a graphical text editor for Xfce based on Leafpad.
  .
  This package contains the libmousepad library, used for Mousepad plugins.
+
+Package: linux-headers-5.10-mos-686
+Version: 5.10.179
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.179-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-5.10-mos-686/linux-headers-5.10-mos-686_5.10.179_i386.deb
+Size: 2268
+SHA256: 2e227f97f7a33a290f2f64cd949688c3dfeff6b439d89ce4ad012f02dafd0b69
+SHA1: f1848663e9de6d522d22e9bc97a84a39fe7a7341
+MD5sum: 54168b87477bce044e1068a7458abe12
+Description: Header files for Linux 686 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686 configuration.
+
+Package: linux-headers-5.10-mos-686-pae
+Version: 5.10.179
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-5.10.179-mos-686-pae
+Provides: linux-headers-5.10-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-5.10-mos-686-pae/linux-headers-5.10-mos-686-pae_5.10.179_i386.deb
+Size: 2296
+SHA256: dcd7b5dd13dbd05f75786ee9344d29cfd3dfce0d40cce2144991edd9479a1d05
+SHA1: a4847d4bacf7056c8e093260cae6bbf8047f1af4
+MD5sum: 67c79f0276b7a6ef8a9efe968adc1070
+Description: Header files for Linux 686-pae configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686-pae configuration.
+
+Package: linux-headers-5.10.179-mos-686
+Source: linux-5.10.179-mos-686
+Version: 5.10.179-mos-686-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 48841
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686/linux-headers-5.10.179-mos-686_5.10.179-mos-686-1_i386.deb
+Size: 7872400
+SHA256: 17a2e77170bd91b2ec7ee5feba732831300223e609a6c106f2547ff1b4746059
+SHA1: 0b59719d57654881d65480f572d2ae2f62bfd5df
+MD5sum: f765fd6a007c937c308a945a41216133
+Description: Linux kernel headers for 5.10.179-mos-686 on i386
+ This package provides kernel header files for 5.10.179-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.10.179-mos-686-pae
+Source: linux-5.10.179-mos-686-pae
+Version: 5.10.179-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 48918
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686-pae/linux-headers-5.10.179-mos-686-pae_5.10.179-mos-686-pae-1_i386.deb
+Size: 7876136
+SHA256: f7d15b9fe7367c484e04c27771c0c8482a24cef529d79bf339d93c040c69c628
+SHA1: ece08b9a8b8eb5639e7966be1bb0e518e8b921c7
+MD5sum: 59974b3f8b6469d970cbb0c851676940
+Description: Linux kernel headers for 5.10.179-mos-686-pae on i386
+ This package provides kernel header files for 5.10.179-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1-mos-686
+Version: 6.1.27
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.1.27-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.27_i386.deb
+Size: 2260
+SHA256: 4f71921cb1e9aefc41de70454a2993105b887d1235274e532cb743dd567b2d2b
+SHA1: 8d2ea7691575e3caee0ccb5222304541dc91c8d0
+MD5sum: 48653d04a26f8ef06a813882d9b900a5
+Description: Header files for Linux 686 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686 configuration.
+
+Package: linux-headers-6.1-mos-686-pae
+Version: 6.1.27
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.1.27-mos-686-pae
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.27_i386.deb
+Size: 2288
+SHA256: e53cbbd95c413671e8c092f43c98754143cd211893e7d0a9e3ef04857fe318a8
+SHA1: dafb4874f9ebb1028365b95714a272138a312698
+MD5sum: 330db4715b9e5a9335793f41137b0ba0
+Description: Header files for Linux 686-pae configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel 686-pae configuration.
+
+Package: linux-headers-6.1.27-mos-686
+Source: linux-upstream
+Version: 6.1.27-mos-686-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 51390
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
+Size: 8564876
+SHA256: 0f4bc6c93f1221a4695a9fc5151271c524fa98de5dbd2c07c1850b40de76dd58
+SHA1: 141c2ed219a8a8cb9f1b3dfe810fc2c4d05c56f0
+MD5sum: d73902f5bde7db2e9bb69b6374414975
+Description: Linux kernel headers for 6.1.27-mos-686 on i386
+ This package provides kernel header files for 6.1.27-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.27-mos-686-pae
+Source: linux-upstream
+Version: 6.1.27-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 51441
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
+Size: 8565124
+SHA256: d75823bc15763a9fe21750e05a824c3405b4535fee93c17c2e5933481d6f8df2
+SHA1: ef9d0eb6c1580c752e7692a3176254ea49c9bd96
+MD5sum: 96e58762a72fde1c3f0b0c3643f00a7b
+Description: Linux kernel headers for 6.1.27-mos-686-pae on i386
+ This package provides kernel header files for 6.1.27-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-5.10-mos-686
+Version: 5.10.179
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.179-mos-686
+Provides: linux-latest-modules-5.10.179-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-5.10-mos-686/linux-image-5.10-mos-686_5.10.179_i386.deb
+Size: 2384
+SHA256: 546ac11d90d449a3c338aa1ace05dec7b784deb25cc40e3b84b67da9882bc1c6
+SHA1: c36bd3bfe4dec48300731e2bd064965bf304a571
+MD5sum: abff300c720d67779d4af0b9e40d85ab
+Description: Linux for older PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors not supporting PAE.
+
+Package: linux-image-5.10-mos-686-pae
+Version: 5.10.179
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-5.10.179-mos-686-pae
+Provides: linux-image-5.10-mos-generic, linux-latest-modules-5.10.179-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-5.10-mos-686-pae/linux-image-5.10-mos-686-pae_5.10.179_i386.deb
+Size: 2408
+SHA256: 874fffafc0ce138229c8398e29e67b889c7e877ff1f2ce703e23589ff8201395
+SHA1: 06ecceb925fd485e4c01aacb9607df4fdfd0857b
+MD5sum: 0d6e0a256ede83a84aceaa93d943973d
+Description: Linux for modern PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors supporting PAE.
+
+Package: linux-image-5.10.179-mos-686
+Source: linux-5.10.179-mos-686
+Version: 5.10.179-mos-686-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 170472
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686/linux-image-5.10.179-mos-686_5.10.179-mos-686-1_i386.deb
+Size: 45518040
+SHA256: 055bdbb4f34aba373df5faf7e7bb396943a75f795f3e20e28830be0bb14a451a
+SHA1: b9bbe0b3d9bd064a5c4ddfb9c7e69654a721d5f7
+MD5sum: 27a71fe0a2c315fff51f01c79f0b0ab0
+Description: Linux kernel, version 5.10.179-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.179-mos-686.
+
+Package: linux-image-5.10.179-mos-686-pae
+Source: linux-5.10.179-mos-686-pae
+Version: 5.10.179-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bullseye>
+Installed-Size: 170998
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-5.10.179-mos-686-pae/linux-image-5.10.179-mos-686-pae_5.10.179-mos-686-pae-1_i386.deb
+Size: 45755380
+SHA256: f0c7abf7c268634c1cdf2ba03486994fa04dfbc941ed447736f740d6acea2bad
+SHA1: aa68980596fae0b30b10960e2976164b450de1a9
+MD5sum: 730279748d21bd8085fd19e89f9b6f28
+Description: Linux kernel, version 5.10.179-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.179-mos-686-pae.
+
+Package: linux-image-6.1-mos-686
+Version: 6.1.27
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.1.27-mos-686
+Provides: linux-latest-modules-6.1.27-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.27_i386.deb
+Size: 2380
+SHA256: 27796915198f28398f6f03cb99e76fe329f9232284935201dbcd9f3636831b99
+SHA1: 50b589062115fb45e65ab37b71384f7b8c03a889
+MD5sum: cf108a8214778e4bfbedc81428464d6c
+Description: Linux for older PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors not supporting PAE.
+
+Package: linux-image-6.1-mos-686-pae
+Version: 6.1.27
+Architecture: i386
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.1.27-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.27-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.27_i386.deb
+Size: 2408
+SHA256: a8e01c7839966d6ff8a5cd2a9ab9f4df3035202517b8259fc00b411d79ce3616
+SHA1: b1a12e6615a440fcb0c442a07ffc44ba4aaab652
+MD5sum: e78f60ade8a5486ec26eef84fa340fe9
+Description: Linux for modern PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with one or more processors supporting PAE.
+
+Package: linux-image-6.1.27-mos-686
+Source: linux-upstream
+Version: 6.1.27-mos-686-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 191600
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
+Size: 51845852
+SHA256: 4c9081a836db6bec1854a4522ec459c868e8959993ec4558b87095547f8cf87d
+SHA1: b53e187b6e2269633c387340dcf3e6b5cb35574f
+MD5sum: a0f81df21406593728cad74edaa7dc01
+Description: Linux kernel, version 6.1.27-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.27-mos-686.
+
+Package: linux-image-6.1.27-mos-686-pae
+Source: linux-upstream
+Version: 6.1.27-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 192096
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
+Size: 52077828
+SHA256: ce07c35d2a5dbbd04c4cf4b95b0c435a1419e39e2ef33a1ebcdcf14ca42a19ae
+SHA1: de128a83d013171d696cd9772e75a6e8ba9ff2d8
+MD5sum: c5a0ee025a84c2983b1d0e9b7ba53d31
+Description: Linux kernel, version 6.1.27-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.27-mos-686-pae.
 
 Package: mousepad
 Version: 0.5.10-2.mos+1
@@ -229,6 +606,29 @@ Description: xrdp module for PulseAudio sound server
  them including: MS RDP clients, FreeRDP).
  .
  The module is called module-xrdp.
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
 
 Package: systrayicon
 Version: 1.0-1
