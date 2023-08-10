@@ -1,284 +1,115 @@
-Package: adwaita-icon-theme-antix
-Version: 3.30.2~antix1
-Architecture: all
-Maintainer: anticapitalista <anticapitalista@riseup.net>
-Installed-Size: 2616
-Conflicts: adwaita-icon-theme
-Breaks: adwaita-icon-theme
-Replaces: adwaita-icon-theme
-Provides: adwaita-icon-theme
-Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: amd64
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4013
+Depends: menu (>= 2.1.19), libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libimlib2 (>= 1.4.5), libstdc++6 (>= 11), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1 (>= 2:1.1.4), libxpm4, libxrandr2, libxrender1
+Conflicts: fluxbox
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Provides: x-window-manager
+Homepage: http://fluxbox.org
 Priority: optional
-Section: antiX
-Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
-Size: 1647500
-SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
-SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
-MD5sum: a42da42232869a2320dc464d2a359df9
-Description: default icon theme of GNOME.
- This version is a much strippd down version for antiX Linux.
- No cursers theme included.
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_amd64.deb
+Size: 1197940
+SHA256: fee2cf32fdcf767bb7bb0a5a298dcf8acbd0bea0f346cecf777e98073b5dfca3
+SHA1: 1f23bcbb15e5ffbcda434b7641bb041141aa92e3
+MD5sum: 857a1d4cc74c676d6d7b5e0edeb6a376
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
 
-Package: adwaita-icon-theme-fake
-Version: 0.1
-Architecture: all
+Package: gtkdialog-slax
+Version: 1.0-1
+Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Conflicts: adwaita-icon-theme
-Breaks: adwaita-icon-theme
-Replaces: adwaita-icon-theme
-Provides: adwaita-icon-theme
+Installed-Size: 29
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
+Conflicts: gtkdialog
+Homepage: https://github.com/minios-linux/gtkdialog-slax.git
 Priority: optional
-Section: x11
-Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
-Size: 756
-SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
-SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
-MD5sum: 383a6a5bd758655cfacd84adb625b325
-Description: Fake package to prevent adwaita-icon-theme from being installed
+Section: unknown
+Filename: pool/main/g/gtkdialog-slax/gtkdialog-slax_1.0-1_amd64.deb
+Size: 4868
+SHA256: 9a3d8256388fa53a57e313729618a113ce39e5e3c95f0046bafd999aba6e2b1b
+SHA1: d3d8cd0af2b20cbe9425d70d20f52d7815f1dbda
+MD5sum: 42554a43bbd1e4211cebc44021eb61b9
+Description: Simple GTK2 dialog for Yes/No questions.
 
-Package: elementary-xfce-minios-icon-theme
-Source: elementary-xfce-minios
-Version: 0.17-2~mos+1
-Architecture: all
-Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 15506
-Conflicts: elementary-xfce-icon-theme
-Breaks: elementary-xfce-icon-theme
-Replaces: elementary-xfce-icon-theme
-Provides: elementary-xfce-icon-theme
-Homepage: https://github.com/shimmerproject/elementary-xfce
+Package: mousepad
+Version: 0.5.10-2.mos+1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2084
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
+Homepage: https://docs.xfce.org/apps/mousepad/start
 Priority: optional
-Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2~mos+1_all.deb
-Size: 6155196
-SHA256: df29e2f3c8a14345aa1034ecfcf3321d4c99e57dc63cc17d76ad4290a84c0123
-SHA1: 773f212c50bfbb03b91e5a6a2e70184a64b065b4
-MD5sum: 9e6e631132e3417f510e9ded6279447d
-Description: elementary icon theme modified for Xfce
- elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
- desktops.
+Section: xfce
+Filename: pool/main/m/mousepad/mousepad_0.5.10-2.mos+1_amd64.deb
+Size: 520544
+SHA256: 26a4bcb9a518fcbcf4b0796e24b75a00919cd036f83b205c7faa001da62ae80b
+SHA1: 09edc73d2374808dfa1085e558a422c2c9155168
+MD5sum: 00574df95e14881d5319a61887ac6650
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
  .
- This fork took place because the elementary OS maintainers wanted to focus
- exclusively on their desktop environment and thus dropped a lot of icon
- symlinks used by other desktops. elementary-xfce intends to keep these as-is,
- while still pulling in new icons and integrating them occasionally.
-
-Package: firmware-linux
-Source: firmware-nonfree
-Version: 20221012-1
-Architecture: all
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 248
-Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
-Recommends: intel-microcode, amd64-microcode
-Priority: optional
-Section: non-free/metapackages
-Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
-Size: 47416
-SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
-SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
-MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
-Description: Binary firmware for various drivers in the Linux kernel (metapackage)
- This package depends on both free and non-free firmware which may be used
- with drivers in the Linux kernel.
-
-Package: gtkdialog
-Installed-Size: 363
-Maintainer: sfs
-Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
-Architecture: amd64
-Version: 0.8.4-1
-Provides: gtkdialog
-Priority: extra
-Section: system
-Filename: pool/main/g/gtkdialog/gtkdialog_0.8.4-1_amd64.deb
-Size: 263246
-SHA256: a5c9b319bd690f489d9d7398518f266283423df62f261ef6deff5b6a22bfb874
-SHA1: 98ea01e1c5bbd3014381404dee073bb24bec3fb3
-MD5sum: 3c9589c721b181e9f32b100a242d63c3
-Description: gtkdialog
-
-Package: linux-headers-5.10-mos-amd64
-Version: 5.10.179
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-5.10.179-mos-amd64
-Provides: linux-headers-5.10-mos-generic
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-5.10-mos-amd64/linux-headers-5.10-mos-amd64_5.10.179_amd64.deb
-Size: 2292
-SHA256: 07d8243114559dc8d212ee642e7075ed5b83671662f608bb870560efffb67cac
-SHA1: 5d3d745ffb68b1bc3a07cd53fd442b72ac3280a9
-MD5sum: 7c0954c57907fb83673a977984516cde
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
-
-Package: linux-headers-5.10.179-mos-amd64
-Source: linux-5.10.179-mos-amd64
-Version: 5.10.179-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bullseye>
-Installed-Size: 49951
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.179-mos-amd64/linux-headers-5.10.179-mos-amd64_5.10.179-mos-amd64-1_amd64.deb
-Size: 8129580
-SHA256: 17b54bb9b507c07d241ea17a9d80aa9e8432073c872587e50818139a4c25aab1
-SHA1: b43ab4d69897c1ac802779247114eb01ecbef0b1
-MD5sum: 2dc3db88c353e8451943cf356818c965
-Description: Linux kernel headers for 5.10.179-mos-amd64 on amd64
- This package provides kernel header files for 5.10.179-mos-amd64 on amd64
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
  .
- This is useful for people who need to build external modules
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
 
-Package: linux-headers-6.1-mos-amd64
-Version: 6.1.27
+Package: pcmanfm
+Version: 1.3.2-1.mos+1
 Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.1.27-mos-amd64
-Provides: linux-headers-6.1-mos-generic
-Multi-Arch: foreign
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1583
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.27_amd64.deb
-Size: 2288
-SHA256: d62bf0c1b3a4d694d73673762b68747d6c6286d6ffbda0e9610b8dce74eba1f7
-SHA1: 80feb172f357c31dcbedd6536d9eb538bd7f1ed1
-MD5sum: 53053bd0fe981ec7cca0005a20642d0a
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
-
-Package: linux-headers-6.1.27-mos-amd64
-Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bookworm>
-Installed-Size: 52302
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 8852492
-SHA256: 91ec7a95413c564ea59c1d700d563645ff35439fabe799c7e7f1993c0d72a737
-SHA1: 2448e71e24a063bae38e08811666d95673ab3672
-MD5sum: 1cbf4777559549308fae4dcaa3f1fdd9
-Description: Linux kernel headers for 6.1.27-mos-amd64 on amd64
- This package provides kernel header files for 6.1.27-mos-amd64 on amd64
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.mos+1_amd64.deb
+Size: 282080
+SHA256: 3fa675bff6fb216b53c191cc347d9d1a323c0dba87f9b4dafde7e808f5936751
+SHA1: 3af222ec1b34eae0e311507ba5082fddcad737e3
+MD5sum: 0e9cb7a7a08d44a760cd7b8666709d67
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
  .
- This is useful for people who need to build external modules
-
-Package: linux-image-5.10-mos-amd64
-Version: 5.10.179
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-5.10.179-mos-amd64
-Provides: linux-image-5.10-mos-generic, linux-latest-modules-5.10.179-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-5.10-mos-amd64/linux-image-5.10-mos-amd64_5.10.179_amd64.deb
-Size: 2408
-SHA256: d4a55215cc9f21e42130795a58b46a30bfdf8a28bb481cd2e666646421ecb6df
-SHA1: 601c2c9797e3b4884eff46bb4e11f019ec16d83a
-MD5sum: 8b8fe6480f3d5b057cc7efb956be3b22
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
-
-Package: linux-image-5.10.179-mos-amd64
-Source: linux-5.10.179-mos-amd64
-Version: 5.10.179-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bullseye>
-Installed-Size: 318206
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.179-mos-amd64/linux-image-5.10.179-mos-amd64_5.10.179-mos-amd64-1_amd64.deb
-Size: 55176964
-SHA256: 253e753886e1dab0ee7a873890d2412709ac344b2e2e2c2b7288e078403d8814
-SHA1: 2925fce77b3b9ed2daddfef0fa114f2993fd436f
-MD5sum: c357c33cb50c0dcc3e98a057e4d3540b
-Description: Linux kernel, version 5.10.179-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.179-mos-amd64.
-
-Package: linux-image-6.1-mos-amd64
-Version: 6.1.27
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.1.27-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.27-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.27_amd64.deb
-Size: 2408
-SHA256: 7bb382f11047a88a4ae8dfc43f19793b0d23d4b5c278d81c54d3a83b326478a8
-SHA1: 6b53bb0e0e333128587232a07fde04dfcc23e33b
-MD5sum: 5005fb48312e903259f20970321feb20
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
-
-Package: linux-image-6.1.27-mos-amd64
-Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bookworm>
-Installed-Size: 408608
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 70240784
-SHA256: 1e561afece36a68196932763d15ab35d4647cbe2bf9122699e3e01bf9880e07b
-SHA1: 5765e0bdd76f274b4aabab96bd8342c0050afad8
-MD5sum: fe95828c38319f2fd698e0f77ce206ea
-Description: Linux kernel, version 6.1.27-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-amd64.
-
-Package: partclone-nbd
-Installed-Size: 116
-Maintainer: admin@minios.dev
-Architecture: amd64
-Version: 0.0.3-1
-Depends: partclone
-Provides: partclone-nbd
-Priority: extra
-Section: checkinstall
-Filename: pool/main/p/partclone-nbd/partclone-nbd_0.0.3-1_amd64.deb
-Size: 37636
-SHA256: abcb50f2a7ed8d49f1f4dabf662858610074360676f8992d456b08e284aec562
-SHA1: f5d94b041878aca75b44f0537e0a5fe5012c583f
-MD5sum: 48077c23e858d14b43dd3827fa2e91c8
-Description: Package created with checkinstall 1.6.3
-
-Package: partclone-utils
-Installed-Size: 248
-Maintainer: admin@minios.dev
-Architecture: amd64
-Version: 0.4.2-1
-Depends: partclone
-Provides: partclone-utils
-Priority: extra
-Section: checkinstall
-Filename: pool/main/p/partclone-utils/partclone-utils_0.4.2-1_amd64.deb
-Size: 37528
-SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
-SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
-MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
-Description: Package created with checkinstall 1.6.3
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
 
 Package: pulseaudio-module-xrdp
 Version: 0.7-0.mos~d12+1
@@ -313,104 +144,23 @@ Description: xrdp module for PulseAudio sound server
  .
  The module is called module-xrdp.
 
-Package: realtek-rtl8188eus-dkms
-Version: 5.3.9~git20221105.dab6e02-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 11776
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/aircrack-ng/rtl8188eus
+Package: systrayicon
+Version: 1.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 25
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk-3-0 (>= 3.0.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
 Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20221105.dab6e02-0kali1_all.deb
-Size: 1492988
-SHA256: bfd16d89b84be8f30b0fac942a93068454012610adcd81f3c3c90f4bd6584be2
-SHA1: 027f5c2e803927c0006a5a80874782b66cd27ebe
-MD5sum: f3a71dd0e7ae3b6a6ea734f104ec9923
-Description: Realtek RTL8188EUS driver in DKMS format
- This package provides the source code for RTL8188EUS Linux driver (with
- monitor mode and frame injection) to be build with dkms. Kernel sources or
- headers are required to compile this module.
-
-Package: realtek-rtl8723cs-dkms
-Version: 0.0~git20210902.0fb0c24-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 13017
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/Icenowy/rtl8723cs
-Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_0.0~git20210902.0fb0c24-0kali1_all.deb
-Size: 1445716
-SHA256: 37a705efe017e389c47e51d5e31e2a9966045132f8fd1f33c4ff67fe0015dbe0
-SHA1: 96fafa62075d3610e4632ca298acfa7fd6f3910b
-MD5sum: 3ab4349abbd5d196b9eb4ee67ca4dede
-Description: Realtek RTL8723CS driver in DKMS format
- This package provides the source code for RTL8723CS Linux driver (with
- monitor mode and frame injection) to be build with dkms. Kernel sources or
- headers are required to compile this module.
-
-Package: realtek-rtl8814au-dkms
-Version: 5.8.5.1~git20220905.3f2f680-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 14335
-Depends: dkms (>= 2.1.0.0), bc
-Homepage: https://github.com/morrownr/8814au
-Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220905.3f2f680-0kali1_all.deb
-Size: 1659176
-SHA256: 915d1ab1683b8af757d3ec37eae52c18c595df2b5e26e1fc2b9a464143ca9034
-SHA1: ad4705ddc67b6c8dcf712c817a629edfc80d5eee
-MD5sum: 0db3e6fb2d41b6ea0a61db6b4e313fb1
-Description: Realtek RTL8814AU driver in DKMS format
- This package provides the source code for RTL8814AU Linux driver (with monitor
- mode and frame injection) to be build with dkms. Kernel sources or headers are
- required to compile this module.
-
-Package: realtek-rtl88xxau-dkms
-Version: 5.6.4.2~git20220827.e7a4a39-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 15001
-Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
-Homepage: https://github.com/aircrack-ng/rtl8812au
-Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220827.e7a4a39-0kali1_all.deb
-Size: 1794412
-SHA256: 991d743ad63268bd1e96cf1488e95b0d06a5f4a2859d02f5ce60b849b56f23c9
-SHA1: 5da3a21dc6d449a5b189e678ee6f4dc7f92d5c51
-MD5sum: 5bbb6f8a8a5fc8f02c744e708f78f8d4
-Description: Realtek RTL88xxAU driver in DKMS format
- This package provides the source code for RTL8812AU/21AU Linux
- driver (with monitor mode and frame injection) to be build with dkms. Kernel
- sources or headers are required to compile this module.
-
-Package: rescuezilla
-Version: 2.3.1-1-1
-Architecture: all
-Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 2690
-Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
-Recommends: partimage, ecryptfs-utils
-Homepage: https://rescuezilla.com
-Priority: optional
-Section: admin
-Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
-Size: 416524
-SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
-SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
-MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
-Description: Graphical hard drive backup and restore
- Rescuezilla is an easy-to-use disk cloning and imaging application that's
- fully compatible with Clonezilla — the industry-standard trusted by tens
- of millions. For many people, the alternative open-source tools such as
- Clonezilla are intimidating and difficult to use, so Rescuezilla provides
- an easy-to-use graphical environment like the leading commercial tools,
- Acronis True Image and Macrium Reflect.
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_amd64.deb
+Size: 4324
+SHA256: 18b6bc9dfcebb947c10e3d01c15c09f99d41a24f276ebbcfb3f44071ba95897c
+SHA1: b138c16f9459c49863b72a3bf0c00231771e5799
+MD5sum: 02d13363e9df4977e493bb2f262722b6
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
 
 Package: thunar
 Version: 4.18.4-1.mos+1
@@ -454,4 +204,26 @@ MD5sum: 328a91868b69633d07a4ac05da2ee0ba
 Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
+
+Package: xlunch-slax
+Version: 4.7.5-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 130
+Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/minios-linux/xlunch-slax.git
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-1_amd64.deb
+Size: 63360
+SHA256: fb449254047e8b9444906668b0c33b13d9bd82db0c65963b3493c99d6688ce88
+SHA1: d56ae177028819ecd671deb54a7409099b4c6bf5
+MD5sum: 4e0f0e516e93f1597a6c2eea82ebd18d
+Description: Graphical app launcher for X, using pure Xlib and Imlib2.
+ xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
+ Imlib2. It allows you to run programs, commands, or simply select something out
+ of a list using your mouse, keyboard, or both! UTF8 is fully supported meaning
+ you can have text of all kinds. The prompt allows you to run arbitrary commands,
+ and it works to filter your entries as well. xlunch is also highly configurable,
+ both in functionality and style, it can even be used as a desktop!
 

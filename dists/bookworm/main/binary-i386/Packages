@@ -1,400 +1,115 @@
-Package: adwaita-icon-theme-antix
-Version: 3.30.2~antix1
-Architecture: all
-Maintainer: anticapitalista <anticapitalista@riseup.net>
-Installed-Size: 2616
-Conflicts: adwaita-icon-theme
-Breaks: adwaita-icon-theme
-Replaces: adwaita-icon-theme
-Provides: adwaita-icon-theme
-Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: i386
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4086
+Depends: menu (>= 2.1.19), libc6 (>= 2.34), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1 (>= 2:1.1.4), libxpm4, libxrandr2, libxrender1
+Conflicts: fluxbox
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Provides: x-window-manager
+Homepage: http://fluxbox.org
 Priority: optional
-Section: antiX
-Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
-Size: 1647500
-SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
-SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
-MD5sum: a42da42232869a2320dc464d2a359df9
-Description: default icon theme of GNOME.
- This version is a much strippd down version for antiX Linux.
- No cursers theme included.
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_i386.deb
+Size: 1244236
+SHA256: f53db96c4d4537c5f531bf952514469b74cb124068a94eb28cb6b53189105192
+SHA1: 9c3c454d78e9459dc67d4b47e0503c7dac407b8c
+MD5sum: 709b05d359a4b72c5312dbba6dc5cd23
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
 
-Package: adwaita-icon-theme-fake
-Version: 0.1
-Architecture: all
+Package: gtkdialog-slax
+Version: 1.0-1
+Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Conflicts: adwaita-icon-theme
-Breaks: adwaita-icon-theme
-Replaces: adwaita-icon-theme
-Provides: adwaita-icon-theme
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
+Conflicts: gtkdialog
+Homepage: https://github.com/minios-linux/gtkdialog-slax.git
 Priority: optional
-Section: x11
-Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
-Size: 756
-SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
-SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
-MD5sum: 383a6a5bd758655cfacd84adb625b325
-Description: Fake package to prevent adwaita-icon-theme from being installed
+Section: unknown
+Filename: pool/main/g/gtkdialog-slax/gtkdialog-slax_1.0-1_i386.deb
+Size: 4856
+SHA256: 3c4c6214a5af2b3fe513176da3df8fe33295d009d29a36a9da44adb5f2d54de1
+SHA1: 4c25d658be06014ee24dfa63a2396de97825f33b
+MD5sum: 88380ffceb67a8458320eea242cb8be9
+Description: Simple GTK2 dialog for Yes/No questions.
 
-Package: elementary-xfce-minios-icon-theme
-Source: elementary-xfce-minios
-Version: 0.17-2~mos+1
-Architecture: all
-Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 15506
-Conflicts: elementary-xfce-icon-theme
-Breaks: elementary-xfce-icon-theme
-Replaces: elementary-xfce-icon-theme
-Provides: elementary-xfce-icon-theme
-Homepage: https://github.com/shimmerproject/elementary-xfce
+Package: mousepad
+Version: 0.5.10-2.mos+1
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2079
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
+Homepage: https://docs.xfce.org/apps/mousepad/start
 Priority: optional
-Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2~mos+1_all.deb
-Size: 6155196
-SHA256: df29e2f3c8a14345aa1034ecfcf3321d4c99e57dc63cc17d76ad4290a84c0123
-SHA1: 773f212c50bfbb03b91e5a6a2e70184a64b065b4
-MD5sum: 9e6e631132e3417f510e9ded6279447d
-Description: elementary icon theme modified for Xfce
- elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
- desktops.
+Section: xfce
+Filename: pool/main/m/mousepad/mousepad_0.5.10-2.mos+1_i386.deb
+Size: 520920
+SHA256: 378a58862fb80a2c7f379731a18bf27e06247c7b26b204824713e78f91f1ad41
+SHA1: c9d02223e40ed771961b89d4ad5608e8fb6f810d
+MD5sum: 463eff78e5ceae37beb3916866488b80
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
  .
- This fork took place because the elementary OS maintainers wanted to focus
- exclusively on their desktop environment and thus dropped a lot of icon
- symlinks used by other desktops. elementary-xfce intends to keep these as-is,
- while still pulling in new icons and integrating them occasionally.
-
-Package: firmware-linux
-Source: firmware-nonfree
-Version: 20221012-1
-Architecture: all
-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
-Installed-Size: 248
-Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
-Recommends: intel-microcode, amd64-microcode
-Priority: optional
-Section: non-free/metapackages
-Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
-Size: 47416
-SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
-SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
-MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
-Description: Binary firmware for various drivers in the Linux kernel (metapackage)
- This package depends on both free and non-free firmware which may be used
- with drivers in the Linux kernel.
-
-Package: gtkdialog
-Installed-Size: 363
-Maintainer: sfs
-Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
-Architecture: i386
-Version: 0.8.3-1
-Provides: gtkdialog
-Priority: extra
-Section: system
-Filename: pool/main/g/gtkdialog/gtkdialog_0.8.3-1_i386.deb
-Size: 177016
-SHA256: 7ea3453100a213e62774a1b1ebd183335c63226852aa7917d8f6b7eb78cffdd4
-SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
-MD5sum: 79aafe17908409452981f373bf66f8e5
-Description: gtkdialog
-
-Package: linux-headers-5.10-mos-686
-Version: 5.10.179
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-5.10.179-mos-686
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-5.10-mos-686/linux-headers-5.10-mos-686_5.10.179_i386.deb
-Size: 2268
-SHA256: 2e227f97f7a33a290f2f64cd949688c3dfeff6b439d89ce4ad012f02dafd0b69
-SHA1: f1848663e9de6d522d22e9bc97a84a39fe7a7341
-MD5sum: 54168b87477bce044e1068a7458abe12
-Description: Header files for Linux 686 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel 686 configuration.
-
-Package: linux-headers-5.10-mos-686-pae
-Version: 5.10.179
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-5.10.179-mos-686-pae
-Provides: linux-headers-5.10-mos-generic
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-5.10-mos-686-pae/linux-headers-5.10-mos-686-pae_5.10.179_i386.deb
-Size: 2296
-SHA256: dcd7b5dd13dbd05f75786ee9344d29cfd3dfce0d40cce2144991edd9479a1d05
-SHA1: a4847d4bacf7056c8e093260cae6bbf8047f1af4
-MD5sum: 67c79f0276b7a6ef8a9efe968adc1070
-Description: Header files for Linux 686-pae configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel 686-pae configuration.
-
-Package: linux-headers-5.10.179-mos-686
-Source: linux-5.10.179-mos-686
-Version: 5.10.179-mos-686-1
-Architecture: i386
-Maintainer: root <root@bullseye>
-Installed-Size: 48841
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.179-mos-686/linux-headers-5.10.179-mos-686_5.10.179-mos-686-1_i386.deb
-Size: 7872400
-SHA256: 17a2e77170bd91b2ec7ee5feba732831300223e609a6c106f2547ff1b4746059
-SHA1: 0b59719d57654881d65480f572d2ae2f62bfd5df
-MD5sum: f765fd6a007c937c308a945a41216133
-Description: Linux kernel headers for 5.10.179-mos-686 on i386
- This package provides kernel header files for 5.10.179-mos-686 on i386
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
  .
- This is useful for people who need to build external modules
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
 
-Package: linux-headers-5.10.179-mos-686-pae
-Source: linux-5.10.179-mos-686-pae
-Version: 5.10.179-mos-686-pae-1
+Package: pcmanfm
+Version: 1.3.2-1.mos+1
 Architecture: i386
-Maintainer: root <root@bullseye>
-Installed-Size: 48918
-Homepage: https://www.kernel.org/
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1596
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.179-mos-686-pae/linux-headers-5.10.179-mos-686-pae_5.10.179-mos-686-pae-1_i386.deb
-Size: 7876136
-SHA256: f7d15b9fe7367c484e04c27771c0c8482a24cef529d79bf339d93c040c69c628
-SHA1: ece08b9a8b8eb5639e7966be1bb0e518e8b921c7
-MD5sum: 59974b3f8b6469d970cbb0c851676940
-Description: Linux kernel headers for 5.10.179-mos-686-pae on i386
- This package provides kernel header files for 5.10.179-mos-686-pae on i386
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.mos+1_i386.deb
+Size: 290136
+SHA256: 68c5def463e175968f4b4fbb91659f6821ad8a831056f52f3d59218a0263646e
+SHA1: ab17bc654f072e0ab938d3a73f2010390902fa25
+MD5sum: c195d7e9ae74df6f96d60b96ba54ec78
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
  .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1-mos-686
-Version: 6.1.27
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.1.27-mos-686
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.27_i386.deb
-Size: 2260
-SHA256: 4f71921cb1e9aefc41de70454a2993105b887d1235274e532cb743dd567b2d2b
-SHA1: 8d2ea7691575e3caee0ccb5222304541dc91c8d0
-MD5sum: 48653d04a26f8ef06a813882d9b900a5
-Description: Header files for Linux 686 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel 686 configuration.
-
-Package: linux-headers-6.1-mos-686-pae
-Version: 6.1.27
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.1.27-mos-686-pae
-Provides: linux-headers-6.1-mos-generic
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.27_i386.deb
-Size: 2288
-SHA256: e53cbbd95c413671e8c092f43c98754143cd211893e7d0a9e3ef04857fe318a8
-SHA1: dafb4874f9ebb1028365b95714a272138a312698
-MD5sum: 330db4715b9e5a9335793f41137b0ba0
-Description: Header files for Linux 686-pae configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel 686-pae configuration.
-
-Package: linux-headers-6.1.27-mos-686
-Source: linux-upstream
-Version: 6.1.27-mos-686-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 51390
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
-Size: 8564876
-SHA256: 0f4bc6c93f1221a4695a9fc5151271c524fa98de5dbd2c07c1850b40de76dd58
-SHA1: 141c2ed219a8a8cb9f1b3dfe810fc2c4d05c56f0
-MD5sum: d73902f5bde7db2e9bb69b6374414975
-Description: Linux kernel headers for 6.1.27-mos-686 on i386
- This package provides kernel header files for 6.1.27-mos-686 on i386
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.27-mos-686-pae
-Source: linux-upstream
-Version: 6.1.27-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 51441
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
-Size: 8565124
-SHA256: d75823bc15763a9fe21750e05a824c3405b4535fee93c17c2e5933481d6f8df2
-SHA1: ef9d0eb6c1580c752e7692a3176254ea49c9bd96
-MD5sum: 96e58762a72fde1c3f0b0c3643f00a7b
-Description: Linux kernel headers for 6.1.27-mos-686-pae on i386
- This package provides kernel header files for 6.1.27-mos-686-pae on i386
- .
- This is useful for people who need to build external modules
-
-Package: linux-image-5.10-mos-686
-Version: 5.10.179
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-5.10.179-mos-686
-Provides: linux-latest-modules-5.10.179-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-5.10-mos-686/linux-image-5.10-mos-686_5.10.179_i386.deb
-Size: 2384
-SHA256: 546ac11d90d449a3c338aa1ace05dec7b784deb25cc40e3b84b67da9882bc1c6
-SHA1: c36bd3bfe4dec48300731e2bd064965bf304a571
-MD5sum: abff300c720d67779d4af0b9e40d85ab
-Description: Linux for older PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with one or more processors not supporting PAE.
-
-Package: linux-image-5.10-mos-686-pae
-Version: 5.10.179
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-5.10.179-mos-686-pae
-Provides: linux-image-5.10-mos-generic, linux-latest-modules-5.10.179-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-5.10-mos-686-pae/linux-image-5.10-mos-686-pae_5.10.179_i386.deb
-Size: 2408
-SHA256: 874fffafc0ce138229c8398e29e67b889c7e877ff1f2ce703e23589ff8201395
-SHA1: 06ecceb925fd485e4c01aacb9607df4fdfd0857b
-MD5sum: 0d6e0a256ede83a84aceaa93d943973d
-Description: Linux for modern PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with one or more processors supporting PAE.
-
-Package: linux-image-5.10.179-mos-686
-Source: linux-5.10.179-mos-686
-Version: 5.10.179-mos-686-1
-Architecture: i386
-Maintainer: root <root@bullseye>
-Installed-Size: 170472
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.179-mos-686/linux-image-5.10.179-mos-686_5.10.179-mos-686-1_i386.deb
-Size: 45518040
-SHA256: 055bdbb4f34aba373df5faf7e7bb396943a75f795f3e20e28830be0bb14a451a
-SHA1: b9bbe0b3d9bd064a5c4ddfb9c7e69654a721d5f7
-MD5sum: 27a71fe0a2c315fff51f01c79f0b0ab0
-Description: Linux kernel, version 5.10.179-mos-686
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.179-mos-686.
-
-Package: linux-image-5.10.179-mos-686-pae
-Source: linux-5.10.179-mos-686-pae
-Version: 5.10.179-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bullseye>
-Installed-Size: 170998
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-5.10.179-mos-686-pae/linux-image-5.10.179-mos-686-pae_5.10.179-mos-686-pae-1_i386.deb
-Size: 45755380
-SHA256: f0c7abf7c268634c1cdf2ba03486994fa04dfbc941ed447736f740d6acea2bad
-SHA1: aa68980596fae0b30b10960e2976164b450de1a9
-MD5sum: 730279748d21bd8085fd19e89f9b6f28
-Description: Linux kernel, version 5.10.179-mos-686-pae
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.179-mos-686-pae.
-
-Package: linux-image-6.1-mos-686
-Version: 6.1.27
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.1.27-mos-686
-Provides: linux-latest-modules-6.1.27-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.27_i386.deb
-Size: 2380
-SHA256: 27796915198f28398f6f03cb99e76fe329f9232284935201dbcd9f3636831b99
-SHA1: 50b589062115fb45e65ab37b71384f7b8c03a889
-MD5sum: cf108a8214778e4bfbedc81428464d6c
-Description: Linux for older PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with one or more processors not supporting PAE.
-
-Package: linux-image-6.1-mos-686-pae
-Version: 6.1.27
-Architecture: i386
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.1.27-mos-686-pae
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.27-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.27_i386.deb
-Size: 2408
-SHA256: a8e01c7839966d6ff8a5cd2a9ab9f4df3035202517b8259fc00b411d79ce3616
-SHA1: b1a12e6615a440fcb0c442a07ffc44ba4aaab652
-MD5sum: e78f60ade8a5486ec26eef84fa340fe9
-Description: Linux for modern PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with one or more processors supporting PAE.
-
-Package: linux-image-6.1.27-mos-686
-Source: linux-upstream
-Version: 6.1.27-mos-686-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 191600
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
-Size: 51845852
-SHA256: 4c9081a836db6bec1854a4522ec459c868e8959993ec4558b87095547f8cf87d
-SHA1: b53e187b6e2269633c387340dcf3e6b5cb35574f
-MD5sum: a0f81df21406593728cad74edaa7dc01
-Description: Linux kernel, version 6.1.27-mos-686
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-686.
-
-Package: linux-image-6.1.27-mos-686-pae
-Source: linux-upstream
-Version: 6.1.27-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 192096
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
-Size: 52077828
-SHA256: ce07c35d2a5dbbd04c4cf4b95b0c435a1419e39e2ef33a1ebcdcf14ca42a19ae
-SHA1: de128a83d013171d696cd9772e75a6e8ba9ff2d8
-MD5sum: c5a0ee025a84c2983b1d0e9b7ba53d31
-Description: Linux kernel, version 6.1.27-mos-686-pae
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-686-pae.
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
 
 Package: pulseaudio-module-xrdp
 Version: 0.7-0.mos~d12+1
@@ -429,104 +144,23 @@ Description: xrdp module for PulseAudio sound server
  .
  The module is called module-xrdp.
 
-Package: realtek-rtl8188eus-dkms
-Version: 5.3.9~git20221105.dab6e02-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 11776
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/aircrack-ng/rtl8188eus
+Package: systrayicon
+Version: 1.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk-3-0 (>= 3.0.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
 Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20221105.dab6e02-0kali1_all.deb
-Size: 1492988
-SHA256: bfd16d89b84be8f30b0fac942a93068454012610adcd81f3c3c90f4bd6584be2
-SHA1: 027f5c2e803927c0006a5a80874782b66cd27ebe
-MD5sum: f3a71dd0e7ae3b6a6ea734f104ec9923
-Description: Realtek RTL8188EUS driver in DKMS format
- This package provides the source code for RTL8188EUS Linux driver (with
- monitor mode and frame injection) to be build with dkms. Kernel sources or
- headers are required to compile this module.
-
-Package: realtek-rtl8723cs-dkms
-Version: 0.0~git20210902.0fb0c24-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 13017
-Depends: dkms (>= 2.1.0.0)
-Homepage: https://github.com/Icenowy/rtl8723cs
-Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_0.0~git20210902.0fb0c24-0kali1_all.deb
-Size: 1445716
-SHA256: 37a705efe017e389c47e51d5e31e2a9966045132f8fd1f33c4ff67fe0015dbe0
-SHA1: 96fafa62075d3610e4632ca298acfa7fd6f3910b
-MD5sum: 3ab4349abbd5d196b9eb4ee67ca4dede
-Description: Realtek RTL8723CS driver in DKMS format
- This package provides the source code for RTL8723CS Linux driver (with
- monitor mode and frame injection) to be build with dkms. Kernel sources or
- headers are required to compile this module.
-
-Package: realtek-rtl8814au-dkms
-Version: 5.8.5.1~git20220905.3f2f680-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 14335
-Depends: dkms (>= 2.1.0.0), bc
-Homepage: https://github.com/morrownr/8814au
-Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20220905.3f2f680-0kali1_all.deb
-Size: 1659176
-SHA256: 915d1ab1683b8af757d3ec37eae52c18c595df2b5e26e1fc2b9a464143ca9034
-SHA1: ad4705ddc67b6c8dcf712c817a629edfc80d5eee
-MD5sum: 0db3e6fb2d41b6ea0a61db6b4e313fb1
-Description: Realtek RTL8814AU driver in DKMS format
- This package provides the source code for RTL8814AU Linux driver (with monitor
- mode and frame injection) to be build with dkms. Kernel sources or headers are
- required to compile this module.
-
-Package: realtek-rtl88xxau-dkms
-Version: 5.6.4.2~git20220827.e7a4a39-0kali1
-Architecture: all
-Maintainer: Kali Developers <devel@kali.org>
-Installed-Size: 15001
-Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
-Homepage: https://github.com/aircrack-ng/rtl8812au
-Priority: optional
-Section: contrib/kernel
-Filename: pool/main/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20220827.e7a4a39-0kali1_all.deb
-Size: 1794412
-SHA256: 991d743ad63268bd1e96cf1488e95b0d06a5f4a2859d02f5ce60b849b56f23c9
-SHA1: 5da3a21dc6d449a5b189e678ee6f4dc7f92d5c51
-MD5sum: 5bbb6f8a8a5fc8f02c744e708f78f8d4
-Description: Realtek RTL88xxAU driver in DKMS format
- This package provides the source code for RTL8812AU/21AU Linux
- driver (with monitor mode and frame injection) to be build with dkms. Kernel
- sources or headers are required to compile this module.
-
-Package: rescuezilla
-Version: 2.3.1-1-1
-Architecture: all
-Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 2690
-Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
-Recommends: partimage, ecryptfs-utils
-Homepage: https://rescuezilla.com
-Priority: optional
-Section: admin
-Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
-Size: 416524
-SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
-SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
-MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
-Description: Graphical hard drive backup and restore
- Rescuezilla is an easy-to-use disk cloning and imaging application that's
- fully compatible with Clonezilla — the industry-standard trusted by tens
- of millions. For many people, the alternative open-source tools such as
- Clonezilla are intimidating and difficult to use, so Rescuezilla provides
- an easy-to-use graphical environment like the leading commercial tools,
- Acronis True Image and Macrium Reflect.
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_i386.deb
+Size: 4328
+SHA256: 2ef784ae17bcfecf01607f7f3898db71f845596196075fcadbfea23daeb409ce
+SHA1: 40e4a9b368f34ba94ce150191f548625620bebf2
+MD5sum: c0562bcee96cf0b78a21b476897f3b1a
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
 
 Package: thunar
 Version: 4.18.4-1.mos+1
@@ -570,4 +204,26 @@ MD5sum: 328a91868b69633d07a4ac05da2ee0ba
 Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
+
+Package: xlunch-slax
+Version: 4.7.5-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 132
+Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/minios-linux/xlunch-slax.git
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-1_i386.deb
+Size: 63772
+SHA256: 48a33fd2c6efe853f47eae28539e7bdbc53a50c90203a14466cf32c42eb4499d
+SHA1: 5789e6ff994cd9e857e019a8e8d34d8232da9756
+MD5sum: 16e0f90de4ebb41fc057bb6d97538a14
+Description: Graphical app launcher for X, using pure Xlib and Imlib2.
+ xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
+ Imlib2. It allows you to run programs, commands, or simply select something out
+ of a list using your mouse, keyboard, or both! UTF8 is fully supported meaning
+ you can have text of all kinds. The prompt allows you to run arbitrary commands,
+ and it works to filter your entries as well. xlunch is also highly configurable,
+ both in functionality and style, it can even be used as a desktop!
 
