@@ -106,6 +106,27 @@ SHA1: d3d8cd0af2b20cbe9425d70d20f52d7815f1dbda
 MD5sum: 42554a43bbd1e4211cebc44021eb61b9
 Description: Simple GTK2 dialog for Yes/No questions.
 
+Package: libmousepad0
+Source: mousepad
+Version: 0.5.10-2.mos+1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 625
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0)
+Multi-Arch: same
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Priority: optional
+Section: libs
+Filename: pool/main/m/mousepad/libmousepad0_0.5.10-2.mos+1_amd64.deb
+Size: 321600
+SHA256: 64de8484a2f4dc868b53f0b89d0f7fedf3156e12ba844dab101c0f264540a507
+SHA1: 5d743758de7749a4e1a1274db480ce27924f3eef
+MD5sum: 2fc9d3d2da982d324cb0707c5488dd2b
+Description: mousepad plugins library
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ This package contains the libmousepad library, used for Mousepad plugins.
+
 Package: mousepad
 Version: 0.5.10-2.mos+1
 Architecture: amd64
