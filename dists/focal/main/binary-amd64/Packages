@@ -229,16 +229,16 @@ Package: linux-headers-6.1.38-mos-amd64
 Source: linux-upstream
 Version: 6.1.38-mos-amd64-1
 Architecture: amd64
-Maintainer: root <root@localhost>
-Installed-Size: 52315
+Maintainer: root <root@bullseye.mshome.net>
+Installed-Size: 52317
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.1.38-mos-amd64_6.1.38-mos-amd64-1_amd64.deb
-Size: 8848580
-SHA256: 84d12f6e8291976108d5a65bbf257321f6ea482b8ac7d59b16d13e13fd02e2b6
-SHA1: c400354833dbbed5ce5750a9367aae8094dbe821
-MD5sum: 2ff2258d1e0958a05d05137f8f7a07ee
+Size: 8855324
+SHA256: 07bc433b2e7f10fe574eb53329887542e1c1e4bdf9aaced8878d15156420d6f7
+SHA1: 52be76c85032e73e218905ae9d83053c4db71e34
+MD5sum: 0ca6f7ef795580aded0b410f7956019d
 Description: Linux kernel headers for 6.1.38-mos-amd64 on amd64
  This package provides kernel header files for 6.1.38-mos-amd64 on amd64
  .
@@ -322,16 +322,16 @@ Package: linux-image-6.1.38-mos-amd64
 Source: linux-upstream
 Version: 6.1.38-mos-amd64-1
 Architecture: amd64
-Maintainer: root <root@localhost>
-Installed-Size: 408765
+Maintainer: root <root@bullseye.mshome.net>
+Installed-Size: 409259
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.1.38-mos-amd64_6.1.38-mos-amd64-1_amd64.deb
-Size: 70230724
-SHA256: dc0707055200b5b3382501134e856991257ef4e0c64f6ff381b7ccf22a382288
-SHA1: dad006b294bdbd9cd24b559ec0ed068f2ab80511
-MD5sum: 43646daf132ae5ecd1b7be399df5b853
+Size: 70360628
+SHA256: 3ae2934e77c197e06fd8e0e787e089d59a37c256679417ac830f753b1ab166c3
+SHA1: 6c43e8805d167caa8d931daf4cc3ea56278791b6
+MD5sum: c38fbd3a4147328a1ba0f35fce90923a
 Description: Linux kernel, version 6.1.38-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.38-mos-amd64.

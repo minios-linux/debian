@@ -258,10 +258,10 @@ Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.1.38-mos-686_6.1.38-mos-686-1_i386.deb
-Size: 8574856
-SHA256: 83d9ee2474747a56b7eec300db7ebbfeece662323f2f28a7e1a071be9d3cac06
-SHA1: bc19c5bd1912ac55e3ee63122cc819b3d40ce305
-MD5sum: 7f0179886e8520aa0203226ee64bad5f
+Size: 8576756
+SHA256: d608bb99c45e328cd99beefa1fc9b0526a2f9b41a61edcb20755fd9ad90d6acf
+SHA1: 297cb9efcd487c505fae418bf3b5177faa5c8d11
+MD5sum: 5a3da6087818fae8d7d53ea8e4218eb9
 Description: Linux kernel headers for 6.1.38-mos-686 on i386
  This package provides kernel header files for 6.1.38-mos-686 on i386
  .
@@ -272,15 +272,15 @@ Source: linux-upstream
 Version: 6.1.38-mos-686-pae-1
 Architecture: i386
 Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 51284
+Installed-Size: 51285
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-headers-6.1.38-mos-686-pae_6.1.38-mos-686-pae-1_i386.deb
-Size: 8575736
-SHA256: 00b89b281d8bedfa628ed7401252a450a1acb1be412353991162943ba0a26675
-SHA1: 885a9f6c1423e70732a0bfb0590ec1f80e9cd74f
-MD5sum: ee4c6d792c8cac822eaf2720f87a8911
+Size: 8577368
+SHA256: 4b3b87a3e3393e3bc22d1af13d77687cc93064833054a29681bb66936085facf
+SHA1: 171096f56f6a0607bb94d0a6685495527832842e
+MD5sum: 0ae1e51442fb450c94b8302da5bc1953
 Description: Linux kernel headers for 6.1.38-mos-686-pae on i386
  This package provides kernel header files for 6.1.38-mos-686-pae on i386
  .
@@ -439,15 +439,15 @@ Source: linux-upstream
 Version: 6.1.38-mos-686-1
 Architecture: i386
 Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 191623
+Installed-Size: 191878
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.1.38-mos-686_6.1.38-mos-686-1_i386.deb
-Size: 51852852
-SHA256: b50c415291fda45977aaf51dcf8987399dd2c43ee292d414d99ca67bb8c2026b
-SHA1: 9eceaa207cfde272a12d413e4e5c729b67bd2bef
-MD5sum: 1066699bc2468fec8c692854395e471e
+Size: 51948576
+SHA256: 7263d8c46030df3dcd855700902a8b00f4d9636a640640631816365e6e9db490
+SHA1: 662cfca6881f510aa22ba4020bf66895b9900edd
+MD5sum: acb0a0c115813193c087bf377652fcde
 Description: Linux kernel, version 6.1.38-mos-686
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.38-mos-686.
@@ -457,15 +457,15 @@ Source: linux-upstream
 Version: 6.1.38-mos-686-pae-1
 Architecture: i386
 Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 192121
+Installed-Size: 192376
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-upstream/linux-image-6.1.38-mos-686-pae_6.1.38-mos-686-pae-1_i386.deb
-Size: 52089616
-SHA256: 0bc718fac24d0b2a035c9280db397e52455c4a84dcbd6fd2501db274b359faae
-SHA1: 8b0f83754de698ff109e6b897c646072bf1021fc
-MD5sum: 0ad2b1c14250fcb1e1662d1316b60919
+Size: 52192396
+SHA256: 9689e105baf79a2ce805a1d22422191f43b4d79e802fc1879fdbb149af4b9d6d
+SHA1: 327dc6cac3be128cfc1a29acd27ad98da02e2146
+MD5sum: 295e04a1c6f12ee65a47471ddb003647
 Description: Linux kernel, version 6.1.38-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.38-mos-686-pae.
