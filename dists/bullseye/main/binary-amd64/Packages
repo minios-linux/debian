@@ -156,20 +156,20 @@ Description: Linux kernel headers for 5.10.179-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.1-mos-amd64
-Version: 6.1.27
+Version: 6.1.38
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.27-mos-amd64
+Depends: linux-headers-6.1.38-mos-amd64
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.27_amd64.deb
-Size: 2288
-SHA256: d62bf0c1b3a4d694d73673762b68747d6c6286d6ffbda0e9610b8dce74eba1f7
-SHA1: 80feb172f357c31dcbedd6536d9eb538bd7f1ed1
-MD5sum: 53053bd0fe981ec7cca0005a20642d0a
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.38_amd64.deb
+Size: 2284
+SHA256: b6ef0e56ecacff4e6c4cf6725fdca9e54e7b66bd89bc10f9904a30c9bd422406
+SHA1: d8ef571decd15ef726d077e97a04c905814b0a04
+MD5sum: c8c858afae6404dfbe346a229727f3b7
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -231,20 +231,20 @@ Description: Linux kernel, version 5.10.179-mos-amd64
  files, version: 5.10.179-mos-amd64.
 
 Package: linux-image-6.1-mos-amd64
-Version: 6.1.27
+Version: 6.1.38
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.27-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.27-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.38-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.38-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.27_amd64.deb
-Size: 2408
-SHA256: 7bb382f11047a88a4ae8dfc43f19793b0d23d4b5c278d81c54d3a83b326478a8
-SHA1: 6b53bb0e0e333128587232a07fde04dfcc23e33b
-MD5sum: 5005fb48312e903259f20970321feb20
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.38_amd64.deb
+Size: 2400
+SHA256: 9ec290736b91765a2aeb2c1b98e5164483506e410e0f16e45de41bfe24295edf
+SHA1: 1758b81968dc9b20083672339ed4b246bee8b8c6
+MD5sum: 64a15271561029e125fb4c1ecdfd7489
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
