@@ -261,44 +261,6 @@ Description: Header files for Linux 686-pae configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686-pae configuration.
 
-Package: linux-headers-6.1.27-mos-686
-Source: linux-upstream
-Version: 6.1.27-mos-686-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 51390
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
-Size: 8564876
-SHA256: 0f4bc6c93f1221a4695a9fc5151271c524fa98de5dbd2c07c1850b40de76dd58
-SHA1: 141c2ed219a8a8cb9f1b3dfe810fc2c4d05c56f0
-MD5sum: d73902f5bde7db2e9bb69b6374414975
-Description: Linux kernel headers for 6.1.27-mos-686 on i386
- This package provides kernel header files for 6.1.27-mos-686 on i386
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.27-mos-686-pae
-Source: linux-upstream
-Version: 6.1.27-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 51441
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
-Size: 8565124
-SHA256: d75823bc15763a9fe21750e05a824c3405b4535fee93c17c2e5933481d6f8df2
-SHA1: ef9d0eb6c1580c752e7692a3176254ea49c9bd96
-MD5sum: 96e58762a72fde1c3f0b0c3643f00a7b
-Description: Linux kernel headers for 6.1.27-mos-686-pae on i386
- This package provides kernel header files for 6.1.27-mos-686-pae on i386
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-6.1.38-mos-686
 Source: linux-upstream
 Version: 6.1.38-mos-686-1
@@ -448,42 +410,6 @@ MD5sum: 95f2769b5b549d4855840b084d62570d
 Description: Linux for modern PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors supporting PAE.
-
-Package: linux-image-6.1.27-mos-686
-Source: linux-upstream
-Version: 6.1.27-mos-686-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 191600
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
-Size: 51845852
-SHA256: 4c9081a836db6bec1854a4522ec459c868e8959993ec4558b87095547f8cf87d
-SHA1: b53e187b6e2269633c387340dcf3e6b5cb35574f
-MD5sum: a0f81df21406593728cad74edaa7dc01
-Description: Linux kernel, version 6.1.27-mos-686
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-686.
-
-Package: linux-image-6.1.27-mos-686-pae
-Source: linux-upstream
-Version: 6.1.27-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 192096
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
-Size: 52077828
-SHA256: ce07c35d2a5dbbd04c4cf4b95b0c435a1419e39e2ef33a1ebcdcf14ca42a19ae
-SHA1: de128a83d013171d696cd9772e75a6e8ba9ff2d8
-MD5sum: c5a0ee025a84c2983b1d0e9b7ba53d31
-Description: Linux kernel, version 6.1.27-mos-686-pae
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-686-pae.
 
 Package: linux-image-6.1.38-mos-686
 Source: linux-upstream

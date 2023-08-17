@@ -206,25 +206,6 @@ Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
-Package: linux-headers-6.1.27-mos-amd64
-Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bookworm>
-Installed-Size: 52302
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 8852492
-SHA256: 91ec7a95413c564ea59c1d700d563645ff35439fabe799c7e7f1993c0d72a737
-SHA1: 2448e71e24a063bae38e08811666d95673ab3672
-MD5sum: 1cbf4777559549308fae4dcaa3f1fdd9
-Description: Linux kernel headers for 6.1.27-mos-amd64 on amd64
- This package provides kernel header files for 6.1.27-mos-amd64 on amd64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-6.1.38-mos-amd64
 Source: linux-upstream
 Version: 6.1.38-mos-amd64-1
@@ -299,24 +280,6 @@ MD5sum: 64a15271561029e125fb4c1ecdfd7489
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
-
-Package: linux-image-6.1.27-mos-amd64
-Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bookworm>
-Installed-Size: 408608
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 70240784
-SHA256: 1e561afece36a68196932763d15ab35d4647cbe2bf9122699e3e01bf9880e07b
-SHA1: 5765e0bdd76f274b4aabab96bd8342c0050afad8
-MD5sum: fe95828c38319f2fd698e0f77ce206ea
-Description: Linux kernel, version 6.1.27-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-amd64.
 
 Package: linux-image-6.1.38-mos-amd64
 Source: linux-upstream
