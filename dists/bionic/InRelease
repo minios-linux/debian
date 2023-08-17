@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: bionic
-Date: Thu, 17 Aug 2023 14:19:05 UTC
+Date: Thu, 17 Aug 2023 14:42:29 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -23,8 +23,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  2cb8009fae5e04c77402a57fccd4148a 126 main/source/Release
- cd2dcc0b59443929f7133bbfdc3a4c31 1370 contrib/binary-i386/Packages
- 60c93ce9bc2a9db56a379254668964f5 701 contrib/binary-i386/Packages.gz
+ 873ab13393962845d6801e2cb11dc8b0 2217 contrib/binary-i386/Packages
+ 5fa488287397f067d82669548a8dab8e 989 contrib/binary-i386/Packages.gz
  bde6518c91763dda89ad2352db63ae0c 127 contrib/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 contrib/debian-installer/binary-i386/Packages.gz
@@ -63,8 +63,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  714be4fa68eb2d5e0ff5cf224fb10741a0dcb602 126 main/source/Release
- 94b0974ae4633cf46191ad15b55ef2b89dca34fd 1370 contrib/binary-i386/Packages
- 34c7b45f666e8eeef44b51553927769a247d9c4e 701 contrib/binary-i386/Packages.gz
+ 580983a98ed779b354bc4fc718830d3d159ad484 2217 contrib/binary-i386/Packages
+ 9d17bc8ec8c984eab5a15da96bb64cfeb1eb9ab6 989 contrib/binary-i386/Packages.gz
  907ef5fe670798fe4bb94cbcccdb4b2e8b7e0ae4 127 contrib/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/debian-installer/binary-i386/Packages.gz
@@ -103,8 +103,8 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  70d1d2b50818a6208b3c2ecd573ca56b7d2b0fe3ae07aa2ffe738691e0799bfd 126 main/source/Release
- a694b60682b76a1dc6688a997834f6999a0818ea3c59ae8e5462100898564eaf 1370 contrib/binary-i386/Packages
- 70b508d55e25085cafd875a59353f86e63a227198bc5aa6d27a2e7cc79077829 701 contrib/binary-i386/Packages.gz
+ 51e3f92fc6e3a787dfc2569ef5faa5ccd6e52afb3dde47ee6911ac7d3fa548fd 2217 contrib/binary-i386/Packages
+ 5082d5d965ba6ad470e9b2515c496ae6e4df9016a5d0a23832a2738f745a43fe 989 contrib/binary-i386/Packages.gz
  ff4579e4fd9dc22410badb6b91c670565617b1b823236c0a00497c9f71ce7e24 127 contrib/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/debian-installer/binary-i386/Packages.gz
@@ -131,15 +131,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmTeLFkACgkQ7CDxjGi2
-L2zUewwAhn9OIRlibWmoFZf+oNejfy2pzs77CbWrOyIlEEQGtdikqv3c0iMLcqU2
-y3r3ba2URIlu5jIBasMevp3eHSFihMguDJXw4aXSFOCGfs+B3sAvlh7ZhtdLT6dG
-oAh9l3UEVvf6/8grAmHQJQuboZArdtXaISY4GbEz1DHrZyWn+F7YMC25fC06pJL4
-4EFK46jrrrnHXfiCYMr2kNicdSMdQ8Tt1kE7xce0tMg0ANLQwgQGQsZDkMIwqszA
-Bk4ldAl1rVkV/eGRCY+UnoLZTE6huCgKqzDZrnshbMUdTlTyG/GgjvQz24E3pFZ7
-8dMU/t8A9lVl0XL9kCnKhyiTR1l4kjss2o5qKBqWman3Rop2VziGrylsUUOSYSnE
-FA+1elcAfke+ucGOEeHv/szzFrV/gjJulM7qA3AhAIHx66RTYjLxDG6JkNjwMazv
-pW0QdKACCqcRmtypSmpxmbImogVtnpJW/iFbPjixgmaLPFjUOjRDbn6MaqX1p5fl
-cALQMQMM
-=u3Ja
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmTeMfEACgkQ7CDxjGi2
+L2y4kgv+PcYT4Cf+jkrsee8OsmLOnO6KyQBuS+aCscSteRauLiTrlSrWrRHl6vjr
+QILrAZgDWPMNsMYOhg9Yte/oK0rbEbz9wshSDYKM00Sn2JZL3sdMTtdC+wGgYgMf
+uS9sEmuVKO6vg2pYtDgDZ8z/Itjgwg/SAyURDYwY8SKuKQY/AMg27rJ/4tlMjwIB
+21F7bNElVJFwNjCje1z38Ls2sSwC67h7ndTIi2RDIjOgkS815y2fr6MhB7wcepU3
+mC4aePs00bO/Y+oJh76d0tLDe0XuFMq6p+ihJGy7hYkGOlOFw6KF5cxuVT1eKI7k
+oFsd/nUX9OzcPl3PZMU7v0CL0MOaTGPbNRSXJF0ar1xBfTzwxK/DS3gJvJz1Ea0b
+0MTI8zmM9Fk35IjX2dLtlegjLbTwsHx3LgtnXmh8Gon7pNxXR9tH1Lv0F+AGJpxD
+BZ7FTiJGwYjwBxMrOuDFPE50ECd/4md1/YthYwmf1qU0nQTRgGLZQ3pFWsLKYsOo
+BaqBVleh
+=8rf2
 -----END PGP SIGNATURE-----
