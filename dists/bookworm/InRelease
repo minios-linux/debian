@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: testing, kali-rolling
 Codename: bookworm
-Date: Tue, 05 Sep 2023 08:50:44 UTC
+Date: Tue, 05 Sep 2023 09:03:25 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  af11372dc5d659e17493816743f1285c59d24270f70b71f2f03f00e0c4fc250b 143 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmT26/UACgkQ7CDxjGi2
-L2xMlQv+PIiA+O9yTaPy9fXYunUqvu2v+cf/Dp89H+SoPKt5Q/VKYlxX3cTVoNoV
-BWl1HrPZpODOm6kGx/0vOG/7jNntHTNLVw66ee6SduSn+V8ANLltC1CebZVx0G3w
-4JVEiyauESpBjMM1sg2LO0DViBV3tiI2vO+RlSc40dzgyDxS2DsynaChSdxmjhDZ
-6q7D7V03iewqADqOKcq4uZaDD7llhNYhb+E6zeONrDOjzkBH0Q5UOZMYxIgEZZty
-QIEaeewRzHJoiNczkrFBHWkLysYjCF8QASHvhO3UA3DVUHWPmwfJYy67q3sB/NNF
-JTT0A/DatbTMRF5RqsfJ65KNAZ3nEvmx2TD0VQqzhtrlS0MVd+PPw38ASha61rf2
-LC+RI1yNGnNiwXYU65hKwx6qz7h6LqvEBHJ9VDUGHp6ucvIaYVGmTFow6rfceKSP
-CEgNROzQX+Xh0Zwo/WHdnPIIbU1ftZW2zQvt55+8X93uryuuKFurGb9mXDpavrti
-WAga6vo/
-=K4kd
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmT27t0ACgkQ7CDxjGi2
+L2zfnwv+OeNpDMTq2OtpJtGTTeiujSXYrMhB6dnBNYtIqqqqRn4Q0+qnhBCfS/T6
+ccF4Mq9h8sV3EsCRMspIWrWPzkzJWx6kr2Zoim0PRbF7DfXjjc6yM4m1p8o3jXbE
+XZovMI0FtVfm2LL+mOOXYMyvJr6otGjnbjO21rAQiSEvyrWViyN/HuVs20wuFbTd
+IG9Af6IDE4HwAqFpjLXOgfP8owAIbDeIQ76e6FHTzWu9PHiEwbR8g0owWYflmoUd
+GqT5TGGsxK3mIjBzu/uOXkv6Sc/8ymZh/BMrQl8GWmXVDpP0Q85aNhUM6UqruHxj
+nVM2+QTigr2ZX6hMM5S4Dcqnl4RofvCDyHATLDWk8e5bct/RTHlfl/3aHTf/5v71
+ORe3qOxvtIWEcQ6vYCPvur3xX3VEXccMZYsJoJ1vYtsI4e5/5wniZVffs32BQ1Og
+liR3rMSSHXh7QUbVIK1gbNt2wOX/bI/kZ70l5j1leBG7hRXFPe+F/4t71Uxytul4
+D2CnrqQz
+=3XYw
 -----END PGP SIGNATURE-----
