@@ -38,10 +38,10 @@ Description: Fake package to prevent adwaita-icon-theme from being installed
 
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
-Version: 0.17-2~mos+1
+Version: 0.18-1~mos+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 15506
+Installed-Size: 15535
 Conflicts: elementary-xfce-icon-theme
 Breaks: elementary-xfce-icon-theme
 Replaces: elementary-xfce-icon-theme
@@ -49,11 +49,11 @@ Provides: elementary-xfce-icon-theme
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.17-2~mos+1_all.deb
-Size: 6155196
-SHA256: df29e2f3c8a14345aa1034ecfcf3321d4c99e57dc63cc17d76ad4290a84c0123
-SHA1: 773f212c50bfbb03b91e5a6a2e70184a64b065b4
-MD5sum: 9e6e631132e3417f510e9ded6279447d
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.18-1~mos+1_all.deb
+Size: 6162072
+SHA256: 8e324cc61805a5bcef9d925450e4c1b5690a9ce4356c0714de63c1b20f980243
+SHA1: ab8da7404623316c337489e140fce0e68314d228
+MD5sum: c9cc27e6129632a9f8c5356fac57310a
 Description: elementary icon theme modified for Xfce
  elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
  desktops.
