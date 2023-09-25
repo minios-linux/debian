@@ -63,10 +63,10 @@ Description: lightweight and fast battery icon status and more
 
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
-Version: 0.18-1~mos+2
+Version: 0.18-1~mos+3
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 15539
+Installed-Size: 15545
 Conflicts: elementary-xfce-icon-theme
 Breaks: elementary-xfce-icon-theme
 Replaces: elementary-xfce-icon-theme
@@ -74,11 +74,11 @@ Provides: elementary-xfce-icon-theme
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.18-1~mos+2_all.deb
-Size: 6162416
-SHA256: 3399ba46eec616b733c8a741155eeb17ab62dad5fb42b18a2ae6b9c08ae6330a
-SHA1: 92f360f92a5b25ab56ae96b02b3dc9141d37202a
-MD5sum: 4692b9604bbb96f3e8eed768065711a1
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.18-1~mos+3_all.deb
+Size: 6167012
+SHA256: edd2381ca7eea2adc66669d5c07eabd9e79c437b8522db8325b943963b8067ad
+SHA1: 507385d32f7d3234c0ccad1263442887af1d99b4
+MD5sum: 149e413bd5afa9cd57a8e16c20297544
 Description: elementary icon theme modified for Xfce
  elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
  desktops.
@@ -282,41 +282,79 @@ Description: Linux kernel headers for 5.10.179-mos-686-pae on i386
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.1-mos-686
-Version: 6.1.38
+Version: 6.1.52
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.38-mos-686
+Depends: linux-headers-6.1.52-mos-686
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.38_i386.deb
-Size: 2264
-SHA256: 67a69bb38f5c2bd1a049e3b41a7435b0509b47ddfd16fb160f19b342e8c40e1f
-SHA1: 4f74bcc5d712a3f391cc27c950cda806d6eb6beb
-MD5sum: e8c92afc8a61380ea3de9fc8722bc015
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.52_i386.deb
+Size: 2260
+SHA256: 7e1a9bfea395965d4e812d798ed61ebdc19610e9b4a091d7610a1e532e3bf201
+SHA1: 7b4b8a934771130eac1a90f7f21ae15a65c7e21b
+MD5sum: 360006ee5f30e006e8d210589b4142a5
 Description: Header files for Linux 686 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686 configuration.
 
 Package: linux-headers-6.1-mos-686-pae
-Version: 6.1.38
+Version: 6.1.52
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.38-mos-686-pae
+Depends: linux-headers-6.1.52-mos-686-pae
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.38_i386.deb
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.52_i386.deb
 Size: 2288
-SHA256: 127ee960eb2588c68bb18b83b09e42037c65edc4b4f706aa1f9f595099c58bea
-SHA1: b859dc20b01249d18f37e28bc9945f145e3d46b0
-MD5sum: db4bc09eb1ef204fa1f8c1eca5b75948
+SHA256: c6cee42281fbb428eaa02185beb6c8dfa1582e4fa0c637981c15b4d04059786a
+SHA1: 7c05859d94aa49ae86b9cd010358b1277de491ab
+MD5sum: 4ae004a57d4b92e3f45b468fad906da1
 Description: Header files for Linux 686-pae configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686-pae configuration.
+
+Package: linux-headers-6.1.27-mos-686
+Source: linux-upstream
+Version: 6.1.27-mos-686-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 51390
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
+Size: 8564876
+SHA256: 0f4bc6c93f1221a4695a9fc5151271c524fa98de5dbd2c07c1850b40de76dd58
+SHA1: 141c2ed219a8a8cb9f1b3dfe810fc2c4d05c56f0
+MD5sum: d73902f5bde7db2e9bb69b6374414975
+Description: Linux kernel headers for 6.1.27-mos-686 on i386
+ This package provides kernel header files for 6.1.27-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.27-mos-686-pae
+Source: linux-upstream
+Version: 6.1.27-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 51441
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
+Size: 8565124
+SHA256: d75823bc15763a9fe21750e05a824c3405b4535fee93c17c2e5933481d6f8df2
+SHA1: ef9d0eb6c1580c752e7692a3176254ea49c9bd96
+MD5sum: 96e58762a72fde1c3f0b0c3643f00a7b
+Description: Linux kernel headers for 6.1.27-mos-686-pae on i386
+ This package provides kernel header files for 6.1.27-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
 
 Package: linux-headers-6.1.38-mos-686
 Source: linux-upstream
@@ -353,6 +391,44 @@ SHA1: 171096f56f6a0607bb94d0a6685495527832842e
 MD5sum: 0ae1e51442fb450c94b8302da5bc1953
 Description: Linux kernel headers for 6.1.38-mos-686-pae on i386
  This package provides kernel header files for 6.1.38-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.52-mos-686
+Source: linux-upstream
+Version: 6.1.52-mos-686-1
+Architecture: i386
+Maintainer: root <root@debian>
+Installed-Size: 51415
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.52-mos-686_6.1.52-mos-686-1_i386.deb
+Size: 8570300
+SHA256: 528b661cab392a67ce77e23f3e577af08b4289c3fc33f88ce032b3dd06b016f1
+SHA1: ecab2f2858c9163a28ef99e647a6c3b974b85862
+MD5sum: 8ad0fce690ab2aaef3c4cb96ba285929
+Description: Linux kernel headers for 6.1.52-mos-686 on i386
+ This package provides kernel header files for 6.1.52-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.52-mos-686-pae
+Source: linux-upstream
+Version: 6.1.52-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@MateBook.>
+Installed-Size: 51467
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.52-mos-686-pae_6.1.52-mos-686-pae-1_i386.deb
+Size: 8570700
+SHA256: 97c636e29ae5cdc843de474f4494deb7c206f6d8ee1b2e503ca63a5c784ed65e
+SHA1: af4087a2bcf5186f9b716d560242a7173b61977b
+MD5sum: e588db40f007201b6f687a02f5e679fa
+Description: Linux kernel headers for 6.1.52-mos-686-pae on i386
+ This package provides kernel header files for 6.1.52-mos-686-pae on i386
  .
  This is useful for people who need to build external modules
 
@@ -431,42 +507,78 @@ Description: Linux kernel, version 5.10.179-mos-686-pae
  files, version: 5.10.179-mos-686-pae.
 
 Package: linux-image-6.1-mos-686
-Version: 6.1.38
+Version: 6.1.52
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.38-mos-686
-Provides: linux-latest-modules-6.1.38-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.52-mos-686
+Provides: linux-latest-modules-6.1.52-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.38_i386.deb
-Size: 2368
-SHA256: c7ba32188292411de9f0f4a5f8ef7f5cf3f624a87cc46cdb2a352acfd1e45ee5
-SHA1: 823be010dc0c93796919ddd84eae0b7576e83c16
-MD5sum: b9d9a13bf44e903f47f828109684901e
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.52_i386.deb
+Size: 2372
+SHA256: c1c4e5e915e6ebe5b9da6d84d64ba0337ca2cc183b9f61504d6d0f5b249ff362
+SHA1: 48e3007aa59f4baf6d924abdd7934c7668c7186e
+MD5sum: 41445fcd91e18aeeef2b02b48d98bc64
 Description: Linux for older PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors not supporting PAE.
 
 Package: linux-image-6.1-mos-686-pae
-Version: 6.1.38
+Version: 6.1.52
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.38-mos-686-pae
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.38-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.52-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.52-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.38_i386.deb
-Size: 2400
-SHA256: 9c26bf829f41d8aa54490501c90c2ace2870ed7f4d148617c8e4a0249c9b1d44
-SHA1: cfbec08ab5af0ed6fc47179a0e4dd3003425797e
-MD5sum: 95f2769b5b549d4855840b084d62570d
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.52_i386.deb
+Size: 2408
+SHA256: 8cd21466e0fc6c9cfc62755a91a3bea61c32584595e4a7b046e61069b7064869
+SHA1: 493e53d18ed3dcbafa30f63b1c607b6eb7bf8dd7
+MD5sum: b7b082b5d4613dfbdd1a5fff10051d12
 Description: Linux for modern PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors supporting PAE.
+
+Package: linux-image-6.1.27-mos-686
+Source: linux-upstream
+Version: 6.1.27-mos-686-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 191600
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686_6.1.27-mos-686-1_i386.deb
+Size: 51845852
+SHA256: 4c9081a836db6bec1854a4522ec459c868e8959993ec4558b87095547f8cf87d
+SHA1: b53e187b6e2269633c387340dcf3e6b5cb35574f
+MD5sum: a0f81df21406593728cad74edaa7dc01
+Description: Linux kernel, version 6.1.27-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.27-mos-686.
+
+Package: linux-image-6.1.27-mos-686-pae
+Source: linux-upstream
+Version: 6.1.27-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 192096
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-686-pae_6.1.27-mos-686-pae-1_i386.deb
+Size: 52077828
+SHA256: ce07c35d2a5dbbd04c4cf4b95b0c435a1419e39e2ef33a1ebcdcf14ca42a19ae
+SHA1: de128a83d013171d696cd9772e75a6e8ba9ff2d8
+MD5sum: c5a0ee025a84c2983b1d0e9b7ba53d31
+Description: Linux kernel, version 6.1.27-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.27-mos-686-pae.
 
 Package: linux-image-6.1.38-mos-686
 Source: linux-upstream
@@ -503,6 +615,42 @@ MD5sum: 295e04a1c6f12ee65a47471ddb003647
 Description: Linux kernel, version 6.1.38-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.38-mos-686-pae.
+
+Package: linux-image-6.1.52-mos-686
+Source: linux-upstream
+Version: 6.1.52-mos-686-1
+Architecture: i386
+Maintainer: root <root@debian>
+Installed-Size: 191974
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.52-mos-686_6.1.52-mos-686-1_i386.deb
+Size: 52048616
+SHA256: af45c17053ae2d3f7ea18a1e5252510651eb93a7f1d90da95d7c3a8eb3f902eb
+SHA1: 66dbcc06e00bfb4b818badd4c9d881aab1d07058
+MD5sum: 5f45715e69084e0bd4f5a27930600ac6
+Description: Linux kernel, version 6.1.52-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.52-mos-686.
+
+Package: linux-image-6.1.52-mos-686-pae
+Source: linux-upstream
+Version: 6.1.52-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@MateBook.>
+Installed-Size: 192477
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.52-mos-686-pae_6.1.52-mos-686-pae-1_i386.deb
+Size: 52287956
+SHA256: 5367c987784eece4b56ad0789d446f34b7e8e76a73ec50f8ed64537aa8d28c11
+SHA1: b367d53b86fda24e3a0b4c802efdd7cb6c32a89f
+MD5sum: 6c026880c11520a6db7298a7780f4de6
+Description: Linux kernel, version 6.1.52-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.52-mos-686-pae.
 
 Package: mousepad
 Version: 0.5.10-2.mos+1
