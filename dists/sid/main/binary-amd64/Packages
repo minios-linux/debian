@@ -227,6 +227,25 @@ Description: Linux kernel headers for 6.1.52-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 52407
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 8870884
+SHA256: 8be74ea5449647bb210519fa09a13254401ebfe02fef5b02022aaf1ed3c6fcde
+SHA1: 425e4d12d0da5a8615689d7cc162289eb0afde05
+MD5sum: 4fc366177a5184999aa780e7968113ba
+Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.67-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-5.10-mos-amd64
 Version: 5.10.179
 Architecture: amd64
@@ -336,6 +355,24 @@ MD5sum: 31607e256f10b8c0a35ed0cb1943907d
 Description: Linux kernel, version 6.1.52-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.52-mos-amd64.
+
+Package: linux-image-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 409226
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 70516376
+SHA256: efdcbc9ce94357b3fb563f1ea005821896073e1299c765d35606ee02c853fb42
+SHA1: b26e88613bd7aaed1c8582f2762f30dbe1fc5686
+MD5sum: 234cb3c6e31cfec310621b6de61a7433
+Description: Linux kernel, version 6.1.67-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.67-mos-amd64.
 
 Package: partclone-nbd
 Installed-Size: 116
