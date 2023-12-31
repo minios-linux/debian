@@ -174,38 +174,38 @@ Description: Linux kernel headers for 5.10.179-mos-686-pae on i386
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.1-mos-686
-Version: 6.1.52
+Version: 6.1.67
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.52-mos-686
+Depends: linux-headers-6.1.67-mos-686
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.52_i386.deb
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.67_i386.deb
 Size: 2260
-SHA256: 7e1a9bfea395965d4e812d798ed61ebdc19610e9b4a091d7610a1e532e3bf201
-SHA1: 7b4b8a934771130eac1a90f7f21ae15a65c7e21b
-MD5sum: 360006ee5f30e006e8d210589b4142a5
+SHA256: 592ec2b740c3a66525b88e1cab5d2b142c41ea3fa50098273811e0f95813721e
+SHA1: ea8d9b0e241bffc9dde148281796f72dd9b54910
+MD5sum: 819504d659460a00d172074cbd74703c
 Description: Header files for Linux 686 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686 configuration.
 
 Package: linux-headers-6.1-mos-686-pae
-Version: 6.1.52
+Version: 6.1.67
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.52-mos-686-pae
+Depends: linux-headers-6.1.67-mos-686-pae
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.52_i386.deb
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.67_i386.deb
 Size: 2288
-SHA256: c6cee42281fbb428eaa02185beb6c8dfa1582e4fa0c637981c15b4d04059786a
-SHA1: 7c05859d94aa49ae86b9cd010358b1277de491ab
-MD5sum: 4ae004a57d4b92e3f45b468fad906da1
+SHA256: c03aa3f127047cb029493000df160e9e73c076d0f17ef0c6263b60d46c339dc6
+SHA1: 802823c135fcd69da98200df9235be0c4eba6bf4
+MD5sum: e2aa4739c972865995689c719d4ef793
 Description: Header files for Linux 686-pae configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686-pae configuration.
@@ -399,39 +399,39 @@ Description: Linux kernel, version 5.10.179-mos-686-pae
  files, version: 5.10.179-mos-686-pae.
 
 Package: linux-image-6.1-mos-686
-Version: 6.1.52
+Version: 6.1.67
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.52-mos-686
-Provides: linux-latest-modules-6.1.52-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.67-mos-686
+Provides: linux-latest-modules-6.1.67-mos-686, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.52_i386.deb
-Size: 2372
-SHA256: c1c4e5e915e6ebe5b9da6d84d64ba0337ca2cc183b9f61504d6d0f5b249ff362
-SHA1: 48e3007aa59f4baf6d924abdd7934c7668c7186e
-MD5sum: 41445fcd91e18aeeef2b02b48d98bc64
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.67_i386.deb
+Size: 2368
+SHA256: baa6f3eefe18bb5271475c28928402ca590c8cbb6c6195f63cbabb645ddc07fa
+SHA1: 9dc32263d0ad478a2291a45412f822ebbb536e20
+MD5sum: c43dc8148dc5cf474ba70e9dc7f3d757
 Description: Linux for older PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors not supporting PAE.
 
 Package: linux-image-6.1-mos-686-pae
-Version: 6.1.52
+Version: 6.1.67
 Architecture: i386
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.52-mos-686-pae
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.52-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.67-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.67-mos-686-pae, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.52_i386.deb
-Size: 2408
-SHA256: 8cd21466e0fc6c9cfc62755a91a3bea61c32584595e4a7b046e61069b7064869
-SHA1: 493e53d18ed3dcbafa30f63b1c607b6eb7bf8dd7
-MD5sum: b7b082b5d4613dfbdd1a5fff10051d12
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.67_i386.deb
+Size: 2404
+SHA256: 3e1c984ecfdb9045cee825bf85fe826bf4a03a33cb0a24bc4c04fd69829b9c97
+SHA1: d3162216622d6f8f790e03dc84f96826a9a6b59f
+MD5sum: 2405ff3bcfba9fbbc106394382f966f0
 Description: Linux for modern PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors supporting PAE.
