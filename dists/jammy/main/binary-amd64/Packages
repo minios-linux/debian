@@ -149,6 +149,21 @@ SHA1: 98ea01e1c5bbd3014381404dee073bb24bec3fb3
 MD5sum: 3c9589c721b181e9f32b100a242d63c3
 Description: gtkdialog
 
+Package: lazydocker
+Version: 0.21.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@yandex.ru>
+Installed-Size: 10663
+Homepage: https://github.com/jesseduffield/lazydocker
+Priority: optional
+Section: utils
+Filename: pool/main/l/lazydocker/lazydocker_0.21.1-1_amd64.deb
+Size: 3192336
+SHA256: 68c0d9b8ec74d7610609797ee5e3d2fab88c1a6bd378dd2a5c6212bb00b1f256
+SHA1: acdc4cec25e3165336019d55cecaf414d1eda602
+MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
+Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
+
 Package: linux-headers-5.10-mos-amd64
 Version: 5.10.179
 Architecture: amd64
@@ -188,78 +203,78 @@ Description: Linux kernel headers for 5.10.179-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-headers-6.1-mos-amd64
-Version: 6.1.52
+Version: 6.1.67
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-headers-6.1.52-mos-amd64
+Depends: linux-headers-6.1.67-mos-amd64
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.52_amd64.deb
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.67_amd64.deb
 Size: 2288
-SHA256: 89a9dd776631d3cc47bd900a2af8ef83312f69f31243d5e58a3a46a53b27681f
-SHA1: c46967c36e2068272f00c68ba591380bded2737c
-MD5sum: 1b11420dd70610abe573bd3538e2ff35
+SHA256: 57e5ba77b408bbe12921c60f405330923e4ea9ea76a3a3e9937913985f1cf8cc
+SHA1: 13b56848dd06847e004679e2d88f95d392d26d9c
+MD5sum: 4ab08447ffff9f445b3d9d4cabeff9f9
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
-Package: linux-headers-6.1.27-mos-amd64
+Package: linux-headers-6.1.67-mos-amd64
 Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
+Version: 6.1.67-mos-amd64-1
 Architecture: amd64
 Maintainer: root <root@bookworm>
-Installed-Size: 52302
+Installed-Size: 52407
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 8852492
-SHA256: 91ec7a95413c564ea59c1d700d563645ff35439fabe799c7e7f1993c0d72a737
-SHA1: 2448e71e24a063bae38e08811666d95673ab3672
-MD5sum: 1cbf4777559549308fae4dcaa3f1fdd9
-Description: Linux kernel headers for 6.1.27-mos-amd64 on amd64
- This package provides kernel header files for 6.1.27-mos-amd64 on amd64
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 8870884
+SHA256: 8be74ea5449647bb210519fa09a13254401ebfe02fef5b02022aaf1ed3c6fcde
+SHA1: 425e4d12d0da5a8615689d7cc162289eb0afde05
+MD5sum: 4fc366177a5184999aa780e7968113ba
+Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.67-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.1.38-mos-amd64
-Source: linux-upstream
-Version: 6.1.38-mos-amd64-1
+Package: linux-headers-6.5-mos-amd64
+Version: 6.5.10
 Architecture: amd64
-Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 52317
-Homepage: https://www.kernel.org/
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.5.10-mos-amd64
+Provides: linux-headers-6.5-mos-generic
+Multi-Arch: foreign
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.38-mos-amd64_6.1.38-mos-amd64-1_amd64.deb
-Size: 8855324
-SHA256: 07bc433b2e7f10fe574eb53329887542e1c1e4bdf9aaced8878d15156420d6f7
-SHA1: 52be76c85032e73e218905ae9d83053c4db71e34
-MD5sum: 0ca6f7ef795580aded0b410f7956019d
-Description: Linux kernel headers for 6.1.38-mos-amd64 on amd64
- This package provides kernel header files for 6.1.38-mos-amd64 on amd64
- .
- This is useful for people who need to build external modules
+Section: misc
+Filename: pool/main/l/linux-headers-6.5-mos-amd64/linux-headers-6.5-mos-amd64_6.5.10_amd64.deb
+Size: 2288
+SHA256: d5e6d678957e6eadd5ae4fda2d60e6f4e3776382f8894902f7542630cdc00da1
+SHA1: e025ea963fdeae221f252f078a4a815c4f69aff2
+MD5sum: 3cdbf35854b043608bc925bdc7838248
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
 
-Package: linux-headers-6.1.52-mos-amd64
+Package: linux-headers-6.5.10-mos-amd64
 Source: linux-upstream
-Version: 6.1.52-mos-amd64-1
+Version: 6.5.10-mos-1
 Architecture: amd64
-Maintainer: root <root@debian>
-Installed-Size: 52325
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 53885
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.52-mos-amd64_6.1.52-mos-amd64-1_amd64.deb
-Size: 8856316
-SHA256: 72c68ad25c5aa6febee6d2bac3f088e4cd70181fa68b925ddf013faa901cb6ac
-SHA1: 0cb8fb5aed225d9cc00f056eb69fc12aea690eed
-MD5sum: 1ce75d1acddbb878a37a624aba95bbba
-Description: Linux kernel headers for 6.1.52-mos-amd64 on amd64
- This package provides kernel header files for 6.1.52-mos-amd64 on amd64
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 9147796
+SHA256: ab812d4bd588b211b4b7068884905be7de154908bd31985e469aa0add1295450
+SHA1: b991888dbc843ebfa8a67206b0690d8e771bdd8b
+MD5sum: 127312af2e829416b629b805a30e5160
+Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
+ This package provides kernel header files for 6.5.10-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
@@ -301,77 +316,78 @@ Description: Linux kernel, version 5.10.179-mos-amd64
  files, version: 5.10.179-mos-amd64.
 
 Package: linux-image-6.1-mos-amd64
-Version: 6.1.52
+Version: 6.1.67
 Architecture: amd64
 Maintainer: Equivs Dummy Package Generator <root@debian>
 Installed-Size: 9
-Depends: linux-image-6.1.52-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.52-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Depends: linux-image-6.1.67-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.67-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.52_amd64.deb
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.67_amd64.deb
 Size: 2400
-SHA256: 5c104431e1f80031c1d0a982225094bef237d51d3ccff20a35a2a4dff89249be
-SHA1: c2467dd09f3a46fc0849a39ec52afb6c39c7ae43
-MD5sum: 7ec4613540c5df8a24cc88cfef3c044f
+SHA256: b9eaf9b8470fd99a615a3e2b6fcad65e6f2ac33745565310e50312b0e24bfb5f
+SHA1: c447891005290a828fd7f7df5388edb5433475d5
+MD5sum: 7c38a3a3ad8706214f146438db2b9ec9
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
 
-Package: linux-image-6.1.27-mos-amd64
+Package: linux-image-6.1.67-mos-amd64
 Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
+Version: 6.1.67-mos-amd64-1
 Architecture: amd64
 Maintainer: root <root@bookworm>
-Installed-Size: 408608
+Installed-Size: 409226
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 70240784
-SHA256: 1e561afece36a68196932763d15ab35d4647cbe2bf9122699e3e01bf9880e07b
-SHA1: 5765e0bdd76f274b4aabab96bd8342c0050afad8
-MD5sum: fe95828c38319f2fd698e0f77ce206ea
-Description: Linux kernel, version 6.1.27-mos-amd64
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 70516376
+SHA256: efdcbc9ce94357b3fb563f1ea005821896073e1299c765d35606ee02c853fb42
+SHA1: b26e88613bd7aaed1c8582f2762f30dbe1fc5686
+MD5sum: 234cb3c6e31cfec310621b6de61a7433
+Description: Linux kernel, version 6.1.67-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-amd64.
+ files, version: 6.1.67-mos-amd64.
 
-Package: linux-image-6.1.38-mos-amd64
-Source: linux-upstream
-Version: 6.1.38-mos-amd64-1
+Package: linux-image-6.5-mos-amd64
+Version: 6.5.10
 Architecture: amd64
-Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 409259
-Homepage: https://www.kernel.org/
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.5.10-mos-amd64
+Provides: linux-image-6.5-mos-generic, linux-latest-modules-6.5.10-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
 Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.38-mos-amd64_6.1.38-mos-amd64-1_amd64.deb
-Size: 70360628
-SHA256: 3ae2934e77c197e06fd8e0e787e089d59a37c256679417ac830f753b1ab166c3
-SHA1: 6c43e8805d167caa8d931daf4cc3ea56278791b6
-MD5sum: c38fbd3a4147328a1ba0f35fce90923a
-Description: Linux kernel, version 6.1.38-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.38-mos-amd64.
+Section: misc
+Filename: pool/main/l/linux-image-6.5-mos-amd64/linux-image-6.5-mos-amd64_6.5.10_amd64.deb
+Size: 2404
+SHA256: 5bbbf397c7b46fa9c9d1c7795e464c9e000230f09fe8550f732d347acfb0c733
+SHA1: 7c53ba7b9837164b2991d35a046001b34f9910dd
+MD5sum: be5bfecc62f6e0c9ce03686ab4037ad6
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
 
-Package: linux-image-6.1.52-mos-amd64
+Package: linux-image-6.5.10-mos-amd64
 Source: linux-upstream
-Version: 6.1.52-mos-amd64-1
+Version: 6.5.10-mos-1
 Architecture: amd64
-Maintainer: root <root@debian>
-Installed-Size: 409235
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 477048
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.52-mos-amd64_6.1.52-mos-amd64-1_amd64.deb
-Size: 70514980
-SHA256: a60a125d1ec6051d46aa1871d215e9c38c7999da89853e453fb1c28fc5283c8d
-SHA1: ee60f958cc8f20bfa98c59d3bbb257c5364ee5df
-MD5sum: 31607e256f10b8c0a35ed0cb1943907d
-Description: Linux kernel, version 6.1.52-mos-amd64
+Filename: pool/main/l/linux-upstream/linux-image-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 77511072
+SHA256: a6aae389b2d4beec95e4f0f5be540a622ab9857f7b86e66d09d29b7a32386577
+SHA1: 45e3f2718b5d9b5327db1090763d856981020fed
+MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
+Description: Linux kernel, version 6.5.10-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.52-mos-amd64.
+ files, version: 6.5.10-mos-amd64.
 
 Package: mousepad
 Version: 0.5.8-1.minios.u2204

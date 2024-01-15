@@ -2,18 +2,18 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: sid
-Date: Sun, 31 Dec 2023 12:15:34 UTC
+Date: Mon, 15 Jan 2024 11:44:25 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
 MD5Sum:
- b3805a52ddc2f4f2c98c2972d0be628a 25026 main/binary-i386/Packages
- 87116bd4dfb7afbc785ce1b03189398f 6297 main/binary-i386/Packages.gz
+ 3e32cef6c1e7f174993535ad875a348c 16764 main/binary-i386/Packages
+ 31a485a7e367de459641adeca6f761cc 4741 main/binary-i386/Packages.gz
  f19998ad29bbe943727db6a00bb907ad 124 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
- 6efd1ba23ac26a848a9bfdc9fdfd63b9 16709 main/binary-amd64/Packages
- 16c6bf8b63b01710c2b9e63a7d007535 5049 main/binary-amd64/Packages.gz
+ 5057cc7faaf25f7b9245de8d1367990e 15469 main/binary-amd64/Packages
+ 5655f9d895a0300d0961e15d216f95c7 4776 main/binary-amd64/Packages.gz
  0f7bb212d98374f0419cb495aa84077a 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -47,13 +47,13 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  01d345a3364abf21b96bf04ff45d5a2a 130 non-free/source/Release
 SHA1:
- e05d3f41d7a3e00ca17b036eba855789f3469cd6 25026 main/binary-i386/Packages
- a74ea9f3ca167b433b2128ef083431dd5e3bbf86 6297 main/binary-i386/Packages.gz
+ ed286e07561d4d8688cf57d92eff5e138891c4e5 16764 main/binary-i386/Packages
+ d4454b26f2096e60c081e40c6ef2e43db2e25636 4741 main/binary-i386/Packages.gz
  e9873c3be5cba1f1c9dfe52b669b912bf09d8000 124 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
- c25d1f7ce3397f86273164b94c32376cba6a3dbb 16709 main/binary-amd64/Packages
- 5fe89a8954e7acdb2388c344cd56d37c30ca783e 5049 main/binary-amd64/Packages.gz
+ 8e843d5f54990661817c7f6f982210ffcb4f6c49 15469 main/binary-amd64/Packages
+ c21535f4f76e561b250103096ef6f163b1988547 4776 main/binary-amd64/Packages.gz
  1f87f472e947cb209a940d013c104f6b2f473396 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -87,13 +87,13 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  c7f7d374f8c0ab0d140a68e849afbfbd5c6bab55 130 non-free/source/Release
 SHA256:
- 8acc5b40b359d5d285b7a8f965383749c03428817d5385f559f1290fbbf4bebf 25026 main/binary-i386/Packages
- 53d3c66dd0bb8a5b933f57730109e4693e9c1d2ee41345ecb23f4b340422d554 6297 main/binary-i386/Packages.gz
+ c08e98bb7e5edad0b0e093879ab8aac89569a9d5c5646304d3b4284cbb929734 16764 main/binary-i386/Packages
+ a9357796330b7f7b60028f12ad675c36d634a416144f3fbcaee889ed5b6db9be 4741 main/binary-i386/Packages.gz
  a9d73906058c259c0b189592a9510754881be2cd24acd5d1682451247f8bb86d 124 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
- a0666cca9f15266cbd23cae71be02492fe2ff68906741f7b48d26bd5da9c84a7 16709 main/binary-amd64/Packages
- 2876a7f17fa9f981a207ee39819507fe34a4063d2a99d571b9e177e1d26e4e3f 5049 main/binary-amd64/Packages.gz
+ 535c864120c7cfde1606b42b48553cff146206a0f310f0dbb52813a5be717708 15469 main/binary-amd64/Packages
+ 4e757c76503ccfbba0223444af622183514e0af67e3e26cd02369df23805322a 4776 main/binary-amd64/Packages.gz
  30138a12cee32ef9195d8659823972f9d98a0fd8468bd74316ddfc13070f400a 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz

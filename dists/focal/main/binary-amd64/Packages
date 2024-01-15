@@ -221,63 +221,6 @@ Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
-Package: linux-headers-6.1.27-mos-amd64
-Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bookworm>
-Installed-Size: 52302
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 8852492
-SHA256: 91ec7a95413c564ea59c1d700d563645ff35439fabe799c7e7f1993c0d72a737
-SHA1: 2448e71e24a063bae38e08811666d95673ab3672
-MD5sum: 1cbf4777559549308fae4dcaa3f1fdd9
-Description: Linux kernel headers for 6.1.27-mos-amd64 on amd64
- This package provides kernel header files for 6.1.27-mos-amd64 on amd64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.38-mos-amd64
-Source: linux-upstream
-Version: 6.1.38-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 52317
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.38-mos-amd64_6.1.38-mos-amd64-1_amd64.deb
-Size: 8855324
-SHA256: 07bc433b2e7f10fe574eb53329887542e1c1e4bdf9aaced8878d15156420d6f7
-SHA1: 52be76c85032e73e218905ae9d83053c4db71e34
-MD5sum: 0ca6f7ef795580aded0b410f7956019d
-Description: Linux kernel headers for 6.1.38-mos-amd64 on amd64
- This package provides kernel header files for 6.1.38-mos-amd64 on amd64
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.52-mos-amd64
-Source: linux-upstream
-Version: 6.1.52-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@debian>
-Installed-Size: 52325
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.52-mos-amd64_6.1.52-mos-amd64-1_amd64.deb
-Size: 8856316
-SHA256: 72c68ad25c5aa6febee6d2bac3f088e4cd70181fa68b925ddf013faa901cb6ac
-SHA1: 0cb8fb5aed225d9cc00f056eb69fc12aea690eed
-MD5sum: 1ce75d1acddbb878a37a624aba95bbba
-Description: Linux kernel headers for 6.1.52-mos-amd64 on amd64
- This package provides kernel header files for 6.1.52-mos-amd64 on amd64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-6.1.67-mos-amd64
 Source: linux-upstream
 Version: 6.1.67-mos-amd64-1
@@ -294,6 +237,44 @@ SHA1: 425e4d12d0da5a8615689d7cc162289eb0afde05
 MD5sum: 4fc366177a5184999aa780e7968113ba
 Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
  This package provides kernel header files for 6.1.67-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.5-mos-amd64
+Version: 6.5.10
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.5.10-mos-amd64
+Provides: linux-headers-6.5-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.5-mos-amd64/linux-headers-6.5-mos-amd64_6.5.10_amd64.deb
+Size: 2288
+SHA256: d5e6d678957e6eadd5ae4fda2d60e6f4e3776382f8894902f7542630cdc00da1
+SHA1: e025ea963fdeae221f252f078a4a815c4f69aff2
+MD5sum: 3cdbf35854b043608bc925bdc7838248
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 53885
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 9147796
+SHA256: ab812d4bd588b211b4b7068884905be7de154908bd31985e469aa0add1295450
+SHA1: b991888dbc843ebfa8a67206b0690d8e771bdd8b
+MD5sum: 127312af2e829416b629b805a30e5160
+Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
+ This package provides kernel header files for 6.5.10-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
@@ -353,60 +334,6 @@ Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.
 
-Package: linux-image-6.1.27-mos-amd64
-Source: linux-upstream
-Version: 6.1.27-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bookworm>
-Installed-Size: 408608
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.27-mos-amd64_6.1.27-mos-amd64-1_amd64.deb
-Size: 70240784
-SHA256: 1e561afece36a68196932763d15ab35d4647cbe2bf9122699e3e01bf9880e07b
-SHA1: 5765e0bdd76f274b4aabab96bd8342c0050afad8
-MD5sum: fe95828c38319f2fd698e0f77ce206ea
-Description: Linux kernel, version 6.1.27-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.27-mos-amd64.
-
-Package: linux-image-6.1.38-mos-amd64
-Source: linux-upstream
-Version: 6.1.38-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@bullseye.mshome.net>
-Installed-Size: 409259
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.38-mos-amd64_6.1.38-mos-amd64-1_amd64.deb
-Size: 70360628
-SHA256: 3ae2934e77c197e06fd8e0e787e089d59a37c256679417ac830f753b1ab166c3
-SHA1: 6c43e8805d167caa8d931daf4cc3ea56278791b6
-MD5sum: c38fbd3a4147328a1ba0f35fce90923a
-Description: Linux kernel, version 6.1.38-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.38-mos-amd64.
-
-Package: linux-image-6.1.52-mos-amd64
-Source: linux-upstream
-Version: 6.1.52-mos-amd64-1
-Architecture: amd64
-Maintainer: root <root@debian>
-Installed-Size: 409235
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.52-mos-amd64_6.1.52-mos-amd64-1_amd64.deb
-Size: 70514980
-SHA256: a60a125d1ec6051d46aa1871d215e9c38c7999da89853e453fb1c28fc5283c8d
-SHA1: ee60f958cc8f20bfa98c59d3bbb257c5364ee5df
-MD5sum: 31607e256f10b8c0a35ed0cb1943907d
-Description: Linux kernel, version 6.1.52-mos-amd64
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.52-mos-amd64.
-
 Package: linux-image-6.1.67-mos-amd64
 Source: linux-upstream
 Version: 6.1.67-mos-amd64-1
@@ -424,6 +351,43 @@ MD5sum: 234cb3c6e31cfec310621b6de61a7433
 Description: Linux kernel, version 6.1.67-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.67-mos-amd64.
+
+Package: linux-image-6.5-mos-amd64
+Version: 6.5.10
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.5.10-mos-amd64
+Provides: linux-image-6.5-mos-generic, linux-latest-modules-6.5.10-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.5-mos-amd64/linux-image-6.5-mos-amd64_6.5.10_amd64.deb
+Size: 2404
+SHA256: 5bbbf397c7b46fa9c9d1c7795e464c9e000230f09fe8550f732d347acfb0c733
+SHA1: 7c53ba7b9837164b2991d35a046001b34f9910dd
+MD5sum: be5bfecc62f6e0c9ce03686ab4037ad6
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 477048
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 77511072
+SHA256: a6aae389b2d4beec95e4f0f5be540a622ab9857f7b86e66d09d29b7a32386577
+SHA1: 45e3f2718b5d9b5327db1090763d856981020fed
+MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
+Description: Linux kernel, version 6.5.10-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.5.10-mos-amd64.
 
 Package: partclone-nbd
 Installed-Size: 116
