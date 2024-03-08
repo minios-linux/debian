@@ -95,32 +95,3 @@ Description: Documentation for Double Commander (Ukrainian)
  .
  This package contains the Ukranian documentation.
 
-Package: inkscape-tutorials
-Source: inkscape
-Version: 1.2.1+ds-1~mos~bpo11+1
-Architecture: all
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 75795
-Recommends: inkscape
-Breaks: inkscape (<= 0.92.3-2~)
-Replaces: inkscape (<= 0.92.3-2~)
-Multi-Arch: foreign
-Homepage: https://inkscape.org
-Priority: optional
-Section: graphics
-Filename: pool/main/i/inkscape/inkscape-tutorials_1.2.1+ds-1~mos~bpo11+1_all.deb
-Size: 1890648
-SHA256: 1f0fbb37b9f145955cdbc92a753f46d4844a05e075ee8f1406da9ff6c70783b6
-SHA1: c5ffda55b2f0fb3b331f395cfb2c0252f35ff2df
-MD5sum: f9e5f47fd0c2f722a0a7223157637b40
-Description: vector-based drawing program - tutorials
- Inkscape is an illustration editor which has everything needed to
- create professional-quality computer art. You can use it to make
- diagrams and illustrations, technical drawings, web graphics, clip art,
- icons and logos. A collection of hands-on tutorials show you how to
- combine lines, shapes and text of different types and styles to build
- up a picture.
- .
- This package contains the tutorials, accessible from the Help > Tutorials
- menu.
-
