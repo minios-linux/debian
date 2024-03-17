@@ -314,6 +314,24 @@ Description: Linux kernel, version 6.5.10-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.10-mos-amd64.
 
+Package: minios-installer
+Version: 1.0
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 50
+Depends: bash (>= 4.0), util-linux (>= 2.37.2), polkitd, pkexec, sudo, jq, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-installer/minios-installer_1.0_amd64.deb
+Size: 10624
+SHA256: 7984b798991757796212a4ea8439b9ea2d606c4e5be273a2d4e100ad2f03349c
+SHA1: 080f86413c0bad5af47986ba52c7f4516d92efcf
+MD5sum: 7e80dff3fa6c49befcfa57443104585b
+Description: MiniOS Linux installation utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ install MiniOS on a USB flash drive.
+
 Package: partclone-nbd
 Installed-Size: 116
 Maintainer: admin@minios.dev
