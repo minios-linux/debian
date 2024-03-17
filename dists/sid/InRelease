@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: sid
-Date: Sun, 17 Mar 2024 21:40:00 UTC
+Date: Sun, 17 Mar 2024 22:03:46 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -15,8 +15,8 @@ MD5Sum:
  f19998ad29bbe943727db6a00bb907ad 124 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
- 2c0ddd6fc396da3d6c5618a4f8bd717e 13191 main/binary-amd64/Packages
- a9312c8e20550891661c30e3d1748429 4516 main/binary-amd64/Packages.gz
+ e537e39d6ab8a33f3be8e199bd36ee9a 13191 main/binary-amd64/Packages
+ f45d30c2f1dd99121d73b66e3a3960ea 4514 main/binary-amd64/Packages.gz
  0f7bb212d98374f0419cb495aa84077a 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -55,8 +55,8 @@ SHA1:
  e9873c3be5cba1f1c9dfe52b669b912bf09d8000 124 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
- 82f36e4126d4699a06e97a6bcde9de30042a55c4 13191 main/binary-amd64/Packages
- 8df297edefa307fd48fe537c13210b8eb5d40a87 4516 main/binary-amd64/Packages.gz
+ 5b9a07310b4a883a095709241548b86f0dad7b5b 13191 main/binary-amd64/Packages
+ 6c777f9e09822e02b3a4837c9019a129f6fe6680 4514 main/binary-amd64/Packages.gz
  1f87f472e947cb209a940d013c104f6b2f473396 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -95,8 +95,8 @@ SHA256:
  a9d73906058c259c0b189592a9510754881be2cd24acd5d1682451247f8bb86d 124 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
- 13e95fcd0cc5a3660e480c9124e5c66c8b0350931d31ddee7db7e35a8a1b0f09 13191 main/binary-amd64/Packages
- 74ccf088fbc548867eba0082a3478955840a5275e613cc18985f9c76b0f47be0 4516 main/binary-amd64/Packages.gz
+ 977e19c67c016f92505346532348ae444252a946de0f2732fb34700d9cd7a1cc 13191 main/binary-amd64/Packages
+ 7e006be32a04daec0d30bad2593c7edc9130f6968f70074cd1fe5775ee6ed17a 4514 main/binary-amd64/Packages.gz
  30138a12cee32ef9195d8659823972f9d98a0fd8468bd74316ddfc13070f400a 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmX3YzAACgkQ7CDxjGi2
-L2z9fQwAiapTDcEARu+5T/QgLeqwyCZHQEPk4Ytu573cjhfy/5r3X5cTIp1cdVHZ
-Py39Mjzh4DrNS3doa1PDN/RgJ64I4uZlVD2/wYe8jDnHAcziGPe/KsRCJH6aSrnm
-ZChq/gl8+TONbyec97EODlH9D64sMGIh2psw+fnQ/s8REb5CzqdXbf4eVkc6RSnu
-U8y5NwHeu9kEnypWAK2EGK7TSs9K5koimltXmdukzMQE0VUtAY87wdjmkKBh5ZC8
-gCPsUAoDtfN7rCba5IrcfHuPpEPsPLjKAH9Zc1odKpyBxa8kEPI1HLfruyiNPoRh
-eCxyDERPvWoZfliVBxQU227ys5VNIBoexMPdWVVVEkCipR5fZI6Vf2V+2skuvzkO
-21ZPJnL9ApBy2kunBNWLrWbp1JCfwcL/eAZ60lq/GNyjIn5gKCv7yTAcpxrEewjn
-75w34PWVTUX7MmdjG8wWOHnZI+pwG39t7Kuhdf8h8zLF4qEMGEJykqnqK6ITuZSj
-xrF4VwsF
-=f0hS
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmX3aMIACgkQ7CDxjGi2
+L2wCbwv8ChGOBkDSy6Thz7C17PTHt+TMP3P8Y9co5doL3P5p/Y4MwJTi9J15BBoN
+aLbDR4H3qJnxh3xk1sNiNUgz6u7tOwxnu0rCZ/poC3loof4D9sdYmaFbrMV0djen
+E+acEnmMHdXKQgI7rvFg77JM1MSrpqfWfaAF3NhKa0NyDRvVXjQyEgvz3c/Xu4Ue
+BtDp6ZE7t4sxhz9sYMnqr6RQU05ZPocb4mIgObPAG+Tx+hTWwz86RyzBeCp3r671
+a3eag0zkaUSGMaJuAxKXSyQbovzkVl467n/LyUCGpHfpXGMxHpMdA7AL8HZXjJCb
+C1KCrkutTqmD3pgbv01Btp30LnwACTgibneUr50n68CFzKvRyuGclVK1wup3t93u
+oxJLrBR3Ra0LXr3644cTN/hFk3sMAvYgk44mVjYv5ktsZMyZQ1PTPihtUoiKO353
+hNgpFBlMkwA5cW7RQ3HrkjBlZnYHlzjvZkrr0uguB/37hpNH+hNLZX5W9Co+mco4
+d4R93zoZ
+=SiYf
 -----END PGP SIGNATURE-----
