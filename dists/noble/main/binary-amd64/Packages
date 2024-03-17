@@ -1,3 +1,41 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: adwaita-icon-theme-fake
+Version: 0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
+Size: 756
+SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
+SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
+MD5sum: 383a6a5bd758655cfacd84adb625b325
+Description: Fake package to prevent adwaita-icon-theme from being installed
+
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
 Version: 0.18-1~mos+3
@@ -24,6 +62,25 @@ Description: elementary icon theme modified for Xfce
  exclusively on their desktop environment and thus dropped a lot of icon
  symlinks used by other desktops. elementary-xfce intends to keep these as-is,
  while still pulling in new icons and integrating them occasionally.
+
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20221012-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 248
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
+Recommends: intel-microcode, amd64-microcode
+Priority: optional
+Section: non-free/metapackages
+Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
+Size: 47416
+SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
+SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
+MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
 
 Package: firmware-linux-free
 Source: firmware-free
@@ -75,6 +132,37 @@ Description: Binary firmware for various drivers in the Linux kernel
   * USB-DUX firmware (usbdux_firmware.bin)
   * USB-DUXfast firmware (usbduxfast_firmware.bin)
   * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
+
+Package: gtkdialog
+Installed-Size: 363
+Maintainer: sfs
+Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
+Architecture: amd64
+Version: 0.8.4-1
+Provides: gtkdialog
+Priority: extra
+Section: system
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.4-1_amd64.deb
+Size: 263246
+SHA256: a5c9b319bd690f489d9d7398518f266283423df62f261ef6deff5b6a22bfb874
+SHA1: 98ea01e1c5bbd3014381404dee073bb24bec3fb3
+MD5sum: 3c9589c721b181e9f32b100a242d63c3
+Description: gtkdialog
+
+Package: lazydocker
+Version: 0.21.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@yandex.ru>
+Installed-Size: 10663
+Homepage: https://github.com/jesseduffield/lazydocker
+Priority: optional
+Section: utils
+Filename: pool/main/l/lazydocker/lazydocker_0.21.1-1_amd64.deb
+Size: 3192336
+SHA256: 68c0d9b8ec74d7610609797ee5e3d2fab88c1a6bd378dd2a5c6212bb00b1f256
+SHA1: acdc4cec25e3165336019d55cecaf414d1eda602
+MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
+Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
 Package: linux-headers-6.1-mos-amd64
 Version: 6.1.67
@@ -225,4 +313,59 @@ MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
 Description: Linux kernel, version 6.5.10-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.10-mos-amd64.
+
+Package: partclone-nbd
+Installed-Size: 116
+Maintainer: admin@minios.dev
+Architecture: amd64
+Version: 0.0.3-1
+Depends: partclone
+Provides: partclone-nbd
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-nbd/partclone-nbd_0.0.3-1_amd64.deb
+Size: 37636
+SHA256: abcb50f2a7ed8d49f1f4dabf662858610074360676f8992d456b08e284aec562
+SHA1: f5d94b041878aca75b44f0537e0a5fe5012c583f
+MD5sum: 48077c23e858d14b43dd3827fa2e91c8
+Description: Package created with checkinstall 1.6.3
+
+Package: partclone-utils
+Installed-Size: 248
+Maintainer: admin@minios.dev
+Architecture: amd64
+Version: 0.4.2-1
+Depends: partclone
+Provides: partclone-utils
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-utils/partclone-utils_0.4.2-1_amd64.deb
+Size: 37528
+SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
+SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
+MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
+Description: Package created with checkinstall 1.6.3
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
 
