@@ -216,10 +216,10 @@ Multi-Arch: foreign
 Priority: optional
 Section: misc
 Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.67_i386.deb
-Size: 2260
-SHA256: 592ec2b740c3a66525b88e1cab5d2b142c41ea3fa50098273811e0f95813721e
-SHA1: ea8d9b0e241bffc9dde148281796f72dd9b54910
-MD5sum: 819504d659460a00d172074cbd74703c
+Size: 2256
+SHA256: ddf23cb7ad02ee2f88263cd634e8d3cb68a6b20088eea22ad75524c840e2eb23
+SHA1: 4bc1f161c45aa77a1bb14c3a6f103fa97f37e894
+MD5sum: 7793e15b9eeb6379a96cae5a866779ba
 Description: Header files for Linux 686 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686 configuration.
@@ -236,9 +236,9 @@ Priority: optional
 Section: misc
 Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.67_i386.deb
 Size: 2288
-SHA256: c03aa3f127047cb029493000df160e9e73c076d0f17ef0c6263b60d46c339dc6
-SHA1: 802823c135fcd69da98200df9235be0c4eba6bf4
-MD5sum: e2aa4739c972865995689c719d4ef793
+SHA256: 3c1b915f0f4e95bc747ac53f6facbf3017f41cc0d684b3b4e6900c19a4f38c7d
+SHA1: ad709afceb28d178e7b78b1ff6120819d413c4e9
+MD5sum: a2473f5d73314b2c3b89934898120ed7
 Description: Header files for Linux 686-pae configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel 686-pae configuration.
@@ -292,10 +292,10 @@ Multi-Arch: foreign
 Priority: optional
 Section: misc
 Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.67_i386.deb
-Size: 2368
-SHA256: baa6f3eefe18bb5271475c28928402ca590c8cbb6c6195f63cbabb645ddc07fa
-SHA1: 9dc32263d0ad478a2291a45412f822ebbb536e20
-MD5sum: c43dc8148dc5cf474ba70e9dc7f3d757
+Size: 2372
+SHA256: ea55ae4c1a656feb8f46bef02a811b85da476d651fa509a47259f3f1c5179567
+SHA1: d0cc499f307a52481900185fcc259d99e8d558c9
+MD5sum: 37e1f0219e9d4ea2af4d714afc24bbad
 Description: Linux for older PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors not supporting PAE.
@@ -312,9 +312,9 @@ Priority: optional
 Section: misc
 Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.67_i386.deb
 Size: 2404
-SHA256: 3e1c984ecfdb9045cee825bf85fe826bf4a03a33cb0a24bc4c04fd69829b9c97
-SHA1: d3162216622d6f8f790e03dc84f96826a9a6b59f
-MD5sum: 2405ff3bcfba9fbbc106394382f966f0
+SHA256: 993e86e48cc851a1016cc2101124f5b05ad673d548a83a9763162e817d823943
+SHA1: f1b0e9e07f3d0016212c9bf6455d618c4b92b085
+MD5sum: 767e95d8e71a8c5c71eef6fc2c3c2cf6
 Description: Linux for modern PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with one or more processors supporting PAE.

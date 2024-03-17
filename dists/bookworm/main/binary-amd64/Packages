@@ -254,9 +254,9 @@ Priority: optional
 Section: misc
 Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.67_amd64.deb
 Size: 2288
-SHA256: 57e5ba77b408bbe12921c60f405330923e4ea9ea76a3a3e9937913985f1cf8cc
-SHA1: 13b56848dd06847e004679e2d88f95d392d26d9c
-MD5sum: 4ab08447ffff9f445b3d9d4cabeff9f9
+SHA256: acc47ed212f1690adfd749860f20e4a28b697cb695ab8b6475b0a14690e1e98b
+SHA1: 2380c1a6848c8316a5e5923d95a5e08321117dbe
+MD5sum: 43d7e18944bebf97c5f34b845e816803
 Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
@@ -330,9 +330,9 @@ Priority: optional
 Section: misc
 Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.67_amd64.deb
 Size: 2400
-SHA256: b9eaf9b8470fd99a615a3e2b6fcad65e6f2ac33745565310e50312b0e24bfb5f
-SHA1: c447891005290a828fd7f7df5388edb5433475d5
-MD5sum: 7c38a3a3ad8706214f146438db2b9ec9
+SHA256: eaf6e1e982adb443e7eb4f6746222930dda4c9b0ec5fd73d10f33420ac9e0b70
+SHA1: 39fb8a1a30a3c6e861f0b1c1a1b6ff00bff64abc
+MD5sum: d3651087baf2d544aa47c86f4e759220
 Description: Linux for 64-bit PCs (meta-package)
  This package depends on the latest Linux kernel and modules for use on PCs
  with AMD64, Intel 64 or VIA Nano processors.

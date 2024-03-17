@@ -44,25 +44,6 @@ Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-6.5-mos-amd64
-Version: 6.5.10
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.5.10-mos-amd64
-Provides: linux-headers-6.5-mos-generic
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.5-mos-amd64/linux-headers-6.5-mos-amd64_6.5.10_amd64.deb
-Size: 2288
-SHA256: d5e6d678957e6eadd5ae4fda2d60e6f4e3776382f8894902f7542630cdc00da1
-SHA1: e025ea963fdeae221f252f078a4a815c4f69aff2
-MD5sum: 3cdbf35854b043608bc925bdc7838248
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
-
 Package: linux-headers-6.5.10-mos-amd64
 Source: linux-upstream
 Version: 6.5.10-mos-1
@@ -99,25 +80,6 @@ MD5sum: 234cb3c6e31cfec310621b6de61a7433
 Description: Linux kernel, version 6.1.67-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.67-mos-amd64.
-
-Package: linux-image-6.5-mos-amd64
-Version: 6.5.10
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.5.10-mos-amd64
-Provides: linux-image-6.5-mos-generic, linux-latest-modules-6.5.10-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.5-mos-amd64/linux-image-6.5-mos-amd64_6.5.10_amd64.deb
-Size: 2404
-SHA256: 5bbbf397c7b46fa9c9d1c7795e464c9e000230f09fe8550f732d347acfb0c733
-SHA1: 7c53ba7b9837164b2991d35a046001b34f9910dd
-MD5sum: be5bfecc62f6e0c9ce03686ab4037ad6
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-6.5.10-mos-amd64
 Source: linux-upstream

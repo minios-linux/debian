@@ -2,13 +2,13 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: noble
-Date: Sun, 17 Mar 2024 14:42:18 UTC
+Date: Sun, 17 Mar 2024 15:55:45 UTC
 Architectures: amd64
 Components: main contrib non-free
 Description: MiniOS Repository
 MD5Sum:
- 2db4cfa1afdee11d3936347301b9c7a1 5417 main/binary-amd64/Packages
- d8c2387f4ba756dd1ee93bc6cdf87a8d 1855 main/binary-amd64/Packages.gz
+ 43bebe61dc9f004e2b807e1cb05ea4f8 3879 main/binary-amd64/Packages
+ 274e4165e898aa595e8715cb3170fc6b 1364 main/binary-amd64/Packages.gz
  b8b02cb71cf03946401902e3e88ba909 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -32,8 +32,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  b428ea0643890475145b61befbca9e0b 130 non-free/source/Release
 SHA1:
- ec45dd126655611f5575bc40f02f79ee81b2d8b7 5417 main/binary-amd64/Packages
- 12f9dabeb56a4ffbfb89e04370da234705a4e063 1855 main/binary-amd64/Packages.gz
+ 8b94729df9f6cb2fe66a534f19e89f6f70be0f22 3879 main/binary-amd64/Packages
+ 5823d2f365cb010f6e742a8e87e62f6856e4d41a 1364 main/binary-amd64/Packages.gz
  eebc4ad27a913438a4d150fd5dc6f328c9aff45a 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -57,8 +57,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  825c07be258701fae694bd713d91e855d3accb9a 130 non-free/source/Release
 SHA256:
- 3bb311f6063f388ab85d16b149831bde1f88d17330a1f18ea6f67af8956fb90a 5417 main/binary-amd64/Packages
- 7d32e67f7d7efe846e3b3e81b8d90d018ba43532e2aa964100a9f8832f1cdf7f 1855 main/binary-amd64/Packages.gz
+ a8fc4bb90f58cc3cae8c44b33df6d0122a1ffb98b2454039836aba1ffa43cd7f 3879 main/binary-amd64/Packages
+ a07cb274026e2b76face75e44d55ca5982cf18d01280ade403262b99cf3eb7f4 1364 main/binary-amd64/Packages.gz
  22e1222d54ea0f3817a9b2df941d759b5c9fdb0c870763f16e41a164791d151b 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz

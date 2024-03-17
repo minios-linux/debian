@@ -164,25 +164,6 @@ SHA1: acdc4cec25e3165336019d55cecaf414d1eda602
 MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
 Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
-Package: linux-headers-6.1-mos-amd64
-Version: 6.1.67
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.1.67-mos-amd64
-Provides: linux-headers-6.1-mos-generic
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.67_amd64.deb
-Size: 2288
-SHA256: 57e5ba77b408bbe12921c60f405330923e4ea9ea76a3a3e9937913985f1cf8cc
-SHA1: 13b56848dd06847e004679e2d88f95d392d26d9c
-MD5sum: 4ab08447ffff9f445b3d9d4cabeff9f9
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
-
 Package: linux-headers-6.1.67-mos-amd64
 Source: linux-upstream
 Version: 6.1.67-mos-amd64-1
@@ -201,25 +182,6 @@ Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
  This package provides kernel header files for 6.1.67-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
-
-Package: linux-headers-6.5-mos-amd64
-Version: 6.5.10
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-headers-6.5.10-mos-amd64
-Provides: linux-headers-6.5-mos-generic
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-headers-6.5-mos-amd64/linux-headers-6.5-mos-amd64_6.5.10_amd64.deb
-Size: 2288
-SHA256: d5e6d678957e6eadd5ae4fda2d60e6f4e3776382f8894902f7542630cdc00da1
-SHA1: e025ea963fdeae221f252f078a4a815c4f69aff2
-MD5sum: 3cdbf35854b043608bc925bdc7838248
-Description: Header files for Linux amd64 configuration (meta-package)
- This package depends on the architecture-specific header files for the
- latest Linux kernel amd64 configuration.
 
 Package: linux-headers-6.5.10-mos-amd64
 Source: linux-upstream
@@ -240,25 +202,6 @@ Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.1-mos-amd64
-Version: 6.1.67
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.1.67-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.67-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.67_amd64.deb
-Size: 2400
-SHA256: b9eaf9b8470fd99a615a3e2b6fcad65e6f2ac33745565310e50312b0e24bfb5f
-SHA1: c447891005290a828fd7f7df5388edb5433475d5
-MD5sum: 7c38a3a3ad8706214f146438db2b9ec9
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
-
 Package: linux-image-6.1.67-mos-amd64
 Source: linux-upstream
 Version: 6.1.67-mos-amd64-1
@@ -276,25 +219,6 @@ MD5sum: 234cb3c6e31cfec310621b6de61a7433
 Description: Linux kernel, version 6.1.67-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.67-mos-amd64.
-
-Package: linux-image-6.5-mos-amd64
-Version: 6.5.10
-Architecture: amd64
-Maintainer: Equivs Dummy Package Generator <root@debian>
-Installed-Size: 9
-Depends: linux-image-6.5.10-mos-amd64
-Provides: linux-image-6.5-mos-generic, linux-latest-modules-6.5.10-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-image-6.5-mos-amd64/linux-image-6.5-mos-amd64_6.5.10_amd64.deb
-Size: 2404
-SHA256: 5bbbf397c7b46fa9c9d1c7795e464c9e000230f09fe8550f732d347acfb0c733
-SHA1: 7c53ba7b9837164b2991d35a046001b34f9910dd
-MD5sum: be5bfecc62f6e0c9ce03686ab4037ad6
-Description: Linux for 64-bit PCs (meta-package)
- This package depends on the latest Linux kernel and modules for use on PCs
- with AMD64, Intel 64 or VIA Nano processors.
 
 Package: linux-image-6.5.10-mos-amd64
 Source: linux-upstream
