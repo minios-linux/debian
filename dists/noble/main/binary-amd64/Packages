@@ -1,0 +1,139 @@
+Package: elementary-xfce-minios-icon-theme
+Source: elementary-xfce-minios
+Version: 0.18-1~mos+3
+Architecture: all
+Maintainer: Unit 193 <unit193@debian.org>
+Installed-Size: 15545
+Conflicts: elementary-xfce-icon-theme
+Breaks: elementary-xfce-icon-theme
+Replaces: elementary-xfce-icon-theme
+Provides: elementary-xfce-icon-theme
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.18-1~mos+3_all.deb
+Size: 6167012
+SHA256: edd2381ca7eea2adc66669d5c07eabd9e79c437b8522db8325b943963b8067ad
+SHA1: 507385d32f7d3234c0ccad1263442887af1d99b4
+MD5sum: 149e413bd5afa9cd57a8e16c20297544
+Description: elementary icon theme modified for Xfce
+ elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
+ desktops.
+ .
+ This fork took place because the elementary OS maintainers wanted to focus
+ exclusively on their desktop environment and thus dropped a lot of icon
+ symlinks used by other desktops. elementary-xfce intends to keep these as-is,
+ while still pulling in new icons and integrating them occasionally.
+
+Package: linux-headers-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 52407
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 8870884
+SHA256: 8be74ea5449647bb210519fa09a13254401ebfe02fef5b02022aaf1ed3c6fcde
+SHA1: 425e4d12d0da5a8615689d7cc162289eb0afde05
+MD5sum: 4fc366177a5184999aa780e7968113ba
+Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.67-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.5-mos-amd64
+Version: 6.5.10
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-headers-6.5.10-mos-amd64
+Provides: linux-headers-6.5-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.5-mos-amd64/linux-headers-6.5-mos-amd64_6.5.10_amd64.deb
+Size: 2288
+SHA256: d5e6d678957e6eadd5ae4fda2d60e6f4e3776382f8894902f7542630cdc00da1
+SHA1: e025ea963fdeae221f252f078a4a815c4f69aff2
+MD5sum: 3cdbf35854b043608bc925bdc7838248
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: linux-headers-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 53885
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 9147796
+SHA256: ab812d4bd588b211b4b7068884905be7de154908bd31985e469aa0add1295450
+SHA1: b991888dbc843ebfa8a67206b0690d8e771bdd8b
+MD5sum: 127312af2e829416b629b805a30e5160
+Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
+ This package provides kernel header files for 6.5.10-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 409226
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 70516376
+SHA256: efdcbc9ce94357b3fb563f1ea005821896073e1299c765d35606ee02c853fb42
+SHA1: b26e88613bd7aaed1c8582f2762f30dbe1fc5686
+MD5sum: 234cb3c6e31cfec310621b6de61a7433
+Description: Linux kernel, version 6.1.67-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.67-mos-amd64.
+
+Package: linux-image-6.5-mos-amd64
+Version: 6.5.10
+Architecture: amd64
+Maintainer: Equivs Dummy Package Generator <root@debian>
+Installed-Size: 9
+Depends: linux-image-6.5.10-mos-amd64
+Provides: linux-image-6.5-mos-generic, linux-latest-modules-6.5.10-mos-amd64, virtualbox-guest-modules, wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.5-mos-amd64/linux-image-6.5-mos-amd64_6.5.10_amd64.deb
+Size: 2404
+SHA256: 5bbbf397c7b46fa9c9d1c7795e464c9e000230f09fe8550f732d347acfb0c733
+SHA1: 7c53ba7b9837164b2991d35a046001b34f9910dd
+MD5sum: be5bfecc62f6e0c9ce03686ab4037ad6
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+
+Package: linux-image-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 477048
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 77511072
+SHA256: a6aae389b2d4beec95e4f0f5be540a622ab9857f7b86e66d09d29b7a32386577
+SHA1: 45e3f2718b5d9b5327db1090763d856981020fed
+MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
+Description: Linux kernel, version 6.5.10-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.5.10-mos-amd64.
+
