@@ -408,38 +408,55 @@ Description: Linux kernel, version 6.5.10-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.10-mos-amd64.
 
-Package: minios-installer
+Package: minios-html
 Version: 1.0
-Architecture: amd64
+Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 50
-Depends: bash (>= 4.0), util-linux (>= 2.37.2), gettext, polkitd, pkexec, sudo, jq, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
+Installed-Size: 1860
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-installer/minios-installer_1.0_amd64.deb
-Size: 10640
-SHA256: 2ea17c8120fed1ba7aeac8caa9ed6bf031b2695677d4e477c04cf706a81cac87
-SHA1: 6af25e6e038fe2b85fdd6e01bb4c71ab23314022
-MD5sum: 8f8d605003d008fe80adc995cdc3697a
+Filename: pool/main/m/minios-html/minios-html_1.0_all.deb
+Size: 538392
+SHA256: 12104d1c1381ba1d414f89c5141a0f0e0075890ef043b30c9eed440758c9fe87
+SHA1: dd6245cc7e6aceafa9aed350420abfe588b069e4
+MD5sum: d73fff85522e6a59d8209403a358de30
+Description: MiniOS HTML welcome page.
+ MiniOS welcome page - HTML page that opens when you start your
+ browser for the first time in MiniOS.
+
+Package: minios-installer
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 61
+Depends: bash (>= 4.0), util-linux (>= 2.33), gettext, polkitd, pkexec, sudo, jq, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-installer/minios-installer_1.0_all.deb
+Size: 11352
+SHA256: 10a984926e2b4e4a3be2e95d0e080790a654da2d09bd237fd2866ad5f86489b3
+SHA1: 85b68e6c57242277042af57ff14154035e2c17e5
+MD5sum: 9a37cb0dccaa816c9eab8f530c43ac5c
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
 
 Package: minios-tools
 Version: 1.0
-Architecture: amd64
+Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 97
-Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19.8.1), grep (>= 3.3), sed (>= 4.7), squashfs-tools (>= 4.3), util-linux (>= 2.33.1)
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), squashfs-tools (>= 4.3), util-linux (>= 2.33)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.0_amd64.deb
-Size: 25168
-SHA256: 7656291dd81ef3a3bab4c3a03ac13de8bd7f87b4ffe5656d412f7ef75f29a499
-SHA1: f52f6fa71bd5d063c88c63afeb90166a47353467
-MD5sum: 5055259ff20f00a0dfa10878e6427f6f
+Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
+Size: 25152
+SHA256: cbdd2bb80f5f83c50e225b285b84d829fd164e6d44798b99fdfa13d4e14cc864
+SHA1: 1bdff12ab517dbc090ad29157c64344c08af95ab
+MD5sum: caf302d23af1db281f6c6b9471558b0f
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as

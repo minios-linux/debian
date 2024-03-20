@@ -6,11 +6,12 @@ Version: 3.4
 Maintainer: crims0n <crims0n@minios.dev>
 Homepage: https://minios.dev
 Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11)
 Package-List:
  libminioslive deb utils optional arch=all
 Checksums-Sha1:
- e17e146674e899441806cd6a8bfd40753babdd0e 19128 libminioslive_3.4.tar.xz
+ 629d91c7a4d7fe3e7497a39428e058bb2df0554f 19148 libminioslive_3.4.tar.xz
 Checksums-Sha256:
- c413104b1d6d3f0957b7c694e9b8379f52827e8cba216c8449325c4fb30c1222 19128 libminioslive_3.4.tar.xz
+ d66999052bcfa2a21ff4b8763d6b7017dee77fce7a9de37513364fcd724bdcca 19148 libminioslive_3.4.tar.xz
 Files:
- c06d47b656c9717ee86c19dd0fa51713 19128 libminioslive_3.4.tar.xz
+ 067779634c2170f2ec55f56dc759080f 19148 libminioslive_3.4.tar.xz
