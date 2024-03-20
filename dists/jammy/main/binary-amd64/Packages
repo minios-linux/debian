@@ -330,6 +330,25 @@ Description: Linux kernel, version 6.5.10-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.10-mos-amd64.
 
+Package: minios-boot
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 65
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), squashfs-tools (>= 4.3), util-linux (>= 2.33), systemd-sysv (>= 241), libminioslive (>= 3.4)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
+Size: 13368
+SHA256: 734d548b0f1cbabe3e783e1e9d76966b98b70e26a6b97f198d32df2d09500d50
+SHA1: d7327d9604d6dc7fe7fe46711d745bc92cf53e96
+MD5sum: 008359613a52636b062df9a280c2816e
+Description: MiniOS Linux boot scripts.
+ MiniOS Boot is a collection of scripts needed to boot MiniOS and
+ provide the MiniOS features described in the
+ <https://github.com/minios-linux/minios-live/wiki> documentation.
+
 Package: minios-html
 Version: 1.0
 Architecture: all
