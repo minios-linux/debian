@@ -2,18 +2,18 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: jammy
-Date: Wed, 20 Mar 2024 12:07:22 UTC
+Date: Wed, 20 Mar 2024 16:04:43 UTC
 Architectures: amd64
 Components: main contrib non-free
 Description: MiniOS Repository
 MD5Sum:
- 7698a99b2f4584cb48488ecaa1a82e5f 21630 main/binary-amd64/Packages
- fba4d7080288b738ef024474ebe337fa 7598 main/binary-amd64/Packages.gz
+ caa39e68353ec4f0a68e61aa3f4ac3c5 22169 main/binary-amd64/Packages
+ 7a04d4c3160cfa173a486e390711d3d2 7770 main/binary-amd64/Packages.gz
  b8b02cb71cf03946401902e3e88ba909 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
- 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ d0719fe387184e17f2bbf8633338ee0d 2607 main/source/Sources
+ 8d1e83e0c4a978140957dcdf38cc4724 989 main/source/Sources.gz
  2cb8009fae5e04c77402a57fccd4148a 126 main/source/Release
  d57d3907468266fb0b2d62930d233fa8 10288 contrib/binary-amd64/Packages
  3419a57b00fc226ce395de651bf6e07d 3274 contrib/binary-amd64/Packages.gz
@@ -32,13 +32,13 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  b428ea0643890475145b61befbca9e0b 130 non-free/source/Release
 SHA1:
- bdf62dd1756d71492e8bf88348c300362abe921b 21630 main/binary-amd64/Packages
- d966284b311618544cacae367b1b6bd8ac511f41 7598 main/binary-amd64/Packages.gz
+ f2eb59b9c91706f6c964eddaf2fcdef4134bd0e1 22169 main/binary-amd64/Packages
+ 2011fb6d9da0fa5c03eb4e06fcf810404e7f4992 7770 main/binary-amd64/Packages.gz
  eebc4ad27a913438a4d150fd5dc6f328c9aff45a 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ d1096085e7e881cc19d5faabb1b390b47ccbc9ca 2607 main/source/Sources
+ abd17cdcf1617b3d1a9f8b4a26fb597ebd85703c 989 main/source/Sources.gz
  714be4fa68eb2d5e0ff5cf224fb10741a0dcb602 126 main/source/Release
  b9a74c597185c43ce62efdd556e8727c6ef78d6a 10288 contrib/binary-amd64/Packages
  36b3d00c1c302f13b13fe79311cf7bc833600378 3274 contrib/binary-amd64/Packages.gz
@@ -57,13 +57,13 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  825c07be258701fae694bd713d91e855d3accb9a 130 non-free/source/Release
 SHA256:
- 986d8cc5e075df7d2350aff7230cac7b2ae65f2de63eb69ac98c3e29229c40eb 21630 main/binary-amd64/Packages
- 7fe1aebd972dbc26ba8bb5cce1d591968e7510c8a706dde7b07c1154f73904f2 7598 main/binary-amd64/Packages.gz
+ 2393c48a6fdc4b03bbf0530d89c55b4919c55d3bb5d13a72eba4623e2319aef7 22169 main/binary-amd64/Packages
+ 93957004f608a53d10185172082e4184f57868a1c0b19d1b76fe1b5efe9d4662 7770 main/binary-amd64/Packages.gz
  22e1222d54ea0f3817a9b2df941d759b5c9fdb0c870763f16e41a164791d151b 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 70e1b052f8d759bb17962be143cbb935c3767e5828f5ff9a5e4fc0c924d5b346 2607 main/source/Sources
+ 0d06f4da5060457e704f74d9c3cda38d65e8d457fc8ddbeba039bc9581aae0a8 989 main/source/Sources.gz
  70d1d2b50818a6208b3c2ecd573ca56b7d2b0fe3ae07aa2ffe738691e0799bfd 126 main/source/Release
  729cd6296f16f81fa8ea64ef2f851d06ca26a48820939ee76edfb9bf61fab4c2 10288 contrib/binary-amd64/Packages
  0aafb5b77d844a728dccc177de59fe02b3a0f8d24e0b1a353502d9aca3697f25 3274 contrib/binary-amd64/Packages.gz

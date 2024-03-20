@@ -164,6 +164,22 @@ SHA1: acdc4cec25e3165336019d55cecaf414d1eda602
 MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
 Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
+Package: libminioslive
+Version: 3.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 101
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/libm/libminioslive/libminioslive_3.4_all.deb
+Size: 19608
+SHA256: 576660a7458067dabe83a5e096e741ca35f5e45394f757f76b6238b3eeba2d33
+SHA1: cdff9638a6e6467d54bf8df0885dda0a4b48e8ed
+MD5sum: 5b3166f735af8c65e1e04b41a37d311c
+Description: Library for MiniOS Linux scripts..
+ libminioslive contains functions used by various MiniOS Linux utilities.
+
 Package: linux-headers-6.1-mos-amd64
 Version: 6.1.67
 Architecture: amd64
