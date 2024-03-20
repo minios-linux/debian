@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11)
 Package-List:
  minios-welcome deb utils optional arch=all
 Checksums-Sha1:
- aaa7f11b359367d3cb01da13baac391cd4db2660 538176 minios-welcome_1.0.tar.xz
+ f1daf6a168f217729fd0a4cf2ef81a1a7cfc5c44 537660 minios-welcome_1.0.tar.xz
 Checksums-Sha256:
- 487280bb62b1c0d20001a44d7e63c759eb199596a5db66da3d30ebdb8a3592bc 538176 minios-welcome_1.0.tar.xz
+ ba1a0b96615b22764425b51d197711f9e8c7c7e41f9713774bcfee7ece570c80 537660 minios-welcome_1.0.tar.xz
 Files:
- 987085af5278777d9454054938a9fc32 538176 minios-welcome_1.0.tar.xz
+ 1a39e91ca5955df58dd1996a5448533d 537660 minios-welcome_1.0.tar.xz

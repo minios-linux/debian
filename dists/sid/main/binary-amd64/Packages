@@ -339,15 +339,15 @@ Package: minios-welcome
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1867
+Installed-Size: 1865
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-welcome/minios-welcome_1.0_all.deb
-Size: 540052
-SHA256: f18acd0fd034dfe6c310e64f0fdd365a89946dc417676c8be95c3802fbee5df6
-SHA1: af8223b13ee9f6abf5c58b57b7dee62d9dad5fc7
-MD5sum: a1957f132683b48413bf10fa6433ada1
+Size: 539544
+SHA256: 9461cc8b5871215b46ee9a3038c5b7503c298151a6503e612beffb93850bfdf6
+SHA1: 343669fc5409e639d95371de282f7b03302befb9
+MD5sum: 867d5a0c608388b2336c33f10dc0bf80
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
