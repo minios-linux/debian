@@ -298,23 +298,6 @@ Description: MiniOS Linux boot scripts.
  provide the MiniOS features described in the
  <https://github.com/minios-linux/minios-live/wiki> documentation.
 
-Package: minios-html
-Version: 1.0
-Architecture: all
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1860
-Homepage: https://minios.dev
-Priority: optional
-Section: utils
-Filename: pool/main/m/minios-html/minios-html_1.0_all.deb
-Size: 538392
-SHA256: 12104d1c1381ba1d414f89c5141a0f0e0075890ef043b30c9eed440758c9fe87
-SHA1: dd6245cc7e6aceafa9aed350420abfe588b069e4
-MD5sum: d73fff85522e6a59d8209403a358de30
-Description: MiniOS HTML welcome page.
- MiniOS welcome page - HTML page that opens when you start your
- browser for the first time in MiniOS.
-
 Package: minios-installer
 Version: 1.0
 Architecture: all
@@ -351,6 +334,23 @@ Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
  utilities for working with modules.
+
+Package: minios-welcome
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1867
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-welcome/minios-welcome_1.0_all.deb
+Size: 540048
+SHA256: 28f57aaa199106b6f0890c3b643b2d2ef2ffb3e753103c89efc5eef38a34c631
+SHA1: 092d214699ae3d101d4905088beb0ad66e217ee1
+MD5sum: 147675850fbb6a4f8e33da67749773fd
+Description: MiniOS HTML welcome page.
+ MiniOS welcome page - HTML page that opens when you start your
+ browser for the first time in MiniOS.
 
 Package: partclone-nbd
 Installed-Size: 116
