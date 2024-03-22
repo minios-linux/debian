@@ -283,16 +283,16 @@ Package: minios-boot
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 65
+Installed-Size: 53
 Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), squashfs-tools (>= 4.3), util-linux (>= 2.33), systemd-sysv (>= 241), libminioslive (>= 3.4)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 13368
-SHA256: 734d548b0f1cbabe3e783e1e9d76966b98b70e26a6b97f198d32df2d09500d50
-SHA1: d7327d9604d6dc7fe7fe46711d745bc92cf53e96
-MD5sum: 008359613a52636b062df9a280c2816e
+Size: 11976
+SHA256: 55f03cc132c57d888c9ed556a6cd62eaf6a6debc2fe173fd1733af70f806e100
+SHA1: add65f8501e55ec588e9a70646ee76f53fc05781
+MD5sum: 90f68628db3da011848214be943a582f
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -339,15 +339,15 @@ Package: minios-welcome
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1865
+Installed-Size: 1874
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-welcome/minios-welcome_1.0_all.deb
-Size: 539740
-SHA256: 19b129a224eaaabb702ffdb7499cdb8a5b9ac7dee40a06230bd4d722b9a2d630
-SHA1: 92e1106d704c5563c6233a0e288178d6ad6e3ff8
-MD5sum: 6cccb28b66b1dd1a32ccc5fc4446c439
+Size: 540344
+SHA256: 8d7abcdb35f385f2a5f800077dbf4ef59d880ac1a5df84a2d44e5057be04f079
+SHA1: 6a46b0fc675a0106625f98f28e9c10ca3d58e584
+MD5sum: 548b3151527def191457f02c45d26382
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
