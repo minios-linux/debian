@@ -152,6 +152,32 @@ Description: Highly configurable and low resource X11 Window manager
  .
  This package contains support for GNOME and KDE.
 
+Package: fonts-roboto-light
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 173
+Breaks: fonts-roboto, fonts-roboto-hinted, fonts-roboto-unhinted
+Multi-Arch: foreign
+Homepage: https://github.com/google/roboto
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-roboto-light/fonts-roboto-light_1.0_all.deb
+Size: 72108
+SHA256: 9e37511759757cac2ec290cce9c97f5558ca7ace179bbdc7be1b5604f6f60959
+SHA1: ddb0f821884ff6d956d0cc84f73a9c48c560f20d
+MD5sum: c6a31cdd180f913bdc05b0df223fc357
+Description: Google's signature font Roboto Light
+ Roboto is Google's signature family of fonts, the default font in
+ Android and ChromeOS and the recommended font for Google's visual
+ language, Material Design.
+ .
+ Roboto supports all Latin, Cyrillic, and Greek characters in Unicode
+ 7.0 as well as currency symbol for the Georgian lari, to be published
+ in Unicode 8.0.
+ .
+ This package contains Roboto font families which lack hinting.
+
 Package: gtkdialog
 Installed-Size: 363
 Maintainer: sfs
@@ -431,15 +457,16 @@ Package: minios-welcome
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1875
+Installed-Size: 1710
+Depends: fonts-roboto-light
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-welcome/minios-welcome_1.0_all.deb
-Size: 540244
-SHA256: 0c308a279181cb3370df190a5679f9273fca3cb023b9e175f53b813de7c67cd7
-SHA1: bfc4ac0222fd2befabff0aa6fd8888a46324de44
-MD5sum: 3fcc3328a0fea4191a09ebbe5eaff3e0
+Size: 469192
+SHA256: 9745efdc1d3046ac8c23dec45dad9b3a2509f849be010cd5c86f7724925d1584
+SHA1: 09e64e27f4dc1d02e02800dcae4f82976e83f1eb
+MD5sum: ce69e927a68a023e0319d20eed89d0c5
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
