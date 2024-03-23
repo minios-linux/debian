@@ -334,16 +334,16 @@ Package: minios-boot
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 79
+Installed-Size: 80
 Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.33), systemd-sysv (>= 241), libminioslive (>= 3.4)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14052
-SHA256: 631eda286afc48df3c194d8eace647ced3444b37d62788ad49f18d412b3b5631
-SHA1: 25cc86b8ed752079889f61867de3cca0e168faa7
-MD5sum: 939c60dda3e2f05e21a1135a426764f5
+Size: 14460
+SHA256: 99cc11955fa5341fad933b1091a7e675e33700fe0e740a76b593426dbae5590b
+SHA1: 083aabd7254a363120b5a30fa6520c1dfc693b43
+MD5sum: ddb5ed9569c14a1c30eb395f332d2301
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
