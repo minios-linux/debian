@@ -308,6 +308,24 @@ Description: MiniOS Linux boot scripts.
  provide the MiniOS features described in the
  <https://github.com/minios-linux/minios-live/wiki> documentation.
 
+Package: minios-configuration
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 63
+Depends: bash (>= 4.0), util-linux (>= 2.33), libminioslive (>= 3.4), gettext, polkitd, pkexec, sudo, yad
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-configuration/minios-configuration_1.0_all.deb
+Size: 9968
+SHA256: d56e1d75b20f2a9c9592d32a3bf1812b7c5a8a55bc668167d169658e5e3c20eb
+SHA1: 623b59d2486cbf618a1da4b3d6522b83f15afe3e
+MD5sum: 14b274ee28dffc35910eb11501bf9509
+Description: MiniOS Linux configuration utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ configure MiniOS.
+
 Package: minios-installer
 Version: 1.0
 Architecture: all
