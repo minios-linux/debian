@@ -178,6 +178,22 @@ Description: Google's signature font Roboto Light
  .
  This package contains Roboto font families which lack hinting.
 
+Package: gtkask
+Version: 1.0-2
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
+Homepage: https://github.com/minios-linux/gtkask.git
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkask/gtkask_1.0-2_i386.deb
+Size: 4736
+SHA256: 22d049ed93aec3ba01ab834ba9ee13caaa0c07caf4c71a92ceb81de6b2461e5b
+SHA1: aae75481733e73ba05a2b00fece104b1141a4be9
+MD5sum: da74654d48571e143accfd342f126d4c
+Description: Simple GTK2 dialog for Yes/No questions.
+
 Package: gtkdialog
 Installed-Size: 363
 Maintainer: sfs
@@ -193,23 +209,6 @@ SHA256: 7ea3453100a213e62774a1b1ebd183335c63226852aa7917d8f6b7eb78cffdd4
 SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
 MD5sum: 79aafe17908409452981f373bf66f8e5
 Description: gtkdialog
-
-Package: gtkdialog-slax
-Version: 1.0-1
-Architecture: i386
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 24
-Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
-Conflicts: gtkdialog
-Homepage: https://github.com/minios-linux/gtkdialog-slax.git
-Priority: optional
-Section: unknown
-Filename: pool/main/g/gtkdialog-slax/gtkdialog-slax_1.0-1_i386.deb
-Size: 4856
-SHA256: 3c4c6214a5af2b3fe513176da3df8fe33295d009d29a36a9da44adb5f2d54de1
-SHA1: 4c25d658be06014ee24dfa63a2396de97825f33b
-MD5sum: 88380ffceb67a8458320eea242cb8be9
-Description: Simple GTK2 dialog for Yes/No questions.
 
 Package: libminioslive
 Version: 3.4

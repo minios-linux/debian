@@ -159,6 +159,22 @@ Description: Google's signature font Roboto Light
  .
  This package contains Roboto font families which lack hinting.
 
+Package: gtkask
+Version: 1.0-2
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 29
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
+Homepage: https://github.com/minios-linux/gtkask.git
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkask/gtkask_1.0-2_amd64.deb
+Size: 4772
+SHA256: 7960141c6515a699528dc6fdbec2615d05623482e8b85920b29712f092da6a0c
+SHA1: 9f870acade7aa6c30217541d63e4f4dbd6a0a901
+MD5sum: 593abd1c2148aaca288daa914f6acabf
+Description: Simple GTK2 dialog for Yes/No questions.
+
 Package: gtkdialog
 Installed-Size: 363
 Maintainer: sfs
