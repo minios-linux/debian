@@ -92,10 +92,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
-Size: 26552
-SHA256: 8ffa016c97c1e30e1d7b99c1cc72c228d1461cccf6b251e8d0e8782f436f7fae
-SHA1: 52c6b2b972a7d65836c1156a7982341aa1cd13df
-MD5sum: 5cf92edcefeca52b12c99aafdb09352b
+Size: 26696
+SHA256: 9605743df01ec0cabe82f80c26c8be06159011c6a7a440385d088777eb2d7d20
+SHA1: ec19f1e8994f3fee8484f2854ea8dd5fc9a8abfb
+MD5sum: 4a4a6bb4b6bb4b44a118e6a15bd6f577
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
