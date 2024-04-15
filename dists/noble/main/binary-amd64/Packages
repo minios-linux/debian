@@ -133,6 +133,24 @@ Description: Binary firmware for various drivers in the Linux kernel
   * USB-DUXfast firmware (usbduxfast_firmware.bin)
   * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
 
+Package: flux-tools
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 212
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
+Size: 122288
+SHA256: 8cad98cd2ba6529cb94d9e4fe92fe29c80095ce26eda42c166a263f55152e19c
+SHA1: a5276f3d25d9bef656c02439d88b233ca2f83654
+MD5sum: f7aa1513eb9665eb087d1ae56fb3cc73
+Description: Flux Tools for Fluxbox in MiniOS Linux.
+ Flux Tools is a set of utilities designed to be used
+ with Fluxbox for ease of use.
+
 Package: fonts-roboto-light
 Version: 1.0
 Architecture: all
