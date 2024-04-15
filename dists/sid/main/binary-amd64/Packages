@@ -86,16 +86,16 @@ Package: flux-tools
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 212
+Installed-Size: 109
 Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
-Size: 122288
-SHA256: 8cad98cd2ba6529cb94d9e4fe92fe29c80095ce26eda42c166a263f55152e19c
-SHA1: a5276f3d25d9bef656c02439d88b233ca2f83654
-MD5sum: f7aa1513eb9665eb087d1ae56fb3cc73
+Size: 26512
+SHA256: b278121fdd120aa0673aa0af12e07f74fee2bc68f03cd8c522a06c087d0f27e9
+SHA1: c76d664d6e00b0ecd1902a01946c273473a229a8
+MD5sum: 7d39c502c1828ee1488ecbd42ac43370
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -485,4 +485,26 @@ Description: Graphical hard drive backup and restore
  Clonezilla are intimidating and difficult to use, so Rescuezilla provides
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
+
+Package: xlunch-slax
+Version: 4.7.5-2
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 178
+Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/minios-linux/xlunch-slax.git
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-2_amd64.deb
+Size: 109752
+SHA256: 618d5790fdd81820a940c577147a0af129a87471ed9da8e898a4956f9b950c23
+SHA1: 9755d40865ae0af21a09e4363f52741d924863b3
+MD5sum: 86f68de8901121c8b8a21db79137e29b
+Description: Graphical app launcher for X, using pure Xlib and Imlib2.
+ xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
+ Imlib2. It allows you to run programs, commands, or simply select something out
+ of a list using your mouse, keyboard, or both! UTF8 is fully supported meaning
+ you can have text of all kinds. The prompt allows you to run arbitrary commands,
+ and it works to filter your entries as well. xlunch is also highly configurable,
+ both in functionality and style, it can even be used as a desktop!
 
