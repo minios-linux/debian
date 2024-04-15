@@ -87,15 +87,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 109
-Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask, xlunch-slax
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
-Size: 26512
-SHA256: b278121fdd120aa0673aa0af12e07f74fee2bc68f03cd8c522a06c087d0f27e9
-SHA1: c76d664d6e00b0ecd1902a01946c273473a229a8
-MD5sum: 7d39c502c1828ee1488ecbd42ac43370
+Size: 26516
+SHA256: fe17f1a36913112323c886466db11c6ddf6cab782165bf99be5f271331d754c5
+SHA1: 3aa7020b0bb50ce1d8e7ade4ffff6232e5705824
+MD5sum: 8c6a694dd1aabd649bdd7d5bd289973e
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -442,16 +442,16 @@ Package: xlunch-slax
 Version: 4.7.5-2
 Architecture: i386
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 180
+Installed-Size: 165
 Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
 Homepage: https://github.com/minios-linux/xlunch-slax.git
 Priority: optional
 Section: unknown
 Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-2_i386.deb
-Size: 110248
-SHA256: d9948dcaba460f0e47d569c42b256441bbeb141a315124a601ef5701e0150f3c
-SHA1: 38230e457408e945c9029603f3feb231ff9ed6e7
-MD5sum: b9cbc7befc2d57c7ccef52002e3e24be
+Size: 94872
+SHA256: 7083483ffcdba6044cc47aae14f4dedd75fa70e2cd09b37491260113fb18b29e
+SHA1: 7e34302a91be4df63b64cf989749da3aa93741da
+MD5sum: 52a526390d5f63999c9e1933d2d92275
 Description: Graphical app launcher for X, using pure Xlib and Imlib2.
  xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
  Imlib2. It allows you to run programs, commands, or simply select something out
