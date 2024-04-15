@@ -654,16 +654,16 @@ Package: xlunch-slax
 Version: 4.7.5-2
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 163
+Installed-Size: 218
 Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
 Homepage: https://github.com/minios-linux/xlunch-slax.git
 Priority: optional
 Section: unknown
 Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-2_amd64.deb
-Size: 94364
-SHA256: dc38e403abc2fd650d3245115cb59079fbae3fa6755b6be4637390a2569a00f9
-SHA1: b928143f93100b6a51d870a4cde8f0d5d8c7805c
-MD5sum: e5a2470eead87aed59d0681f8d47a572
+Size: 147904
+SHA256: 738bcd1448a8744e599c776c0441f8482211162c3fe1f2b43b770342cdb05d90
+SHA1: 74a35142ef215ced3fd30b48004dbd3c34676554
+MD5sum: fdef8e1f801c97e6d59260b2864300ef
 Description: Graphical app launcher for X, using pure Xlib and Imlib2.
  xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
  Imlib2. It allows you to run programs, commands, or simply select something out
