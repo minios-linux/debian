@@ -498,10 +498,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-welcome/minios-welcome_1.0_all.deb
-Size: 469192
-SHA256: 9745efdc1d3046ac8c23dec45dad9b3a2509f849be010cd5c86f7724925d1584
-SHA1: 09e64e27f4dc1d02e02800dcae4f82976e83f1eb
-MD5sum: ce69e927a68a023e0319d20eed89d0c5
+Size: 469216
+SHA256: 88d47127257bd283723d1936279c2ab932e4e448eb769fcaef4182b0a62cb89d
+SHA1: 8d2a2feaa9ab76e1214cf4ed100958fa3c65a2b9
+MD5sum: 80261ba4295e00ca2b469a31a2f34c36
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
