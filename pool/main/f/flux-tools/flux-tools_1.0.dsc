@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext, pandoc
 Package-List:
  flux-tools deb utils optional arch=all
 Checksums-Sha1:
- 81b7a61a8a6515b3d2bc8f44b87a148dda3b0820 25016 flux-tools_1.0.tar.xz
+ b743da363f8bc778d10bb493ace8a1160facc533 25028 flux-tools_1.0.tar.xz
 Checksums-Sha256:
- 860f01c8f38bd73608885dc4aaa3eae2fd81ec7beecbc623f577bb6df5725754 25016 flux-tools_1.0.tar.xz
+ 49ca6e6ea31b2f03e51e7f27afc5f24bfa56ab93c96769d26d0252cf565edc37 25028 flux-tools_1.0.tar.xz
 Files:
- 35675d445facd023ab030ef62fc18d91 25016 flux-tools_1.0.tar.xz
+ e42b438ccf0386de6169dd215e91cb49 25028 flux-tools_1.0.tar.xz

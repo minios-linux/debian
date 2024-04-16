@@ -11,10 +11,10 @@ Package-List:
  xlunch-slax deb unknown optional arch=any
 Checksums-Sha1:
  34297421c9e8ae650b47cf5c06c064ede8fbd1a9 395940 xlunch-slax_4.7.5.orig.tar.xz
- c2cbba709e607480330c72cfb837d30baa02be32 70688 xlunch-slax_4.7.5-2.debian.tar.xz
+ 40f9924fb58e3ec68c89bbef1648d6c9e5d275b1 116572 xlunch-slax_4.7.5-2.debian.tar.xz
 Checksums-Sha256:
  f28634de57d1bb362be6dca8c82a3ebfd354e5add62de08a6f7549db49ae58a6 395940 xlunch-slax_4.7.5.orig.tar.xz
- 0f01f20dcea1fb9a943a7c568ecfbbd7faeceaa39a7bfb276cf18f9e108fcdf4 70688 xlunch-slax_4.7.5-2.debian.tar.xz
+ a2496b97e5f5c753b8ef96f5a62756a187328a5215ac7abe180cecbb46259da0 116572 xlunch-slax_4.7.5-2.debian.tar.xz
 Files:
  2efa5e4cec4738a2c407a645a9856325 395940 xlunch-slax_4.7.5.orig.tar.xz
- 04d0dc02cf0d67d8008244386aaec7a9 70688 xlunch-slax_4.7.5-2.debian.tar.xz
+ 0f1d4519d15703d781c670725a8aa00a 116572 xlunch-slax_4.7.5-2.debian.tar.xz
