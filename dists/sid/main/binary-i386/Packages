@@ -36,6 +36,31 @@ SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
 MD5sum: 383a6a5bd758655cfacd84adb625b325
 Description: Fake package to prevent adwaita-icon-theme from being installed
 
+Package: cbatticon
+Version: 1.6.13-1
+Architecture: i386
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.6), libnotify-bin (>= 0.7.6)
+Homepage: https://github.com/valr/cbatticon
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_i386.deb
+Size: 29480
+SHA256: 0d786cc36497c369c48b2ec05fe959604ed70febcaf33cd8a577734476c9d09a
+SHA1: ecc34d8fe60e04ed309183bdacbe3391a80fd013
+MD5sum: dd70c0bbe995ac9c8bba0e1382ad8eb3
+Description: lightweight and fast battery icon status and more
+ Utility that displays battery information as battery status, remaining
+ percentage, remaining time, using an icon in the system tray.
+ .
+ Based on code from xbattbar-acpi, cbatticon sits in your system tray,
+ reporting on battery events, like plug-in, critical, remaining, etc.
+ .
+ A regular user can (re)define custom system's behaviour, like performing
+ graceful shutdown on critical status, by user-defined thresholds and commands
+ on low power/critical.
+
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
 Version: 0.18-1~mos+3
@@ -62,6 +87,25 @@ Description: elementary icon theme modified for Xfce
  exclusively on their desktop environment and thus dropped a lot of icon
  symlinks used by other desktops. elementary-xfce intends to keep these as-is,
  while still pulling in new icons and integrating them occasionally.
+
+Package: fbxkb
+Version: 0.6-3.mos+1
+Architecture: i386
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 175
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3.mos+1_i386.deb
+Size: 93732
+SHA256: ca40a97459375cc7de3056d4b00ba6658e26fd84aebf49155a913eaec4db4368
+SHA1: 6f06f933c0ff8d47c503363b51261497073a1f50
+MD5sum: 2f453043506cccd1699560b140c0af2c
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
 
 Package: firmware-linux
 Source: firmware-nonfree
