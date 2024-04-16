@@ -151,6 +151,32 @@ Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
 
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: amd64
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4007
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
+Provides: x-window-manager
+Homepage: http://fluxbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_amd64.deb
+Size: 1199688
+SHA256: a4c6a825df13f7f75ab2229152e96e464f4b31c61d7fe2bf1f69f8a86879a5e7
+SHA1: 1f4ebe4922f5d6a703097b230b2a3ce48d98d1d9
+MD5sum: a32ba661140edc3d06ab8dffc087f8ed
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
+
 Package: fonts-roboto-light
 Version: 1.0
 Architecture: all
@@ -606,6 +632,24 @@ Description: Graphical hard drive backup and restore
  Clonezilla are intimidating and difficult to use, so Rescuezilla provides
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
+
+Package: systrayicon
+Version: 1.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 25
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.16.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_amd64.deb
+Size: 4316
+SHA256: 6fbc34cc59995cc2a75d09d9d119414ec50bc867985b4ee8c30ff7f5a9e933f2
+SHA1: dfe4b812cb7041c1004b1fd5c0a1344f542fbeaa
+MD5sum: c93cda54f8fb389244b7677635b2fc43
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
 
 Package: thunar
 Version: 4.16.10-1.minios.u2204

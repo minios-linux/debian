@@ -100,6 +100,32 @@ Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
 
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: i386
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4081
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 4.2), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
+Provides: x-window-manager
+Homepage: http://fluxbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_i386.deb
+Size: 1244544
+SHA256: c2c151efbd9a4abb9960d6c3c4b49f6f78966fd37a7bdbc8b112581e3d1153fb
+SHA1: 369c65b6e76ec9c85a68d313ff061895bb6c15ba
+MD5sum: 737bfe57c18747fe1c104536b42ef237
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
+
 Package: fonts-roboto-light
 Version: 1.0
 Architecture: all
@@ -437,6 +463,24 @@ Description: Graphical hard drive backup and restore
  Clonezilla are intimidating and difficult to use, so Rescuezilla provides
  an easy-to-use graphical environment like the leading commercial tools,
  Acronis True Image and Macrium Reflect.
+
+Package: systrayicon
+Version: 1.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.16.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_i386.deb
+Size: 4328
+SHA256: 09d13b2abb3b894f872d47fb1c9f2a7bbcd58dba3da271b46a6978dfc1f235ed
+SHA1: 6e577a69788a7e65aa552c4647fc4a1739dda796
+MD5sum: f8ef9481ba3e1f02e8e48d65006618ba
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
 
 Package: xlunch-slax
 Version: 4.7.5-2
