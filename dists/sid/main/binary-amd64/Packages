@@ -414,15 +414,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 80
-Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.33), systemd-sysv (>= 241), libminioslive (>= 3.4)
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237), libminioslive (>= 3.4)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
 Size: 14476
-SHA256: 1b46024f3308ed6e73465b8b4b4eb0dd72263a28695da5cd74c6c03afe7bce3a
-SHA1: 769bb1c6223229e9781670223aec142a5aba7dc9
-MD5sum: e4dffa1eef83ad913d5abb9fd14b4890
+SHA256: dd6f4f79af2429df0059febf394a4f3445e4663b7a4524e184ad94e4808ea31a
+SHA1: 0e76b26b77ca0f159d389f18a70e2b2c8bed10bc
+MD5sum: 244a4a35d4b17079a813216fe5daf73d
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -468,16 +468,16 @@ Package: minios-tools
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 87
-Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), squashfs-tools (>= 4.3), util-linux (>= 2.33)
+Installed-Size: 98
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 22896
-SHA256: db43a3723ff637189b825d6878defc085b12e9df9a58244b2a5beab2b89ea6cf
-SHA1: e7b5127636535f9df4587f336133d5648664f05b
-MD5sum: 78a653b1869ce55957268caaaa0e7833
+Size: 23140
+SHA256: 04e291df9e4c3b558463f14cecbc54e592ac5b6f148efd7d55e076b57d7bfdb6
+SHA1: c67dbba4a24e81a339040111ba2f267e695789e0
+MD5sum: 2a808edc7395ca463203a41f00051507
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
