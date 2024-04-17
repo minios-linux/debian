@@ -232,16 +232,16 @@ Package: libminioslive
 Version: 3.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 20
+Installed-Size: 22
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_3.4_all.deb
-Size: 4480
-SHA256: 2d8baab101fc449a11d86359565d78c91879fad09a8146b71a62b6269afcdbe7
-SHA1: 11aff0cf43d7325a7e0b3f120494e2e34d4d0411
-MD5sum: 19c90e075044789ca8b6654e66b77b42
-Description: Library for MiniOS Linux scripts..
+Size: 4880
+SHA256: 00f181534f583b87c25e961721a83d01c3aab511615b48a3c2c6679497d04d36
+SHA1: 60701d4004ff76c8abdbc17f1259785f070f6591
+MD5sum: efa1068bf7b386a43ca113d56229d00b
+Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
 Package: libmousepad0
@@ -438,15 +438,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 67
-Depends: bash (>= 4.0), util-linux (>= 2.33), libminioslive (>= 3.4), gettext, polkitd, pkexec, sudo, yad
+Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 3.4), gettext, polkitd, pkexec, sudo, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
 Size: 10904
-SHA256: 4ce14cd3514af4279b62a85f39f6128b946779aa2625fba0bc122cd39ac1642e
-SHA1: f04a1f92820c93041fe58fe05a82e62c680c2624
-MD5sum: b72cdf6c75bf7248c6e8739d258c16a7
+SHA256: 837cc2922c08c0e39080183a06476ea480c7cdb9e3dfcde386ad745bc6a67b55
+SHA1: d277b58e5966c1458647259e20e9d6ca0427c53b
+MD5sum: 3aa262b889caf6a55dec12c751f1e37b
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -456,15 +456,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 60
-Depends: bash (>= 4.0), util-linux (>= 2.33), gettext, polkitd, pkexec, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
+Depends: bash (>= 4.4), util-linux (>= 2.31), gettext, polkitd, pkexec, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.0_all.deb
 Size: 10824
-SHA256: 433079e7f029ce76819c1afd96f4fe4a8c6b234be70735c540353777cbc8967e
-SHA1: dc20807c86387e372cf2d310b03156e390446023
-MD5sum: 33e918e8476d6b1bac0a8b8bc25923d3
+SHA256: 67161cb6b8b60a488116e6d15aa08eb1b10c1e6cd8431499ca1d35a212ef45d8
+SHA1: fbeec7658a35a27accc0c5f2efce8ae57feee535
+MD5sum: 62fea5539fbdccbbc8fb2be385d69ad1
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
