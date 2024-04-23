@@ -484,15 +484,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 67
-Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 3.4), gettext, polkitd, pkexec, sudo, yad
+Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 3.4), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 10904
-SHA256: 837cc2922c08c0e39080183a06476ea480c7cdb9e3dfcde386ad745bc6a67b55
-SHA1: d277b58e5966c1458647259e20e9d6ca0427c53b
-MD5sum: 3aa262b889caf6a55dec12c751f1e37b
+Size: 10916
+SHA256: 7daad3733ab2358eded1f0bad0dbfaed8faadaeef2a7cdfdb79dd4ce74daa858
+SHA1: 0481b75a9321ca7824bac3f5634c00e439963bd7
+MD5sum: 1194e2df88e3d436a81c25b8573e3a61
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -502,15 +502,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 60
-Depends: bash (>= 4.4), util-linux (>= 2.31), gettext, polkitd, pkexec, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
+Depends: bash (>= 4.4), util-linux (>= 2.31), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.0_all.deb
-Size: 10824
-SHA256: 67161cb6b8b60a488116e6d15aa08eb1b10c1e6cd8431499ca1d35a212ef45d8
-SHA1: fbeec7658a35a27accc0c5f2efce8ae57feee535
-MD5sum: 62fea5539fbdccbbc8fb2be385d69ad1
+Size: 10840
+SHA256: 92357993fdf233ce5b0a81f0be42d75cf3411d04e89ea199ff0c1f9cc5790cc8
+SHA1: 329ac34da28e0621ada82ac8323faeabeaf8c9c1
+MD5sum: b20a2e33d0711add56fa55cedc9c2962
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
