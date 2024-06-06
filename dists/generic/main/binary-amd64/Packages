@@ -403,6 +403,42 @@ Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.8-mos-amd64
+Version: 6.8.12
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.8.12-mos-amd64
+Provides: linux-headers-6.8-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.8-mos-amd64/linux-headers-6.8-mos-amd64_6.8.12_amd64.deb
+Size: 2240
+SHA256: 71396a912251c8429611b750aedf0f365f9614175c91a71df98d4965baaf6db5
+SHA1: b40027c462f73fca710c7b4d17933027a72d4824
+MD5sum: d599845ed950eab368aa8050fa746187
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.8.12-mos-amd64
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 54176
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.8.12-mos-amd64_6.8.12-mos-1_amd64.deb
+Size: 9372752
+SHA256: 34fe3d842f6b23ff908fdcf65b970dfc0ec1bde145bf6d024d28cd066ad02704
+SHA1: 602d01fd96ad6e726f084a2640d27e19ccdf1ede
+MD5sum: 48b0f50473753ac3d0839382736bdc4e
+Description: Linux kernel headers for 6.8.12-mos-amd64 on amd64
+ This package provides kernel header files for 6.8.12-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-6.1-mos-amd64
 Version: 6.1.90
 Architecture: amd64
@@ -492,6 +528,41 @@ MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
 Description: Linux kernel, version 6.5.10-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.5.10-mos-amd64.
+
+Package: linux-image-6.8-mos-amd64
+Version: 6.8.12
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.8.12-mos-amd64
+Provides: linux-image-6.8-mos-generic, linux-latest-modules-6.8.12-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.8-mos-amd64/linux-image-6.8-mos-amd64_6.8.12_amd64.deb
+Size: 2252
+SHA256: 9c52defe8c3ba3be5dd8244c3f45dbeebec1326aee191c7c611256b1c99f02da
+SHA1: f521769f59afaa85b8d83b88c7225537a2aedab4
+MD5sum: cdb3735cb071111bd0388f8605ba7bdc
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.8.12-mos-amd64
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 110972
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.8.12-mos-amd64_6.8.12-mos-1_amd64.deb
+Size: 100477060
+SHA256: 70438124e067a4396d9f2fcd7c9d78ba334c118971f6f0185a4898fffd7d2d05
+SHA1: 6254c3da00613cd6808a2a635a862408a686d14e
+MD5sum: 7cfc0cbc8bdf29b37b8e42b9586716bf
+Description: Linux kernel, version 6.8.12-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.8.12-mos-amd64.
 
 Package: minios-boot
 Version: 1.0
