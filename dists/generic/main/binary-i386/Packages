@@ -66,7 +66,7 @@ Source: elementary-xfce-minios
 Version: 0.19-1~mos+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 14553
+Installed-Size: 14556
 Conflicts: elementary-xfce-icon-theme
 Breaks: elementary-xfce-icon-theme
 Replaces: elementary-xfce-icon-theme
@@ -75,10 +75,10 @@ Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
 Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.19-1~mos+1_all.deb
-Size: 6556608
-SHA256: d63b15c4937c951af6e476535f3deaea379304cda580173b1beb860ec3a817a4
-SHA1: a3635196529ea76db1c4d69ac307d2366ebe143a
-MD5sum: b2ea04df3f2485687540d97ce4064ae8
+Size: 6557328
+SHA256: 34c127d2efc69bce30a199a72fd3f9f480861f81553711f8b8b862487cb5ee11
+SHA1: aee1f39c6d7930b8bc2f18d026052a04c32c9926
+MD5sum: 1ee3fec28d29cfd2ce8a6e5620a10019
 Description: elementary icon theme modified for Xfce
  elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
  desktops.
@@ -700,10 +700,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.0_all.deb
-Size: 10840
-SHA256: 92357993fdf233ce5b0a81f0be42d75cf3411d04e89ea199ff0c1f9cc5790cc8
-SHA1: 329ac34da28e0621ada82ac8323faeabeaf8c9c1
-MD5sum: b20a2e33d0711add56fa55cedc9c2962
+Size: 10844
+SHA256: 806547b0a9767a2a338ad3d1a75f4f3440c23f528c750678b50e80dfff6756d7
+SHA1: 77d12eff8250995d50bd46cab88077f87d0e7f77
+MD5sum: 807767072147014eaa5aa08f00c8eb8d
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
