@@ -133,6 +133,44 @@ Description: Realtek RTL88xxAU driver in DKMS format
  driver (with monitor mode and frame injection) to be build with dkms. Kernel
  sources or headers are required to compile this module.
 
+Package: rtl8188eus-modules-6.1.90-mos-amd64
+Version: 5.3.9-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2709
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl8188eus-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8188eus-modules-6.1.90-mos-amd64/rtl8188eus-modules-6.1.90-mos-amd64_5.3.9-1_amd64.deb
+Size: 467876
+SHA256: c7e3c3a71388cee29c6a7570c047563d751ff1ea478652c137d323e8d4ee9444
+SHA1: 67c0f5aa994d3adbccf17f3576b785200c4bd4eb
+MD5sum: a5b61cb6d483f6a879f9ed8575c57efc
+Description: RealTek RTL8188EUS Wireless Driver
+ This package installs the RTL8188EUS kernel module needed for
+ the RealTek Wireless Network Adapter.
+
+Package: rtl8723cs-modules-6.1.90-mos-amd64
+Version: 0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3594
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl8723cs-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8723cs-modules-6.1.90-mos-amd64/rtl8723cs-modules-6.1.90-mos-amd64_0.0-1_amd64.deb
+Size: 636356
+SHA256: 5d610104716238ee61b3ea9446d4fb86bdd21ae15de8ac98f54b2d4c7f6a2fc0
+SHA1: dea8302ace4d63b67cd4c89f53f4d037ee0b88cd
+MD5sum: d5c731ecef409e8eb9f9a16dbaee0b0f
+Description: RealTek RTL8723CS Wireless Driver
+ This package installs the RTL8723CS kernel module needed for
+ the RealTek Wireless Network Adapter.
+
 Package: rtl8812au-dkms
 Source: rtl8812au
 Version: 5.13.6+git20230720-1~mx23+1
@@ -151,6 +189,25 @@ MD5sum: a9dcbfc4644de7abfefa6113ff01953d
 Description: rtl8812au driver in DKMS format.
  The rtl8812au driver provides the driver for Realtek 802.11ac (rtl8812au).
  This package contains the DKMS files to build and install rtl8812au.
+
+Package: rtl8812au-modules-6.1.90-mos-amd64
+Version: 5.6.4.2-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 5410
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl8812au-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8812au-modules-6.1.90-mos-amd64/rtl8812au-modules-6.1.90-mos-amd64_5.6.4.2-1_amd64.deb
+Size: 775764
+SHA256: f0383aa271c8750067b00d193e84959436f22129645e6d1e65a51b9f1491f9ab
+SHA1: e294b3cd6ca368aea052e0c84b6bfb39ec07ef3e
+MD5sum: b628e94b6104ce026abd2310e1591cd6
+Description: RealTek RTL8812AU Wireless Driver
+ This package installs the RTL8812AU kernel module needed for
+ the RealTek Wireless Network Adapter.
 
 Package: rtl8814au-dkms
 Source: rtl8814au
@@ -175,6 +232,25 @@ Description: dkms source for the rtl8814au network driver
  Kernel source or headers are required to compile these modules.
 Original-Maintainer: jimmy <jimmy@jimmy-alpha>
 
+Package: rtl8814au-modules-6.1.90-mos-amd64
+Version: 5.8.5.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 6414
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl8814au-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8814au-modules-6.1.90-mos-amd64/rtl8814au-modules-6.1.90-mos-amd64_5.8.5.1-1_amd64.deb
+Size: 721812
+SHA256: c8fbe1a73a79c4c1d252d5b04f43b0829c5fffb7d55abfdd518c1f17df7eaca3
+SHA1: 92c0d71d7df9fc4623d480669b958b25eaa91c1d
+MD5sum: 13607c34d7187f0e61747476f6003cb6
+Description: RealTek RTL8814AU Wireless Driver
+ This package installs the RTL8814AU kernel module needed for
+ the RealTek Wireless Network Adapter.
+
 Package: rtl8821au-dkms
 Source: rtl8821au
 Version: 5.12.5.2+git20230727-1~mx21
@@ -193,6 +269,25 @@ MD5sum: 42b25123194d27712cff4993406f5f2b
 Description: rtl8821au/rtl8811au driver in DKMS format.
  Driver for Realtek rtl8811au & rtl8821au wifi chipsets.
  This package contains the DKMS files to build and install rtl8821au.
+
+Package: rtl8821au-modules-6.1.90-mos-amd64
+Version: 5.12.5.2-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 5002
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl8821au-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8821au-modules-6.1.90-mos-amd64/rtl8821au-modules-6.1.90-mos-amd64_5.12.5.2-1_amd64.deb
+Size: 754664
+SHA256: ddeb23c597f631f6c735d98556f59734beda13d11b2ae5f31ae5725f2dcfcc9d
+SHA1: 305ca0cdcc1b17986ab2567c9b0bcc60795626ba
+MD5sum: 13aad6958f49ad24879214a6eb94c896
+Description: RealTek RTL8821AU Wireless Driver
+ This package installs the RTL8821AU kernel module needed for
+ the RealTek Wireless Network Adapter.
 
 Package: rtl8821ce-dkms
 Source: rtl8821ce
@@ -220,6 +315,25 @@ Description: DKMS source for the Realtek 8821CE PCIe Wi-Fi driver
  This update supports builds on kernel versions <= 6.1.
 Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 
+Package: rtl8821ce-modules-6.1.90-mos-amd64
+Version: 5.5.2.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 4011
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl8821ce-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8821ce-modules-6.1.90-mos-amd64/rtl8821ce-modules-6.1.90-mos-amd64_5.5.2.1-1_amd64.deb
+Size: 672720
+SHA256: 39b9bc25e8ece64b657882d62a6cd9969fca1c353d523a5eb84ef0be73197f18
+SHA1: 23bef463fc30d7f78a7379b8715df83c6249050f
+MD5sum: b537c6fb350c3d0e6629dc839b0c7c8a
+Description: RealTek RTL8821CE Wireless Driver
+ This package installs the RTL8821CE kernel module needed for
+ the RealTek Wireless Network Adapter.
+
 Package: rtl8821cu-dkms
 Version: 5.12.0+git20230215-1~mx23+3
 Architecture: all
@@ -237,4 +351,23 @@ MD5sum: 20f066137a7c11c8d271da55152c473d
 Description: rtl8821cu driver in DKMS format, builds up to 5.17 kernels.
 Modaliases: 8821cu(usb:v2001p331Dd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC80Cd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp8731d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp2006d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp8811d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC811d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Cd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Bd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Ad*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC820d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC821d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApB820d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApB82Bd*dc*dsc*dp*icFFiscFFipFFin*)
 Original-Maintainer: Gökhan Gökkaya <wirelessanten@gmail.com>
+
+Package: rtl88x2bu-modules-6.1.90-mos-amd64
+Version: 5.8.7.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 6176
+Suggests: linux-image-6.1.90-mos-amd64
+Provides: rtl88x2bu-modules
+Homepage: http://www.realtek.com.tw
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl88x2bu-modules-6.1.90-mos-amd64/rtl88x2bu-modules-6.1.90-mos-amd64_5.8.7.1-1_amd64.deb
+Size: 842360
+SHA256: 5b45a06eb8a09d44dcc08c54505920008b7fce0ed1d41296de145b2f1daf8f04
+SHA1: 4dc99b24b773025d5e337c0e6420ed4da779928a
+MD5sum: 637513f5531891aa6db184b5af7dd065
+Description: RealTek RTL88X2BU Wireless Driver
+ This package installs the RTL88X2BU kernel module needed for
+ the RealTek Wireless Network Adapter.
 
