@@ -163,10 +163,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl8188eus-modules-6.1.90-mos-amd64/rtl8188eus-modules-6.1.90-mos-amd64_5.3.9-1_amd64.deb
-Size: 467876
-SHA256: c7e3c3a71388cee29c6a7570c047563d751ff1ea478652c137d323e8d4ee9444
-SHA1: 67c0f5aa994d3adbccf17f3576b785200c4bd4eb
-MD5sum: a5b61cb6d483f6a879f9ed8575c57efc
+Size: 468108
+SHA256: 7519c6b650bc5aafe81e62422ecfef570e9f5358acc3a226759b18dc4c09e810
+SHA1: 387f0f6c93d74354b0889c49d5d1c32d0c44c0dd
+MD5sum: 3b567deec3ffa5d9972e08db74a5d887
 Description: RealTek RTL8188EUS Wireless Driver
  This package installs the RTL8188EUS kernel module needed for
  the RealTek Wireless Network Adapter.
@@ -182,10 +182,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl8723cs-modules-6.1.90-mos-amd64/rtl8723cs-modules-6.1.90-mos-amd64_0.0-1_amd64.deb
-Size: 636356
-SHA256: 5d610104716238ee61b3ea9446d4fb86bdd21ae15de8ac98f54b2d4c7f6a2fc0
-SHA1: dea8302ace4d63b67cd4c89f53f4d037ee0b88cd
-MD5sum: d5c731ecef409e8eb9f9a16dbaee0b0f
+Size: 636672
+SHA256: 6f085a947dfcf03ec6b147b03c6de1d2c2d3496c282e6104c9d09ac1e483fb5b
+SHA1: f92c87aa679c024bb3782d85d39e3b3b621a9575
+MD5sum: 16a2c81955e71ea0ccee6b3388a77d93
 Description: RealTek RTL8723CS Wireless Driver
  This package installs the RTL8723CS kernel module needed for
  the RealTek Wireless Network Adapter.
@@ -220,10 +220,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl8812au-modules-6.1.90-mos-amd64/rtl8812au-modules-6.1.90-mos-amd64_5.6.4.2-1_amd64.deb
-Size: 775764
-SHA256: f0383aa271c8750067b00d193e84959436f22129645e6d1e65a51b9f1491f9ab
-SHA1: e294b3cd6ca368aea052e0c84b6bfb39ec07ef3e
-MD5sum: b628e94b6104ce026abd2310e1591cd6
+Size: 777672
+SHA256: 808e1ce54df28fbdd19b56469d7e6322fd90d97c55c50688e4ebc5f17d1e269e
+SHA1: 9e67a50079cba8e08c2c8b0a3998923113a665c8
+MD5sum: 149831ef20634bccfc21707650247515
 Description: RealTek RTL8812AU Wireless Driver
  This package installs the RTL8812AU kernel module needed for
  the RealTek Wireless Network Adapter.
@@ -262,10 +262,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl8814au-modules-6.1.90-mos-amd64/rtl8814au-modules-6.1.90-mos-amd64_5.8.5.1-1_amd64.deb
-Size: 721812
-SHA256: c8fbe1a73a79c4c1d252d5b04f43b0829c5fffb7d55abfdd518c1f17df7eaca3
-SHA1: 92c0d71d7df9fc4623d480669b958b25eaa91c1d
-MD5sum: 13607c34d7187f0e61747476f6003cb6
+Size: 728712
+SHA256: 21d3206b6c19ddfcb50a380bf087af15d0ee1d3b71216f1c4947652d3e6cd497
+SHA1: bc0729a529635a2473a3a71607e1e2612286f7d0
+MD5sum: 9e80b00bb6c3ab7f3bf9a02a8f4a05d8
 Description: RealTek RTL8814AU Wireless Driver
  This package installs the RTL8814AU kernel module needed for
  the RealTek Wireless Network Adapter.
@@ -300,10 +300,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl8821au-modules-6.1.90-mos-amd64/rtl8821au-modules-6.1.90-mos-amd64_5.12.5.2-1_amd64.deb
-Size: 754664
-SHA256: ddeb23c597f631f6c735d98556f59734beda13d11b2ae5f31ae5725f2dcfcc9d
-SHA1: 305ca0cdcc1b17986ab2567c9b0bcc60795626ba
-MD5sum: 13aad6958f49ad24879214a6eb94c896
+Size: 756780
+SHA256: fe6bff3c6020136046b1ec48589ad3fd9363fa438ce7d0baa66318cc9d68d70d
+SHA1: 19e00ecbe4724859e8e4297b8d1297375b01c519
+MD5sum: ae93ce868fc3b765f4c193f73d171eb7
 Description: RealTek RTL8821AU Wireless Driver
  This package installs the RTL8821AU kernel module needed for
  the RealTek Wireless Network Adapter.
@@ -345,10 +345,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl8821ce-modules-6.1.90-mos-amd64/rtl8821ce-modules-6.1.90-mos-amd64_5.5.2.1-1_amd64.deb
-Size: 672720
-SHA256: 39b9bc25e8ece64b657882d62a6cd9969fca1c353d523a5eb84ef0be73197f18
-SHA1: 23bef463fc30d7f78a7379b8715df83c6249050f
-MD5sum: b537c6fb350c3d0e6629dc839b0c7c8a
+Size: 673640
+SHA256: ba8aeb1c74f32ccd3ac0297fdf3644f0dc8c4709872ea7a49f1bc361353708c0
+SHA1: c83a09d797942f5f563bfa01ce37898cdbbbe100
+MD5sum: 1dc7735832edd3fcab203447ec13c704
 Description: RealTek RTL8821CE Wireless Driver
  This package installs the RTL8821CE kernel module needed for
  the RealTek Wireless Network Adapter.
@@ -382,10 +382,10 @@ Homepage: http://www.realtek.com.tw
 Priority: optional
 Section: kernel
 Filename: pool/contrib/r/rtl88x2bu-modules-6.1.90-mos-amd64/rtl88x2bu-modules-6.1.90-mos-amd64_5.8.7.1-1_amd64.deb
-Size: 842360
-SHA256: 5b45a06eb8a09d44dcc08c54505920008b7fce0ed1d41296de145b2f1daf8f04
-SHA1: 4dc99b24b773025d5e337c0e6420ed4da779928a
-MD5sum: 637513f5531891aa6db184b5af7dd065
+Size: 847080
+SHA256: 86339d0909d359faa3bad1359d47a3a8f8c80e9ee4823076681961e4a83f0a19
+SHA1: 2d5e3f405f4b7226f740c1dff705abf8ba7256f8
+MD5sum: 2eb4120b52c4b1b191f35af2fa254d9b
 Description: RealTek RTL88X2BU Wireless Driver
  This package installs the RTL88X2BU kernel module needed for
  the RealTek Wireless Network Adapter.
