@@ -19,6 +19,22 @@ Description: default icon theme of GNOME.
  This version is a much strippd down version for antiX Linux.
  No cursers theme included.
 
+Package: bottles
+Version: 51.9-100pika1
+Architecture: amd64
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Installed-Size: 3414
+Depends: dconf-gsettings-backend | gsettings-backend, python3, python3-yaml, gir1.2-gobject-2.0, gobject-introspection, libadwaita-1-0, libglib2.0-0, libgtk-4-1, cabextract, libgtksourceview-5-0, hicolor-icon-theme, p7zip, python3-markdown, patool, python3-pefile, python3-icoextract, python3-pyyaml-env-tag, python3-pathvalidate, python3-orjson, python3-fvs, python3-vkbasalt-cli, python3-requests, python3-urllib3, x11-utils, imagemagick, icoextract, wine, gir1.2-gtksource-5, python3-charset-normalizer, python3-pycurl
+Recommends: gamemode, gamescope, vmtouch, latencyflex, winbind, ffmpeg, ffmpeg5, openldap-utils
+Priority: optional
+Section: gnome
+Filename: pool/main/b/bottles/bottles_51.9-100pika1_amd64.deb
+Size: 548684
+SHA256: f8cfc2b1991342cfa66cbe1b751856b3e74de3a21b014446eb9dae31b8f09ce2
+SHA1: c12714404eb0b69706ec4fdc52bb2b38cf4df750
+MD5sum: 6153a6b13bd442b226a29cb8bd1ccb1f
+Description: Run Windows software and games on Linux
+
 Package: cbatticon
 Version: 1.6.13-1
 Architecture: amd64
@@ -347,6 +363,60 @@ Description: xrdp module for PulseAudio sound server
  them including: MS RDP clients, FreeRDP).
  .
  The module is called module-xrdp.
+
+Package: python3-fvs
+Source: fvs
+Version: 0.3.4-100pika1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 80
+Depends: python3-orjson, python3:any
+Multi-Arch: allowed
+Homepage: https://github.com/mirkobrombin/FVS
+Priority: optional
+Section: python
+Filename: pool/main/f/fvs/python3-fvs_0.3.4-100pika1_amd64.deb
+Size: 14166
+SHA256: 6dfd730b562a28441a0d09373b0c5de614b97b298864a0ec7d2d8ca6f31fa569
+SHA1: 3ab5f68901f80ef2080f17cdc6b336cd38d5ee79
+MD5sum: 01060a0977c1785752c8ec89fdfdb718
+Description: File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
+
+Package: python3-orjson
+Source: orjson
+Version: 3.9.7-99pika1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 629
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Multi-Arch: allowed
+Homepage: https://github.com/ijl/orjson
+Priority: optional
+Section: python
+Filename: pool/main/o/orjson/python3-orjson_3.9.7-99pika1_amd64.deb
+Size: 253522
+SHA256: 4ee6961037a3d5747167ffeaf64cf73f95a168f4dad860bbda81bfc90754a03b
+SHA1: cdd5a339a26b35c80eeab4223289e04e3c9d101b
+MD5sum: c964d370cc9e90a763209afe1b4b80d2
+Description: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+
+Package: python3-vkbasalt-cli
+Source: vkbasalt-cli
+Version: 3.1.1-100pika1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 71
+Depends: python3:any, vkbasalt
+Multi-Arch: allowed
+Homepage: https://gitlab.com/TheEvilSkeleton/vkbasalt-cli
+Priority: optional
+Section: python
+Filename: pool/main/v/vkbasalt-cli/python3-vkbasalt-cli_3.1.1-100pika1_amd64.deb
+Size: 16788
+SHA256: 92a063b37e5eb0f70528b8027bde93e0c2bf361c9d48266db7074aa1faf7dd25
+SHA1: f2e3d9010628b0d84956839f46ac0233c1a26f40
+MD5sum: b753e6961eca19b6524a7fd8ec59dc92
+Description: vkbasalt-cli (filename vkbasalt) is a CLI utility and library in conjunction with vkBasalt. This makes generating configuration files or running vkBasalt with games easier. This is mainly convenient in environments where integrating vkBasalt is wishful, for example a GUI application. Integrating vkbasalt-cli allows a front-end to easily generate and use specific configurations on the fly, without asking the user to manually write a configuration file.
 
 Package: systrayicon
 Version: 1.0-1
