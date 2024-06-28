@@ -786,6 +786,27 @@ Description: Systray Icon Launcher.
  This is a tiny launcher which shows an icon in system tray (systray) and runs a
  command or application after user clicks the icon.
 
+Package: unetbootin-translations
+Source: unetbootin
+Version: 700-1~groovy1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3086
+Recommends: unetbootin
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin-translations_700-1~groovy1_all.deb
+Size: 232708
+SHA256: bbd0f6a8ec1362dc97cb2f36a971a9304ecc44edd010e3a37a55786f5f5e610c
+SHA1: fffa3cc102b170b0935a6e61df5131f76ec34da4
+MD5sum: b795399f347a4db842ab0c17ea97aff0
+Description: translations for the unetbootin distribution installer
+ UNetbootin is an installer of Linux/BSD distributions to a partition or USB
+ drive.
+ .
+ This package contains translation files for unetbootin.
+
 Package: xlunch-slax
 Version: 4.7.5-2
 Architecture: i386

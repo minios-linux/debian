@@ -729,6 +729,48 @@ Description: Systray Icon Launcher.
  This is a tiny launcher which shows an icon in system tray (systray) and runs a
  command or application after user clicks the icon.
 
+Package: unetbootin
+Version: 700-1~groovy1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 652
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), mtools, p7zip-full, syslinux, syslinux-common, udev
+Recommends: extlinux, unetbootin-translations, gksu | kdesudo
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin_700-1~groovy1_amd64.deb
+Size: 183552
+SHA256: 5a4b950d173dbe22dacf1dd1b54d79ef191e93de1c72bb2a37ab58fe3c599a19
+SHA1: e868d3d996e41fa69d62d5d2b1dbb777646d9fa6
+MD5sum: 9a49543a26cc652309ac111b19a9d615
+Description: installer of Linux/BSD distributions to a partition or USB drive
+ UNetbootin allows for the installation of various Linux/BSD distributions to a
+ partition or USB drive, so it's no different from a standard install, only it
+ doesn't need a CD. It can create a dual-boot install, or replace the existing
+ OS entirely.
+
+Package: unetbootin-translations
+Source: unetbootin
+Version: 700-1~groovy1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3086
+Recommends: unetbootin
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin-translations_700-1~groovy1_all.deb
+Size: 232708
+SHA256: bbd0f6a8ec1362dc97cb2f36a971a9304ecc44edd010e3a37a55786f5f5e610c
+SHA1: fffa3cc102b170b0935a6e61df5131f76ec34da4
+MD5sum: b795399f347a4db842ab0c17ea97aff0
+Description: translations for the unetbootin distribution installer
+ UNetbootin is an installer of Linux/BSD distributions to a partition or USB
+ drive.
+ .
+ This package contains translation files for unetbootin.
+
 Package: xlunch-slax
 Version: 4.7.5-2
 Architecture: amd64
