@@ -1,3 +1,144 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: cbatticon
+Version: 1.6.13-1
+Architecture: amd64
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 175
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.6), libnotify-bin (>= 0.7.6)
+Homepage: https://github.com/valr/cbatticon
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_amd64.deb
+Size: 28908
+SHA256: b3317d7b1ad0bebc792a686974da367fb58012e64e5220fc94f451380714fa36
+SHA1: 01f4091a2f6bb0a08f815628e20e2bf4fb8613da
+MD5sum: dbc3803a6b48f120cdcfb5bb042afa7d
+Description: lightweight and fast battery icon status and more
+ Utility that displays battery information as battery status, remaining
+ percentage, remaining time, using an icon in the system tray.
+ .
+ Based on code from xbattbar-acpi, cbatticon sits in your system tray,
+ reporting on battery events, like plug-in, critical, remaining, etc.
+ .
+ A regular user can (re)define custom system's behaviour, like performing
+ graceful shutdown on critical status, by user-defined thresholds and commands
+ on low power/critical.
+
+Package: czkawka
+Version: 6.1.0-1~xtradeb3
+Architecture: amd64
+Maintainer: Jhonny Oliveira <jhonny.oliveira@gmail.com>
+Installed-Size: 29688
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.63.3), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Homepage: https://github.com/qarmin/czkawka
+Priority: optional
+Section: admin
+Filename: pool/main/c/czkawka/czkawka_6.1.0-1~xtradeb3_amd64.deb
+Size: 8374404
+SHA256: 99ab89759d9236759b97772d664ab34ca4d5647fcf3aca3ffcf1fe45442ee89f
+SHA1: 02614efa4c0cefa0757bac64c2826cffa29b5a2d
+MD5sum: 77112544caebf32b1d7bc712f3bb5079
+Description: System cleaner, FSLint successor
+ Czkawka is a simple, fast and easy to use app to remove unnecessary files from
+ your computer.
+ .
+ Features
+   - Written in memory safe Rust
+   - Amazingly fast - due to using more or less advanced algorithms and
+     multithreading
+   - Free, Open Source without ads
+   - Multiplatform - works on Linux, Windows and macOS
+   - Cache support - second and further scans should be a lot of faster than
+     the first
+   - CLI frontend - for easy automation
+   - GUI frontend - uses modern GTK 3 and looks similar to FSlint
+   - Rich search option - allows setting absolute included and excluded
+     directories, set of allowed file extensions or excluded items with the *
+     wildcard
+   - Multiple tools to use:
+     - Duplicates - Finds duplicates basing on file name, size, hash, first
+       1 MB of hash
+     - Empty Folders - Finds empty folders with the help of an advanced
+       algorithm
+     - Big Files - Finds the provided number of the biggest files in given
+       location
+     - Empty Files - Looks for empty files across the drive
+     - Temporary Files - Finds temporary files
+     - Similar Images - Finds images which are not exactly the same (different
+       resolution, watermarks)
+     - Zeroed Files - Finds files which are filled with zeros (usually
+       corrupted)
+     - Same Music - Searches for music with same artist, album etc.
+     - Invalid Symbolic Links - Shows symbolic links which points to
+       non-existent files/directories
+     - Broken Files - Finds files with an invalid extension or that are
+       corrupted
+
+Package: fbxkb
+Version: 0.6-3.mos+1
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 172
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3.mos+1_amd64.deb
+Size: 92792
+SHA256: a251df0e0817d2a485cde876fdd9e9b753ecde85b357af9044bff5609916f0ce
+SHA1: 18b08b9fa7ac0b84c1003f8a8f3c90f9807d7566
+MD5sum: f9c56643f36bdcc978ccb34a4b0397e1
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: amd64
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4007
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
+Provides: x-window-manager
+Homepage: http://fluxbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_amd64.deb
+Size: 1199688
+SHA256: a4c6a825df13f7f75ab2229152e96e464f4b31c61d7fe2bf1f69f8a86879a5e7
+SHA1: 1f4ebe4922f5d6a703097b230b2a3ce48d98d1d9
+MD5sum: a32ba661140edc3d06ab8dffc087f8ed
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
+
 Package: kdiskmark
 Source: kdiskmark (3.1.3+ds-3)
 Version: 3.1.3+ds-3+b1
@@ -19,6 +160,21 @@ Description: simple open source disk benchmark tool for Linux distros
  GUI calls Flexible I/O Tester and handles the output to provide an
  easy to view and interpret comprehensive benchmark result.
 
+Package: lazydocker
+Version: 0.21.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@yandex.ru>
+Installed-Size: 10663
+Homepage: https://github.com/jesseduffield/lazydocker
+Priority: optional
+Section: utils
+Filename: pool/main/l/lazydocker/lazydocker_0.21.1-1_amd64.deb
+Size: 3192336
+SHA256: 68c0d9b8ec74d7610609797ee5e3d2fab88c1a6bd378dd2a5c6212bb00b1f256
+SHA1: acdc4cec25e3165336019d55cecaf414d1eda602
+MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
+Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
+
 Package: libmousepad0
 Source: mousepad
 Version: 0.5.10-2.mos+1
@@ -39,6 +195,55 @@ Description: mousepad plugins library
  Mousepad is a graphical text editor for Xfce based on Leafpad.
  .
  This package contains the libmousepad library, used for Mousepad plugins.
+
+Package: lshw
+Version: 02.19.git.2021.06.19.996aaad9c7-2+mos1
+Architecture: amd64
+Maintainer: Ghe Rivero <ghe@debian.org>
+Installed-Size: 917
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Recommends: pci.ids, usb.ids
+Homepage: https://github.com/lyonel/lshw
+Priority: optional
+Section: utils
+Filename: pool/main/l/lshw/lshw_02.19.git.2021.06.19.996aaad9c7-2+mos1_amd64.deb
+Size: 296296
+SHA256: 12e933ba0f88ebb9d7c616d71a22649d847b6d5c028adc0483d1cb5881d9f362
+SHA1: f5d2441ddb2a8ef174dc94d49e4168f147d7086e
+MD5sum: 7f8bf368d7956a88e4404f4de0401486
+Description: information about hardware configuration
+ A small tool to provide detailed information on the hardware
+ configuration of the machine. It can report exact memory
+ configuration, firmware version, mainboard configuration, CPU version
+ and speed, cache configuration, bus speed, etc. on DMI-capable x86
+ systems, on some PowerPC machines (PowerMac G4 is known to work) and AMD64.
+ .
+ Information can be output in plain text, HTML or XML.
+
+Package: lshw-gtk
+Source: lshw
+Version: 02.19.git.2021.06.19.996aaad9c7-2+mos1
+Architecture: amd64
+Maintainer: Ghe Rivero <ghe@debian.org>
+Installed-Size: 1757
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.18), libgtk-3-0 (>= 3.19.12), libstdc++6 (>= 11), polkitd | policykit-1, pkexec | policykit-1
+Recommends: pciutils, usbutils
+Homepage: https://github.com/lyonel/lshw
+Priority: optional
+Section: utils
+Filename: pool/main/l/lshw/lshw-gtk_02.19.git.2021.06.19.996aaad9c7-2+mos1_amd64.deb
+Size: 373420
+SHA256: 6e3adb695bb5c0faf854643bd7419a3d5660cc3a2dd1ffe45eff1a242f1bf8ef
+SHA1: 84004c842f6a8e3dfe0de3b54c2906f6119b2897
+MD5sum: 85fa5773119aed350d7c568e13506b29
+Description: graphical information about hardware configuration
+ A small tool to provide detailed information on the hardware
+ configuration of the machine. It can report exact memory
+ configuration, firmware version, mainboard configuration, CPU version
+ and speed, cache configuration, bus speed, etc. on DMI-capable x86
+ systems, on some PowerPC machines (PowerMac G4 is known to work) and AMD64.
+ .
+ This package provides lshw-gtk (the GTK+ version)
 
 Package: mousepad
 Version: 0.5.10-2.mos+1
@@ -142,6 +347,24 @@ Description: xrdp module for PulseAudio sound server
  them including: MS RDP clients, FreeRDP).
  .
  The module is called module-xrdp.
+
+Package: systrayicon
+Version: 1.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 25
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.16.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_amd64.deb
+Size: 4316
+SHA256: 6fbc34cc59995cc2a75d09d9d119414ec50bc867985b4ee8c30ff7f5a9e933f2
+SHA1: dfe4b812cb7041c1004b1fd5c0a1344f542fbeaa
+MD5sum: c93cda54f8fb389244b7677635b2fc43
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
 
 Package: thunar
 Version: 4.18.4-1.mos+1
