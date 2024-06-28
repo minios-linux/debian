@@ -2855,3 +2855,20 @@ Description: binary firmware for the zd1211rw wireless driver
  For more information, see also:
  http://wiki.debian.org/zd1211rw
 
+Package: hdsentinel-gui
+Version: 2.0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 6716
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
+Homepage: https://www.hdsentinel.com/hard_disk_sentinel_linux_gui.php
+Priority: optional
+Section: utils
+Filename: pool/non-free/h/hdsentinel-gui/hdsentinel-gui_2.0.0-1_amd64.deb
+Size: 1915168
+SHA256: 4d1913465d74222eed3db7f9fa23ed11762db9642e53f3b956f066e4e157deaa
+SHA1: cced078c63cc3a6970e93db012e1f7cea83f2563
+MD5sum: dd46487f2e1791ce63a58b6226d81a7b
+Description: HD Sentinel GUI
+ HD Sentinel is a hard disk monitoring software with highest possible support of HDD/SSD/SSHD (hybrid) drives.
+
