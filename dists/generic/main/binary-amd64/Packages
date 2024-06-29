@@ -36,6 +36,27 @@ SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
 MD5sum: 383a6a5bd758655cfacd84adb625b325
 Description: Fake package to prevent adwaita-icon-theme from being installed
 
+Package: bottles
+Version: 51.11-1+mos1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3545
+Depends: dconf-gsettings-backend | gsettings-backend, python3, python3-yaml, gir1.2-gobject-2.0, gobject-introspection, libadwaita-1-0, libglib2.0-0, libgtk-4-1, cabextract, libgtksourceview-5-0, hicolor-icon-theme, p7zip, python3-markdown, patool, python3-pefile, python3-icoextract, python3-pyyaml-env-tag, python3-pathvalidate, python3-orjson, python3-fvs, python3-vkbasalt-cli, python3-requests, python3-urllib3, x11-utils, imagemagick, icoextract, wine, gir1.2-gtksource-5, python3-charset-normalizer, python3-pycurl, gir1.2-adw-1
+Recommends: gamemode, gamescope, vmtouch, latencyflex, winbind, ffmpeg, ffmpeg5, openldap-utils
+Priority: optional
+Section: gnome
+Filename: pool/main/b/bottles/bottles_51.11-1+mos1_amd64.deb
+Size: 519384
+SHA256: 2ef533b86c5e30e66fa4b9038527fdffcb5abaf59327263735b7379ff9587f3c
+SHA1: fbf88f662083ebd0b2613b38535fdbd371ea3caa
+MD5sum: 6d04204c7ea8c1e4f68cec8c853adbe8
+Description: Run Windows in a Bottle
+ Bottles lets you run Windows software on Linux, such as applications
+ and games. It introduces a workflow that helps you organize by
+ categorizing each software to your liking. Bottles provides several
+ tools and integrations to help you manage and optimize your
+ applications.
+
 Package: cbatticon
 Version: 1.6.13-1
 Architecture: amd64
@@ -687,6 +708,78 @@ SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
 SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
 MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
 Description: Package created with checkinstall 1.6.3
+
+Package: python3-fvs
+Source: fvs
+Version: 0.3.4-1+mos1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 80
+Depends: python3-orjson, python3:any
+Multi-Arch: allowed
+Homepage: https://github.com/mirkobrombin/FVS
+Priority: optional
+Section: python
+Filename: pool/main/f/fvs/python3-fvs_0.3.4-1+mos1_amd64.deb
+Size: 14032
+SHA256: e6369b991dc088426585c62bff8dfdffa77ac68aca502dd9f8ba0f4cf7f54cfc
+SHA1: 1af4dda740e5ad334a67f4a5c4c81fc708763e79
+MD5sum: 5e07d4261cc370ef8e63b58322d099d4
+Description: File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
+
+Package: python3-orjson
+Source: orjson
+Version: 3.10.5-1+mos1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 684
+Depends: python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Multi-Arch: allowed
+Homepage: https://github.com/ijl/orjson
+Priority: optional
+Section: python
+Filename: pool/main/o/orjson/python3-orjson_3.10.5-1+mos1_amd64.deb
+Size: 260240
+SHA256: 2c3492d3f407c31a56b93b10c99891ba038f25fa01fc1d630e92f36bd9e2129c
+SHA1: 39fc86e95f6b6f2538e8d4f235cf494344bb1d6b
+MD5sum: 3b8f7bd2b8452cb37bc113e998a3d6c9
+Description: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+
+Package: python3-orjson-dbgsym
+Source: orjson
+Version: 3.10.5-1+mos1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 132
+Depends: python3-orjson (= 3.10.5-1+mos1)
+Priority: optional
+Section: debug
+Filename: pool/main/o/orjson/python3-orjson-dbgsym_3.10.5-1+mos1_amd64.deb
+Size: 29348
+SHA256: bcfed6d70d2308b80bdad8bebaec751011acb016ec86213e5c178657c547b443
+SHA1: 7a83740e66c9721680274d0c3b75c96e53451334
+MD5sum: 674ece66e1889eb719ff6f3ebfbbeb8d
+Description: debug symbols for python3-orjson
+Build-Ids: 3ce6fc85751e97d6ce124cac66aac42327dfe93a
+
+Package: python3-vkbasalt-cli
+Source: vkbasalt-cli
+Version: 3.1.1-1+mos1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 71
+Depends: python3:any, vkbasalt
+Multi-Arch: allowed
+Homepage: https://gitlab.com/TheEvilSkeleton/vkbasalt-cli
+Priority: optional
+Section: python
+Filename: pool/main/v/vkbasalt-cli/python3-vkbasalt-cli_3.1.1-1+mos1_amd64.deb
+Size: 16476
+SHA256: f9fb9a1104c8370272e060e9f4fb0d0f74c5c8dc19c07786121c64d8375aa2e9
+SHA1: 4d91b73bb1d9818b07d3ad1ed7e099dabbc3d552
+MD5sum: 216587629cd43e597e7534a2a0fc8dc7
+Description: vkbasalt-cli (filename vkbasalt) is a CLI utility and library in conjunction with vkBasalt. This makes generating configuration files or running vkBasalt with games easier. This is mainly convenient in environments where integrating vkBasalt is wishful, for example a GUI application. Integrating vkbasalt-cli allows a front-end to easily generate and use specific configurations on the fly, without asking the user to manually write a configuration file.
 
 Package: qphotorec
 Source: testdisk
