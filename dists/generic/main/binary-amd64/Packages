@@ -711,7 +711,7 @@ Description: Package created with checkinstall 1.6.3
 
 Package: python3-fvs
 Source: fvs
-Version: 0.3.4-1+mos1
+Version: 0.3.4-100pika1
 Architecture: amd64
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 80
@@ -720,29 +720,29 @@ Multi-Arch: allowed
 Homepage: https://github.com/mirkobrombin/FVS
 Priority: optional
 Section: python
-Filename: pool/main/f/fvs/python3-fvs_0.3.4-1+mos1_amd64.deb
-Size: 14032
-SHA256: e6369b991dc088426585c62bff8dfdffa77ac68aca502dd9f8ba0f4cf7f54cfc
-SHA1: 1af4dda740e5ad334a67f4a5c4c81fc708763e79
-MD5sum: 5e07d4261cc370ef8e63b58322d099d4
+Filename: pool/main/f/fvs/python3-fvs_0.3.4-100pika1_amd64.deb
+Size: 14166
+SHA256: 6dfd730b562a28441a0d09373b0c5de614b97b298864a0ec7d2d8ca6f31fa569
+SHA1: 3ab5f68901f80ef2080f17cdc6b336cd38d5ee79
+MD5sum: 01060a0977c1785752c8ec89fdfdb718
 Description: File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
 
 Package: python3-orjson
 Source: orjson
-Version: 3.10.5-1+mos1
+Version: 3.9.7-99pika1
 Architecture: amd64
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 684
-Depends: python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Installed-Size: 629
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Multi-Arch: allowed
 Homepage: https://github.com/ijl/orjson
 Priority: optional
 Section: python
-Filename: pool/main/o/orjson/python3-orjson_3.10.5-1+mos1_amd64.deb
-Size: 260240
-SHA256: 2c3492d3f407c31a56b93b10c99891ba038f25fa01fc1d630e92f36bd9e2129c
-SHA1: 39fc86e95f6b6f2538e8d4f235cf494344bb1d6b
-MD5sum: 3b8f7bd2b8452cb37bc113e998a3d6c9
+Filename: pool/main/o/orjson/python3-orjson_3.9.7-99pika1_amd64.deb
+Size: 253522
+SHA256: 4ee6961037a3d5747167ffeaf64cf73f95a168f4dad860bbda81bfc90754a03b
+SHA1: cdd5a339a26b35c80eeab4223289e04e3c9d101b
+MD5sum: c964d370cc9e90a763209afe1b4b80d2
 Description: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 
 Package: python3-orjson-dbgsym
@@ -765,7 +765,7 @@ Build-Ids: 3ce6fc85751e97d6ce124cac66aac42327dfe93a
 
 Package: python3-vkbasalt-cli
 Source: vkbasalt-cli
-Version: 3.1.1-1+mos1
+Version: 3.1.1-100pika1
 Architecture: amd64
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Installed-Size: 71
@@ -774,11 +774,11 @@ Multi-Arch: allowed
 Homepage: https://gitlab.com/TheEvilSkeleton/vkbasalt-cli
 Priority: optional
 Section: python
-Filename: pool/main/v/vkbasalt-cli/python3-vkbasalt-cli_3.1.1-1+mos1_amd64.deb
-Size: 16476
-SHA256: f9fb9a1104c8370272e060e9f4fb0d0f74c5c8dc19c07786121c64d8375aa2e9
-SHA1: 4d91b73bb1d9818b07d3ad1ed7e099dabbc3d552
-MD5sum: 216587629cd43e597e7534a2a0fc8dc7
+Filename: pool/main/v/vkbasalt-cli/python3-vkbasalt-cli_3.1.1-100pika1_amd64.deb
+Size: 16788
+SHA256: 92a063b37e5eb0f70528b8027bde93e0c2bf361c9d48266db7074aa1faf7dd25
+SHA1: f2e3d9010628b0d84956839f46ac0233c1a26f40
+MD5sum: b753e6961eca19b6524a7fd8ec59dc92
 Description: vkbasalt-cli (filename vkbasalt) is a CLI utility and library in conjunction with vkBasalt. This makes generating configuration files or running vkBasalt with games easier. This is mainly convenient in environments where integrating vkBasalt is wishful, for example a GUI application. Integrating vkbasalt-cli allows a front-end to easily generate and use specific configurations on the fly, without asking the user to manually write a configuration file.
 
 Package: qphotorec
