@@ -37,25 +37,20 @@ MD5sum: 383a6a5bd758655cfacd84adb625b325
 Description: Fake package to prevent adwaita-icon-theme from being installed
 
 Package: bottles
-Version: 51.11-1+mos1
+Version: 51.9-100pika1
 Architecture: amd64
-Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 3545
-Depends: dconf-gsettings-backend | gsettings-backend, python3, python3-yaml, gir1.2-gobject-2.0, gobject-introspection, libadwaita-1-0, libglib2.0-0, libgtk-4-1, cabextract, libgtksourceview-5-0, hicolor-icon-theme, p7zip, python3-markdown, patool, python3-pefile, python3-icoextract, python3-pyyaml-env-tag, python3-pathvalidate, python3-orjson, python3-fvs, python3-vkbasalt-cli, python3-requests, python3-urllib3, x11-utils, imagemagick, icoextract, wine, gir1.2-gtksource-5, python3-charset-normalizer, python3-pycurl, gir1.2-adw-1
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Installed-Size: 3414
+Depends: dconf-gsettings-backend | gsettings-backend, python3, python3-yaml, gir1.2-gobject-2.0, gobject-introspection, libadwaita-1-0, libglib2.0-0, libgtk-4-1, cabextract, libgtksourceview-5-0, hicolor-icon-theme, p7zip, python3-markdown, patool, python3-pefile, python3-icoextract, python3-pyyaml-env-tag, python3-pathvalidate, python3-orjson, python3-fvs, python3-vkbasalt-cli, python3-requests, python3-urllib3, x11-utils, imagemagick, icoextract, wine, gir1.2-gtksource-5, python3-charset-normalizer, python3-pycurl
 Recommends: gamemode, gamescope, vmtouch, latencyflex, winbind, ffmpeg, ffmpeg5, openldap-utils
 Priority: optional
 Section: gnome
-Filename: pool/main/b/bottles/bottles_51.11-1+mos1_amd64.deb
-Size: 519384
-SHA256: 2ef533b86c5e30e66fa4b9038527fdffcb5abaf59327263735b7379ff9587f3c
-SHA1: fbf88f662083ebd0b2613b38535fdbd371ea3caa
-MD5sum: 6d04204c7ea8c1e4f68cec8c853adbe8
-Description: Run Windows in a Bottle
- Bottles lets you run Windows software on Linux, such as applications
- and games. It introduces a workflow that helps you organize by
- categorizing each software to your liking. Bottles provides several
- tools and integrations to help you manage and optimize your
- applications.
+Filename: pool/main/b/bottles/bottles_51.9-100pika1_amd64.deb
+Size: 548684
+SHA256: f8cfc2b1991342cfa66cbe1b751856b3e74de3a21b014446eb9dae31b8f09ce2
+SHA1: c12714404eb0b69706ec4fdc52bb2b38cf4df750
+MD5sum: 6153a6b13bd442b226a29cb8bd1ccb1f
+Description: Run Windows software and games on Linux
 
 Package: cbatticon
 Version: 1.6.13-1
