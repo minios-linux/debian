@@ -279,6 +279,23 @@ SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
 MD5sum: 79aafe17908409452981f373bf66f8e5
 Description: gtkdialog
 
+Package: hidpi-daemon
+Version: 18.04.6
+Architecture: all
+Maintainer: Aaron Honeycutt <aaron@system76.com>
+Installed-Size: 140
+Depends: python3:any (>= 3.4~), dconf-gsettings-backend | gsettings-backend, python3-gi, python3-pydbus, python3-xlib, gir1.2-notify-0.7
+Homepage: https://github.com/pop-os/hidpi-daemon
+Priority: optional
+Section: x11
+Filename: pool/main/h/hidpi-daemon/hidpi-daemon_18.04.6_all.deb
+Size: 22876
+SHA256: e62dd8a474c5519c778f47b2ee9a89b4e9aa0944bdff5f89c22b8a7f17ad78c6
+SHA1: ed4edc5d2f9c54764791d0c7d858bb0c4c9f01b4
+MD5sum: 0ad36f114e9caade2dfe93e763d34f79
+Description: Daemon to manage HiDPI and LoDPI monitors on X
+ HiDPI Daemon handles mixed-DPI monitor configurations and provides a simple mechanism to switch between HiDPI and LoDPI modes.
+
 Package: libminioslive
 Version: 4.0
 Architecture: all
