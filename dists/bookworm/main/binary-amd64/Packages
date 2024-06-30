@@ -282,6 +282,141 @@ Description: simple Xfce oriented text editor
    * Drag and Drop
    * Printing
 
+Package: ncat
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 742
+Depends: libc6 (>= 2.34), liblua5.4-0 (>= 5.4.4), libpcap0.8 (>= 1.5.1), libssl3 (>= 3.0.0)
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/ncat_7.94+git20230807.3be01efb1+dfsg-4_amd64.deb
+Size: 498608
+SHA256: 00c2e60163bff5b2b9caa0571395f88b7c23296c93c8feed65a0f70d33aed916
+SHA1: 525319069dd7d48ac040369800646d4dd2219098
+MD5sum: b3f2eb26a15e801201bc2c9ab6dff302
+Description: NMAP netcat reimplementation
+ ncat is a reimplementation of Netcat by the NMAP project, providing
+ most of the features present in the original implementations, along
+ with some new features such as IPv6 and SSL support. Port scanning
+ support has been removed.
+
+Package: ncat-dbgsym
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 290
+Depends: ncat (= 7.94+git20230807.3be01efb1+dfsg-4)
+Priority: optional
+Section: debug
+Filename: pool/main/n/nmap/ncat-dbgsym_7.94+git20230807.3be01efb1+dfsg-4_amd64.deb
+Size: 256924
+SHA256: e546d4003acfc055554837b8e8d502a168d4a2b46c556043fd37a5396da01421
+SHA1: 612f31c6c34650e0faa82beba60369ace9131cc5
+MD5sum: 95b24bf65c3fc26a2c51a3fa6156ff3c
+Description: debug symbols for ncat
+Build-Ids: 7a3f264970893ace039e4feb1ba600ddb50c670b
+
+Package: ndiff
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 375
+Depends: python3-lxml, python3:any
+Recommends: nmap
+Breaks: nmap (<< 7.94+git20230807.3be01efb1+dfsg-4)
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/ndiff_7.94+git20230807.3be01efb1+dfsg-4_all.deb
+Size: 303564
+SHA256: 7d1737d8e3fcf1dd4ccdefafa6ee2fd2e52f75e050c96a30e3a705f0b1155325
+SHA1: d2d0f706f34fecd5341f4f3592b6112016ef68a0
+MD5sum: 7bd5a0248d9b0746c4d78308a7d1e101
+Description: The Network Mapper - result compare utility
+ Ndiff is a tool to aid in the comparison of Nmap scans. It takes two
+ Nmap XML output files and prints the differences between them them:
+ hosts coming up and down, ports becoming open or closed, and things like that.
+ It can produce output in human-readable text or machine-readable XML formats.
+
+Package: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 4470
+Depends: nmap-common (= 7.94+git20230807.3be01efb1+dfsg-4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblinear4 (>= 2.01+dfsg), liblua5.4-0 (>= 5.4.4), libpcap0.8 (>= 1.5.1), libpcre2-8-0 (>= 10.32), libssh2-1 (>= 1.2.9), libssl3 (>= 3.0.0), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
+Suggests: ncat, ndiff, zenmap
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/nmap_7.94+git20230807.3be01efb1+dfsg-4_amd64.deb
+Size: 1915476
+SHA256: a78281ff55d3d5bfd7e1f51a813ea4c2b0df389c81d1d87410437738912d9aa2
+SHA1: 6eb93357e128efb6fa355f1938460257622f1e4c
+MD5sum: fb293af97b06ee123d819c70a4ed2dc0
+Description: The Network Mapper
+ Nmap is a utility for network exploration or security auditing. It
+ supports ping scanning (determine which hosts are up), many port
+ scanning techniques, version detection (determine service protocols
+ and application versions listening behind ports), and TCP/IP
+ fingerprinting (remote host OS or device identification). Nmap also
+ offers flexible target and port specification, decoy/stealth scanning,
+ sunRPC scanning, and more. Most Unix and Windows platforms are
+ supported in both GUI and commandline modes. Several popular handheld
+ devices are also supported, including the Sharp Zaurus and the iPAQ.
+
+Package: nmap-common
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 21738
+Recommends: nmap
+Multi-Arch: foreign
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/nmap-common_7.94+git20230807.3be01efb1+dfsg-4_all.deb
+Size: 4322600
+SHA256: f38a9f045bbf05b7dd78877d96ee6fb2db43ba15955e2642c96bd60df9218dd4
+SHA1: 72f2eb8f541570aec721dc26c112346b6520b080
+MD5sum: 6797d3863f216b10ae898ddc667c577e
+Description: Architecture independent files for nmap
+ Nmap is a utility for network exploration or security auditing. It
+ supports ping scanning (determine which hosts are up), many port
+ scanning techniques, version detection (determine service protocols
+ and application versions listening behind ports), and TCP/IP
+ fingerprinting (remote host OS or device identification). Nmap also
+ offers flexible target and port specification, decoy/stealth scanning,
+ sunRPC scanning, and more. Most Unix and Windows platforms are
+ supported in both GUI and commandline modes. Several popular handheld
+ devices are also supported, including the Sharp Zaurus and the iPAQ.
+ .
+ This package contains the nmap files shared by all architectures.
+
+Package: nmap-dbgsym
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 4631
+Depends: nmap (= 7.94+git20230807.3be01efb1+dfsg-4)
+Priority: optional
+Section: debug
+Filename: pool/main/n/nmap/nmap-dbgsym_7.94+git20230807.3be01efb1+dfsg-4_amd64.deb
+Size: 4465864
+SHA256: 82a1439adbdb9a2271fa0998ff44ee1f63b4e2b741f15430164d19d17351d139
+SHA1: 8485927112f629807771e089b5727270ef6a5405
+MD5sum: 180b1b271558b1075958d4679dfd9a11
+Description: debug symbols for nmap
+Build-Ids: 63704c88aa8706295f4cb28178d31d20db37549f eedae2670aa1af3abc47c91ddb86d6df2063c080
+
 Package: pcmanfm
 Version: 1.3.2-1.mos+1
 Architecture: amd64
@@ -408,4 +543,25 @@ MD5sum: 328a91868b69633d07a4ac05da2ee0ba
 Description: Provides thunar documentation, icons and translations
  This package contains architecture-independent files for thunar, the file
  manager and file management libraries for Xfce desktop environment.
+
+Package: zenmap
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 1702
+Depends: ndiff, nmap, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0, python3:any
+Recommends: pkexec
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/zenmap_7.94+git20230807.3be01efb1+dfsg-4_all.deb
+Size: 626992
+SHA256: 687cfa51343380cfe1de060b3c7ea51e174e83672859e0db22f163f64ca913b0
+SHA1: 7ac7c73e8b21f7ed552aa4e03d6ab3433dfe5cc9
+MD5sum: 58a2da651580b7a4f8af5d041f91926e
+Description: The Network Mapper Front End
+ Zenmap is an Nmap frontend. It is meant to be useful for advanced users
+ and to make Nmap easy to use by beginners. It was originally derived
+ from Umit, an Nmap GUI created as part of the Google Summer of Code.
 
