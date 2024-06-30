@@ -1,6 +1,6 @@
 Format: 3.0 (quilt)
 Source: hdsentinel-gui
-Binary: hdsentinel-gui
+Binary: hdsentinel, hdsentinel-gui
 Architecture: amd64
 Version: 2.0.0-1
 Maintainer: crims0n <crims0n@minios.dev>
@@ -8,13 +8,14 @@ Homepage: https://www.hdsentinel.com/hard_disk_sentinel_linux_gui.php
 Standards-Version: 4.1.3
 Build-Depends: debhelper (>= 11), wget, tar, unzip, xz-utils
 Package-List:
+ hdsentinel deb utils optional arch=amd64
  hdsentinel-gui deb utils optional arch=amd64
 Checksums-Sha1:
- a4ca9032d82ed3fbafceee2a160462389eda14d5 788 hdsentinel-gui_2.0.0.orig.tar.xz
- f3d62ecf6a157f5c623a4b1b9836d074b09f5929 1436 hdsentinel-gui_2.0.0-1.debian.tar.xz
+ bb9f1239580dd4dcbc013b94653959646001c3a1 2818712 hdsentinel-gui_2.0.0.orig.tar.gz
+ bb391d1a4e6b803eb8faa2d885465072c297911e 2216 hdsentinel-gui_2.0.0-1.debian.tar.xz
 Checksums-Sha256:
- 72a92efd82e24e3b4a5299b9cab7d956f36995fd65856ea83dea3830ed956e38 788 hdsentinel-gui_2.0.0.orig.tar.xz
- 908059b8c945cd97512bd36f4183a6487098b6ca7bb61d1e22a87947385e21bc 1436 hdsentinel-gui_2.0.0-1.debian.tar.xz
+ 9df1c90855d7f91a49fe5ef672496a4afd633a573edfa21f535b17e5689a675a 2818712 hdsentinel-gui_2.0.0.orig.tar.gz
+ 2026eac77cd340992fbadf6ef9cffa3ad8ab032f4ea0571164655e4f7b8f1927 2216 hdsentinel-gui_2.0.0-1.debian.tar.xz
 Files:
- 7ec7fdc3e7ff389173094e6d16d1ccc4 788 hdsentinel-gui_2.0.0.orig.tar.xz
- c832e932e788c61b56ed13a0ba62db56 1436 hdsentinel-gui_2.0.0-1.debian.tar.xz
+ 4377896f6c28b5e295993e4abd14d6e7 2818712 hdsentinel-gui_2.0.0.orig.tar.gz
+ 0556a94d5aa16b1cdc396aa8543e8675 2216 hdsentinel-gui_2.0.0-1.debian.tar.xz
