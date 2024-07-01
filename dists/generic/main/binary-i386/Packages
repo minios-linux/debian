@@ -63,10 +63,10 @@ Description: lightweight and fast battery icon status and more
 
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
-Version: 0.19-1~mos+1
+Version: 0.19-1+mos+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 14556
+Installed-Size: 14437
 Conflicts: elementary-xfce-icon-theme
 Breaks: elementary-xfce-icon-theme
 Replaces: elementary-xfce-icon-theme
@@ -74,11 +74,11 @@ Provides: elementary-xfce-icon-theme
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.19-1~mos+1_all.deb
-Size: 6557328
-SHA256: 34c127d2efc69bce30a199a72fd3f9f480861f81553711f8b8b862487cb5ee11
-SHA1: aee1f39c6d7930b8bc2f18d026052a04c32c9926
-MD5sum: 1ee3fec28d29cfd2ce8a6e5620a10019
+Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.19-1+mos+1_all.deb
+Size: 6561412
+SHA256: 711dafdb7ecfac39a03e51f8d439eed7ea929303a2ab7411ef494f0f44755b10
+SHA1: 77dac4348233b5651237ed6e1754b72322a89e8e
+MD5sum: e43ef0f59eb6391f6e8838d17c7e99e6
 Description: elementary icon theme modified for Xfce
  elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
  desktops.
