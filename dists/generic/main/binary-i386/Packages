@@ -735,10 +735,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 25388
-SHA256: 4a9fabf37fcf519cf00491829b6605e195f1ec3f08104b3278ef494d9c768dd3
-SHA1: ddc8bfc23b41a4d84c7e8a035003785051fd8eba
-MD5sum: dd8b2ad2a13cb0c164c298b11e9b45c1
+Size: 25384
+SHA256: 34282eb1d05755dfcbcdcedc844a695a3aa26bc704758e487c433589477cfc45
+SHA1: 3c3999ec12015b41d3f5d040e11725cde14de6c2
+MD5sum: 03c3811cf0e2cbad3d05d32cec6128fb
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
