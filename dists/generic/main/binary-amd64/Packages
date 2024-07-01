@@ -677,16 +677,16 @@ Package: minios-tools
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 98
+Installed-Size: 121
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 23140
-SHA256: 04e291df9e4c3b558463f14cecbc54e592ac5b6f148efd7d55e076b57d7bfdb6
-SHA1: c67dbba4a24e81a339040111ba2f267e695789e0
-MD5sum: 2a808edc7395ca463203a41f00051507
+Size: 25388
+SHA256: 4a9fabf37fcf519cf00491829b6605e195f1ec3f08104b3278ef494d9c768dd3
+SHA1: ddc8bfc23b41a4d84c7e8a035003785051fd8eba
+MD5sum: dd8b2ad2a13cb0c164c298b11e9b45c1
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as

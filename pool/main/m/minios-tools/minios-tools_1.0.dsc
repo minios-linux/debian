@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext, pandoc
 Package-List:
  minios-tools deb utils optional arch=all
 Checksums-Sha1:
- 745edf5f8e88167e361af154efeba408ba79efad 17164 minios-tools_1.0.tar.xz
+ afda7ebdc57f95d826ddb97649592f1ad1f7c7b5 19220 minios-tools_1.0.tar.xz
 Checksums-Sha256:
- 05848d510ee478e3b388621763ec1a7ab2ab0be19f597ea046567e85cfe88a64 17164 minios-tools_1.0.tar.xz
+ 4781f502d8919379e6f865eb788c4e084b83dcc0a8fa625fd461bb04e4e8a455 19220 minios-tools_1.0.tar.xz
 Files:
- ddc74c880de49f533d702afeb718878c 17164 minios-tools_1.0.tar.xz
+ f1b31dc641e48954e9938f9a12e7b8a8 19220 minios-tools_1.0.tar.xz
