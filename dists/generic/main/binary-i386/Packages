@@ -264,20 +264,40 @@ MD5sum: da74654d48571e143accfd342f126d4c
 Description: Simple GTK2 dialog for Yes/No questions.
 
 Package: gtkdialog
-Installed-Size: 363
-Maintainer: sfs
-Depends: libc6, libgtk-3-0, libgdk-pixbuf2.0-0, libglib2.0-0, libatk1.0-0, libpango-1.0-0, libcairo2, libfreetype6, libfontconfig1
+Version: 0.8.5d-1
 Architecture: i386
-Version: 0.8.3-1
-Provides: gtkdialog
-Priority: extra
-Section: system
-Filename: pool/main/g/gtkdialog/gtkdialog_0.8.3-1_i386.deb
-Size: 177016
-SHA256: 7ea3453100a213e62774a1b1ebd183335c63226852aa7917d8f6b7eb78cffdd4
-SHA1: 38f63a909e53689bd32158d9d6a0e6bd37e1133a
-MD5sum: 79aafe17908409452981f373bf66f8e5
-Description: gtkdialog
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 351
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.4)
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.5d-1_i386.deb
+Size: 109204
+SHA256: 3dee414b3e4d88882cc4f1922e776bac248a5f47fde2ab4acf691bd80b17511c
+SHA1: 32b68dcd67d99f096b7ecc9fd63a69d824f9cfc1
+MD5sum: a0f95ac9f5f4e8ba133a649fca19d32b
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
+Package: gtkdialog-dbgsym
+Source: gtkdialog
+Version: 0.8.5d-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 275
+Depends: gtkdialog (= 0.8.5d-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gtkdialog/gtkdialog-dbgsym_0.8.5d-1_i386.deb
+Size: 227588
+SHA256: 81b9a6b7f18dea4579de86458702c2c548c96c105bde9871606aea748a59da90
+SHA1: 4007ec2ed27783c09b0a225639a28c6582cf0cf3
+MD5sum: b37d3fac281845cf12824061e61da1ce
+Description: debug symbols for gtkdialog
+Build-Ids: 9a0c21920f415d4212487dcb4a38dc0447b55c0c
 
 Package: hidpi-daemon
 Version: 18.04.6
