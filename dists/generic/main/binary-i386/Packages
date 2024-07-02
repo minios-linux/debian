@@ -713,16 +713,16 @@ Package: minios-configurator
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 69
+Installed-Size: 71
 Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 4.0), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 11380
-SHA256: a547b5e7a8a0bc49da052a7971e8c1cfb57298cba4dc80674e1d620935377b89
-SHA1: eafe700dda2978fe9dd8c9732aa1ffdc4ab83d8c
-MD5sum: 74f8970469a014fe66827ef7047692b2
+Size: 11720
+SHA256: cd4fecd17e827966afbc67a4709e3991dd80bca1a5033667da792a1aadeec253
+SHA1: 4182327a10d8078f007b0d36a616452268034031
+MD5sum: 14d7478f7a3ed01351a3535d8446fa12
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
