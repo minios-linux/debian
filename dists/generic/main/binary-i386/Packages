@@ -325,10 +325,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6760
-SHA256: 2dded09924dcb6f4657ee0a5228eb9250d83ecf9b47583892a6e0a6deff07d0c
-SHA1: c0c34949c89b6da3667678a99f083506aa4623ad
-MD5sum: 3db0fff875ff87d87f70805eabbac810
+Size: 6764
+SHA256: 009bb21b079103a46272739e46ed9ef6c6672d6d84c313418ad105d6c74ca320
+SHA1: 0cd111b621a3d3605718dd8e306d1ec71ed68c09
+MD5sum: f39853dfa3e8fc050d4fc6f67d60dbea
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -694,16 +694,16 @@ Package: minios-boot
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 77
+Installed-Size: 78
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237), libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14104
-SHA256: de20e2a41843386952fbe35e8350255ad9af6569bbe44dc4a75e657c56cc25df
-SHA1: 735615f0157d2b99306ca3dd476dfa69318f0bed
-MD5sum: ed53af97d44ddb75d0e340aaf125b02b
+Size: 14148
+SHA256: 4dc3fef4f26c04d976f773431232298378c3294d9f7804a21e1c28a49bb36df1
+SHA1: 9abd437dfba6e4b1b16620c7a30e3d0473f8bd11
+MD5sum: 9418f037c52874cba74a01b6fecfa8b8
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -719,10 +719,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 11720
-SHA256: cd4fecd17e827966afbc67a4709e3991dd80bca1a5033667da792a1aadeec253
-SHA1: 4182327a10d8078f007b0d36a616452268034031
-MD5sum: 14d7478f7a3ed01351a3535d8446fa12
+Size: 11716
+SHA256: eb20a3a6a8861aeafe815bcb1deea6545c9d00b01a403980526664042e4e1b8b
+SHA1: ce5604511c11e345cbeca403fffce0be073baa15
+MD5sum: 418d0b6c59661d30f578cd087d9b27f3
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -738,10 +738,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 11508
-SHA256: b541a745bd98f6ad126319e591afe6346cc1395ea7ba0f61190577a7bf403717
-SHA1: 773eb7d69d9a8c28674ddc37d8e1e8543953bf1a
-MD5sum: 18c5b880dde19c18bb5f98f8815d3d80
+Size: 11552
+SHA256: ac40c0c3e5ebc95ebbf5a5005dd2ccdcaa02166ff5736a107af45092cdf0740b
+SHA1: 3ee56142ece548db0d1cbe6aa2cc54623bc0ae01
+MD5sum: bfa12832f818d49cf208b0ec92ce3b60
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
