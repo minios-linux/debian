@@ -661,16 +661,16 @@ Package: minios-configurator
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 74
+Installed-Size: 73
 Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 4.0), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 12500
-SHA256: d858fcefb85cf7b20ab08886e7a0a7478839cf8a8dc92de40d08eff53409f4a4
-SHA1: 3e5d024c5eca10c2baba049267f65da370c2922f
-MD5sum: 5471ab3b580a8a5d1f69b2354639d4cc
+Size: 12384
+SHA256: d632b46b3fabdb5007c2a030cf8d164583e03539ab3f3b9574ad4106ce63aa32
+SHA1: b31c0f21570c9010f9a6ea2394daf65c40222b30
+MD5sum: 6d6425fe11f33e54a82fdf810fd90c48
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -679,17 +679,17 @@ Package: minios-installer
 Version: 1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 67
+Installed-Size: 79
 Depends: bash (>= 4.4), util-linux (>= 2.31), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
 Suggests: yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 12396
-SHA256: 6d4a55bd737777886c640e7e2ba52aa4179f8abcf3e93ae37b18c9bd7d084ea3
-SHA1: 9b614e3296f95559206c872cd0980654f69ca059
-MD5sum: 8aa6f65761ccba61920872eef17835e2
+Size: 14076
+SHA256: 2f95f0ea4ef60e47efe386d3f0a70144f9378a661e38f3cc6d0bac9842218b90
+SHA1: e475d24fab41dcfe6a38ad83461cf854d639f5e5
+MD5sum: 7259778d42079c4a88d981399c9e8ff9
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
