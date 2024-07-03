@@ -713,16 +713,16 @@ Package: minios-configurator
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 71
+Installed-Size: 73
 Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 4.0), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 11732
-SHA256: b148bacb5110d834f1b8fa0be65fc4e4d95456aca83536a3d9281bd296f7682f
-SHA1: 959b9830393eb25986d07c9f7be4f1a83d25b98e
-MD5sum: 3d51f6e75b0ed498eeaf4150f7f5252a
+Size: 12376
+SHA256: c37b37532bddba0bf322dc154f128496b1a7280a399b9b1c8b7432b28b0a2e26
+SHA1: 10353cb544c4c8857ba39afdae58b131b1d1b914
+MD5sum: f702caf8b38b974708a719988e3ab2af
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -738,10 +738,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 11552
-SHA256: ac40c0c3e5ebc95ebbf5a5005dd2ccdcaa02166ff5736a107af45092cdf0740b
-SHA1: 3ee56142ece548db0d1cbe6aa2cc54623bc0ae01
-MD5sum: bfa12832f818d49cf208b0ec92ce3b60
+Size: 11424
+SHA256: e7a43eb0ec266fa919244f06f39ec186d32ec93d91ea6e56889e0cf34e7ac32a
+SHA1: 83adf5e82d140b273c3de688f2b71ac64ce5abd6
+MD5sum: 3b0023083d2fa5407cd3420c5d3de851
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
