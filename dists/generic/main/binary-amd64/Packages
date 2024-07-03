@@ -82,7 +82,7 @@ Source: elementary-xfce-minios
 Version: 0.19-1+mos+1
 Architecture: all
 Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 14437
+Installed-Size: 14511
 Conflicts: elementary-xfce-icon-theme
 Breaks: elementary-xfce-icon-theme
 Replaces: elementary-xfce-icon-theme
@@ -91,10 +91,10 @@ Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
 Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.19-1+mos+1_all.deb
-Size: 6561412
-SHA256: 711dafdb7ecfac39a03e51f8d439eed7ea929303a2ab7411ef494f0f44755b10
-SHA1: 77dac4348233b5651237ed6e1754b72322a89e8e
-MD5sum: e43ef0f59eb6391f6e8838d17c7e99e6
+Size: 6588680
+SHA256: b071a09208bc93df04bcbdaf612a18bd4f77cdfc38e2675eb80d1f125cc183c3
+SHA1: ec56d784d47427668f68bfefeb387d91238281e7
+MD5sum: 15a15973f033a1e5478e2fc828735e43
 Description: elementary icon theme modified for Xfce
  elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
  desktops.
