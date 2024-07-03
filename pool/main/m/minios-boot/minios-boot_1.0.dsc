@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), pandoc
 Package-List:
  minios-boot deb utils optional arch=all
 Checksums-Sha1:
- 09dc37e80807e2b0d646c6e5137b6f3c603f9814 11244 minios-boot_1.0.tar.xz
+ 9fd612dc1e262e1ea1776b6a605eabd963509cf0 11244 minios-boot_1.0.tar.xz
 Checksums-Sha256:
- 55970e4b2d7ade846d3f96c6f9911ef32cfa29c899243e310c394da11342b2de 11244 minios-boot_1.0.tar.xz
+ 3c805037949cbafd945ca1961aae5ead4750c9e424b7b6fb910eaba7987430f3 11244 minios-boot_1.0.tar.xz
 Files:
- 9321b3c6c6792386ee3b91a2716cdebe 11244 minios-boot_1.0.tar.xz
+ e95e687a057f95245a5d021438524845 11244 minios-boot_1.0.tar.xz
