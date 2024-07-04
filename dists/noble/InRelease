@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: noble
-Date: Thu, 04 Jul 2024 00:05:36 UTC
+Date: Thu, 04 Jul 2024 11:38:57 UTC
 Architectures: amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -86,15 +86,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaF51EACgkQ7CDxjGi2
-L2yGSgwAte36NlMlj9Sls7ogKHFto5hR8SQO8TrU3/V+1zzHlCYfxG6b2Y/ZK/8X
-upmogrp+fVX88Jwu7s03dp3cmhdHUaF1GGGYccU6vN0Wwje1QaCZTBskKgEIFptT
-jbtQXgdX5f+r3VngMtn5fRTqatQfDbkrahUv5wYbcpowYZthBf5goL8qC47zgP0r
-o7KB6zToLZ8baxz3wk9XxzQup7QqWB1nkFdXzu9InxZl7femXWv8b6gbv7qplx8k
-LaLm6W1w33MDvMoDqajUdv/MkL4jkUApWc2lOhJitzvVgvri5M1BMaH1lbup7kfq
-BkoJL2j5z4QQ1Pj6gd0UDPqW3963aLz7tuMTVyPczmB4NeJxaGooXudaLeITvfE3
-hwP06a5j/+fT3vbpRf2UEkYYZYuMofCumQ4otuDjGnzymYGyYbnWK6V6dfUbhMis
-BIlewMM6rquuIKu1meuac1bWioRL8DRFLOQH18w2OyzDu/t5tW6h3/9ES/6x5fsb
-CRyQhirV
-=r9ND
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaGidEACgkQ7CDxjGi2
+L2x7pAv9E4Mn2rT75rkzMn5SSutUqlZtEZbBxIdYzFnLF3Mx+lh2BJ6KKW/l0BUU
+bD0hf1Qo/78Z/4iK5EDciuQTpEU8n7zwjin3X7fje6BUU9bAfvDFr1St+tokk7Dz
+LDAgeSbD7eMPRfIqg3/rj9y98wLJvPtG9G9zaGv1lr0d32em6pzOx9wxncWLV4sn
+nObmtRoJdCC/xkxLzHxJPvu8tJ5VCq04w/cpUi7Id0X+lFyhdrIC8ohL1DuMYFcu
+k24t7x6B9CqyGWyIrrzmSgZNk5R9RD6y71Kod3Iff/CIJ/+6N2ZkyHqtKnIKkJGz
+s8+vIArdeDhgJSlhU6qq9DxrFCLjAxk6cc1mMPsGLNnZD2lh9JdH591vZA9PEzha
+8hI6KHPacmlLpci/r7KX2RHRAGnoMaXecBZzoUX9md3pZKevjsKSAwTjb2q8NyYB
+XD2ztHobARAUN20kdQWIXpyLnuxSqwHlHewa26lgG++khM84/Px98rvuymWnGPwb
+5BJAHaGX
+=dcaj
 -----END PGP SIGNATURE-----

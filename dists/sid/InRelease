@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: sid
-Date: Thu, 04 Jul 2024 00:05:35 UTC
+Date: Thu, 04 Jul 2024 11:38:56 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaF51AACgkQ7CDxjGi2
-L2yz5Av+JasmIi7e0GoHm8+Ci+p2YujMR7ljOi3daeXPB9f9B/JJBQlq32nHEcoJ
-nDR7Y28GxPi7jHtKVohr9IB7aOrdhEXR5/3kJrs+g0oxTmXzxOXMxN43kWUkP+az
-vE555Vuxz62DeEF+NJzXOHf9UWbfslREVxUEN68mTFjnfh5J7tAs/KAHFch6tR0L
-OeUYLMBveT4Z7LLtVtSnbBXKNpw8qzvvP3CHU63sN7HuouSr4TR9I+ylU4Nqrg3X
-LiRm8jzH+59m7lL2v2UFll8AYJQTwco4J+opksSSdQfigZ9fiBjqiGlmFcNZZ6UE
-RpmetH7ZJnStDGWc83WniqQaEI47Lcxle51XjqWinJmCPx361KOziUKFJqLWlh0m
-aZBYfJgmomqnfESPAZ8zt2IS8wOEHFFkOo7QcFmCUl6ethFIuLeAgMhBa+LiwkV0
-WPavWvi/gCWBCHSte/L3k1PLglTpR++7aaXfOdEZbwrt++wYkpHRyrKuIAXXNxrt
-iFj6gMCg
-=MTzj
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaGidAACgkQ7CDxjGi2
+L2zEXwv/STjdCElIi1P6SutCKaVFy9YpckyHYsWpLQT2kdU6wc/5yMiSXz94rEpl
+SyM9tRHnu+4WRcPgp10N3W4dSod72C39WrIBk2M1yulgBm8LbDqnfWB/nQhOfvoS
+wJuvl1Qa0cUz/7qAE6weo1dNb5ygXd1S845UIQunwF96x5bzZISLMjkoHGi7RVD1
+SHH1YvTFjQ37rHTy6FcMF5sOjUrrm+Ce+9gGev9100uAyy3Zw6wqirRPGkJJoKLf
+XhjbnvuBH+rcNDNcX0dYo6n/I4whExKZ2ierR90XHKv3EsO6S6kHgn3IJB0GCQdC
+pjb8DHCjbtVpzQTGfZuUEp6GI+TnrX8YNqSs4F+pHwJKMYoudlxeo0WQ3gWBbVat
+ldxJTOFWZhh9+jLegL3GpqJZPPkXIU+qpZZ+nzE9cSgOWCb+DhQEIVbPKlTqWMaf
+DIkMDj4NviabE2MTUI7BLEvgi7CIBgnXLOtU3ThSWhIpGaALlgklZvueFIqrMitC
+Svej5HPt
+=eiLC
 -----END PGP SIGNATURE-----
