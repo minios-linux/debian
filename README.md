@@ -1,5 +1,5 @@
 # MiniOS APT Repository
-!MiniOS
+[![MiniOS](images/minios.png)](https://minios.dev)
 
 ## Installation
 For the bookworm, sid, jammy, noble versions, execute the following commands:
@@ -14,3 +14,4 @@ distro=$(lsb_release -cs)
 # Add the source depending on the distribution
 echo "deb https://minios.dev/debian $distro main contrib non-free" | sudo tee /etc/apt/sources.list.d/minios-linux.list
 echo "deb https://minios.dev/debian generic main contrib non-free" | sudo tee -a /etc/apt/sources.list.d/minios-linux.list
+```
