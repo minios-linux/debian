@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: sid
-Date: Sat, 06 Jul 2024 00:48:57 UTC
+Date: Sat, 06 Jul 2024 11:54:25 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaIlHkACgkQ7CDxjGi2
-L2xY4gv/YAwQWy7RwP3rY0vKSFvWulm+OpN979mpZyjzn6cez0/FKkD2Uir+Hphv
-pjT6Kpf3zA8lK4F1CKqZHF3VDSiBY+Tsq7AceNQ8JfK744iUu7JMtx9aaPF0P5Wb
-Ww4UTyiG0X+YB+4wuPI2epullHhhdaKwegu63BPn1ioZmlfjA7DBdpxwKHD6SeC5
-R9f7LRXbmfR6qle3ioqeR6hFbxGT03C2A/9oQG6CK8PJ5pQWygqqi7DjAPuwChMh
-nja8+FUCgEWrcG5+eF/Ppqe+MrxDwGzGZ3Z5Wh3H4WnDkhOjyvhYWc/EPvKIY7yk
-qjkl/t+KycFAiuF3XfMfz8yhcqPFpvk7cLaLudmOjdNWRqQNeZGopF7gzHapUICd
-+Ca0f40Bs1svdMAwNSUjR1l4lvFCSQpiXMKwPxHtb80GtArD4rLhHFudUp36LBK8
-vIJyT7LRR5/3bATHA4nt+EkDF0R4haoEchWm14YjFYwT0IkW4YgD0wThj+UqRpwi
-9hTOW4kh
-=H0h3
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaJMHEACgkQ7CDxjGi2
+L2y7OgwAgy3xfwuQmwM06hpTnQlFCEvkCOs4CiVQa7nBYZ2JjwJBPLdeDcdsn1z/
+lNvQKCIWNMlnzTAtZ35Z3KbD1o07BMUNbS+pYbFgswTg/YoH6v8yurSMwBxKUrIK
+si2bjmLuw8sOJ6X5ilLEU0kh0+usQf/oJYHXr2r9hmiFS6aj6sXrLTDih8gCs3IS
+6aQOwaMo9rYUMHFrQqDgzI+Vbk+IN5odNNH6L0qASut7RcKp+5ao3HsxJvWAuz2r
+zSPzVb+1EE+yMn+MVmGuAo6+GSfvz2KOnNCeEIQkz+pWWHffm7RQVa0MGvrtqoKS
+kX4QTYXTD5iEdN8Bxop34dkEfw5jwU28I09x+waoevZL5hc3lgndtRvEpk2+Hjm/
+FITTb7E7YOm+DnT/CkncxEsNmzRgAFSWXbi4PuVtPWjPKBESI7SfBGUZlTISSUBC
+eUgnBqEnggSPO3wrKSqtJPC50uOd/psvarJc6MeeX34U4M00xtsfwepHv5Gj+RjI
+lWduZM2D
+=K8Rb
 -----END PGP SIGNATURE-----
