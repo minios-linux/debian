@@ -66,15 +66,15 @@ Source: elementary-minios
 Version: 0.19-1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 54563
+Installed-Size: 54564
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
 Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.19-1_all.deb
-Size: 3927516
-SHA256: d3383ca552e9804bf2cd7a286bf181ffaddf6554bc3934677d4cf31d46862928
-SHA1: 2ce675aa3de89076c2275e26daeab88578b098f5
-MD5sum: 2320ab0aaab7eab75178bb61ef0955ff
+Size: 3927212
+SHA256: fb6c0369d78d8f887cea9d81a91c27e1d2eb31e88c819aee8bfdef7f7cca6519
+SHA1: cd4a534f304ea92f2c45f7072ec99dea8d9e2ad8
+MD5sum: f4ad12d408e585a50cbc2e7a14a53e25
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
