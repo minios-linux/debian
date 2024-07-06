@@ -743,9 +743,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
 Size: 14720
-SHA256: 9c7bdbfea4ca0727e7ffd3a78ba15ad4593394b3cf720620e7b6a63aa17e33a7
-SHA1: 79d2f35466fe655a547d95681c2047445395af41
-MD5sum: 6968f6e9419a319c34c5714afa91b9b1
+SHA256: f5893ce78ffed7dd7c1c394d2dcac2203d6b5eb24311107d6cc9b5cb389fb14a
+SHA1: 76784433f786d32cf450047870f35175498920f9
+MD5sum: 9ea5219fc8ec1d7eed5d791d8d4ccbac
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
