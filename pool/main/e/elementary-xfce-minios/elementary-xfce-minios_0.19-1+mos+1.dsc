@@ -13,11 +13,11 @@ Build-Depends: debhelper-compat (= 13), libgtk-3-dev, librsvg2-dev, optipng
 Package-List:
  elementary-xfce-minios-icon-theme deb x11 optional arch=all
 Checksums-Sha1:
- 65e1b8b77756c65fdb34d77d9fba364a88f37c61 8429279 elementary-xfce-minios_0.19.orig.tar.gz
+ 00bdf034f8c252de8f3b0457bdd1591b748362ca 8436724 elementary-xfce-minios_0.19.orig.tar.gz
  d59dd3c98d730bf710c5311e0e483c35d63a1458 7396 elementary-xfce-minios_0.19-1+mos+1.debian.tar.xz
 Checksums-Sha256:
- f3f4e17f2036f262d9b768e7879b5a473ef966fb355ebe84de56bf18c00008fb 8429279 elementary-xfce-minios_0.19.orig.tar.gz
+ 5554ff7c72349f21f4be371ad141125c4a57c2811186b0429ffcc128b7cd25d8 8436724 elementary-xfce-minios_0.19.orig.tar.gz
  5309e83e5466e4459b98bb3bed58351f810108628a4530bf536b2f97e8a4aa7c 7396 elementary-xfce-minios_0.19-1+mos+1.debian.tar.xz
 Files:
- 70a9a65b40c86f12a5d261797c8fc269 8429279 elementary-xfce-minios_0.19.orig.tar.gz
+ 4686b94d89a209ef7fb687c0ec1d3a7d 8436724 elementary-xfce-minios_0.19.orig.tar.gz
  ced2baf9281943ace07e2e8ee5df27fa 7396 elementary-xfce-minios_0.19-1+mos+1.debian.tar.xz
