@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: jammy
-Date: Sat, 06 Jul 2024 20:11:40 UTC
+Date: Sat, 06 Jul 2024 22:06:24 UTC
 Architectures: amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -86,15 +86,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaJpP0ACgkQ7CDxjGi2
-L2y4fwv/X/T8Dco4e0K068CL8v0JcYA76W53qIeiq+M3etukcEmoPQeNiQ31wDpW
-ixmE/Y2eSLuV8hPZo5NvOEgA+Ofnus2Lp3r5XJK4oHb2p9Z/xvrRX4mnbu1z2WBb
-QESYcbn8bwor9YoxkKVR/G2khLhboPsoxpADirpsWexbtw4swFdAsvzaVGmJjoxU
-4tpCgPhlGRG1cvq9eu9GfjiS12savd+1uZXahZWUfz1j6OrM94fX3DVJm4l1aIiM
-nI7cXSEkfYiii2SMt4jXTPkRuIUGfrf4ZsT+KNqzDhWwEXu9OGksuQVrU306bLAH
-/zNjxb5vlum08Bq+6eMCem6S5AwpoQolz1Gbta61BxYCMIvuTSOYNG3jpLG+y6aW
-4QDdS3ONJmqypjxao8t6WEQHJLE1N6xCilsaLOMCnriszNy8KHxKr5Uo6PzYiWpA
-OpdW+hCeappCwAOist7kv8TBnFIcQXFtHPY2fK7txW7EWkOyAgY4iAx/7j4UfwRv
-arPjL8gq
-=/OaS
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaJv+AACgkQ7CDxjGi2
+L2wv0QwAgmS1cB5ZHSTpSSoiQht1SdrKF9qpz4JdiWa9uRqztq91VnMOAPrczn0/
+98c713sYykKgkFc5GMN19v4PXljQpu4RosFBb+K1gCig/v562t73uCmFp8WXTUJV
+XQ+qwyAxuE6Uu/icJB+sImCBdH0uwGYvWeWHKEliZ7x9v0wV5Pr1WOOnu7VnXQwy
+dDCThZnWPEAkdtzz/ur/MeOijlSB08/ASOOVYkGGcBPpTCf65F3N0N2oVWkiDVwA
+yG5VmoUAz5GNbTW785pDMO1h32GR/1jYSa2OtAtLK4YOQbulCytI0A1mSbzl9Oam
+cPCcVgO1mF1oed89bk1mzRMRcmL4qMlqzcc0uMROw0+Z5a1TDSCHfYgZ5PrTJNca
+jwzzksXpr9MtD6i+EXRXvgfQg65N3hpYqvw1D96lrNsxh2vHPlZZEq6I0VUkuPVS
+2s6q2Q2Zh5SHEO118np9V/XN/sT9pgKC9RxaeZVxSADsUMZOlL4s2SbqFlJ1CL6m
+PG/6WsR/
+=1vAd
 -----END PGP SIGNATURE-----
