@@ -80,7 +80,7 @@ Description: lightweight and fast battery icon status and more
 Package: com.github.donadigo.eddy
 Version: 1.3.2-1
 Architecture: amd64
-Maintainer: Your Name <your.email@example.com>
+Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 1171
 Depends: packagekit, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.4), libpackagekit-glib2-18 (>= 1.1.0), libzeitgeist-2.0-0 (>= 0.9.9), dconf-gsettings-backend | gsettings-backend
 Homepage: https://github.com/donadigo/eddy
@@ -88,9 +88,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/c/com.github.donadigo.eddy/com.github.donadigo.eddy_1.3.2-1_amd64.deb
 Size: 79396
-SHA256: e61699830eebe1fcba28fa0115f18f4efa74fbc832d7c424c725de0f3793c6a6
-SHA1: be1acba89ce093ca04223f342f229af555d4e6cd
-MD5sum: 42c1c0a9274675d85dee3958ea7adc58
+SHA256: abc401d7cbf484ff6c0cf3d3b0a79cfe6818ed3f0ae59b685bac15d0739e8ada
+SHA1: 193fed784dad9265a0d14190b43413ca88a3b2a6
+MD5sum: d2539f0293caeb491aa28d7cfe180dd6
 Description: Eddy - Debian package management tool for elementary OS
  Eddy is a simple and user-friendly Debian package management tool.
  It is designed specifically for elementary OS. It allows users to
@@ -104,16 +104,16 @@ Source: com.github.donadigo.eddy
 Version: 1.3.2-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Your Name <your.email@example.com>
+Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 331
 Depends: com.github.donadigo.eddy (= 1.3.2-1)
 Priority: optional
 Section: debug
 Filename: pool/main/c/com.github.donadigo.eddy/com.github.donadigo.eddy-dbgsym_1.3.2-1_amd64.deb
-Size: 289992
-SHA256: 4f2a048839355b26c855e84ebb86ba1bfb5853ee5ca9a27f78cd0dd6183989ca
-SHA1: f96e9ccf47dc34e188e57b8f3656241eeff5f383
-MD5sum: 53bc78795f8f80d2428ebe26b5990e63
+Size: 289980
+SHA256: 0d517a324be628caba6539a4e331f49b128d1f905143cbf5010cebffdf46be3d
+SHA1: 8d412f811007d1795349da084dfe5c89f2adcd23
+MD5sum: 757c131519ae63db69c853fe10c1d6fc
 Description: debug symbols for com.github.donadigo.eddy
 Build-Ids: 9806b041dff9e27fc66edc5aca2b17dc73a83a3e
 
@@ -750,9 +750,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
 Size: 12384
-SHA256: d632b46b3fabdb5007c2a030cf8d164583e03539ab3f3b9574ad4106ce63aa32
-SHA1: b31c0f21570c9010f9a6ea2394daf65c40222b30
-MD5sum: 6d6425fe11f33e54a82fdf810fd90c48
+SHA256: 5e6b575117bb0401fa451fb5b0d6f65086ffab230505eebdfb0ab0687cb1890d
+SHA1: 02d52fda589cbd21f0f1cc5e3b1ebff0ac45377e
+MD5sum: 378cd464e835f3e9d2770e0c52db3271
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.

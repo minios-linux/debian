@@ -762,9 +762,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
 Size: 12384
-SHA256: d632b46b3fabdb5007c2a030cf8d164583e03539ab3f3b9574ad4106ce63aa32
-SHA1: b31c0f21570c9010f9a6ea2394daf65c40222b30
-MD5sum: 6d6425fe11f33e54a82fdf810fd90c48
+SHA256: 5e6b575117bb0401fa451fb5b0d6f65086ffab230505eebdfb0ab0687cb1890d
+SHA1: 02d52fda589cbd21f0f1cc5e3b1ebff0ac45377e
+MD5sum: 378cd464e835f3e9d2770e0c52db3271
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
