@@ -61,6 +61,23 @@ Description: lightweight and fast battery icon status and more
  graceful shutdown on critical status, by user-defined thresholds and commands
  on low power/critical.
 
+Package: elementary-minios-icon-theme
+Source: elementary-minios
+Version: 0.19-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 54563
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.19-1_all.deb
+Size: 3927516
+SHA256: d3383ca552e9804bf2cd7a286bf181ffaddf6554bc3934677d4cf31d46862928
+SHA1: 2ce675aa3de89076c2275e26daeab88578b098f5
+MD5sum: 2320ab0aaab7eab75178bb61ef0955ff
+Description: elementary icon theme modified for MiniOS
+ elementary-minios is a fork of the elementary-xfce.
+
 Package: elementary-xfce-minios-icon-theme
 Source: elementary-xfce-minios
 Version: 0.19-1+mos+1
