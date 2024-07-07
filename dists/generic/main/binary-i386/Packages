@@ -61,6 +61,46 @@ Description: lightweight and fast battery icon status and more
  graceful shutdown on critical status, by user-defined thresholds and commands
  on low power/critical.
 
+Package: eddy
+Version: 1.3.2-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1197
+Depends: packagekit, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.4), libpackagekit-glib2-18 (>= 1.1.0), libzeitgeist-2.0-0 (>= 0.9.9), dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/donadigo/eddy
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy/eddy_1.3.2-1_i386.deb
+Size: 85228
+SHA256: 82782842193d039fac9cb24d610db436127659a6bcfa998813290242a518bc93
+SHA1: fc5ab96de6fad2d1d2a49e519b6b48b32630dc9b
+MD5sum: d1b574b24beb8b736b4e4cb3786153f2
+Description: Eddy - Debian package management tool for elementary OS
+ Eddy is a simple and user-friendly Debian package management tool.
+ It is designed specifically for elementary OS. It allows users to
+ install, update, and uninstall Debian packages with ease. In addition
+ to managing Debian packages, Eddy also supports other packaging
+ formats such as .rpm, thanks to its PackageKit backend. This makes
+ Eddy a versatile tool for managing packages on any Debian-based system.
+
+Package: eddy-dbgsym
+Source: eddy
+Version: 1.3.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 295
+Depends: eddy (= 1.3.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/e/eddy/eddy-dbgsym_1.3.2-1_i386.deb
+Size: 260840
+SHA256: 599174dab45f1ee8bfc5f463cc4043108a80e3615ec734401474484b41e567a8
+SHA1: d520848a50d93f1d926ef6b50a2d3e7328323359
+MD5sum: e954f73b4a90f0b664563f09122753be
+Description: debug symbols for eddy
+Build-Ids: d317cae3f07152a16d798e9078898840d27c7146
+
 Package: elementary-minios-icon-theme
 Source: elementary-minios
 Version: 0.19-1
@@ -384,10 +424,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6504
-SHA256: eb37ace36ba20f6747d42a5964d244ef1df4f0716dbfcc04916c7f1897967aab
-SHA1: d90601fbfe3889f2aeddcc3ff8563a0566414230
-MD5sum: b601f29daf7a8d46148f347fd603f0e3
+Size: 6544
+SHA256: 77e77582bbd6a3b345b0587879e4e0ae158bd1810c3ff0e755583ca7229f2777
+SHA1: da1a16ade5e5b6c7ea37130dc1cf12e2302f6fd2
+MD5sum: d0d4424ffc9d90cd03f149aba3af9cb4
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -759,10 +799,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14720
-SHA256: f5893ce78ffed7dd7c1c394d2dcac2203d6b5eb24311107d6cc9b5cb389fb14a
-SHA1: 76784433f786d32cf450047870f35175498920f9
-MD5sum: 9ea5219fc8ec1d7eed5d791d8d4ccbac
+Size: 14752
+SHA256: 6f7eee5720ebdb09535f6825077eef816313dbfd9c1c5d330f33a94edac70b28
+SHA1: 915bc728ea18aacc1908aad6866c164a12cd8501
+MD5sum: 5c783ce7bd2fa872bcbfd6e16552b449
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the

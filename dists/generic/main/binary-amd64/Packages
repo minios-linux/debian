@@ -494,10 +494,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6504
-SHA256: eb37ace36ba20f6747d42a5964d244ef1df4f0716dbfcc04916c7f1897967aab
-SHA1: d90601fbfe3889f2aeddcc3ff8563a0566414230
-MD5sum: b601f29daf7a8d46148f347fd603f0e3
+Size: 6544
+SHA256: 77e77582bbd6a3b345b0587879e4e0ae158bd1810c3ff0e755583ca7229f2777
+SHA1: da1a16ade5e5b6c7ea37130dc1cf12e2302f6fd2
+MD5sum: d0d4424ffc9d90cd03f149aba3af9cb4
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -765,10 +765,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14720
-SHA256: f5893ce78ffed7dd7c1c394d2dcac2203d6b5eb24311107d6cc9b5cb389fb14a
-SHA1: 76784433f786d32cf450047870f35175498920f9
-MD5sum: 9ea5219fc8ec1d7eed5d791d8d4ccbac
+Size: 14752
+SHA256: 6f7eee5720ebdb09535f6825077eef816313dbfd9c1c5d330f33a94edac70b28
+SHA1: 915bc728ea18aacc1908aad6866c164a12cd8501
+MD5sum: 5c783ce7bd2fa872bcbfd6e16552b449
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
