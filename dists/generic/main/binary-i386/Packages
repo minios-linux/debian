@@ -101,6 +101,27 @@ MD5sum: e954f73b4a90f0b664563f09122753be
 Description: debug symbols for eddy
 Build-Ids: d317cae3f07152a16d798e9078898840d27c7146
 
+Package: eddy-handler
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 35
+Depends: yad, apt, eddy
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
+Size: 4104
+SHA256: b4af73c215514997d651159c06d46a5b8df3675d26e04bc5807c7d7ac8b8b861
+SHA1: 9daf71393c4131fbe50d746a0d30f4b5baca41e9
+MD5sum: 67e40e0415f2e3b3bc975041e1e1766c
+Description: Eddy Handler for package updates.
+ Eddy Handler is a utility designed to update the package database
+ before installing packages with Eddy. It checks if the package cache
+ is older than a day or does not exist, and if so, it updates the
+ package database. After the update, Eddy is launched for package
+ installation.
+
 Package: elementary-minios-icon-theme
 Source: elementary-minios
 Version: 0.19-1
@@ -717,10 +738,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 12384
-SHA256: 5e6b575117bb0401fa451fb5b0d6f65086ffab230505eebdfb0ab0687cb1890d
-SHA1: 02d52fda589cbd21f0f1cc5e3b1ebff0ac45377e
-MD5sum: 378cd464e835f3e9d2770e0c52db3271
+Size: 12392
+SHA256: 7639141de4c8005f9e561f9946391a6419e35593b9f46344f18d5b9e03fcc4c2
+SHA1: 4e38c72bfceec1f1f87ad878ea3d24cbc584226c
+MD5sum: 7a4e81f185f743637998dc5fc3da47e4
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -736,10 +757,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 14028
-SHA256: f1e53444ead47e40c1ee83b1b62c74e930fa555d9835df57a4913ff06cf758b9
-SHA1: b192e7b35cf16a7e55bd000077575b86327b2127
-MD5sum: 6759f8b3701b05036ceb33073529436d
+Size: 14032
+SHA256: 945caeb1119c006c4ba463904950085bb2fb26747c9517b1fa4d85e1510526d5
+SHA1: aef193c4a67ece4a8345ac28d71725a5bb633b8b
+MD5sum: c5a49aa086c9121364f21f08ce471a5a
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
