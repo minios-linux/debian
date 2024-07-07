@@ -105,16 +105,16 @@ Package: eddy-handler
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 35
+Installed-Size: 42
 Depends: yad, apt, eddy
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
-Size: 4104
-SHA256: b4af73c215514997d651159c06d46a5b8df3675d26e04bc5807c7d7ac8b8b861
-SHA1: 9daf71393c4131fbe50d746a0d30f4b5baca41e9
-MD5sum: 67e40e0415f2e3b3bc975041e1e1766c
+Size: 5004
+SHA256: 89d356d1c9b48ddd398320022ecb8c647fc161e8e0a9af3a5d125f35cbf102c4
+SHA1: 23fffd9901f3295894001b1a574077c8f6d6a36c
+MD5sum: be2c7ec89a235e0c0632e15b2054f4d6
 Description: Eddy Handler for package updates.
  Eddy Handler is a utility designed to update the package database
  before installing packages with Eddy. It checks if the package cache
