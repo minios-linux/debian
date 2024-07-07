@@ -118,33 +118,6 @@ MD5sum: f4ad12d408e585a50cbc2e7a14a53e25
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
-Package: elementary-xfce-minios-icon-theme
-Source: elementary-xfce-minios
-Version: 0.19-1+mos+1
-Architecture: all
-Maintainer: Unit 193 <unit193@debian.org>
-Installed-Size: 54563
-Conflicts: elementary-xfce-icon-theme
-Breaks: elementary-xfce-icon-theme
-Replaces: elementary-xfce-icon-theme
-Provides: elementary-xfce-icon-theme
-Homepage: https://github.com/shimmerproject/elementary-xfce
-Priority: optional
-Section: x11
-Filename: pool/main/e/elementary-xfce-minios/elementary-xfce-minios-icon-theme_0.19-1+mos+1_all.deb
-Size: 3927204
-SHA256: fe3af0bfd390bec08d014aeefff0c7d7394239b46440593a673702fbbfa3f088
-SHA1: 2ee55e3320466c43118f8e42b422497dd029406e
-MD5sum: 5f7278d210be1f40a02b64044f7b3660
-Description: elementary icon theme modified for Xfce
- elementary-xfce is a fork of the elementary OS icon theme for Xfce and other
- desktops.
- .
- This fork took place because the elementary OS maintainers wanted to focus
- exclusively on their desktop environment and thus dropped a lot of icon
- symlinks used by other desktops. elementary-xfce intends to keep these as-is,
- while still pulling in new icons and integrating them occasionally.
-
 Package: fbxkb
 Version: 0.6-3.mos+1
 Architecture: i386
@@ -465,44 +438,6 @@ SHA1: 79e5401c1e1dba371da61ded3fd8f4735218bd48
 MD5sum: 47d022b08dee1d8889f41207a1900460
 Description: Header files for Linux 686-pae configuration (meta-package)
 
-Package: linux-headers-6.1.67-mos-686
-Source: linux-upstream
-Version: 6.1.67-mos-686-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 51496
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-686_6.1.67-mos-686-1_i386.deb
-Size: 8583676
-SHA256: e741dc722f041b90d743f4ef44c1745e34d9ff41b92baebaddf9239121630274
-SHA1: 38cb5b842fe950acb8958893fbcdf85e5425ed4b
-MD5sum: 8a5960041d4c1a56bf2758b549908c62
-Description: Linux kernel headers for 6.1.67-mos-686 on i386
- This package provides kernel header files for 6.1.67-mos-686 on i386
- .
- This is useful for people who need to build external modules
-
-Package: linux-headers-6.1.67-mos-686-pae
-Source: linux-upstream
-Version: 6.1.67-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 51547
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-686-pae_6.1.67-mos-686-pae-1_i386.deb
-Size: 8586004
-SHA256: d823fe6a39307922aad5bb1f1fd090e40f3d34514dd4cc87af567acf01c6501e
-SHA1: 0673eb04a1b7fb2e185dc9fd2ed65493564438a4
-MD5sum: 402c7a9f79d97a87e477b972f04ba8d2
-Description: Linux kernel headers for 6.1.67-mos-686-pae on i386
- This package provides kernel header files for 6.1.67-mos-686-pae on i386
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-6.1.90-mos-686
 Source: linux-upstream
 Version: 6.1.90-mos-686-1
@@ -646,42 +581,6 @@ SHA256: 12d12719314be1faf825b8af124a5f9e4cd53095531c414f81c45b4265e0149f
 SHA1: 3ca3245f48e0bdc88f294db405cc88c77fd58988
 MD5sum: 4ceaa5ea39a5ca1f09e4599a5f624deb
 Description: Linux for 686-pae PCs (meta-package)
-
-Package: linux-image-6.1.67-mos-686
-Source: linux-upstream
-Version: 6.1.67-mos-686-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 191972
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-686_6.1.67-mos-686-1_i386.deb
-Size: 52074292
-SHA256: 0c2dc83eb9854bd17e8837d8f11a238ac5994e855526d05b29b3296fa5b75cd0
-SHA1: 32d15c77d9b0bf9215cf8156fee71e09a704b259
-MD5sum: d3ee009db65c3355b7b3e1f51e834e31
-Description: Linux kernel, version 6.1.67-mos-686
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.67-mos-686.
-
-Package: linux-image-6.1.67-mos-686-pae
-Source: linux-upstream
-Version: 6.1.67-mos-686-pae-1
-Architecture: i386
-Maintainer: root <root@bookworm>
-Installed-Size: 192462
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-686-pae_6.1.67-mos-686-pae-1_i386.deb
-Size: 52304264
-SHA256: 2d84f8a9246440fbfc438925140d426bbf7fcdc848a03c02b2a6b8b2007eb958
-SHA1: 6bdaf8d2c13422dd1151d8ac5060ec39df0c6287
-MD5sum: 1f4d046395668834f4da9b6fb91ddd69
-Description: Linux kernel, version 6.1.67-mos-686-pae
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.67-mos-686-pae.
 
 Package: linux-image-6.1.90-mos-686
 Source: linux-upstream
