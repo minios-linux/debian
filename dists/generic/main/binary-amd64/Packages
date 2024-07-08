@@ -127,10 +127,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
-Size: 5004
-SHA256: 89d356d1c9b48ddd398320022ecb8c647fc161e8e0a9af3a5d125f35cbf102c4
-SHA1: 23fffd9901f3295894001b1a574077c8f6d6a36c
-MD5sum: be2c7ec89a235e0c0632e15b2054f4d6
+Size: 4996
+SHA256: a28b7ac5baafbf79643441dd3558fc4cc9e706d6107174c8fcac1eb9e10f70d5
+SHA1: ffe850ea159a4388e2e11030156b9df9f8a9da4b
+MD5sum: 413c97362a74e270bc8ade8ebdc2b865
 Description: Eddy Handler for package updates.
  Eddy Handler is a utility designed to update the package database
  before installing packages with Eddy. It checks if the package cache
