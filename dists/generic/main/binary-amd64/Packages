@@ -144,14 +144,18 @@ Version: 0.19-1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 54564
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
 Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.19-1_all.deb
-Size: 3927212
-SHA256: fb6c0369d78d8f887cea9d81a91c27e1d2eb31e88c819aee8bfdef7f7cca6519
-SHA1: cd4a534f304ea92f2c45f7072ec99dea8d9e2ad8
-MD5sum: f4ad12d408e585a50cbc2e7a14a53e25
+Size: 3927176
+SHA256: 9bc6620ff494270ac447918cdbfc7125f24f9be00e082cbc2586c56b5e057137
+SHA1: 7316dba806816894a91f54881f16cf752fb62638
+MD5sum: 884c32229087e9163e44c8dd17212428
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 

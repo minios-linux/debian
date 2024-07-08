@@ -10,11 +10,11 @@ Build-Depends: debhelper-compat (= 13), libgtk-3-dev, librsvg2-dev, optipng
 Package-List:
  elementary-minios-icon-theme deb x11 optional arch=all
 Checksums-Sha1:
- f01722eb3d25da482be39dca4e38d61e9c520c91 8429491 elementary-minios_0.19.orig.tar.gz
- 1bd18931ad4f87dc7c5d30e5f50b67ee94c4a3ae 7236 elementary-minios_0.19-1.debian.tar.xz
+ 8f60cf13a8b8f1c146b0a492ea1dddfe168e899f 8428844 elementary-minios_0.19.orig.tar.gz
+ ce998e8ef566d61f7acdfa8aebaab1a9e1f9e846 7304 elementary-minios_0.19-1.debian.tar.xz
 Checksums-Sha256:
- cf15badc7e59e76e526914bb856e61d9ebc187e5b1bd1d10ba382a8c5861e3a4 8429491 elementary-minios_0.19.orig.tar.gz
- 8695103cf9e123ef5f6f548da04534e46701bbdce870fa78132708e7a9283d81 7236 elementary-minios_0.19-1.debian.tar.xz
+ 4f2c429a2c2955daeac9b187c52db27ea30f29f393af5667e54b1371f608b379 8428844 elementary-minios_0.19.orig.tar.gz
+ a1b2d00fdba3a6d3e5eabc8582ed492249611513b403e6886d921105c5bb77ea 7304 elementary-minios_0.19-1.debian.tar.xz
 Files:
- f5a25a1c1419c2e46ed3d7127fdd4683 8429491 elementary-minios_0.19.orig.tar.gz
- 158904561b4292db9366d01cee40c1fe 7236 elementary-minios_0.19-1.debian.tar.xz
+ 34def8787c63e7ae14c467dd171893cc 8428844 elementary-minios_0.19.orig.tar.gz
+ e5f346432fb1795a6683f7fd7bb47c4c 7304 elementary-minios_0.19-1.debian.tar.xz
