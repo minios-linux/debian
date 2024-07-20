@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: bionic
-Date: Mon, 08 Jul 2024 14:07:44 UTC
+Date: Sat, 20 Jul 2024 21:12:39 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmaL8rAACgkQ7CDxjGi2
-L2zGwwv/Un/CTtY6DpP00bKFrfYrwUKY/VY8j+Kh0afy9D6LGHf0ALX82PvQa0uA
-Gp1cWNOb90Q8Ny06mjudBIjBq0f1+JP2GxDTcfH0xSJK5DaJq8h9fVKflxdgkYVy
-dumV/Wyc4kRIqDHtNH5houtHHnyYIPROLIdC17BB2DQSLLcOdIB7lpn7PW1rhKRv
-LNc39BMWV9SKcCZPbQcq/bmoMrs93qOWn7NCQgBrJ457IdHfCAHvb3SgbtsMUA6a
-Kh73TqMjiotsKQ2BaDjKbpYZaNfQ6USrSBGxVq9GBp0u3b6le7s3obuw76qIfMIZ
-KYcCTXapxXX3P6ddU6MvJzzecbzfDsMyzsY84fQ3jELEt9AMaqQhrQ06aIzbNchw
-mlt3ITbkyPDY8vqjwMMTrgDhhj+ORWLisF1wzLXA+VqMz7WxcrNHZtqHNLJKYytj
-VZGCZ/r0SYTVFCEOhfFyotuGjEP1Hrf9+MF/OcoZoyugjYpl9uk28509vJDGcNwp
-8iY0ETjC
-=yfFl
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmacKEgACgkQ7CDxjGi2
+L2wxtwv+L3X+iFK8oTAaV8oOD0yYyeoyge3JOPVOgS7GQ13w6ixOelWvCIhWsPc+
+NDtX31ojEAA0dV3OD9d0UCNyKmIts1V1M+vRObZ6WLZWNEyh2EpPGaYvhrSNcJUO
+l/PnSKPN4fWQ49z5lnTlkqUfjuima6dIQ2tDk/F2dvJ6g2uIb+PoAq+lCKV2oxKx
+CgeYe87TuMPFdHrvp9ci7B6Q2ZB8uBZYLnub3iu1UkJDMeTNrOOiodyLcG1dIMiy
+ufXTcwaPrbbsCPdFyEtDDPYyQxl3ufJUzcjva/h0HLxpKOQRdDz3q/AiwqWW5ylK
+sn1AfWKmVdkKuu4pOVAvLV/hVKaPdErl45HhtYmd97t2Sgec5PApXor86gRyD7+l
+auXyU6fFGcKABGomJzl81SGz3jtTN61H2tok4d/6M1Cv/9JgIvMK5RueUcxyGRtB
+nHR4POeOcUsuccmm24BDptk1NYeaiNWktfN7KatDr8mvx87+8lqnxz6lX11apHs5
+RxwkAGWt
+=PXKS
 -----END PGP SIGNATURE-----
