@@ -237,15 +237,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 109
-Depends: bash (>= 5.0), coreutils (>= 8.30), gettext (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask, xlunch-slax
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext-base (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask, xlunch-slax
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
-Size: 26712
-SHA256: fe473b24126fc85cbac74fc7e79fab6dcc9e92b2b722fe08437e3c13d576e00c
-SHA1: 3bd5c0741b9afa7dd77f469a08e52c9cb5054b46
-MD5sum: e5ecdbb1150a26acdea76b8efe3fabad
+Size: 26716
+SHA256: 42660eeb9c26f6fa4e248fcb07eacb4a007f7fed826138b137d5a61bfb722fd4
+SHA1: c597b390eb436a901524c281a2c3caaad21f6251
+MD5sum: 903aefeed08756bbafe46af46023e807
 Description: Flux Tools for Fluxbox in MiniOS Linux.
  Flux Tools is a set of utilities designed to be used
  with Fluxbox for ease of use.
@@ -791,16 +791,16 @@ Package: minios-boot
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 85
-Depends: bash (>= 4.4), coreutils (>= 8.28), gettext (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237), libminioslive (>= 4.0)
+Installed-Size: 81
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237), libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14924
-SHA256: 58cc50b15f5617a61ad48fb1753247fd18cb6babe9756c660f7cd3a70fda4bf8
-SHA1: 4703145860d861283378878ec59b4238f66a94b7
-MD5sum: b5af6b8161c1663d50fd086a2471a496
+Size: 14352
+SHA256: 87d88736b3e56faea7b2032685b0e02dbccd1942f2cb3f3a258cc2f215709672
+SHA1: 7e9505fc92bd07f9b1e4ac76f8838deeb75dcdaa
+MD5sum: b0a0a1a6842b12d564279147634f0a26
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -811,15 +811,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 73
-Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 4.0), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
+Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 4.0), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 12392
-SHA256: 7639141de4c8005f9e561f9946391a6419e35593b9f46344f18d5b9e03fcc4c2
-SHA1: 4e38c72bfceec1f1f87ad878ea3d24cbc584226c
-MD5sum: 7a4e81f185f743637998dc5fc3da47e4
+Size: 12444
+SHA256: 99ddd6e75558317d301f3bb5b1f222ba8cac77185fe073fda643b9de3e167b03
+SHA1: ac73ae0c1442df0656bce7d8696842ac42d5b01e
+MD5sum: d718b006fc75b80e70120f1414bd4926
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -828,17 +828,17 @@ Package: minios-installer
 Version: 1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 79
-Depends: bash (>= 4.4), util-linux (>= 2.31), gettext, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
+Installed-Size: 80
+Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
 Suggests: yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 14032
-SHA256: 945caeb1119c006c4ba463904950085bb2fb26747c9517b1fa4d85e1510526d5
-SHA1: aef193c4a67ece4a8345ac28d71725a5bb633b8b
-MD5sum: c5a49aa086c9121364f21f08ce471a5a
+Size: 14180
+SHA256: 4f71e56d32b3cfa134db1f819d94ad5002cf8abd3a90d9340914ee4baa13da61
+SHA1: b61f6f8c783ee8a3671a6fc91ab3175b249a5ed3
+MD5sum: beccac12d871035a7f52d6bfffb87fc1
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -963,6 +963,24 @@ Description: translations for the unetbootin distribution installer
  drive.
  .
  This package contains translation files for unetbootin.
+
+Package: woeusb-ng
+Version: 0.2.12
+Architecture: all
+Maintainer: pavroo <pavroo@onet.eu>
+Installed-Size: 968
+Depends: bash (>= 4.3), coreutils, dosfstools, findutils, gawk, gettext, grep, grub2-common, grub-pc-bin, ntfsprogs | ntfs-3g, p7zip-full, policykit-1, parted, util-linux, wget, wimtools, python3
+Suggests: realpath, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.2+dfsg), libwxgtk3.0-0v5 (>= 3.0.2+dfsg), python3, python3-wxgtk4.0, python3-xtermcolor
+Homepage: https://github.com/WoeUSB/WoeUSB-ng
+Priority: optional
+Section: utils
+Filename: pool/main/w/woeusb-ng/woeusb-ng_0.2.12_all.deb
+Size: 269076
+SHA256: e7a4f4470f1044a538f7f0cd427588d23d70349d0ec79da4cc33e88c3ffa3ba5
+SHA1: bd0aa77b7b4995ca926105197d14271fdb7432a5
+MD5sum: f1c7368b01db71032c555ac5e9be8490
+Description: WoeUSB-NG
+ A Microsoft Windows USB installation media preparer for GNU+Linux. It suppors Legacy PC/UEFI booting, FAT32 and NTFS filesystems, and supports using physical installation disc or disk image as source. Supported Windows installation images are Windows Vista and later, any language or edition variants, Windows PE.
 
 Package: xlunch-slax
 Version: 4.7.5-2
