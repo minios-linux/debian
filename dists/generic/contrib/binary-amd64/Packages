@@ -57,6 +57,24 @@ Description: firmware installer for the b43 driver
   * BCM4331;
   * BCM47xx (detection not reliable, may not support all versions).
 
+Package: realtek-modules-6.1-amd64
+Version: 6.1.99
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Provides: realtek-modules
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/contrib/r/realtek-modules-6.1-amd64/realtek-modules-6.1-amd64_6.1.99_amd64.deb
+Size: 2236
+SHA256: 1e7ea6357f56fe6228e7e0d9ca4cc6f4133c710233e69c2e360ce4dba02b1901
+SHA1: db99079a6c763b7e3a5cffe50ab3aabb8a874cfe
+MD5sum: 20a560266d3b95ae50ed0118bf41b526
+Description: RealTek Wireless Drivers (meta-package)
+ This package installs kernel modules needed for
+ the RealTek Wireless Network Adapters.
+
 Package: realtek-modules-6.1-mos-amd64
 Version: 6.1.90
 Architecture: amd64
