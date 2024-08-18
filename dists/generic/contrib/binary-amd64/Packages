@@ -57,42 +57,23 @@ Description: firmware installer for the b43 driver
   * BCM4331;
   * BCM47xx (detection not reliable, may not support all versions).
 
-Package: realtek-modules-6.1-amd64
+Package: linux-modules-6.1-mos-amd64
 Version: 6.1.99
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Provides: realtek-modules
+Provides: linux-modules
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/contrib/r/realtek-modules-6.1-amd64/realtek-modules-6.1-amd64_6.1.99_amd64.deb
-Size: 2236
-SHA256: 1e7ea6357f56fe6228e7e0d9ca4cc6f4133c710233e69c2e360ce4dba02b1901
-SHA1: db99079a6c763b7e3a5cffe50ab3aabb8a874cfe
-MD5sum: 20a560266d3b95ae50ed0118bf41b526
-Description: RealTek Wireless Drivers (meta-package)
+Filename: pool/contrib/l/linux-modules-6.1-mos-amd64/linux-modules-6.1-mos-amd64_6.1.99_amd64.deb
+Size: 2228
+SHA256: f607f4dabdd91edc8c223c49f9cd2cf6c94887230a0e774b97566429d5757753
+SHA1: 0e5cdb5bed56c0bee45cd0da31e57ad99a273d04
+MD5sum: fa047a1f92039175f37dc1f19744a447
+Description: Linux Kernel Modules (meta-package)
  This package installs kernel modules needed for
- the RealTek Wireless Network Adapters.
-
-Package: realtek-modules-6.1-mos-amd64
-Version: 6.1.90
-Architecture: amd64
-Maintainer: MiniOS Kernel Team <team@minios.dev>
-Installed-Size: 10
-Depends: rtl8188eus-modules-6.1.90-mos-amd64, rtl8723cs-modules-6.1.90-mos-amd64, rtl8812au-modules-6.1.90-mos-amd64, rtl8814au-modules-6.1.90-mos-amd64, rtl8821au-modules-6.1.90-mos-amd64, rtl8821ce-modules-6.1.90-mos-amd64, rtl88x2bu-modules-6.1.90-mos-amd64
-Provides: realtek-modules
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Filename: pool/contrib/r/realtek-modules-6.1-mos-amd64/realtek-modules-6.1-mos-amd64_6.1.90_amd64.deb
-Size: 2344
-SHA256: f265165dda139203da338dec00c47b17e5a2e380c2f31085f8f899eeed2c3f99
-SHA1: a0ea3b570da3c6606510d48c2554e6de3f9878e9
-MD5sum: 35b20b6b712f6082783fcffd784f8452
-Description: RealTek Wireless Drivers (meta-package)
- This package installs kernel modules needed for
- the RealTek Wireless Network Adapters.
+ various hardware components.
 
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20230921.3fae723-0kali2
