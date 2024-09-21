@@ -779,10 +779,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 14196
-SHA256: 8fc89cabc5456b1285cacd61209c8d039449854dee9d77517960087859252418
-SHA1: f6e6094b6a769baadaabad39f5a71dc7a02de4d0
-MD5sum: ceaefd5fe594212329b36aa15b7a3efe
+Size: 14220
+SHA256: f93fedec688183ebbc8e6780b2b26d2af9089c4baa2c84718115c01980475f51
+SHA1: eee59296c29fb39da892d6e42152a95092868286
+MD5sum: a7d83e30cc471d284326acb145724943
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
