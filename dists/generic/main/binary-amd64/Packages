@@ -122,15 +122,15 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 42
-Depends: yad, apt, eddy
+Depends: yad, apt, eddy, gettext-base
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
-Size: 4996
-SHA256: a28b7ac5baafbf79643441dd3558fc4cc9e706d6107174c8fcac1eb9e10f70d5
-SHA1: ffe850ea159a4388e2e11030156b9df9f8a9da4b
-MD5sum: 413c97362a74e270bc8ade8ebdc2b865
+Size: 5004
+SHA256: eeaf7540f95e4f44b306e5f3cc350eca4276097bfabcdc79bae49a6fe9d4f99e
+SHA1: 7b103b2792b541f2305f705f5ca04ed9fe63e228
+MD5sum: a08c91171a355f6bf86be33cc50af743
 Description: Eddy Handler for package updates.
  Eddy Handler is a utility designed to update the package database
  before installing packages with Eddy. It checks if the package cache
@@ -143,15 +143,15 @@ Source: elementary-minios
 Version: 0.19-2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 54808
+Installed-Size: 54998
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
 Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.19-2_all.deb
-Size: 3934560
-SHA256: 87030a837a1f4e7e9194e1de4ab79be3d540b1e5f9e0c4b1ca3b9a2d04de9f3b
-SHA1: 19747d36fa300a8d2121b091167abee6160b2c95
-MD5sum: 8b0a1e05db8acc1a86f5653fe1cad188
+Size: 3944976
+SHA256: 19cc8d594c9da36db29d93df2b09440bf206b82d92461bc6e4e95facff19410a
+SHA1: 5621ef1993281b3154dac4bb5237aa52dbddb78c
+MD5sum: 5c699bef2a4854f862686d5c0e102039
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
@@ -741,10 +741,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14260
-SHA256: a7798052bffd8142f5297cefcc445f66860b19efe92c8d6dbbe5c2c9359f8ed1
-SHA1: ee2dd8f4266c74eb5790acaaada995d24dbbe4f3
-MD5sum: 8a2c492a976a6f0b7281d30b5ddd4883
+Size: 14340
+SHA256: 3d78ca31ec343f1e568ac7968ba79972862363064bb09a0d97e2736a692a4537
+SHA1: 3a548ea356a52b9ed122441aff58cdf652b57b83
+MD5sum: 3f2e2297637547e001da82ad4ca140fd
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the

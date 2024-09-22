@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  eddy-handler deb utils optional arch=all
 Checksums-Sha1:
- 0f378aca5d48f762d4487620234a5c6a449b36c6 4552 eddy-handler_1.0.tar.xz
+ 5135c4a6dee746edb5fbf60255eea8886a0c9353 4548 eddy-handler_1.0.tar.xz
 Checksums-Sha256:
- 7c08cc382f4970a735df154c367da87f9e3548c9195d0ec639466a764d6407a5 4552 eddy-handler_1.0.tar.xz
+ 9a86895853dfe788a3f758ac49f520497ab7f7a424debfdd3ca6944aff96cfd7 4548 eddy-handler_1.0.tar.xz
 Files:
- b933173bb8fb7893ad128347a0da12f7 4552 eddy-handler_1.0.tar.xz
+ c6b30cf0eaf62c69598a377131559982 4548 eddy-handler_1.0.tar.xz
