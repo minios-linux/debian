@@ -343,15 +343,15 @@ Package: libminioslive
 Version: 4.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 29
+Installed-Size: 31
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6544
-SHA256: 77e77582bbd6a3b345b0587879e4e0ae158bd1810c3ff0e755583ca7229f2777
-SHA1: da1a16ade5e5b6c7ea37130dc1cf12e2302f6fd2
-MD5sum: d0d4424ffc9d90cd03f149aba3af9cb4
+Size: 6908
+SHA256: e523671213a6635130a6c4e8ea80743f1169ddc5ab77862a6554f808d9b30b0e
+SHA1: 2e7c36a4cd25dd8c23ac461aae7ab56f1cd8379b
+MD5sum: 6ba9bd5c59bb6a629e14bad32bd82aeb
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -933,16 +933,17 @@ Package: minios-boot
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 80
-Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237), libminioslive (>= 4.0)
+Installed-Size: 89
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237)
+Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 14340
-SHA256: 3d78ca31ec343f1e568ac7968ba79972862363064bb09a0d97e2736a692a4537
-SHA1: 3a548ea356a52b9ed122441aff58cdf652b57b83
-MD5sum: 3f2e2297637547e001da82ad4ca140fd
+Size: 15776
+SHA256: fa4aba8e6731ca501236b26055c2e3f27710cc91799b7ee8834450a7d2ca8b42
+SHA1: 4f5e5880554e1ad5bfe14a26b51bd6b4b78ea456
+MD5sum: d7d683dd001fe862cd8890cc3e7ea60e
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -953,15 +954,16 @@ Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 73
-Depends: bash (>= 4.4), util-linux (>= 2.31), libminioslive (>= 4.0), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
+Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
+Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
 Size: 12444
-SHA256: 99ddd6e75558317d301f3bb5b1f222ba8cac77185fe073fda643b9de3e167b03
-SHA1: ac73ae0c1442df0656bce7d8696842ac42d5b01e
-MD5sum: d718b006fc75b80e70120f1414bd4926
+SHA256: c3ebe087fb3434b92a68dbc73becdaca161e0a56c7ea59960143071e6c7e3134
+SHA1: ae1fa2205c9d5dcc623cba6607a288dc706c6600
+MD5sum: 012dd1e8dd6b610288eb7ad2503fba6c
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -970,17 +972,17 @@ Package: minios-installer
 Version: 1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 80
+Installed-Size: 81
 Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
 Suggests: yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 14220
-SHA256: f93fedec688183ebbc8e6780b2b26d2af9089c4baa2c84718115c01980475f51
-SHA1: eee59296c29fb39da892d6e42152a95092868286
-MD5sum: a7d83e30cc471d284326acb145724943
+Size: 14316
+SHA256: 2d2b038cef110e8d2890887cb2c6002b36ae3027fbade2a210bbb79ac7ac3c77
+SHA1: 8b3717f5d2e7dc44d24a20120dca4f8c46edb3e8
+MD5sum: f85e27d1df8a3afca2f3451ab80fdd7d
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -1008,16 +1010,16 @@ Package: minios-welcome
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 1710
+Installed-Size: 1289
 Depends: fonts-roboto-light
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-welcome/minios-welcome_1.0_all.deb
-Size: 469216
-SHA256: 88d47127257bd283723d1936279c2ab932e4e448eb769fcaef4182b0a62cb89d
-SHA1: 8d2a2feaa9ab76e1214cf4ed100958fa3c65a2b9
-MD5sum: 80261ba4295e00ca2b469a31a2f34c36
+Size: 282424
+SHA256: c3007c2726db1364aca97cbc8b19954676aeb4b934aa4437ecc0db35011cfad6
+SHA1: 3ebeaddb6fa0bf28c8dcbcee9d0dd4611d7bd901
+MD5sum: abdd5c937d5a28161010a45b0b5e15cf
 Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
