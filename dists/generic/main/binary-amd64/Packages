@@ -408,21 +408,40 @@ Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
 Package: linux-headers-6.1-mos-amd64
-Version: 6.1.99
+Version: 6.1.112
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-headers-6.1.99-mos-amd64
+Depends: linux-headers-6.1.112-mos-amd64
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.99_amd64.deb
-Size: 2240
-SHA256: bfc92907e2de4cf5c55852382d3d74c9e5a9444bd5220e46c07f814677ede4a4
-SHA1: 197b47a8a5048209a6623361ac3ce4cf6c2b0349
-MD5sum: 74a5d6d9ce70b844825309fbb0c6bd45
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.112_amd64.deb
+Size: 2236
+SHA256: de7c3c303ce5d9f139bc4954b4668b880de9303dd2fb4ce267520e515a2980a8
+SHA1: 311666e014e4bc4f50aa9d61e07dfa2a0609c1a8
+MD5sum: 060ac3076fad1476b9675b57e5d5bfd2
 Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.1.112-mos-amd64
+Source: linux-upstream
+Version: 6.1.112-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52539
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.112-mos-amd64_6.1.112-mos-amd64-1_amd64.deb
+Size: 8889572
+SHA256: 8c1b77e38adfe606192ddb04440d63a54f680c3e4c32c30487c27d8d5ade44f5
+SHA1: 9125640d3d7eb56c88d2bf435dd8ad57e7d952c2
+MD5sum: d8849e0a9efa32cfae7963c34b81efa8
+Description: Linux kernel headers for 6.1.112-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.112-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
 
 Package: linux-headers-6.1.67-mos-amd64
 Source: linux-upstream
@@ -573,21 +592,39 @@ Description: Linux kernel headers for 6.8.12-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-image-6.1-mos-amd64
-Version: 6.1.99
+Version: 6.1.112
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-image-6.1.99-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.99-mos-amd64
+Depends: linux-image-6.1.112-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.112-mos-amd64
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.99_amd64.deb
-Size: 2244
-SHA256: 86db46f0719121fb5a6dba26c25c4ce796b86071e12e8fd49ffabb946f3ee7ff
-SHA1: 34dcb68b2c5ce04c557062b8c84e860287fd9832
-MD5sum: 97c1de6e679ba616b37c96b5179b7a2b
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.112_amd64.deb
+Size: 2248
+SHA256: a19ebaa0c654ab8266ec40ce633d9d256360cac2cd231345aa2b2ed9a28db978
+SHA1: 29a36b3b5217d3c46df0e16019171c3e7104219c
+MD5sum: 892364231375457ffbd53898bbc8b374
 Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.1.112-mos-amd64
+Source: linux-upstream
+Version: 6.1.112-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409563
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.112-mos-amd64_6.1.112-mos-amd64-1_amd64.deb
+Size: 70601972
+SHA256: cb830f909e4ab15da62a0fe28d500004e7a67942abac14f44deb4fa18705b4d0
+SHA1: 3d02ce8c72888342b3a5104b417788cac06638d8
+MD5sum: 4bf69ac5e3a011841e8e9e2d1a70ace3
+Description: Linux kernel, version 6.1.112-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.112-mos-amd64.
 
 Package: linux-image-6.1.67-mos-amd64
 Source: linux-upstream
