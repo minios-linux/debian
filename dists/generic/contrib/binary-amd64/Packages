@@ -16,6 +16,25 @@ Description: Linux Kernel Modules (meta-package)
  This package installs kernel modules needed for
  various hardware components.
 
+Package: prebuilt-linux-modules-6.1-mos-amd64
+Version: 6.1.112
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 10
+Depends: rtl8723cs-modules-6.1.112-mos-amd64, rtl88x2bu-modules-6.1.112-mos-amd64, rtl8188eus-modules-6.1.112-mos-amd64, rtl8812au-modules-6.1.112-mos-amd64, rtl8814au-modules-6.1.112-mos-amd64, rtl8821au-modules-6.1.112-mos-amd64, rtl8821ce-modules-6.1.112-mos-amd64
+Provides: prebuilt-linux-modules
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/contrib/p/prebuilt-linux-modules-6.1-mos-amd64/prebuilt-linux-modules-6.1-mos-amd64_6.1.112_amd64.deb
+Size: 2348
+SHA256: e9babc8b78765ee81a1c8d8f70e83bbbf9d77b30c25c3cb5cae88badcf47e38a
+SHA1: 2cf25675749cea1da1a994a9cfaf8bce43180c25
+MD5sum: f2d73e2e34c51ba5b2354cb14d58e27a
+Description: Linux Kernel Modules (meta-package)
+ This package installs kernel modules needed for
+ various hardware components.
+
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20230921.3fae723-0kali2
 Architecture: all
