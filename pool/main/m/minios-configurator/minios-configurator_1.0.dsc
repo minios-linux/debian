@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  minios-configurator deb utils optional arch=all
 Checksums-Sha1:
- 56deecf9da9071ecc0e731403502610b565afd72 12476 minios-configurator_1.0.tar.xz
+ 9ecdd3ae6a1fcb21dab33f433b04772e4372f34e 12476 minios-configurator_1.0.tar.xz
 Checksums-Sha256:
- 7912d11b82fd78aedfc1bfabb0bbc4709d32097eaa5191e565b41ffac714f84c 12476 minios-configurator_1.0.tar.xz
+ 65d0cf42570e8bcb2675269d65d80196920e4c2b85ed89a26d2809521e473252 12476 minios-configurator_1.0.tar.xz
 Files:
- 6d8c77186cb110badfb1a4e83a8551bc 12476 minios-configurator_1.0.tar.xz
+ b12a581f08b6c2e718120db0fccde961 12476 minios-configurator_1.0.tar.xz
