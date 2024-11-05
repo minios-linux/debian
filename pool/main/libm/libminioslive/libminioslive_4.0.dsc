@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 11)
 Package-List:
  libminioslive deb utils optional arch=all
 Checksums-Sha1:
- 36c5481ed641941211c567c9a6146e25af4898e1 6464 libminioslive_4.0.tar.xz
+ e62c6a43324c3237f114ac20e6b697d1dfc9af0d 6304 libminioslive_4.0.tar.xz
 Checksums-Sha256:
- 3afce01595313dd7f11900165cf18c3f52fc4bff2d3bb1ac2ed83bfaea74151d 6464 libminioslive_4.0.tar.xz
+ e8b776ae001901d6c084b74aa4a89e7eeb2be715f2295d7ef60acbae0016c9ca 6304 libminioslive_4.0.tar.xz
 Files:
- 0671feb46f1ae19c98d67f8178a4bc32 6464 libminioslive_4.0.tar.xz
+ 1dce6575890d7d155af783de0af4ff8a 6304 libminioslive_4.0.tar.xz
