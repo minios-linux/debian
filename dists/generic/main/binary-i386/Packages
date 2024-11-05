@@ -343,15 +343,15 @@ Package: libminioslive
 Version: 4.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 30
+Installed-Size: 31
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6744
-SHA256: 44121fb3ae10cfec1baad1cb9774f11c73c0d59977bfb41c30e3503b88d684e8
-SHA1: 22835698568e3b90146b6411541f0f0523ee73fa
-MD5sum: 2a1bc4d5c0bd01eeee751a8e56d196c7
+Size: 6856
+SHA256: 2030b980c840fa3e50a62cb109e0f2203b184147a8da92b8c2c4b93bd77fcc4c
+SHA1: a26c9637b56f76d3c9fc751f711fd3a9b161cb6e
+MD5sum: 8952c0bc67edeb673ac21ffc9b4e1afd
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
