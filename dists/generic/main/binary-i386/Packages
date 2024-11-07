@@ -1027,17 +1027,17 @@ Package: minios-configurator
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 72
+Installed-Size: 79
 Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, yad
 Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_1.0_all.deb
-Size: 12536
-SHA256: 062379e115a0ed1e3eaed897b96e83d2c569581f17efa4f9e43d08cfd6044154
-SHA1: 1f3c81bcc6fdb4dd3a5a4b5171870860a451b585
-MD5sum: bf7407cab06c9acc457f06fed4b2eb3f
+Size: 12868
+SHA256: 36b24a31dc7f20cae491b5d8fbb8eabef274563c6e45786a3f223c35882b7555
+SHA1: ed9ca0d0027651c303f18015861b888966756b24
+MD5sum: 2d567de8a98a52bc4f19162336c1cff4
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.
@@ -1046,17 +1046,17 @@ Package: minios-installer
 Version: 1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 81
+Installed-Size: 96
 Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
 Suggests: yad
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-installer/minios-installer_1.1_all.deb
-Size: 14316
-SHA256: 2d2b038cef110e8d2890887cb2c6002b36ae3027fbade2a210bbb79ac7ac3c77
-SHA1: 8b3717f5d2e7dc44d24a20120dca4f8c46edb3e8
-MD5sum: f85e27d1df8a3afca2f3451ab80fdd7d
+Size: 15928
+SHA256: 880024cd65a45f653061220d25a8ac9def49b0718b7c3839d108f60e5ab2eea9
+SHA1: 06b2985192f40ce9f313f323a8adb6c376508099
+MD5sum: 8c9929fdcc5395270abdb634771365d9
 Description: MiniOS Linux installation utility.
  MiniOS Installer is a utility specially designed for quick and easy
  install MiniOS on a USB flash drive.
@@ -1065,16 +1065,16 @@ Package: minios-tools
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 121
+Installed-Size: 127
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 25388
-SHA256: 857eaa91e1eea486231ed48347e08c8c47df54ac5635f4f3913d72779b51cad4
-SHA1: a9bea4013d633774b91fca35289a1334350391f8
-MD5sum: a279669f93488b83e873848e3dbedbdb
+Size: 25484
+SHA256: a74beda9076dfbfaef373d8ffabf3e7d942f208b1618515ccbce4dfa2558819b
+SHA1: 9439d1da689397dca7682892b2c4571752b16d60
+MD5sum: d55b9187a62a0b6ed79584a491a97669
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
