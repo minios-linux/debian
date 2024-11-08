@@ -1163,19 +1163,19 @@ Description: Systray Icon Launcher.
 
 Package: unetbootin-translations
 Source: unetbootin
-Version: 700-1~groovy1
+Version: 701+mos1-1
 Architecture: all
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 3086
+Installed-Size: 3115
 Recommends: unetbootin
 Homepage: http://unetbootin.sourceforge.net
 Priority: optional
 Section: utils
-Filename: pool/main/u/unetbootin/unetbootin-translations_700-1~groovy1_all.deb
-Size: 232708
-SHA256: bbd0f6a8ec1362dc97cb2f36a971a9304ecc44edd010e3a37a55786f5f5e610c
-SHA1: fffa3cc102b170b0935a6e61df5131f76ec34da4
-MD5sum: b795399f347a4db842ab0c17ea97aff0
+Filename: pool/main/u/unetbootin/unetbootin-translations_701+mos1-1_all.deb
+Size: 235004
+SHA256: b3ec9f67ed4f87d111b54e93b2b101df82ab4dfb3f3df9499e467482fd96a968
+SHA1: 8dc454030e5f026b03028dbd8fd963b2b11114c3
+MD5sum: 2d47a9fb3ed2a5cebac3ccbcd341dbae
 Description: translations for the unetbootin distribution installer
  UNetbootin is an installer of Linux/BSD distributions to a partition or USB
  drive.

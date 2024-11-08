@@ -1159,41 +1159,59 @@ Description: debug symbols for testdisk
 Build-Ids: 225d7514ab48defbe6932f1a940d71b9813bcaa8 4ef21e2aec4f92536658a94f3ab900166a50d69e b752ecee13a3e8419c32f5ced92e03269b7be67c
 
 Package: unetbootin
-Version: 700-1~groovy1
+Version: 701+mos1-1
 Architecture: amd64
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 652
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), mtools, p7zip-full, syslinux, syslinux-common, udev
+Installed-Size: 1334
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), mtools, p7zip-full, syslinux, syslinux-common, udev
 Recommends: extlinux, unetbootin-translations, gksu | kdesudo
 Homepage: http://unetbootin.sourceforge.net
 Priority: optional
 Section: utils
-Filename: pool/main/u/unetbootin/unetbootin_700-1~groovy1_amd64.deb
-Size: 183552
-SHA256: 5a4b950d173dbe22dacf1dd1b54d79ef191e93de1c72bb2a37ab58fe3c599a19
-SHA1: e868d3d996e41fa69d62d5d2b1dbb777646d9fa6
-MD5sum: 9a49543a26cc652309ac111b19a9d615
+Filename: pool/main/u/unetbootin/unetbootin_701+mos1-1_amd64.deb
+Size: 893860
+SHA256: b35e6cc7791961c0bdde63b9924b85675c5c7e5e4736718500c9d5ff6bee58d0
+SHA1: 6f043912d507ccc226375bc470ff0e203cdb264f
+MD5sum: 95458df789e930f8dbd5f6b4ae2b4413
 Description: installer of Linux/BSD distributions to a partition or USB drive
  UNetbootin allows for the installation of various Linux/BSD distributions to a
  partition or USB drive, so it's no different from a standard install, only it
  doesn't need a CD. It can create a dual-boot install, or replace the existing
  OS entirely.
 
+Package: unetbootin-dbgsym
+Source: unetbootin
+Version: 701+mos1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1714
+Depends: unetbootin (= 701+mos1-1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/unetbootin/unetbootin-dbgsym_701+mos1-1_amd64.deb
+Size: 1668380
+SHA256: b7863c2a2d82f1a9e431610a2a18d249b8af83d17e26267e1aaea02402fff972
+SHA1: 7f3c8cb473d771a2b208e3d9e7ad87120e69d081
+MD5sum: e779b29041d89dc2fa40637c0456fbb4
+Description: debug symbols for unetbootin
+Build-Ids: 990f33bd3615718c391357a1278be47f739b727f
+
 Package: unetbootin-translations
 Source: unetbootin
-Version: 700-1~groovy1
+Version: 701+mos1-1
 Architecture: all
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 3086
+Installed-Size: 3115
 Recommends: unetbootin
 Homepage: http://unetbootin.sourceforge.net
 Priority: optional
 Section: utils
-Filename: pool/main/u/unetbootin/unetbootin-translations_700-1~groovy1_all.deb
-Size: 232708
-SHA256: bbd0f6a8ec1362dc97cb2f36a971a9304ecc44edd010e3a37a55786f5f5e610c
-SHA1: fffa3cc102b170b0935a6e61df5131f76ec34da4
-MD5sum: b795399f347a4db842ab0c17ea97aff0
+Filename: pool/main/u/unetbootin/unetbootin-translations_701+mos1-1_all.deb
+Size: 235004
+SHA256: b3ec9f67ed4f87d111b54e93b2b101df82ab4dfb3f3df9499e467482fd96a968
+SHA1: 8dc454030e5f026b03028dbd8fd963b2b11114c3
+MD5sum: 2d47a9fb3ed2a5cebac3ccbcd341dbae
 Description: translations for the unetbootin distribution installer
  UNetbootin is an installer of Linux/BSD distributions to a partition or USB
  drive.
