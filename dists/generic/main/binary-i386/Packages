@@ -356,37 +356,37 @@ Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
 Package: linux-headers-6.1-mos-686
-Version: 6.1.112
+Version: 6.1.115
 Architecture: i386
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-headers-6.1.112-mos-686
+Depends: linux-headers-6.1.115-mos-686
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.112_i386.deb
-Size: 2236
-SHA256: 8fdb179722d550731960cf98f11d8bb063ebedf31d29dc41af8e64943459e348
-SHA1: 59d44af27a74e36020c3824288e50e75bf50dad5
-MD5sum: 89120192aeba1ee4b21bd47da00e22df
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.115_i386.deb
+Size: 2228
+SHA256: 5c40ca9ee0b14d15c13d5f5ccd89fab9c2d8dbd48eb4b19c497e398605504f9d
+SHA1: 82d96e2341197f8ac3269f88c232373193658469
+MD5sum: c7888f7db5ec541ded9b89c14c024529
 Description: Header files for Linux 686 configuration (meta-package)
 
 Package: linux-headers-6.1-mos-686-pae
-Version: 6.1.112
+Version: 6.1.115
 Architecture: i386
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-headers-6.1.112-mos-686-pae
+Depends: linux-headers-6.1.115-mos-686-pae
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.112_i386.deb
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.115_i386.deb
 Size: 2240
-SHA256: ccfea3c86f4d4319e6c8b6cdd216f12ae652f1c883a4290e368447fe039ee233
-SHA1: 1668ee1ac05edb9a43fd16a2207b72c8578d14dc
-MD5sum: 0379f60fe514aeba14d64b32e2163425
+SHA256: bda9a2ea57d13dff42e1a07975c795175da17b39cb258ce34a6ff3aba3494448
+SHA1: 2f38fbcd9929c086e518dd9582393b6f9124a1a1
+MD5sum: d5dc175709c1192082fb8573d6aec1df
 Description: Header files for Linux 686-pae configuration (meta-package)
 
 Package: linux-headers-6.1.112-mos-686
@@ -424,6 +424,44 @@ SHA1: 665f916b1e9f73b3796ee9f5d4a997d55dbf2403
 MD5sum: 930d6438b53faea054fd80ece5f20c7a
 Description: Linux kernel headers for 6.1.112-mos-686-pae on i386
  This package provides kernel header files for 6.1.112-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.115-mos-686
+Source: linux-upstream
+Version: 6.1.115-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51638
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.115-mos-686_6.1.115-mos-686-1_i386.deb
+Size: 8602932
+SHA256: 59f27b54829dc7a11e23e7c33fc8adb44fb655d299b8acc18dc27919a6997131
+SHA1: 7cfd9428754694eb48b50c1f9330e857a847ecca
+MD5sum: 85ec84eaff925a99bf4ee0b4cf9ea30c
+Description: Linux kernel headers for 6.1.115-mos-686 on i386
+ This package provides kernel header files for 6.1.115-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.115-mos-686-pae
+Source: linux-upstream
+Version: 6.1.115-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51688
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.115-mos-686-pae_6.1.115-mos-686-pae-1_i386.deb
+Size: 8604060
+SHA256: d8e62daa2bcee5f7a327bacde757e1381f27f4172354433c1770bf51e856e777
+SHA1: 2a494cab0a017e200125863766b97114bfc21135
+MD5sum: 661afbbcf46dc05343d6194c73690bd4
+Description: Linux kernel headers for 6.1.115-mos-686-pae on i386
+ This package provides kernel header files for 6.1.115-mos-686-pae on i386
  .
  This is useful for people who need to build external modules
 
@@ -686,37 +724,37 @@ Description: Linux kernel headers for 6.8.12-mos-686-pae on i386
  This is useful for people who need to build external modules
 
 Package: linux-image-6.1-mos-686
-Version: 6.1.112
+Version: 6.1.115
 Architecture: i386
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-image-6.1.112-mos-686
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.112-mos-686
+Depends: linux-image-6.1.115-mos-686
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.115-mos-686
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.112_i386.deb
-Size: 2240
-SHA256: 7b779c85002d8f8956e6674ca43ecd9319037132d58e0814406b00d0d3c5ca0d
-SHA1: cbedfaf91312556bf2895575505c288ab0a21d6c
-MD5sum: 4ebd87a3ee64e9a0ebd3ee65f3979d3b
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.115_i386.deb
+Size: 2236
+SHA256: c72d68eb631121ba28801e5fbb37cd21998d51e346372857fab896513c434efc
+SHA1: 274b7d82821a95b5ba67e97cd7c746844539c337
+MD5sum: 22da57a9bb57684465e212355e40028b
 Description: Linux for 686 PCs (meta-package)
 
 Package: linux-image-6.1-mos-686-pae
-Version: 6.1.112
+Version: 6.1.115
 Architecture: i386
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-image-6.1.112-mos-686-pae
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.112-mos-686-pae
+Depends: linux-image-6.1.115-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.115-mos-686-pae
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.112_i386.deb
-Size: 2256
-SHA256: 24060455483f8472d9c0b704f7cb9205b2a0c2140856d010619f467929abb056
-SHA1: b727f251f7bd7a07b004e7d2f16099ddbbda911a
-MD5sum: 357fea9ce0aa46e1206b2be4be35b927
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.115_i386.deb
+Size: 2252
+SHA256: df39eac1d357459cc11e7d068c504c07e43c4137be81190a075d57d92fbe3fff
+SHA1: b816b62467ee1225b5cd087f7978e6548d734681
+MD5sum: cb79463625a88fa9920998c3ec91fccc
 Description: Linux for 686-pae PCs (meta-package)
 
 Package: linux-image-6.1.112-mos-686
@@ -754,6 +792,42 @@ MD5sum: 7b789c8bd55ecfae0efaeb5f7e56ef75
 Description: Linux kernel, version 6.1.112-mos-686-pae
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.112-mos-686-pae.
+
+Package: linux-image-6.1.115-mos-686
+Source: linux-upstream
+Version: 6.1.115-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192178
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.115-mos-686_6.1.115-mos-686-1_i386.deb
+Size: 52134084
+SHA256: b69ee6b11c26dcf97645d7f2e8ddd148904f6f0c408d682f13c0df860a2bfd3e
+SHA1: 465726faf67ae5a40820164717114056bc950b64
+MD5sum: 46321be08a46f2515204b71640936082
+Description: Linux kernel, version 6.1.115-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.115-mos-686.
+
+Package: linux-image-6.1.115-mos-686-pae
+Source: linux-upstream
+Version: 6.1.115-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192678
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.115-mos-686-pae_6.1.115-mos-686-pae-1_i386.deb
+Size: 52367480
+SHA256: 1ed1e1ed73a93baa81fd3ade2932900e9d0b12f87b88c6975e8424c0f505bb0f
+SHA1: 4fd2487174037f9a0c669140fd97e2e9f6f4c027
+MD5sum: 93dd6e6d1461424048db6e8bbbbd4be3
+Description: Linux kernel, version 6.1.115-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.115-mos-686-pae.
 
 Package: linux-image-6.1.67-mos-686
 Source: linux-upstream

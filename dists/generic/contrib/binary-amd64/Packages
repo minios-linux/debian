@@ -17,20 +17,20 @@ Description: Linux Kernel Modules (meta-package)
  various hardware components.
 
 Package: prebuilt-linux-modules-6.1-mos-amd64
-Version: 6.1.112
+Version: 6.1.115
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 10
-Depends: rtl8723cs-modules-6.1.112-mos-amd64, rtl88x2bu-modules-6.1.112-mos-amd64, rtl8188eus-modules-6.1.112-mos-amd64, rtl8812au-modules-6.1.112-mos-amd64, rtl8814au-modules-6.1.112-mos-amd64, rtl8821au-modules-6.1.112-mos-amd64, rtl8821ce-modules-6.1.112-mos-amd64
+Depends: rtl8723cs-modules-6.1.115-mos-amd64, rtl88x2bu-modules-6.1.115-mos-amd64, rtl8188eus-modules-6.1.115-mos-amd64, rtl8812au-modules-6.1.115-mos-amd64, rtl8814au-modules-6.1.115-mos-amd64, rtl8821au-modules-6.1.115-mos-amd64, rtl8821ce-modules-6.1.115-mos-amd64
 Provides: prebuilt-linux-modules
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/contrib/p/prebuilt-linux-modules-6.1-mos-amd64/prebuilt-linux-modules-6.1-mos-amd64_6.1.112_amd64.deb
-Size: 2348
-SHA256: e9babc8b78765ee81a1c8d8f70e83bbbf9d77b30c25c3cb5cae88badcf47e38a
-SHA1: 2cf25675749cea1da1a994a9cfaf8bce43180c25
-MD5sum: f2d73e2e34c51ba5b2354cb14d58e27a
+Filename: pool/contrib/p/prebuilt-linux-modules-6.1-mos-amd64/prebuilt-linux-modules-6.1-mos-amd64_6.1.115_amd64.deb
+Size: 2356
+SHA256: c4a644c29bb8c08e3ec3aad794f8ae82dba412e10b4dd001be96ff2a3485b913
+SHA1: 200689000d949a573162ec9c3de137fa987f7992
+MD5sum: 763eb4d5c8038dcc9b0a44b7bae19bb2
 Description: Linux Kernel Modules (meta-package)
  This package installs kernel modules needed for
  various hardware components.
@@ -128,6 +128,23 @@ MD5sum: 810cebd6693a700de9483baa1e6edbcd
 Description: RTL8188EUS Network Driver
  This package installs the RTL8188EUS kernel module needed for the network adapter.
 
+Package: rtl8188eus-modules-6.1.115-mos-amd64
+Version: 5.3.9-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 2709
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl8188eus-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8188eus-modules-6.1.115-mos-amd64/rtl8188eus-modules-6.1.115-mos-amd64_5.3.9-1_amd64.deb
+Size: 469732
+SHA256: e98406c499bccc6c702f07e814a572704def3e41c5653936f9831c9c2454b69a
+SHA1: 016ddb6a3a3e1e374c171433f6be354505623558
+MD5sum: 2269528f0797718f239700619024b84c
+Description: RTL8188EUS Network Driver
+ This package installs the RTL8188EUS kernel module needed for the network adapter.
+
 Package: rtl8188eus-modules-6.1.90-mos-amd64
 Version: 5.3.9-1
 Architecture: amd64
@@ -180,6 +197,23 @@ Size: 638640
 SHA256: 6aa4541aa09bec978c945cafd6481d2d542f9fc7bf3371721848542a7ce58c8f
 SHA1: af5c229e8064cfcc0207d371b058e1a0ef9d655f
 MD5sum: 8a6b3939aef5c19a389bd47be79dc581
+Description: RTL8723CS Network Driver
+ This package installs the RTL8723CS kernel module needed for the network adapter.
+
+Package: rtl8723cs-modules-6.1.115-mos-amd64
+Version: 0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3595
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl8723cs-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8723cs-modules-6.1.115-mos-amd64/rtl8723cs-modules-6.1.115-mos-amd64_0.0-1_amd64.deb
+Size: 636480
+SHA256: ac04b60c8e9f7425c1b8484fe5283fa2ced4bad767f585929188c48b95030d96
+SHA1: e45d72fcdf1dc94a00fbd2334ef1e55491069b4d
+MD5sum: a1ff197ca531e51ac90b779572ec47e8
 Description: RTL8723CS Network Driver
  This package installs the RTL8723CS kernel module needed for the network adapter.
 
@@ -254,6 +288,23 @@ Size: 773264
 SHA256: 3b6f1ed16c9ddf17269211dbde141d842b253616635c1748064c9e21a51583b2
 SHA1: 76e7fd6161ecf500ff08a6c21a036cabaea86c74
 MD5sum: 6fced3e514af325f551845ce1fbe3ac4
+Description: RTL8812AU Network Driver
+ This package installs the RTL8812AU kernel module needed for the network adapter.
+
+Package: rtl8812au-modules-6.1.115-mos-amd64
+Version: 5.6.4.2-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 5411
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl8812au-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8812au-modules-6.1.115-mos-amd64/rtl8812au-modules-6.1.115-mos-amd64_5.6.4.2-1_amd64.deb
+Size: 780308
+SHA256: eded14f662210777c82bb7980d09d96b50fe4aa73c79020cefa0012109aa2c98
+SHA1: 731c5e5993428da6696386cb922249a2055d4ca5
+MD5sum: d76ca0c921c553d201d8952bbffbe274
 Description: RTL8812AU Network Driver
  This package installs the RTL8812AU kernel module needed for the network adapter.
 
@@ -335,6 +386,23 @@ MD5sum: b0510bee32bd201b51022b4ff2f29fd1
 Description: RTL8814AU Network Driver
  This package installs the RTL8814AU kernel module needed for the network adapter.
 
+Package: rtl8814au-modules-6.1.115-mos-amd64
+Version: 5.8.5.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 6414
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl8814au-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8814au-modules-6.1.115-mos-amd64/rtl8814au-modules-6.1.115-mos-amd64_5.8.5.1-1_amd64.deb
+Size: 776196
+SHA256: b1228e0fc7634d652684a5a5913a1d99a25cbd8ec3a35c97644bc95a74c1d792
+SHA1: 36473ead5342092b013ba24ed7486449b58806d6
+MD5sum: f3667ee4f5bf6e4af1a91eec5df85969
+Description: RTL8814AU Network Driver
+ This package installs the RTL8814AU kernel module needed for the network adapter.
+
 Package: rtl8814au-modules-6.1.90-mos-amd64
 Version: 5.8.5.1-1
 Architecture: amd64
@@ -406,6 +474,23 @@ Size: 756332
 SHA256: f70b1b178982f229f360859ebce67fad9245d7f023c5ac4ec169b2aa0805e4f0
 SHA1: db6e3c7f68ada32f4042a97599a091af759c330a
 MD5sum: e79abc9e88e61a60188585ebe0da47fd
+Description: RTL8821AU Network Driver
+ This package installs the RTL8821AU kernel module needed for the network adapter.
+
+Package: rtl8821au-modules-6.1.115-mos-amd64
+Version: 5.12.5.2-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 5002
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl8821au-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8821au-modules-6.1.115-mos-amd64/rtl8821au-modules-6.1.115-mos-amd64_5.12.5.2-1_amd64.deb
+Size: 754552
+SHA256: f7ceb4359071a2e537151d5a55c1123d1041ec73b0d93e3be7891fd8d26119c3
+SHA1: 1acb32448b18eadefcaa52bc61e4c9e7f8289086
+MD5sum: 887b5521d396cb077398f4ccd98f4cba
 Description: RTL8821AU Network Driver
  This package installs the RTL8821AU kernel module needed for the network adapter.
 
@@ -490,6 +575,23 @@ MD5sum: c527cc6b74ee0124849dadf50cfbca3e
 Description: RTL8821CE Network Driver
  This package installs the RTL8821CE kernel module needed for the network adapter.
 
+Package: rtl8821ce-modules-6.1.115-mos-amd64
+Version: 5.5.2.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 4011
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl8821ce-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl8821ce-modules-6.1.115-mos-amd64/rtl8821ce-modules-6.1.115-mos-amd64_5.5.2.1-1_amd64.deb
+Size: 671948
+SHA256: df0b475f4eec2986581fbbbbc3edacc6b814889579d5816b68fea720047d3a4b
+SHA1: eae3ceaab42819050fb903556a5e7f24c951c148
+MD5sum: b1a7c88a2e6121ca3034499247158e59
+Description: RTL8821CE Network Driver
+ This package installs the RTL8821CE kernel module needed for the network adapter.
+
 Package: rtl8821ce-modules-6.1.90-mos-amd64
 Version: 5.5.2.1-1
 Architecture: amd64
@@ -560,6 +662,23 @@ Size: 838736
 SHA256: 6cdaa62e5d81aa736c2b8c20dab77f9c7b768884bc6c006e2c1b39966099575c
 SHA1: 8d3679a7823780f2074eeed707ff5ee0b9209b78
 MD5sum: bb0a12cf6661df6302d771d7e5de3a4c
+Description: RTL88X2BU Network Driver
+ This package installs the RTL88X2BU kernel module needed for the network adapter.
+
+Package: rtl88x2bu-modules-6.1.115-mos-amd64
+Version: 5.8.7.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 6176
+Suggests: linux-image-6.1.115-mos-amd64
+Provides: rtl88x2bu-modules
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/rtl88x2bu-modules-6.1.115-mos-amd64/rtl88x2bu-modules-6.1.115-mos-amd64_5.8.7.1-1_amd64.deb
+Size: 829316
+SHA256: d9f6f2f115f3b64e9711f8eec15c649f6477f51327c6876df63a37135f7ac39a
+SHA1: ce9d4d4353ffca8c9ef1080900787d453f3f1377
+MD5sum: 165ac1d3c0f90db23f9297aee1aa8437
 Description: RTL88X2BU Network Driver
  This package installs the RTL88X2BU kernel module needed for the network adapter.
 
