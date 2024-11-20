@@ -1172,6 +1172,24 @@ Description: MiniOS HTML welcome page.
  MiniOS welcome page - HTML page that opens when you start your
  browser for the first time in MiniOS.
 
+Package: mintstick
+Version: 1.6.2
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 289
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Priority: optional
+Section: misc
+Filename: pool/main/m/mintstick/mintstick_1.6.2_all.deb
+Size: 52272
+SHA256: 4ded5189dbac987754312b068d0cbbd6afa8be589c8245476bd291b19cd0572a
+SHA1: db39546a77686726ac07e21fc1442eb00a9f991a
+MD5sum: dcc6f8c8ee7a2f4efef71bd967598c10
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
 Package: osinfo-db
 Version: 0.20240701-1+mos+1
 Architecture: all
