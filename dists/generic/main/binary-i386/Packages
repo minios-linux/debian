@@ -1088,10 +1088,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 15768
-SHA256: 24d734d19e96346bbbd1f5b41d99555b1f31c9da0e348e2c624eb0459ec7cec0
-SHA1: eaa8ead58a5c5f3d6c754cf127ac44a50bbbaf6f
-MD5sum: 6e68bf159b50259d3bf2f033c8c401ae
+Size: 15796
+SHA256: 1f15bf0b15217ae46d9d99e1e7fbabf9339e404791e09fe2669cf19893449fe5
+SHA1: 3d73f85a99f7b59ad9b7f87cebf5a4a6cf235e3f
+MD5sum: 222a9793fb7281c36ef71fac38286f89
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -1145,10 +1145,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 25484
-SHA256: a74beda9076dfbfaef373d8ffabf3e7d942f208b1618515ccbce4dfa2558819b
-SHA1: 9439d1da689397dca7682892b2c4571752b16d60
-MD5sum: d55b9187a62a0b6ed79584a491a97669
+Size: 25480
+SHA256: 790088dfbcb0cba23021b278e9f5f44a18837239ff79c06b08feb1218fd25bad
+SHA1: e2459fbcd690dfc065b0e026cda2ee1f598d2f10
+MD5sum: f15ddde56ba0d97ecea74921645ebb4b
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
