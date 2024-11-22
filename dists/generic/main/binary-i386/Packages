@@ -348,10 +348,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6796
-SHA256: 464e75f8889733fb2eefa6ff96e77ed9f80716adbff5d45a976b4b7590076cc4
-SHA1: 286f1321171e9a0aaedc7a151be05754177a08ef
-MD5sum: 6688b03d224de244a8f4db06f66f5241
+Size: 6792
+SHA256: a05d3117d696a948097f882e320705a29c4b84870a8bbb1e25c748d1a74cb118
+SHA1: 4c08ebe7f3587aaa4b105a73e70c87c06ce5f6fb
+MD5sum: c68d280d0bfbcc9f77bfaa37ba864196
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -1081,17 +1081,17 @@ Package: minios-boot
 Version: 1.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 89
+Installed-Size: 88
 Depends: bash (>= 4.4), coreutils (>= 8.28), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237)
 Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 15796
-SHA256: 1f15bf0b15217ae46d9d99e1e7fbabf9339e404791e09fe2669cf19893449fe5
-SHA1: 3d73f85a99f7b59ad9b7f87cebf5a4a6cf235e3f
-MD5sum: 222a9793fb7281c36ef71fac38286f89
+Size: 15644
+SHA256: 4d3271737670e0091aac45355d8a9f7f1dfbd6d2c77c1a9fd51466d444934e31
+SHA1: 808a90fea33fe1f8a69d0ccd29feb36be427c8b3
+MD5sum: 7e7d35e9e5b7ee9e4e3fa20b52b86b92
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
