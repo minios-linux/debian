@@ -867,17 +867,17 @@ Package: minios-live
 Version: 4.0.0-1
 Architecture: amd64
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 46149
-Depends: debootstrap, xorriso, binutils, squashfs-tools, grub-pc-bin, grub-efi-amd64-bin, dosfstools, mtools, xz-utils, liblz4-tool, zstd, curl, rsync
+Installed-Size: 46159
+Depends: debootstrap, xorriso, binutils, squashfs-tools, grub-pc-bin, grub-efi-amd64-bin, dosfstools, mtools, xz-utils, liblz4-tool, zstd, curl, rsync, gettext-base
 Suggests: apt-cacher-ng
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-live/minios-live_4.0.0-1_amd64.deb
-Size: 8205892
-SHA256: 8d1db5714c973658fcac9071b45038ee859956e28a523aece872f6fcc4470718
-SHA1: f107fd0e07f6e6ef9e28c9e050c1f52860322ebf
-MD5sum: 6d85d156fa62c3dbd602703962a200ba
+Size: 8211148
+SHA256: 2363fb5a84b91987624a160e186488ca7fe945befaf65d3e793cac7c3e96ed24
+SHA1: 6aecff1b3255397387cedfb7c3a289fa7677987f
+MD5sum: 8b7e88bc687e024cba4f5032584aa589
 Description: Scripts to build a bootable MiniOS ISO image.
  MiniOS-live provides scripts to build a bootable MiniOS ISO image,
  supporting various configurations such as Debian 10, Debian 12,
