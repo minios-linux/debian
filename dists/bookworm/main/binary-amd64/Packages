@@ -1,3 +1,22 @@
+Package: adguard-dnsproxy
+Version: 0.73.4-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 10535
+Depends: libc6 (>= 2.34), adduser
+Homepage: https://github.com/AdguardTeam/dnsproxy
+Priority: optional
+Section: net
+Filename: pool/main/a/adguard-dnsproxy/adguard-dnsproxy_0.73.4-1_amd64.deb
+Size: 3273232
+SHA256: db89f51bb4dad9bf8fe2cbf2e88fa35d6e33bbafc7ab3ff314e43b311e72b356
+SHA1: 10e8935edd0b28d752cb7b2729f4ef4345e87dd2
+MD5sum: d7b5b32678a9dd1d661f0bc5336fe74d
+Description: DNS proxy server supporting various protocols
+ DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC. Moreover,
+ it can work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
 Package: adwaita-icon-theme-antix
 Version: 3.30.2~antix1
 Architecture: all
