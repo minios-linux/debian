@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 11), gettext
 Package-List:
  minios-live deb utils optional arch=amd64
 Checksums-Sha1:
- e5f1b76ee74d0761a65b9d0043abc9a2c160b944 8673456 minios-live_4.0.0.orig.tar.xz
+ a14539510beb33f78f9752bd3055bd1d48e6c028 8673700 minios-live_4.0.0.orig.tar.xz
  2c6c330e645ac234670dad5120aa687d023385f0 1488 minios-live_4.0.0-1.debian.tar.xz
 Checksums-Sha256:
- 284650644fb469192c4dabd0a698d0d5f5ba2034196ad5c54c5e67d88766356b 8673456 minios-live_4.0.0.orig.tar.xz
+ ecabc4fda33a2835c13cfa96575e1a4d6e122983582f684c9a1ccbb614f425a1 8673700 minios-live_4.0.0.orig.tar.xz
  35882d06cbfb29f76ac5f26e26f45d4c1c594d634d4e51dcccad98c6946f6207 1488 minios-live_4.0.0-1.debian.tar.xz
 Files:
- dee9f2957810de1f07cbf2a3b8457a33 8673456 minios-live_4.0.0.orig.tar.xz
+ 323c718292c4228bf4f283bd04db8ded 8673700 minios-live_4.0.0.orig.tar.xz
  76fb32eb4bf20ec41a64d657a3a6de63 1488 minios-live_4.0.0-1.debian.tar.xz
