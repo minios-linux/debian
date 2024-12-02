@@ -931,10 +931,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-live/minios-live_4.0.0-1_amd64.deb
-Size: 8213804
-SHA256: d61fbea8e266f822f6fa0f64bb5cd4e86b07f009430a3325cee9e7fc10a75ac9
-SHA1: 9431a35ada93b89464403f1f8349a881d3262e24
-MD5sum: 6ab896dc6da228aba6fd4b99907993b0
+Size: 8213844
+SHA256: 0c01c7b65dd88d53db5aebb087ce3bf88a15b8c16d6a14bfbe1990c2b5f4d80d
+SHA1: a0dcbacdd7584901de6da74e87b03832d55ac5d0
+MD5sum: d3e767c28c0d3eff3f2f23d5feb32632
 Description: Scripts to build a bootable MiniOS ISO image.
  MiniOS-live provides scripts to build a bootable MiniOS ISO image,
  supporting various configurations such as Debian 10, Debian 12,
