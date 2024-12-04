@@ -140,18 +140,18 @@ Description: Eddy Handler for package updates.
 
 Package: elementary-minios-icon-theme
 Source: elementary-minios
-Version: 0.19-2
+Version: 0.20-1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 54998
+Installed-Size: 55119
 Homepage: https://github.com/shimmerproject/elementary-xfce
 Priority: optional
 Section: x11
-Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.19-2_all.deb
-Size: 3944976
-SHA256: 19cc8d594c9da36db29d93df2b09440bf206b82d92461bc6e4e95facff19410a
-SHA1: 5621ef1993281b3154dac4bb5237aa52dbddb78c
-MD5sum: 5c699bef2a4854f862686d5c0e102039
+Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.20-1_all.deb
+Size: 3951772
+SHA256: 0a0cf79dbab926f4d6b4220bb1b479fbb948c78b11fa881c1889660fb97bcadd
+SHA1: 46d486a562b9c75b2c4c680c557e1f847d583ef8
+MD5sum: 339484e202fb670146fa2bce0da1da73
 Description: elementary icon theme modified for MiniOS
  elementary-minios is a fork of the elementary-xfce.
 
@@ -931,10 +931,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-live/minios-live_4.0.0-1_amd64.deb
-Size: 8213844
-SHA256: 38b72b7ea27ddd361c510cfa48d24bba5f03aad6ad839515f95a1896d69a15b7
-SHA1: ce603bfb262ed8d541ec82249b5a6f3f36f062c0
-MD5sum: a846d1ba9961183e95753c22b8b4d031
+Size: 8213052
+SHA256: 2712b0dcdfd2b903dee81b9afa3f922671317c0f651fbe3a26a508f355345189
+SHA1: 4ff73338e5413108548e6a51225360d6d2e5bb08
+MD5sum: d5d1a9a27477ab0a16a851a9355e3f9c
 Description: Scripts to build a bootable MiniOS ISO image.
  MiniOS-live provides scripts to build a bootable MiniOS ISO image,
  supporting various configurations such as Debian 10, Debian 12,
@@ -953,10 +953,10 @@ Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 27760
-SHA256: f5f5c19c65ebf0f3c68461f703a9ba9e2e21f9a1b12ee0771253f5c08302c26e
-SHA1: e80ff715d9e44065d97ae95563177e0e65cd084f
-MD5sum: 2db5ff487843f2213a9f11bc825fbccb
+Size: 27804
+SHA256: fcbd2f2d7298f14e33d206c82f9354bca863c1e0bd952f8007f5519bf00c334c
+SHA1: f421bd73815b63fe51d640a99c9a012664b49e76
+MD5sum: 4fd5fc14b285617d46a7377ecff5f947
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
