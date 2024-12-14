@@ -1267,20 +1267,20 @@ Description: MiniOS HTML welcome page.
  browser for the first time in MiniOS.
 
 Package: mintstick
-Version: 1.6.2
+Version: 1.6.2+nmu1
 Architecture: all
 Maintainer: Clement Lefebvre <root@linuxmint.com>
-Installed-Size: 289
-Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Installed-Size: 286
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
 Conflicts: usb-imagewriter
 Replaces: usb-imagewriter
 Priority: optional
 Section: misc
-Filename: pool/main/m/mintstick/mintstick_1.6.2_all.deb
-Size: 52272
-SHA256: 4ded5189dbac987754312b068d0cbbd6afa8be589c8245476bd291b19cd0572a
-SHA1: db39546a77686726ac07e21fc1442eb00a9f991a
-MD5sum: dcc6f8c8ee7a2f4efef71bd967598c10
+Filename: pool/main/m/mintstick/mintstick_1.6.2+nmu1_all.deb
+Size: 48664
+SHA256: 20deba96ed87d2a35f03a11d142f0ebedf502b27c4258ba5856f4652ac52c3e9
+SHA1: 13df8ac04e4086f52723ba36d4ea35602418fbed
+MD5sum: c0e7b8836a95cabc53f4aad358d4a473
 Description: write .img and .iso files to USB sticks
  A GUI to write .img or .iso files to a USB Key. It can also format them.
 

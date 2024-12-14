@@ -2,7 +2,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: testing, kali-rolling
 Codename: bookworm
-Date: Wed, 04 Dec 2024 19:39:48 UTC
+Date: Sat, 14 Dec 2024 01:26:07 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
