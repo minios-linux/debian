@@ -1124,6 +1124,25 @@ SHA1: f2e3d9010628b0d84956839f46ac0233c1a26f40
 MD5sum: b753e6961eca19b6524a7fd8ec59dc92
 Description: vkbasalt-cli (filename vkbasalt) is a CLI utility and library in conjunction with vkBasalt. This makes generating configuration files or running vkBasalt with games easier. This is mainly convenient in environments where integrating vkBasalt is wishful, for example a GUI application. Integrating vkbasalt-cli allows a front-end to easily generate and use specific configurations on the fly, without asking the user to manually write a configuration file.
 
+Package: qdiskinfo
+Version: 0.3+git20240909+ds-1~mos+1
+Architecture: amd64
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 286
+Depends: pkexec, smartmontools, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
+Homepage: https://github.com/edisionnano/QDiskInfo
+Priority: optional
+Section: utils
+Filename: pool/main/q/qdiskinfo/qdiskinfo_0.3+git20240909+ds-1~mos+1_amd64.deb
+Size: 86140
+SHA256: a728813f0544e69de7b2adc8f148eadb29247ebb893bbd5998e68fd1c8578855
+SHA1: f29b48dc96effe998413754834648d13f3ce82f5
+MD5sum: b2c4c37d814294ae2b0f66b6d5684353
+Description: CrystalDiskInfo alternative for Linux
+ QDiskInfo is a frontend for smartctl. It provides a user experience
+ similar to CrystalDiskInfo. It shows the SMART (Self-Monitoring,
+ Analysis, and Reporting Technology) data of modern hard disk drives.
+
 Package: qphotorec
 Source: testdisk
 Version: 7.2-1+mos1
