@@ -2,23 +2,23 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: generic
-Date: Mon, 16 Dec 2024 19:35:07 UTC
+Date: Mon, 16 Dec 2024 22:13:53 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
 MD5Sum:
- 9b7e1f8441745cdadc388802fd98f69b 57275 main/binary-i386/Packages
- 7535d96870159e0a9e6982600cfbc729 16407 main/binary-i386/Packages.gz
+ 60dd615be7a90c73b45514e395d30083 57275 main/binary-i386/Packages
+ 765bb30933dd605fa3dde795f3d08af4 16405 main/binary-i386/Packages.gz
  f19998ad29bbe943727db6a00bb907ad 124 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
- ff4eaf26b211945073a1e6c87c142237 60071 main/binary-amd64/Packages
- 340a0ecee7e8ce72a66e4a98c948be43 19362 main/binary-amd64/Packages.gz
+ 1e4825f0516f875005c795b78d0bd12c 60071 main/binary-amd64/Packages
+ 5b84950dd9b452197dbdcc7fa4591d7f 19359 main/binary-amd64/Packages.gz
  0f7bb212d98374f0419cb495aa84077a 125 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- 5de1c8714c6272f00372b503ea4780a5 22878 main/source/Sources
- 7e604a634aa9e58643ea4bd5bebb1635 7410 main/source/Sources.gz
+ cbdde0a4425c51bcf0ec6885bc49367c 22878 main/source/Sources
+ 2c57093fd424c9f104cfde4377712271 7408 main/source/Sources.gz
  ddac7f9e0ee03fe116f854326a28dfae 126 main/source/Release
  61897da86e461921af74e4a19cdcca07 8017 contrib/binary-i386/Packages
  b9ed9732549961c1b0e6d8230fd24c92 2494 contrib/binary-i386/Packages.gz
@@ -47,18 +47,18 @@ MD5Sum:
  c2be92e663f530c0a88765e9813b1677 669 non-free/source/Sources.gz
  01d345a3364abf21b96bf04ff45d5a2a 130 non-free/source/Release
 SHA1:
- 6b79447584bd5f1e42a8461752c217fdac37eba9 57275 main/binary-i386/Packages
- 789dba3aea7a268fd4f53502a7284e7480e66c43 16407 main/binary-i386/Packages.gz
+ c4e1ac99d0573be118cef301381d297d1a859c29 57275 main/binary-i386/Packages
+ b41f466d1743045fdf019ae3bd50bf51b0e679ee 16405 main/binary-i386/Packages.gz
  e9873c3be5cba1f1c9dfe52b669b912bf09d8000 124 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
- 8486c4b2918da43ffba7ce6e33af43c2ae39f0e1 60071 main/binary-amd64/Packages
- 1f0e4413e819d607b8517b137b612f34377f2e79 19362 main/binary-amd64/Packages.gz
+ 38a5159154ecba8146948d5ecf6676570b27d452 60071 main/binary-amd64/Packages
+ 46c35a2c7c5936520713ab8c93fd8fccc4695104 19359 main/binary-amd64/Packages.gz
  1f87f472e947cb209a940d013c104f6b2f473396 125 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- dd85dac3d456cea0e1e140dc794cb987a0674ee1 22878 main/source/Sources
- 2b0675667193ade7989432aa66621f534008f4f0 7410 main/source/Sources.gz
+ 1d7e790f9a7b83227aff68f247d8c2dea62bba07 22878 main/source/Sources
+ e2d4fc1946307ff34f73a6b00d8ba71e9984e8f1 7408 main/source/Sources.gz
  41baedde6c695f31e38f86762eeecc1540d6b2a2 126 main/source/Release
  b18d86f0cd76639b478669388aa1989342f710ee 8017 contrib/binary-i386/Packages
  d4b758922aa9a810166748bb0614024ff78e0489 2494 contrib/binary-i386/Packages.gz
@@ -87,18 +87,18 @@ SHA1:
  a44f0a60603ff277c5b92c2d7ae17cfcc9b89285 669 non-free/source/Sources.gz
  c7f7d374f8c0ab0d140a68e849afbfbd5c6bab55 130 non-free/source/Release
 SHA256:
- be78c8f3911f12b8c30ae2ff18dd6ff428ad9e9164c2d95abe3fb48cc8086cab 57275 main/binary-i386/Packages
- 9e00742ca0af3222bd96da15e4f5bd9b97b7e174cc4d6e60dbfa4bfe27fcfeb1 16407 main/binary-i386/Packages.gz
+ 798134fc52a94f2639a0c61798415bd5f8d5cb0b9b46c3106404aa3fad9612b2 57275 main/binary-i386/Packages
+ 8c37e879661433237e6ccbc740498fe75c4c6e8efbaf6452051af212a3337dc3 16405 main/binary-i386/Packages.gz
  a9d73906058c259c0b189592a9510754881be2cd24acd5d1682451247f8bb86d 124 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
- 40e24a8f91b1f5609fcf2bba48c4b33b63962323e2aab114e0121210eee6dd3d 60071 main/binary-amd64/Packages
- efff99d084dab773b2ae30cb130bb8d4cf89f77c0e1738712b50bff888a0f63f 19362 main/binary-amd64/Packages.gz
+ 4b026ef29da95fbfc2fd7eca3385aad6f58450715a6c6be6251414e8733b98bb 60071 main/binary-amd64/Packages
+ 1d1a2985c140a88fde66127ef400b4e3cd2bb588813963e59ae709882ec88ce1 19359 main/binary-amd64/Packages.gz
  30138a12cee32ef9195d8659823972f9d98a0fd8468bd74316ddfc13070f400a 125 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- b9c89cbad2867d4049373c862afe2ef8bdf88e1a3d85f2d511fee05bee686c96 22878 main/source/Sources
- c1bd4ae23d5021376d4adb65c9010c3ef851ceae98c94bd6f3969097db00edc4 7410 main/source/Sources.gz
+ 7257cfa9fe6bdcfffeedab961e1054d224f36f839d7b116c4f6506d07feec6c2 22878 main/source/Sources
+ b1bd688b1f33f20653014b518041258d6e6afc4c9ce90bba8eb86a353ae79ce9 7408 main/source/Sources.gz
  4f668a0382edbb4cae9f726ea2bd5880ad14741db46804c546bb8a7d31a45b1f 126 main/source/Release
  7b92eed169f45a0d967d5f6765785f33ee9bdfc06bd239046d1f1515701670ee 8017 contrib/binary-i386/Packages
  01c5358f271f9c2eed39f04c44299ca6e162721c84c693d8d286308bc6bc32a9 2494 contrib/binary-i386/Packages.gz
