@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: noble
-Date: Mon, 16 Dec 2024 22:13:52 UTC
+Date: Sun, 22 Dec 2024 21:32:43 UTC
 Architectures: amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -86,15 +86,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmdgpiEACgkQ7CDxjGi2
-L2yoWwv7B6if5Kdj36sPwpNla+QdN/XellDj7XxELqw9ECtM5gadScaBhirDcoM5
-cFW43kLPaiqBdvdATlcDzzNGVa0Pb8lulFIshqu3SoH6ioDMiDYNmNwn82lBL0Fy
-HyJJEKqllJJOYMhordl3MbqVl+sslXLevuXjDyakhWHpYFo4DggNxSuwm4QoYPSE
-c/VuONbu0tPoLUz0NJpk1Xdw9dQuMQ+/z+FOH6tzrqEG9xOn9UF4euD0l0ba6xs3
-moQqavMp4IKYsf4AqZOEcJ5wHnE6F+w21po8UZ3Z/58zP3+97oxs5TvqUyTxxjWO
-pEkQqwEkHzazgUGgVvZatYqEI1j3bKnMaRRZPola8S3w5MmhHe/ABYeMBY2XbbTj
-dWmWcviv7SKBXu79qvBQ9DedyZCfX4DCwDwNC+DHgl90xveJSS7kSfRw0uVWX4Qh
-va/a+HgdS3dSyiZujTaj5Kp1igGAgymSaZ8TAwxqbRtHXfNGvTZFylFxr2xu92xM
-i02+NxP2
-=G2XS
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmdohXsACgkQ7CDxjGi2
+L2xO4Av/RSQX5Ju5OtTfJjOPj7yi06FpwAqFM15A4WodBrlYz/8ujW84BfJdT21x
+TsbSAZWrPXu2UW9Pui4RSzdKJUYXKGi4RkO9aIZ8YBl5+nevLxDj3K0PMgDfBzmJ
+efVyki55OgtiGESaSlKcMjQBQaZAdHrtyNt0GQvAo+n0bDXnCZFpFmGDGCkVGeXZ
+ZwmQRk3tjLLRZpIdOhJgqEa4tcT5xtYuuLAIItr44i4xRmqAzxysjcQ0tuRvY4bs
+BUZ4FI7yvU9vl4CybrU+P9Iu38PqqU8GdIjj6pf/+xtt7bZ3dMthvOQVNDGhLgre
+2tQj/qezhBRK1+CR+pvjeTr46Xxoq9WF2kRftK3NZSCPZiqudPPCdI7IAs1hnSzv
+KdYhTT0O09b6aWiVXeD5J4+fDZLhRAr6Ptp4CmhbytK86MS5iO5ZhdPdvtgi8/z9
+pyA94uVQk5mmpvdoGQ7e9GAFoHDpX/0N3zjwJ2x2dmTSWq80QkUDpnfKdz5x9MLH
+S7i5Dhon
+=OVpr
 -----END PGP SIGNATURE-----

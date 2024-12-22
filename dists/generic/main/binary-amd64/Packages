@@ -392,18 +392,18 @@ MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
 Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
 Package: libminioslive
-Version: 4.0
+Version: 4.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 31
+Installed-Size: 30
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/libm/libminioslive/libminioslive_4.0_all.deb
-Size: 6892
-SHA256: 5599106b99819252ab9e1140040927deda50d6c7b823a310e3ffca0141c8337f
-SHA1: 9512a59ec47a8c477d316190259f157cde682e2f
-MD5sum: 5c947e160f4a24beee9747c89438ec66
+Filename: pool/main/libm/libminioslive/libminioslive_4.1_all.deb
+Size: 6912
+SHA256: 7025866b62afe126643da6a2aa5f477de9932ab56c1638480d5cf06e9a127f8d
+SHA1: 988d6df610dbf05f23419ab38a2c204bd8ed1bed
+MD5sum: 11ef3c29613654e15e3a976aaefddfbc
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -863,20 +863,20 @@ Description: Linux support headers for userspace development
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: minios-boot
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 88
+Installed-Size: 91
 Depends: bash (>= 4.4), coreutils (>= 8.28), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237)
 Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-boot/minios-boot_1.0_all.deb
-Size: 15644
-SHA256: 4d3271737670e0091aac45355d8a9f7f1dfbd6d2c77c1a9fd51466d444934e31
-SHA1: 808a90fea33fe1f8a69d0ccd29feb36be427c8b3
-MD5sum: 7e7d35e9e5b7ee9e4e3fa20b52b86b92
+Filename: pool/main/m/minios-boot/minios-boot_1.1_all.deb
+Size: 15928
+SHA256: 9ed725a51e974cb04ad9b4eb6bdd75c1d808dcbbcf3a5d3d715b6d11b76304d0
+SHA1: cb351d7e5275be609fa6bbf785949438bf9471a5
+MD5sum: 037493ffe1e167a5b650c4e6a868b104
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -944,19 +944,19 @@ Description: Scripts to build a bootable MiniOS ISO image.
  lightweight, customizable live systems.
 
 Package: minios-tools
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 144
+Installed-Size: 145
 Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.0_all.deb
-Size: 28692
-SHA256: 78cbdf678a8cd7a14548a0fd0a59a9a6fd539309c7590b0954d969f7f646cb28
-SHA1: b917c688cc28c29366bc1cea1b595f200ca43a63
-MD5sum: 4fb2b8a3a65ddd350c741cb6bcb59f33
+Filename: pool/main/m/minios-tools/minios-tools_1.1_all.deb
+Size: 28960
+SHA256: 4cdfc24005068762f5350316cce22cc8c5e7f35ccc0e2dfafe545e19228af750
+SHA1: 76d45be31a7b5da2ca615a458ecd4131f822e199
+MD5sum: ccf276e67caf01b0123abe77a311c26c
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
