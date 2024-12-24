@@ -863,7 +863,7 @@ Description: Linux support headers for userspace development
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: minios-boot
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 91
@@ -872,11 +872,11 @@ Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-boot/minios-boot_1.1_all.deb
-Size: 15928
-SHA256: 9ed725a51e974cb04ad9b4eb6bdd75c1d808dcbbcf3a5d3d715b6d11b76304d0
-SHA1: cb351d7e5275be609fa6bbf785949438bf9471a5
-MD5sum: 037493ffe1e167a5b650c4e6a868b104
+Filename: pool/main/m/minios-boot/minios-boot_1.2_all.deb
+Size: 16012
+SHA256: 242ec97d212c3e4dd129554777acec567e79427f86ecfbf383f967d24d26e199
+SHA1: b39891229a8b233fec9f89821ba489c7911a59e7
+MD5sum: de479ba807f213b8eef96cf76d44f404
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
