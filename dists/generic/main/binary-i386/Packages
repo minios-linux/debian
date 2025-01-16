@@ -340,18 +340,18 @@ Description: Daemon to manage HiDPI and LoDPI monitors on X
  HiDPI Daemon handles mixed-DPI monitor configurations and provides a simple mechanism to switch between HiDPI and LoDPI modes.
 
 Package: libminioslive
-Version: 4.1
+Version: 4.2
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 30
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/libm/libminioslive/libminioslive_4.1_all.deb
-Size: 6912
-SHA256: 7025866b62afe126643da6a2aa5f477de9932ab56c1638480d5cf06e9a127f8d
-SHA1: 988d6df610dbf05f23419ab38a2c204bd8ed1bed
-MD5sum: 11ef3c29613654e15e3a976aaefddfbc
+Filename: pool/main/libm/libminioslive/libminioslive_4.2_all.deb
+Size: 7000
+SHA256: 76c0c57cd1b52cdf3ec1f68f1965146fb30448c769ff503c0ef648c889ea7b7c
+SHA1: 4b2ae486560c19ab3117db0344c3cfb2e468f52f
+MD5sum: 494de4d969baf4655c51ebc632c6c2f9
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
@@ -1172,7 +1172,7 @@ Description: Linux support headers for userspace development
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: minios-boot
-Version: 1.2
+Version: 1.2.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 91
@@ -1181,11 +1181,11 @@ Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-boot/minios-boot_1.2_all.deb
-Size: 16012
-SHA256: 242ec97d212c3e4dd129554777acec567e79427f86ecfbf383f967d24d26e199
-SHA1: b39891229a8b233fec9f89821ba489c7911a59e7
-MD5sum: de479ba807f213b8eef96cf76d44f404
+Filename: pool/main/m/minios-boot/minios-boot_1.2.1_all.deb
+Size: 16000
+SHA256: 3f48af88b79a89ac787e73e2b39c3d30d574d6be21347fc67c692ac927c629c0
+SHA1: af76440fe1124f137ee6dd1ea32c23f450bb921a
+MD5sum: 35a0bc4e369917a621d3f029297cbf55
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
@@ -1283,6 +1283,24 @@ SHA1: 13df8ac04e4086f52723ba36d4ea35602418fbed
 MD5sum: c0e7b8836a95cabc53f4aad358d4a473
 Description: write .img and .iso files to USB sticks
  A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: ntfs3-dkms
+Version: 1.0.12~mos+1
+Architecture: all
+Maintainer: EasyNetDev <devel@easynet.dev>
+Installed-Size: 8446
+Depends: dkms, linux-libc-dev, libc6-dev
+Homepage: https://github.com/EasyNetDev/ntfs3-dkms
+Priority: optional
+Section: admin
+Filename: pool/main/n/ntfs3-dkms/ntfs3-dkms_1.0.12~mos+1_all.deb
+Size: 190320
+SHA256: aff228e4708d5db3bf610758144257d3666a731fa102d82d4012eee939a3e8cf
+SHA1: e837e51e61a310d4201c256c0c50e579bfad4abb
+MD5sum: 53d0cb1fd5b3e6f711e502eb786288e6
+Description: NTFS Read-Write file system support
+ Windows OS native file system (NTFS) support up to NTFS version 3.1.
+ This is original Linux Driver ported as external module.
 
 Package: osinfo-db
 Version: 0.20240701-1+mos+1
