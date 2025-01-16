@@ -12,8 +12,8 @@ Build-Depends: debhelper (>= 7.0.50~)
 Package-List:
  ntfs3-dkms deb admin optional arch=all
 Checksums-Sha1:
- 0a285832e395cf911cc6e9e809f82eae0e2cbf51 2187407 ntfs3-dkms_1.0.12~mos+1.tar.gz
+ 36dd45046050dee7b4e95b84b43ae7e0a9175a7b 2187411 ntfs3-dkms_1.0.12~mos+1.tar.gz
 Checksums-Sha256:
- ebe8d49c46513b2cae9b8f8466a6946e2b6f5dad60fdce740e3876f9b72a383a 2187407 ntfs3-dkms_1.0.12~mos+1.tar.gz
+ e08bc9bd2aa0b9f7476f6e273c663303b9fc098296efdb73e95f09d888b4f455 2187411 ntfs3-dkms_1.0.12~mos+1.tar.gz
 Files:
- ec0108b4c3b07a8ae8ff5c585f82fd71 2187407 ntfs3-dkms_1.0.12~mos+1.tar.gz
+ da04612bbb263e8f1e54855719684374 2187411 ntfs3-dkms_1.0.12~mos+1.tar.gz
