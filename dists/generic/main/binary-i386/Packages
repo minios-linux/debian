@@ -1288,16 +1288,16 @@ Package: ntfs3-dkms
 Version: 1.0.12~mos+1
 Architecture: all
 Maintainer: EasyNetDev <devel@easynet.dev>
-Installed-Size: 8447
+Installed-Size: 8446
 Depends: dkms, linux-libc-dev, libc6-dev
 Homepage: https://github.com/EasyNetDev/ntfs3-dkms
 Priority: optional
 Section: admin
 Filename: pool/main/n/ntfs3-dkms/ntfs3-dkms_1.0.12~mos+1_all.deb
-Size: 190596
-SHA256: 77ec537be514930cc4202cb9943ac7ce24241e4e0e479fabe46228d89f943a3f
-SHA1: 3f521fbfa1a9b2a48fe8b12ca048a7c75ec8ad50
-MD5sum: fc3ca2496c282c480601dbc1b793ac86
+Size: 190320
+SHA256: aff228e4708d5db3bf610758144257d3666a731fa102d82d4012eee939a3e8cf
+SHA1: e837e51e61a310d4201c256c0c50e579bfad4abb
+MD5sum: 53d0cb1fd5b3e6f711e502eb786288e6
 Description: NTFS Read-Write file system support
  Windows OS native file system (NTFS) support up to NTFS version 3.1.
  This is original Linux Driver ported as external module.
