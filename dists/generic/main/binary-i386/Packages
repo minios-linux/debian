@@ -1294,10 +1294,10 @@ Homepage: https://github.com/EasyNetDev/ntfs3-dkms
 Priority: optional
 Section: admin
 Filename: pool/main/n/ntfs3-dkms/ntfs3-dkms_1.0.12~mos+1_all.deb
-Size: 190320
-SHA256: aff228e4708d5db3bf610758144257d3666a731fa102d82d4012eee939a3e8cf
-SHA1: e837e51e61a310d4201c256c0c50e579bfad4abb
-MD5sum: 53d0cb1fd5b3e6f711e502eb786288e6
+Size: 190312
+SHA256: a39dee0695d42d1727377c60ec3d71a9f7285cc0349d6c6232c7957a86bcab42
+SHA1: 551fa77ff66382794fa7882aa3fc9f32e0066528
+MD5sum: b67b4b91671992fe07ee2f4140d22d54
 Description: NTFS Read-Write file system support
  Windows OS native file system (NTFS) support up to NTFS version 3.1.
  This is original Linux Driver ported as external module.
