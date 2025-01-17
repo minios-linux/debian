@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: bionic
-Date: Fri, 17 Jan 2025 10:41:55 UTC
+Date: Fri, 17 Jan 2025 12:53:11 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmeKM/MACgkQ7CDxjGi2
-L2w/6Qv+LfQNN347c2K7eoxjAJ27GsTwYELMqD0Lauy77d2CMKCUi5h9+BTBsPyT
-8AdzIPR8IKgXlToqn3Pi7kcMb/lQbhdaSNtC9jRyebUku4F+nxZTIJjpwPlDZMd2
-MuNtg/2M2m6v2m+4OUqot/bFzCFDRi1YYNdVyYHX7qiyTa9MSsHCkAsgSsbkHU2z
-Ci6V3+GPbiovdFVuD51d92O/dPQFghprcfzI53skAg7rkZ5zhKWte21UR0QpgVWc
-ycDAUp+5njjp3MnV4bPdw/ZFJ1hLhWZH9bwIX/gYxiptG4BG+CX0JPIhk60PMr+P
-0DERRF6ocuyCl2zcSkWdUgLrOYWDTzHhjODCiEhk1zXu88/cvwoNyiUszp8Qb2q5
-fsVrfBxQUYV8GouZKU4eWHTfw6MaY1AuWX0OL+hMz4a8flG2UGfgUJuB3aTzEiLb
-py2SOG6OlyEXrY0RaMEW9Mmp66fh7thEKCnM6+PyxwwBHvSbw9zlcrGurEGErIFD
-7sovMLDg
-=HPk0
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmeKUrgACgkQ7CDxjGi2
+L2w13wv+Ly/nuFpjt08/dsmm/9ZgevNoA5ap0LXNy7vSpn1XRSR77Z7ZpkQ+TMrX
+TCtKKuLhQNMhACb4TvhLAIHt3z6LbvienfSzrvbnHJiQ67WPNjd/PTid+Ef/Rf5t
+kWO3kMFq9LqC0ZDBWHdPjMO7kiJu8O4ehpuJ+TslSLTRgpWTHDKLaXlt0KyeYcqs
+hsV5ekIqLo0xRb+uzUm1FSi5VWs4ADEXltSxb8tR1D8FXz9V2qtjq/hHR4GQzxPf
+Hg5HBPwk6uJMnxoGqAsrV7AJ2Pbdhw8J0wf95QKxjNiU/LAH3xXW0tTYtnpPeETa
+iVjPJKcMyV7crgDxha/QxAhJo8ej/1GzRMf+6AA4LasA43Z5wHpZHVgT0mLPCs4V
+feEJlNczZhrpvqIDc/+IsZ7dnyUT3x4d6hdBIrxHh4PPNt4qgXH1uI8NCj6iig6L
+uKqSMayUKNZI0YxNb1+auhemzZOy0kZZoZ56cDnCydM4WTl2KDlK10nxKQJumbNW
+fFX7u8aB
+=xp/g
 -----END PGP SIGNATURE-----
