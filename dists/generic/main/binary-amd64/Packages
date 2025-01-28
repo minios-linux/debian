@@ -408,20 +408,20 @@ Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
 Package: linux-headers-6.1-mos-amd64
-Version: 6.1.119
+Version: 6.1.124
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-headers-6.1.119-mos-amd64
+Depends: linux-headers-6.1.124-mos-amd64
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.119_amd64.deb
-Size: 2236
-SHA256: a1d8e083a0b19d4eaf1ef4b2238dba13de778f98cf28e21bd8b045222154298e
-SHA1: a4c5abf90250adda3c87330e01e41fc8936e7996
-MD5sum: 9db24c28e7ca639f65fa55ff91316694
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.124_amd64.deb
+Size: 2240
+SHA256: aa93451c8fddcfefb9a4c0e8f0e5cefe640a16d62599ed7665bc0b738cd7fd81
+SHA1: f14c2ece3e3470259312ddd12edb389b05db4133
+MD5sum: b8521a9b74655c06159db9954eb65698
 Description: Header files for Linux amd64 configuration (meta-package)
 
 Package: linux-headers-6.1.112-mos-amd64
@@ -478,6 +478,25 @@ SHA1: f37be901c332747ac1cddca986fec56ddf329ea8
 MD5sum: fed52f16ea4359178bf4afd50cca7544
 Description: Linux kernel headers for 6.1.119-mos-amd64 on amd64
  This package provides kernel header files for 6.1.119-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.124-mos-amd64
+Source: linux-upstream
+Version: 6.1.124-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52572
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.124-mos-amd64_6.1.124-mos-amd64-1_amd64.deb
+Size: 8895208
+SHA256: 4d361af2d3527d2b445b31ff48f89560e1630342ad95bf0ae9c396e04d17bfd9
+SHA1: 6682985622fac1b9553ae6b59eb81284c9ca4a47
+MD5sum: 53a5463c54c8ebf632ea8bcfac6a440b
+Description: Linux kernel headers for 6.1.124-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.124-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
@@ -630,20 +649,20 @@ Description: Linux kernel headers for 6.8.12-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-image-6.1-mos-amd64
-Version: 6.1.119
+Version: 6.1.124
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-image-6.1.119-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.119-mos-amd64
+Depends: linux-image-6.1.124-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.124-mos-amd64
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.119_amd64.deb
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.124_amd64.deb
 Size: 2248
-SHA256: f9c3f4ab4669b231a4feee197bcc3b56808261838364a9cbfb1ab9df1eaccc5e
-SHA1: 59f20c890ba64cb18f80ec23e7cd9b366e54ec08
-MD5sum: d40bd090924cdea292c5b4441c0e4e29
+SHA256: d2271b5b869c73a632cf7fd07f8e0fd24b504233bfe5bfdf7f662cd2a22cad1a
+SHA1: 50af16edb0ea35887b2bb706ae63fb468294652a
+MD5sum: 5dc6f7ca04b099f6f0b518bcda702ccc
 Description: Linux for amd64 PCs (meta-package)
 
 Package: linux-image-6.1.112-mos-amd64
@@ -699,6 +718,24 @@ MD5sum: f0d57cefab26712ade58b66efb9bfd34
 Description: Linux kernel, version 6.1.119-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.119-mos-amd64.
+
+Package: linux-image-6.1.124-mos-amd64
+Source: linux-upstream
+Version: 6.1.124-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409738
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.124-mos-amd64_6.1.124-mos-amd64-1_amd64.deb
+Size: 70644632
+SHA256: 69585131b716762220006c983b07237422be20ce5beae9ccb71d9dd8d0662faf
+SHA1: a7080b6c361c8ac66977ed900cc306db8030e7fb
+MD5sum: a63f9e8f7739918cca5690b8eed16966
+Description: Linux kernel, version 6.1.124-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.124-mos-amd64.
 
 Package: linux-image-6.1.67-mos-amd64
 Source: linux-upstream

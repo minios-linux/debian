@@ -2,7 +2,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: sid
-Date: Mon, 27 Jan 2025 15:01:09 UTC
+Date: Tue, 28 Jan 2025 17:27:27 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
