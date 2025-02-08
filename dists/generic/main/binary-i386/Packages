@@ -1246,7 +1246,7 @@ Description: Linux support headers for userspace development
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: minios-boot
-Version: 1.2.3
+Version: 1.2.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 95
@@ -1255,18 +1255,18 @@ Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-boot/minios-boot_1.2.3_all.deb
-Size: 17028
-SHA256: 850058b1c820faa92b211f3e1b717c7169f957714aae25c396560471a1f18319
-SHA1: 82de435812502c717589177f7aa0e9ef23bbebcf
-MD5sum: 1f77ac7abaaff166d0e3e0f8deccacaf
+Filename: pool/main/m/minios-boot/minios-boot_1.2.4_all.deb
+Size: 17144
+SHA256: 59a484649371c5b236131f0a007633f0d855138c6857d97f696810ce574c5cb6
+SHA1: 3163e0de23e40a8e6abb474b3c1ca4d1e79be105
+MD5sum: 20119c0b78d647487f6909b43d754091
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
  <https://github.com/minios-linux/minios-live/wiki> documentation.
 
 Package: minios-configurator
-Version: 1.1
+Version: 1.1.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 75
@@ -1275,11 +1275,11 @@ Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-configurator/minios-configurator_1.1_all.deb
-Size: 12196
-SHA256: 76e986730baa94fc65ae8374b60c06f0a12b0f604204891a347282885ee998c4
-SHA1: 27e1720483906713c8fea328e2060522bd9574db
-MD5sum: 876447544ba6002955b02ac9cb86dcd2
+Filename: pool/main/m/minios-configurator/minios-configurator_1.1.1_all.deb
+Size: 12612
+SHA256: 4b128103fdd023351e477e9f23a3c3be3016ba9ad17ac996b9159814a7587bf5
+SHA1: c3589205d857a3e249a85444dc6f90bad26601b9
+MD5sum: 485d7fe41fec6803844b4f3e8d992306
 Description: MiniOS Linux configuration utility.
  MiniOS Installer is a utility specially designed for quick and easy
  configure MiniOS.

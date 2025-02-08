@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: unstable
 Codename: sid
-Date: Fri, 31 Jan 2025 15:32:43 UTC
+Date: Sat, 08 Feb 2025 22:33:24 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  60a1ad0d898fc2615af857fb1af1ed4d816367fe39a124629bb7225231339b43 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmec7RwACgkQ7CDxjGi2
-L2zaUAwAifwbg8G/4fwGg7C541y01GbnOoUF6Wqx1efKAfoFQ3iWTNZC/r7Hc/hu
-nVaDVyhaGdqZBXltFwkMjTCnc1CVJMFR2X9EDqEuuY9pPYFaxuGKqLFrDB7dEXTQ
-Y4crWjEjzJgGkLZwnBzPgOUCchl1H24XjvWYfAgYuz+6NS2ZHR+mzW9+yd4XTKlG
-raGLDP50iKZrfg9tpdCdbBJqBbTV00YuHwgxPnQcYulPT7XY9S5iAP5ZVzaPZiE5
-fFY6hiLDOnrmskHxQP+Lma0en0lmTvB1dPYHA9CAqSUPOzxeZ0ksD5mWYhpQPQGQ
-vV1Sb5FRdPtZ5kUV/nb7UqtlMTShnCxoOc6hvQSvP+1M3NVT5Mtgy8i+FEOJOVTN
-DxFjSYUVmmvjsr/yBpxwwJS5HJCnu+TqIVZXxntqJQF1+8i0swTLtVPWLALODUxu
-z/CnJhIJypEFaGwPX0dQTEhbow2t1xwG/RASOAhSdjAsVm3NvijAqhF+a2NWy6b9
-A9jvNBk+
-=J4f0
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmen27QACgkQ7CDxjGi2
+L2xelgv+OG5IxELfoGMV1H3wNsoWhoqPn+M2v/o42nmWryA0Pk97HDrQgxTsnQVn
+c6hAY+a8pCVrWeLkRxt/0JTvUtqugyOMN5u6He3424zF4McPjx9tdMqlhZ9U0ZYG
+mU9xjXiNIa4wlgqFpCbTNjvOk4rSQ1368Ut1jYNmQHkRbBq+omDCK2OBcaYE8WX5
+vUcTlvUuiulFkOaAy+Y4oU0146z+QBWrsFmE6diq2370si+6qpR46nxvfAjfbMX/
+IUpLmg0xj6umRJvXbT1TD2DV332cl6Zvk7DptpJ3M+XyIAEoZY3QdfqnKXIbSZjj
+ifI1rQWlS0UTqyn05SNuHNzzqIj5wy4GkZayTlct6QO6edIA3VG/OvK6dEnXyqDj
+QOsf7PUQMqXVPCdXKe5JajCGPhy1bIW9vBqZXM3X45JKybNWCkeWu71dzsJeMVld
+c1FfGceqv5ShbFwNV0mSGq9RC/doZFjmK4L3Bjiwc20NDrzfP/SnyxOQftM6iK5d
+Bj5Cs4No
+=khYt
 -----END PGP SIGNATURE-----
