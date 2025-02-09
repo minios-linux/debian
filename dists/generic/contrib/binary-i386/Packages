@@ -1,3 +1,22 @@
+Package: minios-installer
+Version: 1.2
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 96
+Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
+Suggests: yad
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/contrib/m/minios-installer/minios-installer_1.2_all.deb
+Size: 16120
+SHA256: d59faa595626d40334ad664d257f4fd8fba848cfd6191a12ddebf9773e4f2596
+SHA1: e4e26198d02c4ba2f89d845eb9dcd8d4a5fbed20
+MD5sum: c7b0dfb8e87227addc80d33edad95c1b
+Description: MiniOS Linux installation utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ install MiniOS on a USB flash drive.
+
 Package: realtek-rtl8188eus-dkms
 Version: 5.3.9~git20230921.3fae723-0kali2
 Architecture: all
