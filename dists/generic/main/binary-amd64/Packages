@@ -407,21 +407,44 @@ MD5sum: 4565a7fdcedebf09e96827d1724d06c0
 Description: Library for MiniOS Linux scripts.
  libminioslive contains functions used by various MiniOS Linux utilities.
 
+Package: linux-config-6.1
+Source: linux
+Version: 6.1.128-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1083
+Recommends: linux-source-6.1
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-config-6.1_6.1.128-1_amd64.deb
+Size: 1090876
+SHA256: ec1c9ac5cebc6a39b696f77bd154b856023e95b54ffd42788a72a922595a0f28
+SHA1: 385503f740e95a45af4f1bbdcf3a1ef1efda4c36
+MD5sum: 7a590ba4b3a97743f994f703a3a6a443
+Description: Debian kernel configurations for Linux 6.1
+ This package contains the configuration files used to build the official
+ Debian kernel files, but without references to Debian's signing
+ certificates.
+ .
+ These can be used as a basis for configuring custom kernels.
+
 Package: linux-headers-6.1-mos-amd64
-Version: 6.1.124
+Version: 6.1.128
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-headers-6.1.124-mos-amd64
+Depends: linux-headers-6.1.128-mos-amd64
 Provides: linux-headers-6.1-mos-generic
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.124_amd64.deb
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.128_amd64.deb
 Size: 2240
-SHA256: aa93451c8fddcfefb9a4c0e8f0e5cefe640a16d62599ed7665bc0b738cd7fd81
-SHA1: f14c2ece3e3470259312ddd12edb389b05db4133
-MD5sum: b8521a9b74655c06159db9954eb65698
+SHA256: 04ad7d7a3bd7f23056e1a73a658301d6885d52788c995c9cd0fe8bed9cfbc05d
+SHA1: eb46123e5d67e8377a772c90905254b4df1f2002
+MD5sum: 7daf2888c5b38814b2c9abefc161f864
 Description: Header files for Linux amd64 configuration (meta-package)
 
 Package: linux-headers-6.1.112-mos-amd64
@@ -497,6 +520,25 @@ SHA1: 6682985622fac1b9553ae6b59eb81284c9ca4a47
 MD5sum: 53a5463c54c8ebf632ea8bcfac6a440b
 Description: Linux kernel headers for 6.1.124-mos-amd64 on amd64
  This package provides kernel header files for 6.1.124-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.128-mos-amd64
+Source: linux-upstream
+Version: 6.1.128-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52575
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.128-mos-amd64_6.1.128-mos-amd64-1_amd64.deb
+Size: 8895628
+SHA256: 9ec35c96c4adb405cebeb50883257cc4af75dbe51205614a1d568aeedbd1710d
+SHA1: 23f900c6351eaf7ef1b7b73d6f170b75a134c7fc
+MD5sum: 5b7f828164a5c450f41b7fa2a2a63035
+Description: Linux kernel headers for 6.1.128-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.128-mos-amd64 on amd64
  .
  This is useful for people who need to build external modules
 
@@ -649,20 +691,20 @@ Description: Linux kernel headers for 6.8.12-mos-amd64 on amd64
  This is useful for people who need to build external modules
 
 Package: linux-image-6.1-mos-amd64
-Version: 6.1.124
+Version: 6.1.128
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 9
-Depends: linux-image-6.1.124-mos-amd64
-Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.124-mos-amd64
+Depends: linux-image-6.1.128-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.128-mos-amd64
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.124_amd64.deb
-Size: 2248
-SHA256: d2271b5b869c73a632cf7fd07f8e0fd24b504233bfe5bfdf7f662cd2a22cad1a
-SHA1: 50af16edb0ea35887b2bb706ae63fb468294652a
-MD5sum: 5dc6f7ca04b099f6f0b518bcda702ccc
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.128_amd64.deb
+Size: 2256
+SHA256: 46ab982f19f50b65d8b86f0c3d8237207827d7bbd6fb0235997421758bbca427
+SHA1: 07e5a4d5cd7ab4c187992b1742b277c111480592
+MD5sum: f77337ece57b2ad923acf7ced5902771
 Description: Linux for amd64 PCs (meta-package)
 
 Package: linux-image-6.1.112-mos-amd64
@@ -736,6 +778,24 @@ MD5sum: a63f9e8f7739918cca5690b8eed16966
 Description: Linux kernel, version 6.1.124-mos-amd64
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.124-mos-amd64.
+
+Package: linux-image-6.1.128-mos-amd64
+Source: linux-upstream
+Version: 6.1.128-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409717
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.128-mos-amd64_6.1.128-mos-amd64-1_amd64.deb
+Size: 70663240
+SHA256: 79e8f407e6b0ebd4538420e877efd0698100ed7bfedd51818df02e1b072eae15
+SHA1: 0e7827306ad11f4bef023bd00b6217085c512422
+MD5sum: 4df9ce0a8933853c20ccb15487babf6f
+Description: Linux kernel, version 6.1.128-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.128-mos-amd64.
 
 Package: linux-image-6.1.67-mos-amd64
 Source: linux-upstream
@@ -881,7 +941,7 @@ Description: Linux kernel, version 6.8.12-mos-amd64
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.1.119-mos-amd64-1
+Version: 6.1.128-mos-amd64-1
 Architecture: amd64
 Maintainer: MiniOS Kernel Team <team@minios.dev>
 Installed-Size: 6637
@@ -890,11 +950,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.119-mos-amd64-1_amd64.deb
-Size: 1277840
-SHA256: 7c06a4f502afd859e6285d36ee0256858120686375284758e6997ba72dad9c4f
-SHA1: ea468fc6a1de56c6fecd5692be6198e10042c312
-MD5sum: 0ea6edfc2d5af4dfc528c897d2c42ec3
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.128-mos-amd64-1_amd64.deb
+Size: 1277968
+SHA256: dc10d54d9bdaaa69712c299dcb5083be0047fee906c0f9f496fec74be02d931d
+SHA1: 36ab5e607bb1dd31a813cb54eb624e12d58be20d
+MD5sum: ef5beb24f086afb8a4e929320afc7c5b
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
@@ -903,17 +963,17 @@ Package: minios-boot
 Version: 1.2.4
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 95
+Installed-Size: 98
 Depends: bash (>= 4.4), coreutils (>= 8.28), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237)
 Recommends: libminioslive (>= 4.0)
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-boot/minios-boot_1.2.4_all.deb
-Size: 17144
-SHA256: 59a484649371c5b236131f0a007633f0d855138c6857d97f696810ce574c5cb6
-SHA1: 3163e0de23e40a8e6abb474b3c1ca4d1e79be105
-MD5sum: 20119c0b78d647487f6909b43d754091
+Size: 17972
+SHA256: 91b5b73b7a2b7fb15e654ffc0409b86ae4751ad3ff8c8c4ac00766e43214f1d6
+SHA1: 71c3a7aad502efc1bcb3c8d6bae4044a59f09235
+MD5sum: b3dae77d3dbc841febe21ce61f30d216
 Description: MiniOS Linux boot scripts.
  MiniOS Boot is a collection of scripts needed to boot MiniOS and
  provide the MiniOS features described in the
