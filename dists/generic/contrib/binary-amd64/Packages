@@ -849,27 +849,27 @@ Description: RealTek RTL88X2BU Wireless Driver
 
 Package: rtw89-dkms
 Source: rtw89
-Version: 1.0.2-3
+Version: 1.0.2-4
 Architecture: all
-Maintainer: lwfinger <Larry.Finger@lwfinger.net>
-Installed-Size: 8383
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 8776
 Depends: dkms (>= 2.1.0.0), bc
-Recommends: firmware-realtek (>= 20230117-1) | linux-firmware (>= 20220329.git681281e4-0ubuntu3.10)
+Recommends: firmware-realtek (>= 20240709)
 Conflicts: rtw8852be-dkms
 Priority: optional
 Section: misc
-Filename: pool/contrib/r/rtw89/rtw89-dkms_1.0.2-3_all.deb
-Size: 529784
-SHA256: 25947b822bd5196e084063ec0aa5315b0ce777d9c2c088ffced36a8fc3acb56e
-SHA1: e2b48d6253a1d8d5ab0f6561418e5c82057fa20a
-MD5sum: b20451ca9796fddbcebc8d01c9832c65
+Filename: pool/contrib/r/rtw89/rtw89-dkms_1.0.2-4_all.deb
+Size: 553900
+SHA256: fd0f3a53fa8249492dbdec5665d2a358436c37d9e66191ddeb9e904e741dd512
+SHA1: 479c0bae5cba944374a96fe7d31ea0ed5252144c
+MD5sum: bcdf76e8947f98e7f052fe0075b3a9dc
 Description: dkms source for the Realtek rtw89 driver
  rtw89 is a linux kernel module which supports the Realtek
  8852AE, 8852BE, and 8853CE 802.11ax wireless network cards.
  .
  This package provides the rtw89 source and makes use of the
  DKMS build utility to install them for the running kernel. It is
- intended for use with kernel versions 5.7 - 6.2, after which this
+ intended for use with kernel versions 5.15 - 6.6, after which this
  package should be unnecessary as the driver will be included in the
  upstream kernel source.
  .
