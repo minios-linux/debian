@@ -1041,7 +1041,7 @@ Description: Scripts to build a bootable MiniOS ISO image.
  lightweight, customizable live systems.
 
 Package: minios-tools
-Version: 1.3
+Version: 1.3.1
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
 Installed-Size: 224
@@ -1049,11 +1049,11 @@ Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
-Filename: pool/main/m/minios-tools/minios-tools_1.3_all.deb
-Size: 41056
-SHA256: 5d0e35d7d6b17ac78107d2b8b979fe541d5ce38067bf4342c7ebd6fd9cd28bb1
-SHA1: dc9949a400e73dfa46b2b9f0a7a510611f6e1d60
-MD5sum: fafec88ba4e3c023cf69e17daf75c9c4
+Filename: pool/main/m/minios-tools/minios-tools_1.3.1_all.deb
+Size: 41156
+SHA256: 2224893ffd9488a1108355c0653df3af819770ae6d5acf20df958955eb5def70
+SHA1: e91ad8a4bf78a4acab3812a3545114622c79579e
+MD5sum: 34781f1af57f52a7443238dad8cb29a2
 Description: MiniOS Linux tools.
  MiniOS Tools is a set of utilities designed to make MiniOS work.
  They include utilities for booting the system as well as
