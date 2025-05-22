@@ -1239,6 +1239,29 @@ SHA1: f2e3d9010628b0d84956839f46ac0233c1a26f40
 MD5sum: b753e6961eca19b6524a7fd8ec59dc92
 Description: vkbasalt-cli (filename vkbasalt) is a CLI utility and library in conjunction with vkBasalt. This makes generating configuration files or running vkBasalt with games easier. This is mainly convenient in environments where integrating vkBasalt is wishful, for example a GUI application. Integrating vkbasalt-cli allows a front-end to easily generate and use specific configurations on the fly, without asking the user to manually write a configuration file.
 
+Package: python3-whichcraft
+Source: whichcraft
+Version: 0.4.1-3
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 28
+Depends: python3:any
+Homepage: https://github.com/pydanny/whichcraft
+Priority: optional
+Section: python
+Filename: pool/main/w/whichcraft/python3-whichcraft_0.4.1-3_all.deb
+Size: 5980
+SHA256: f1e910458a28d564c0487e071bacda9f39a7f0b23a50e0aa8c1e14a5fca0e42d
+SHA1: cfad5f5428e64e33d089b5cfe318515b07ee8dd0
+MD5sum: 47b6f5e1e2a81fa60799468a5b54c1f7
+Description: cross-platform cross-python shutil.which functionality (Python 3 module)
+ This is a shim of the "shutil.which" function that's designed to work across
+ multiple versions of Python and inside of Windows. The code for Python 2.x is
+ based on Python 3 code.
+ .
+ This package contains the Python 3 module.
+Python-Egg-Name: whichcraft
+
 Package: qdiskinfo
 Version: 0.3+git20240909+ds-1~mos+1
 Architecture: amd64
