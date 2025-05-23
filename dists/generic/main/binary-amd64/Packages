@@ -286,6 +286,29 @@ Description: Forensic Registry EDitor
  .
  This package contains the report-templates for fred.
 
+Package: greybird-gtk-theme
+Version: 3.23.4-0minios1
+Architecture: all
+Maintainer: MiniOS Team <zu1985@minios.dev>
+Installed-Size: 5419
+Depends: gtk2-engines-murrine
+Homepage: https://github.com/shimmerproject/Greybird
+Priority: optional
+Section: x11
+Filename: pool/main/g/greybird-gtk-theme/greybird-gtk-theme_3.23.4-0minios1_all.deb
+Size: 581492
+SHA256: c38450e2a09d9b9a688664745517bc4ad961dab4c2d9969014372e65f04889da
+SHA1: a75857777b3ac1596d56431fa9da34602b0f9a12
+MD5sum: 4153faaf3a693b54b7a15a25210ca02f
+Description: grey GTK+ theme from the Shimmer Project
+ Greybird has been the default theme for Xubuntu since 2011 when it
+ replaced Bluebird. Greybird can be described as more conservative yet more
+ modern than Bluebird. The Shimmer Project are the designers and developers of
+ both themes.
+ .
+ Although originally created for Xfce, Greybird also supports other
+ GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+
 Package: gtkask
 Version: 1.0-2
 Architecture: amd64
