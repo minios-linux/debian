@@ -1,0 +1,473 @@
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20221012-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 248
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
+Recommends: intel-microcode, amd64-microcode
+Priority: optional
+Section: non-free/metapackages
+Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
+Size: 47416
+SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
+SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
+MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
+
+Package: firmware-linux-free
+Source: firmware-free
+Version: 20200122-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 85
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: kernel
+Filename: pool/main/f/firmware-free/firmware-linux-free_20200122-1_all.deb
+Size: 24200
+SHA256: 5586b8870114b214d004a0107e317376b5a38556aa8cf411712491a1241cd1fc
+SHA1: b04400394d723d8c01eb14d3cc0655c919afa1d1
+MD5sum: 19b1aa31b09fcd1aa70e72e8e94f51b4
+Description: Binary firmware for various drivers in the Linux kernel
+ This package contains firmware which was previously included in the Linux
+ kernel and which is compliant with the Debian Free Software Guidelines.
+ .
+ Most firmware previously included in the Linux kernel is non-free and has
+ been moved to the firmware-linux-nonfree package.
+ .
+ Contents:
+  * AV7110 DVB card firmware (av7110/bootcode.bin)
+  * Atheros AR9170 free firmware for use with carl9170 (carl9170-1.fw)
+  * 3Com Megahertz 3CCFEM556 CIS fix (cis/3CCFEM556.cis)
+  * 3Com Megahertz 3CXEM556 CIS fix (cis/3CXEM556.cis)
+  * Advantech COMpad-32/85 CIS fix (cis/COMpad2.cis)
+  * Advantech COMpad-32/85B-4 CIS fix (cis/COMpad4.cis)
+  * NSC DP83903 PCMCIA Ethernet card CIS fix (cis/DP83903.cis)
+  * Allied Telesis LA-PCM CIS fix (cis/LA-PCM.cis)
+  * MultiTech PCMCIA 56K DataFax CIS fix (cis/MT5634ZLX.cis)
+  * NDC PCMCIA Ethernet card CIS fix (cis/NE2K.cis)
+  * EN2218-LAN/MODEM CIS fix (cis/PCMLM28.cis)
+  * PreMax PE-200 CIS fix (cis/PE-200.cis)
+  * LanPro EP-4000A CIS fix (cis/PE520.cis)
+  * RS-COM 2P CIS fix (cis/RS-COM-2P.cis)
+  * Sierra Aircard 555 CIS fix (cis/SW_555_SER.cis)
+  * Sierra Wireless AC710/AC750 CIS fix (cis/SW_7xx_SER.cis)
+  * Sierra Wireless AC850/AC860 CIS fix (cis/SW_8xx_SER.cis)
+  * Tamarack PCMCIA Ethernet card CIS fix (cis/tamarack.cis)
+  * Atari Falcon DSP56001 firmware (dsp56k/bootstrap.bin)
+  * Intel C600 SAS/SATA controller default parameters, version 1.3
+    (isci/isci_firmware.bin)
+  * Keyspan USA-19 firmware (keyspan_pda/keyspan_pda.fw)
+  * Xircom PGSDB9/Entrega PortGear firmware (keyspan_pda/xircom_pgs.fw)
+  * USB-DUX firmware (usbdux_firmware.bin)
+  * USB-DUXfast firmware (usbduxfast_firmware.bin)
+  * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
+
+Package: linux-headers-6.1-mos-amd64
+Version: 6.1.99
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.1.99-mos-amd64
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.99_amd64.deb
+Size: 2240
+SHA256: bfc92907e2de4cf5c55852382d3d74c9e5a9444bd5220e46c07f814677ede4a4
+SHA1: 197b47a8a5048209a6623361ac3ce4cf6c2b0349
+MD5sum: 74a5d6d9ce70b844825309fbb0c6bd45
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 52407
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 8870884
+SHA256: 8be74ea5449647bb210519fa09a13254401ebfe02fef5b02022aaf1ed3c6fcde
+SHA1: 425e4d12d0da5a8615689d7cc162289eb0afde05
+MD5sum: 4fc366177a5184999aa780e7968113ba
+Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.67-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.90-mos-amd64
+Source: linux-upstream
+Version: 6.1.90-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52458
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.90-mos-amd64_6.1.90-mos-amd64-1_amd64.deb
+Size: 8884700
+SHA256: e88e8127faa9d4d6e762181762800fb21694644a4bbe573995799a32adb83718
+SHA1: 34686ed0433f95d22b23692634a20e7b3ab94b8d
+MD5sum: 5325d68e5d09da73a56e1e49a97093da
+Description: Linux kernel headers for 6.1.90-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.90-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.99-mos-amd64
+Source: linux-upstream
+Version: 6.1.99-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52503
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.99-mos-amd64_6.1.99-mos-amd64-1_amd64.deb
+Size: 8885912
+SHA256: 750e87b9304b3100f0f72efbdd1267e26c163ecfc03aaacc469b5845c936faaa
+SHA1: a5516726c0ce4e607645402fb30de19f80af3dcf
+MD5sum: fc6a46cf21ccfb44a567bfc77b72b5cd
+Description: Linux kernel headers for 6.1.99-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.99-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.10-mos-amd64
+Version: 6.10.4
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.10.4-mos-amd64
+Provides: linux-headers-6.10-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.10-mos-amd64/linux-headers-6.10-mos-amd64_6.10.4_amd64.deb
+Size: 2232
+SHA256: 55f05afae47710ec5a61c935afd051dbb9d4b4a894d99b51f953cec6462279a3
+SHA1: 2706a6cc45242ba6b6924e8612f589d816a53cd4
+MD5sum: 5067ca5d5ece7649e0006e7eaf022e97
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.10.4-mos-amd64
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 54628
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.10.4-mos-amd64_6.10.4-mos-1_amd64.deb
+Size: 9491812
+SHA256: ecb3ec568fea7da680b1ee218715f01d96b69818140f3a18c53d9a2365820e88
+SHA1: aa28b5de1686be49e52bf86b84cceacc90b05a6b
+MD5sum: 5d91173a828c6704946b77ae4eb04a66
+Description: Linux kernel headers for 6.10.4-mos-amd64 on amd64
+ This package provides kernel header files for 6.10.4-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 53885
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 9147796
+SHA256: ab812d4bd588b211b4b7068884905be7de154908bd31985e469aa0add1295450
+SHA1: b991888dbc843ebfa8a67206b0690d8e771bdd8b
+MD5sum: 127312af2e829416b629b805a30e5160
+Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
+ This package provides kernel header files for 6.5.10-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.8.12-mos-amd64
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 54176
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.8.12-mos-amd64_6.8.12-mos-1_amd64.deb
+Size: 9372752
+SHA256: 34fe3d842f6b23ff908fdcf65b970dfc0ec1bde145bf6d024d28cd066ad02704
+SHA1: 602d01fd96ad6e726f084a2640d27e19ccdf1ede
+MD5sum: 48b0f50473753ac3d0839382736bdc4e
+Description: Linux kernel headers for 6.8.12-mos-amd64 on amd64
+ This package provides kernel header files for 6.8.12-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.1-mos-amd64
+Version: 6.1.99
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.1.99-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.99-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.99_amd64.deb
+Size: 2244
+SHA256: 86db46f0719121fb5a6dba26c25c4ce796b86071e12e8fd49ffabb946f3ee7ff
+SHA1: 34dcb68b2c5ce04c557062b8c84e860287fd9832
+MD5sum: 97c1de6e679ba616b37c96b5179b7a2b
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 409226
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 70516376
+SHA256: efdcbc9ce94357b3fb563f1ea005821896073e1299c765d35606ee02c853fb42
+SHA1: b26e88613bd7aaed1c8582f2762f30dbe1fc5686
+MD5sum: 234cb3c6e31cfec310621b6de61a7433
+Description: Linux kernel, version 6.1.67-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.67-mos-amd64.
+
+Package: linux-image-6.1.90-mos-amd64
+Source: linux-upstream
+Version: 6.1.90-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409279
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.90-mos-amd64_6.1.90-mos-amd64-1_amd64.deb
+Size: 70513140
+SHA256: 8a506826dee647031dc406cf5264f09fe1d7003e18bace4880fd498e89843248
+SHA1: 5bf0c9d7685c10856db4e66a44285cf627518388
+MD5sum: c960864ba5fc235b5ccb39446c0fab29
+Description: Linux kernel, version 6.1.90-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.90-mos-amd64.
+
+Package: linux-image-6.1.99-mos-amd64
+Source: linux-upstream
+Version: 6.1.99-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409356
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.99-mos-amd64_6.1.99-mos-amd64-1_amd64.deb
+Size: 70567256
+SHA256: ba13fe502983468bd3db9b96e0694cdaeec0bac489116e09206f4df435d5e3c2
+SHA1: 3f6218a4efff4a7029e207c49978f95bcfb770b5
+MD5sum: 23030e2ca36ce5446c4898740281249b
+Description: Linux kernel, version 6.1.99-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.99-mos-amd64.
+
+Package: linux-image-6.10-mos-amd64
+Version: 6.10.4
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.10.4-mos-amd64
+Provides: linux-image-6.10-mos-generic, linux-latest-modules-6.10.4-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.10-mos-amd64/linux-image-6.10-mos-amd64_6.10.4_amd64.deb
+Size: 2248
+SHA256: b7ec15434e972030f75cc2c224f25eec7c755db5cbc63fa7ac3129a769e019d4
+SHA1: e847e04a3d2817150b012cbe30c7ff162045c132
+MD5sum: 6aa82d0ceab1d36e3b8ac49a37339ba1
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.10.4-mos-amd64
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 114228
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.10.4-mos-amd64_6.10.4-mos-1_amd64.deb
+Size: 103503252
+SHA256: e2ee4157ad395271b6c14d84b123084e5eb1a335277a12197ea85706a4a0c341
+SHA1: b0e8c8b5508e2061c74e74e16cc105b2ca5d2f47
+MD5sum: 502d5acc6fdedc7ebb00b744362d5ec1
+Description: Linux kernel, version 6.10.4-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.10.4-mos-amd64.
+
+Package: linux-image-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 477048
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 77511072
+SHA256: a6aae389b2d4beec95e4f0f5be540a622ab9857f7b86e66d09d29b7a32386577
+SHA1: 45e3f2718b5d9b5327db1090763d856981020fed
+MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
+Description: Linux kernel, version 6.5.10-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.5.10-mos-amd64.
+
+Package: linux-image-6.8.12-mos-amd64
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 110972
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.8.12-mos-amd64_6.8.12-mos-1_amd64.deb
+Size: 100477060
+SHA256: 70438124e067a4396d9f2fcd7c9d78ba334c118971f6f0185a4898fffd7d2d05
+SHA1: 6254c3da00613cd6808a2a635a862408a686d14e
+MD5sum: 7cfc0cbc8bdf29b37b8e42b9586716bf
+Description: Linux kernel, version 6.8.12-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.8.12-mos-amd64.
+
+Package: mousepad
+Version: 0.5.8-1.minios.u2204
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1802
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Priority: optional
+Section: xfce
+Filename: pool/main/m/mousepad/mousepad_0.5.8-1.minios.u2204_amd64.deb
+Size: 340998
+SHA256: 1edf884b7e3d04496f7c061a266711ea715b408a37d48603bdd5d9c4ee01da44
+SHA1: 34b53c36c35f7a6d84b54a768ca2ced33930f86a
+MD5sum: cfa1c7a85bb3ef321cf072afc822941f
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: pcmanfm
+Version: 1.3.2-1.minios.u2204
+Architecture: amd64
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1605
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.minios.u2204_amd64.deb
+Size: 334978
+SHA256: c69243603df145d17a29f6d3f99a96904d3807cbb04b938949d913a5b400c6fb
+SHA1: 5f2063bb05e5e7e1c921a7fd339c830ed7f2a40f
+MD5sum: 9a8b68c9bbab5d945a1b2fb10f5a5e62
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: thunar
+Version: 4.16.10-1.minios.u2204
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1030
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.16.10-1.minios.u2204), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libexo-2-0 (>= 4.15.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.15.3), libxfce4util7 (>= 4.15.3), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar_4.16.10-1.minios.u2204_amd64.deb
+Size: 348224
+SHA256: 13c7db65b2350a2d921463664a9fb84311699df06ea7ee043160e17b69ea0c34
+SHA1: 5d6a995c16e224e7d2df8bc62b2cbcef503ac0e5
+MD5sum: 70ddb74f809ffa748a745d9d32ef9e95
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: thunar-data
+Source: thunar
+Version: 4.16.10-1.minios.u2204
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 4874
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar-data_4.16.10-1.minios.u2204_all.deb
+Size: 847336
+SHA256: 72c02458e6935a32142a16006a9a73133cd7b59840d5a2dfc7c0b874216103fb
+SHA1: 98618966b882c3d9eb714ddfc0489c05637245e1
+MD5sum: 6a1c52868d164a34a5b101daf57c0b50
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+

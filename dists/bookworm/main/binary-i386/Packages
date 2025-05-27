@@ -1,0 +1,368 @@
+Package: adguard-dnsproxy
+Version: 0.73.4-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 9898
+Depends: libc6 (>= 2.34), adduser
+Homepage: https://github.com/AdguardTeam/dnsproxy
+Priority: optional
+Section: net
+Filename: pool/main/a/adguard-dnsproxy/adguard-dnsproxy_0.73.4-1_i386.deb
+Size: 2997260
+SHA256: 4c5aa5873448ec8b9c30af61a0b0c285b99622adf12a01cc3fab2bca61857f1c
+SHA1: e8c6f3e5f8a973f4d31ad06e596bfcc495086209
+MD5sum: 206e2a7f94f14183fd9554e93533f507
+Description: DNS proxy server supporting various protocols
+ DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC. Moreover,
+ it can work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: cbatticon
+Version: 1.6.13-1
+Architecture: i386
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.6), libnotify-bin (>= 0.7.6)
+Homepage: https://github.com/valr/cbatticon
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_i386.deb
+Size: 29480
+SHA256: 0d786cc36497c369c48b2ec05fe959604ed70febcaf33cd8a577734476c9d09a
+SHA1: ecc34d8fe60e04ed309183bdacbe3391a80fd013
+MD5sum: dd70c0bbe995ac9c8bba0e1382ad8eb3
+Description: lightweight and fast battery icon status and more
+ Utility that displays battery information as battery status, remaining
+ percentage, remaining time, using an icon in the system tray.
+ .
+ Based on code from xbattbar-acpi, cbatticon sits in your system tray,
+ reporting on battery events, like plug-in, critical, remaining, etc.
+ .
+ A regular user can (re)define custom system's behaviour, like performing
+ graceful shutdown on critical status, by user-defined thresholds and commands
+ on low power/critical.
+
+Package: fbxkb
+Version: 0.6-3.mos+1
+Architecture: i386
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 175
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3.mos+1_i386.deb
+Size: 93732
+SHA256: ca40a97459375cc7de3056d4b00ba6658e26fd84aebf49155a913eaec4db4368
+SHA1: 6f06f933c0ff8d47c503363b51261497073a1f50
+MD5sum: 2f453043506cccd1699560b140c0af2c
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: i386
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4081
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 4.2), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
+Provides: x-window-manager
+Homepage: http://fluxbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_i386.deb
+Size: 1244544
+SHA256: c2c151efbd9a4abb9960d6c3c4b49f6f78966fd37a7bdbc8b112581e3d1153fb
+SHA1: 369c65b6e76ec9c85a68d313ff061895bb6c15ba
+MD5sum: 737bfe57c18747fe1c104536b42ef237
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
+
+Package: libmousepad0
+Source: mousepad
+Version: 0.5.10-2.mos+1
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 656
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libgtk-3-0 (>= 3.21.5), libgtksourceview-4-0 (>= 3.23.90), libpango-1.0-0 (>= 1.14.0)
+Multi-Arch: same
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Priority: optional
+Section: libs
+Filename: pool/main/m/mousepad/libmousepad0_0.5.10-2.mos+1_i386.deb
+Size: 334616
+SHA256: 316139a412318238ec3906ac2b2954a5fd6ab49dd84bd9add36948ee13d6d860
+SHA1: 1e9d6df529f4a050dd94f6342da6d5aac3d46f87
+MD5sum: f522a1bddcd4c8731a1c92a681e00c6d
+Description: mousepad plugins library
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ This package contains the libmousepad library, used for Mousepad plugins.
+
+Package: mousepad
+Version: 0.5.10-2.mos+1
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 2079
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.0.0), libmousepad0 (>= 0.5.8)
+Homepage: https://docs.xfce.org/apps/mousepad/start
+Priority: optional
+Section: xfce
+Filename: pool/main/m/mousepad/mousepad_0.5.10-2.mos+1_i386.deb
+Size: 520920
+SHA256: 378a58862fb80a2c7f379731a18bf27e06247c7b26b204824713e78f91f1ad41
+SHA1: c9d02223e40ed771961b89d4ad5608e8fb6f810d
+MD5sum: 463eff78e5ceae37beb3916866488b80
+Description: simple Xfce oriented text editor
+ Mousepad is a graphical text editor for Xfce based on Leafpad.
+ .
+ The initial reason for Mousepad was to provide printing support, which would
+ have been difficult for Leafpad for various reasons.
+ .
+ Although some features are under development, currently Mousepad has the
+ following features:
+   * Complete support for UTF-8 text
+   * Cut/Copy/Paste and Select All text
+   * Search and Replace
+   * Font selection
+   * Word Wrap
+   * Character coding selection
+   * Auto character coding detection (UTF-8 and some code-sets)
+   * Manual code-set setting
+   * Infinite Undo/Redo by word
+   * Auto Indent
+   * Multi-line Indent
+   * Display line numbers
+   * Drag and Drop
+   * Printing
+
+Package: ndiff
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 375
+Depends: python3-lxml, python3:any
+Recommends: nmap
+Breaks: nmap (<< 7.94+git20230807.3be01efb1+dfsg-4)
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/ndiff_7.94+git20230807.3be01efb1+dfsg-4_all.deb
+Size: 303564
+SHA256: 7d1737d8e3fcf1dd4ccdefafa6ee2fd2e52f75e050c96a30e3a705f0b1155325
+SHA1: d2d0f706f34fecd5341f4f3592b6112016ef68a0
+MD5sum: 7bd5a0248d9b0746c4d78308a7d1e101
+Description: The Network Mapper - result compare utility
+ Ndiff is a tool to aid in the comparison of Nmap scans. It takes two
+ Nmap XML output files and prints the differences between them them:
+ hosts coming up and down, ports becoming open or closed, and things like that.
+ It can produce output in human-readable text or machine-readable XML formats.
+
+Package: nmap-common
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 21738
+Recommends: nmap
+Multi-Arch: foreign
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/nmap-common_7.94+git20230807.3be01efb1+dfsg-4_all.deb
+Size: 4322600
+SHA256: f38a9f045bbf05b7dd78877d96ee6fb2db43ba15955e2642c96bd60df9218dd4
+SHA1: 72f2eb8f541570aec721dc26c112346b6520b080
+MD5sum: 6797d3863f216b10ae898ddc667c577e
+Description: Architecture independent files for nmap
+ Nmap is a utility for network exploration or security auditing. It
+ supports ping scanning (determine which hosts are up), many port
+ scanning techniques, version detection (determine service protocols
+ and application versions listening behind ports), and TCP/IP
+ fingerprinting (remote host OS or device identification). Nmap also
+ offers flexible target and port specification, decoy/stealth scanning,
+ sunRPC scanning, and more. Most Unix and Windows platforms are
+ supported in both GUI and commandline modes. Several popular handheld
+ devices are also supported, including the Sharp Zaurus and the iPAQ.
+ .
+ This package contains the nmap files shared by all architectures.
+
+Package: pcmanfm
+Version: 1.3.2-1.mos+1
+Architecture: i386
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1596
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, lxpolkit | polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/main/p/pcmanfm/pcmanfm_1.3.2-1.mos+1_i386.deb
+Size: 290136
+SHA256: 68c5def463e175968f4b4fbb91659f6821ad8a831056f52f3d59218a0263646e
+SHA1: ab17bc654f072e0ab938d3a73f2010390902fa25
+MD5sum: c195d7e9ae74df6f96d60b96ba54ec78
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: pulseaudio-module-xrdp
+Version: 0.7-0.mos~d12+1
+Architecture: i386
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 75
+Depends: pulseaudio (>= 16.1+dfsg1), pulseaudio (<< 16.1+dfsg1.1), libc6 (>= 2.4)
+Homepage: https://github.com/neutrinolabs/pulseaudio-module-xrdp
+Priority: optional
+Section: sound
+Filename: pool/main/p/pulseaudio-module-xrdp/pulseaudio-module-xrdp_0.7-0.mos~d12+1_i386.deb
+Size: 16416
+SHA256: 707bd6b571da2bfa4594f02ada332d05d1646cf90ac8a94fbf4459c8dc5ca14b
+SHA1: d627e080cd4b01e1332f0dcb2b5cc660d9809d39
+MD5sum: c40dabe9df960cec29b46478ab2ea21a
+Description: xrdp module for PulseAudio sound server
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
+ WIN32 systems. It is a drop in replacement for the ESD sound server with
+ much better latency, mixing/re-sampling quality and overall architecture.
+ .
+ This modules provides xrdp sink / source for PulseAudio.
+ .
+ The server to client audio redirection is implemented as per Remote Desktop
+ Protocol: Audio Output Virtual Channel Extension [MS-RDPEA] specs, which
+ means it is interoperable with any RDP client which implements it (most of
+ them including: MS RDP clients, FreeRDP).
+ .
+ The client to server audio redirection is implemented as per Remote Desktop
+ Protocol: Audio Input Redirection Virtual Channel Extension [MS-RDPEAI] which
+ means it is interoperable with any RDP client which implements it (most of
+ them including: MS RDP clients, FreeRDP).
+ .
+ The module is called module-xrdp.
+
+Package: systrayicon
+Version: 1.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.16.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_i386.deb
+Size: 4328
+SHA256: 09d13b2abb3b894f872d47fb1c9f2a7bbcd58dba3da271b46a6978dfc1f235ed
+SHA1: 6e577a69788a7e65aa552c4647fc4a1739dda796
+MD5sum: f8ef9481ba3e1f02e8e48d65006618ba
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
+
+Package: thunar
+Version: 4.18.4-1.mos+1
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 1383
+Depends: desktop-file-utils, exo-utils, shared-mime-info, thunar-data (= 4.18.4-1.mos+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libexo-2-0 (>= 4.17.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.65.1), libgtk-3-0 (>= 3.21.5), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.44.6), libsm6, libthunarx-3-0 (>= 1.7.0), libxfce4ui-2-0 (>= 4.17.6), libxfce4util7 (>= 4.17.2), libxfconf-0-3 (>= 4.6.0)
+Recommends: default-dbus-session-bus | dbus-session-bus, gvfs, policykit-1-gnome | polkit-1-auth-agent, thunar-volman, tumbler, udisks2, xdg-user-dirs, libxfce4panel-2.0-4 (>= 4.13.0)
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin, gvfs-backends
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar_4.18.4-1.mos+1_i386.deb
+Size: 443516
+SHA256: 558ffeafc13c2be8ca7fa0e08f35f521d43d6e4e69d3bdfd3596dd06f4a03d12
+SHA1: 95838a13bcd66529aea5dd4ee451595cd42cca03
+MD5sum: 872bf8490ac5fd3927a8b895f1475293
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager for the
+ Xfce desktop environment. It has been designed to be fast and easy to use.
+ .
+ Also included is an Xfce panel plugin which can manage the desktop trash.
+
+Package: thunar-data
+Source: thunar
+Version: 4.18.4-1.mos+1
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5278
+Multi-Arch: foreign
+Homepage: https://docs.xfce.org/xfce/thunar/start
+Priority: optional
+Section: xfce
+Filename: pool/main/t/thunar/thunar-data_4.18.4-1.mos+1_all.deb
+Size: 853548
+SHA256: b8557e5f52af2d374d6c77ec1b3515ba454f2dd5bd656c8f758ff416d3da338f
+SHA1: e10686d7a9cd4315e9c800fa25503b7fe9c4fd05
+MD5sum: 328a91868b69633d07a4ac05da2ee0ba
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar, the file
+ manager and file management libraries for Xfce desktop environment.
+
+Package: zenmap
+Source: nmap
+Version: 7.94+git20230807.3be01efb1+dfsg-4
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 1702
+Depends: ndiff, nmap, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0, python3:any
+Recommends: pkexec
+Homepage: https://nmap.org/
+Priority: optional
+Section: net
+Filename: pool/main/n/nmap/zenmap_7.94+git20230807.3be01efb1+dfsg-4_all.deb
+Size: 626992
+SHA256: 687cfa51343380cfe1de060b3c7ea51e174e83672859e0db22f163f64ca913b0
+SHA1: 7ac7c73e8b21f7ed552aa4e03d6ab3433dfe5cc9
+MD5sum: 58a2da651580b7a4f8af5d041f91926e
+Description: The Network Mapper Front End
+ Zenmap is an Nmap frontend. It is meant to be useful for advanced users
+ and to make Nmap easy to use by beginners. It was originally derived
+ from Umit, an Nmap GUI created as part of the Google Summer of Code.
+

@@ -1,0 +1,183 @@
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20221012-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 248
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20221012-1)
+Recommends: intel-microcode, amd64-microcode
+Priority: optional
+Section: non-free/metapackages
+Filename: pool/main/f/firmware-nonfree/firmware-linux_20221012-1_all.deb
+Size: 47416
+SHA256: 6efae8bbdf376fc0388d4a81bfcc975728c475f718b1a261500a90439d79de80
+SHA1: 9f487309ff66d149a2b1e1c0d0e5d94c7057c19a
+MD5sum: 069499ae6f00ea22ed5657c7533ea4bc
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
+
+Package: firmware-linux-free
+Source: firmware-free
+Version: 20200122-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 85
+Suggests: initramfs-tools
+Multi-Arch: foreign
+Homepage: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+Priority: optional
+Section: kernel
+Filename: pool/main/f/firmware-free/firmware-linux-free_20200122-1_all.deb
+Size: 24200
+SHA256: 5586b8870114b214d004a0107e317376b5a38556aa8cf411712491a1241cd1fc
+SHA1: b04400394d723d8c01eb14d3cc0655c919afa1d1
+MD5sum: 19b1aa31b09fcd1aa70e72e8e94f51b4
+Description: Binary firmware for various drivers in the Linux kernel
+ This package contains firmware which was previously included in the Linux
+ kernel and which is compliant with the Debian Free Software Guidelines.
+ .
+ Most firmware previously included in the Linux kernel is non-free and has
+ been moved to the firmware-linux-nonfree package.
+ .
+ Contents:
+  * AV7110 DVB card firmware (av7110/bootcode.bin)
+  * Atheros AR9170 free firmware for use with carl9170 (carl9170-1.fw)
+  * 3Com Megahertz 3CCFEM556 CIS fix (cis/3CCFEM556.cis)
+  * 3Com Megahertz 3CXEM556 CIS fix (cis/3CXEM556.cis)
+  * Advantech COMpad-32/85 CIS fix (cis/COMpad2.cis)
+  * Advantech COMpad-32/85B-4 CIS fix (cis/COMpad4.cis)
+  * NSC DP83903 PCMCIA Ethernet card CIS fix (cis/DP83903.cis)
+  * Allied Telesis LA-PCM CIS fix (cis/LA-PCM.cis)
+  * MultiTech PCMCIA 56K DataFax CIS fix (cis/MT5634ZLX.cis)
+  * NDC PCMCIA Ethernet card CIS fix (cis/NE2K.cis)
+  * EN2218-LAN/MODEM CIS fix (cis/PCMLM28.cis)
+  * PreMax PE-200 CIS fix (cis/PE-200.cis)
+  * LanPro EP-4000A CIS fix (cis/PE520.cis)
+  * RS-COM 2P CIS fix (cis/RS-COM-2P.cis)
+  * Sierra Aircard 555 CIS fix (cis/SW_555_SER.cis)
+  * Sierra Wireless AC710/AC750 CIS fix (cis/SW_7xx_SER.cis)
+  * Sierra Wireless AC850/AC860 CIS fix (cis/SW_8xx_SER.cis)
+  * Tamarack PCMCIA Ethernet card CIS fix (cis/tamarack.cis)
+  * Atari Falcon DSP56001 firmware (dsp56k/bootstrap.bin)
+  * Intel C600 SAS/SATA controller default parameters, version 1.3
+    (isci/isci_firmware.bin)
+  * Keyspan USA-19 firmware (keyspan_pda/keyspan_pda.fw)
+  * Xircom PGSDB9/Entrega PortGear firmware (keyspan_pda/xircom_pgs.fw)
+  * USB-DUX firmware (usbdux_firmware.bin)
+  * USB-DUXfast firmware (usbduxfast_firmware.bin)
+  * USB-DUXsigma firmware (usbduxsigma_firmware.bin)
+
+Package: gcc-10-base
+Source: gcc-10
+Version: 10.2.1-6
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 261
+Breaks: gnat (<< 7)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: required
+Section: libs
+Filename: pool/main/g/gcc-10/gcc-10-base_10.2.1-6_amd64.deb
+Size: 201332
+SHA256: be65535e94f95fbf04b104e8ab36790476f063374430f7dfc6c516cbe2d2cd1e
+SHA1: f4f6baf45d69bdc348a7b1d563345eb1ac824a1d
+MD5sum: 8ad775342ca4fd0adca5a516849b6498
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+
+Package: libgcc-s1
+Source: gcc-10
+Version: 10.2.1-6
+Architecture: amd64
+Protected: yes
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 116
+Depends: gcc-10-base (= 10.2.1-6), libc6 (>= 2.14)
+Breaks: cryptsetup-initramfs (<< 2:2.2.2-3~)
+Replaces: libgcc1 (<< 1:10)
+Provides: libgcc1 (= 1:10.2.1-6)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gcc-10/libgcc-s1_10.2.1-6_amd64.deb
+Size: 41400
+SHA256: e478f2709d8474165bb664de42e16950c391f30eaa55bc9b3573281d83a29daf
+SHA1: d6a30a2c427e823fcac253c242e4272401cc61a6
+MD5sum: 662ac9938f503745221bd777b5a94cab
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Important: yes
+
+Package: libzstd1
+Source: libzstd
+Version: 1.4.8+dfsg-2.1
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 904
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: https://github.com/facebook/zstd
+Priority: optional
+Section: libs
+Filename: pool/main/libz/libzstd/libzstd1_1.4.8+dfsg-2.1_amd64.deb
+Size: 318644
+SHA256: 5dcadfbb743bfa1c1c773bff91c018f835e8e8c821d423d3836f3ab84773507b
+SHA1: 649d60bc71ea1c64c7cc1e021698fcbf6d3de8cc
+MD5sum: abc4238706c10db45ceeddf52718860e
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
+
+Package: squashfs-tools
+Version: 1:4.4-2+deb11u2
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 351
+Depends: libc6 (>= 2.14), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2 (>= 2.02), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Homepage: https://github.com/plougher/squashfs-tools
+Priority: optional
+Section: kernel
+Filename: pool/main/s/squashfs-tools/squashfs-tools_4.4-2+deb11u2_amd64.deb
+Size: 135268
+SHA256: a21ee94386d4c3c87144f5f69fc0e6c01b553c593d3410057bec7c25a8f9bd7d
+SHA1: 96c93d1566a7de08dca0d378afc7344d91f20c9e
+MD5sum: f971d9dba059790cb3428123a9f8dbce
+Description: Tool to create and append to squashfs filesystems
+ Squashfs is a highly compressed read-only filesystem for Linux. It uses zlib
+ compression to compress both files, inodes and directories. Inodes in the
+ system are very small and all blocks are packed to minimise data overhead.
+ Block sizes greater than 4K are supported up to a maximum of 64K.
+ .
+ Squashfs is intended for general read-only filesystem use, for archival use
+ (i.e. in cases where a .tar.gz file may be used), and in constrained block
+ device/memory systems (e.g. embedded systems) where low overhead is needed.
+
+Package: zstd
+Source: libzstd
+Version: 1.4.8+dfsg-2.1
+Architecture: amd64
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 1902
+Depends: libc6 (>= 2.16), libgcc-s1 (>= 3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 6), zlib1g (>= 1:1.1.4)
+Homepage: https://github.com/facebook/zstd
+Priority: optional
+Section: utils
+Filename: pool/main/libz/libzstd/zstd_1.4.8+dfsg-2.1_amd64.deb
+Size: 629716
+SHA256: 0a13a89b98943e1e7c1f0a547b0269f15c39d4d2b944541e21a1f7100af3e236
+SHA1: 8b34f89016a34e30aa1d0c206ccc04befdaa593a
+MD5sum: b17da6f4bc338b47d3011a827a88c820
+Description: fast lossless compression algorithm -- CLI tool
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the CLI program implementing zstd.
+

@@ -1,0 +1,1641 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: adwaita-icon-theme-fake
+Version: 0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
+Size: 756
+SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
+SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
+MD5sum: 383a6a5bd758655cfacd84adb625b325
+Description: Fake package to prevent adwaita-icon-theme from being installed
+
+Package: bottles
+Version: 51.9-100pika1
+Architecture: amd64
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Installed-Size: 3414
+Depends: dconf-gsettings-backend | gsettings-backend, python3, python3-yaml, gir1.2-gobject-2.0, gobject-introspection, libadwaita-1-0, libglib2.0-0, libgtk-4-1, cabextract, libgtksourceview-5-0, hicolor-icon-theme, p7zip, python3-markdown, patool, python3-pefile, python3-icoextract, python3-pyyaml-env-tag, python3-pathvalidate, python3-orjson, python3-fvs, python3-vkbasalt-cli, python3-requests, python3-urllib3, x11-utils, imagemagick, icoextract, wine, gir1.2-gtksource-5, python3-charset-normalizer, python3-pycurl
+Recommends: gamemode, gamescope, vmtouch, latencyflex, winbind, ffmpeg, ffmpeg5, openldap-utils
+Priority: optional
+Section: gnome
+Filename: pool/main/b/bottles/bottles_51.9-100pika1_amd64.deb
+Size: 548684
+SHA256: f8cfc2b1991342cfa66cbe1b751856b3e74de3a21b014446eb9dae31b8f09ce2
+SHA1: c12714404eb0b69706ec4fdc52bb2b38cf4df750
+MD5sum: 6153a6b13bd442b226a29cb8bd1ccb1f
+Description: Run Windows software and games on Linux
+
+Package: cbatticon
+Version: 1.6.13-1
+Architecture: amd64
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 175
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.6), libnotify-bin (>= 0.7.6)
+Homepage: https://github.com/valr/cbatticon
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_amd64.deb
+Size: 28908
+SHA256: b3317d7b1ad0bebc792a686974da367fb58012e64e5220fc94f451380714fa36
+SHA1: 01f4091a2f6bb0a08f815628e20e2bf4fb8613da
+MD5sum: dbc3803a6b48f120cdcfb5bb042afa7d
+Description: lightweight and fast battery icon status and more
+ Utility that displays battery information as battery status, remaining
+ percentage, remaining time, using an icon in the system tray.
+ .
+ Based on code from xbattbar-acpi, cbatticon sits in your system tray,
+ reporting on battery events, like plug-in, critical, remaining, etc.
+ .
+ A regular user can (re)define custom system's behaviour, like performing
+ graceful shutdown on critical status, by user-defined thresholds and commands
+ on low power/critical.
+
+Package: eddy
+Version: 1.3.2-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1171
+Depends: packagekit, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.4), libpackagekit-glib2-18 (>= 1.1.0), libzeitgeist-2.0-0 (>= 0.9.9), dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/donadigo/eddy
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy/eddy_1.3.2-1_amd64.deb
+Size: 79488
+SHA256: c9d872965f96807c8da3822625c597ba0aa71904705ba63c2003cca84784a77e
+SHA1: ab28e094a0efc9593bda08929cd7160862b239f0
+MD5sum: b869919749b1156d74f9ae041ff2800b
+Description: Eddy - Debian package management tool for elementary OS
+ Eddy is a simple and user-friendly Debian package management tool.
+ It is designed specifically for elementary OS. It allows users to
+ install, update, and uninstall Debian packages with ease. In addition
+ to managing Debian packages, Eddy also supports other packaging
+ formats such as .rpm, thanks to its PackageKit backend. This makes
+ Eddy a versatile tool for managing packages on any Debian-based system.
+
+Package: eddy-dbgsym
+Source: eddy
+Version: 1.3.2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 331
+Depends: eddy (= 1.3.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/e/eddy/eddy-dbgsym_1.3.2-1_amd64.deb
+Size: 289944
+SHA256: b22d790d92213bfcbeb786cca38f6927c2d17ddd6f0eeaaa33e013bd64e3d9b5
+SHA1: 144fbb63689e09ddb5aa6260d7704b765944146e
+MD5sum: c556e8be76bff6bc67a981da122b60f8
+Description: debug symbols for eddy
+Build-Ids: 9806b041dff9e27fc66edc5aca2b17dc73a83a3e
+
+Package: eddy-handler
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 42
+Depends: yad, apt, eddy, gettext-base
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
+Size: 5004
+SHA256: eeaf7540f95e4f44b306e5f3cc350eca4276097bfabcdc79bae49a6fe9d4f99e
+SHA1: 7b103b2792b541f2305f705f5ca04ed9fe63e228
+MD5sum: a08c91171a355f6bf86be33cc50af743
+Description: Eddy Handler for package updates.
+ Eddy Handler is a utility designed to update the package database
+ before installing packages with Eddy. It checks if the package cache
+ is older than a day or does not exist, and if so, it updates the
+ package database. After the update, Eddy is launched for package
+ installation.
+
+Package: elementary-minios-icon-theme
+Source: elementary-minios
+Version: 0.20-2
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 55194
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.20-2_all.deb
+Size: 3956544
+SHA256: 275b1a7cffeb3670a5f70d23dad082db9ce010874402c22294c88b788eb88c27
+SHA1: 898cb47d46ae22aeec600121f89ee8aa56f6ce93
+MD5sum: 2813ac3781c822b513958b26175ddc7e
+Description: elementary icon theme modified for MiniOS
+ elementary-minios is a fork of the elementary-xfce.
+
+Package: fbxkb
+Version: 0.6-3.mos+1
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 172
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3.mos+1_amd64.deb
+Size: 92792
+SHA256: a251df0e0817d2a485cde876fdd9e9b753ecde85b357af9044bff5609916f0ce
+SHA1: 18b08b9fa7ac0b84c1003f8a8f3c90f9807d7566
+MD5sum: f9c56643f36bdcc978ccb34a4b0397e1
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: flux-tools
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 109
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext-base (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask, xlunch-slax
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
+Size: 26716
+SHA256: 42660eeb9c26f6fa4e248fcb07eacb4a007f7fed826138b137d5a61bfb722fd4
+SHA1: c597b390eb436a901524c281a2c3caaad21f6251
+MD5sum: 903aefeed08756bbafe46af46023e807
+Description: Flux Tools for Fluxbox in MiniOS Linux.
+ Flux Tools is a set of utilities designed to be used
+ with Fluxbox for ease of use.
+
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: amd64
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4007
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 3.0), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
+Provides: x-window-manager
+Homepage: http://fluxbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_amd64.deb
+Size: 1199688
+SHA256: a4c6a825df13f7f75ab2229152e96e464f4b31c61d7fe2bf1f69f8a86879a5e7
+SHA1: 1f4ebe4922f5d6a703097b230b2a3ce48d98d1d9
+MD5sum: a32ba661140edc3d06ab8dffc087f8ed
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
+
+Package: fonts-roboto-light
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 173
+Breaks: fonts-roboto, fonts-roboto-hinted, fonts-roboto-unhinted
+Multi-Arch: foreign
+Homepage: https://github.com/google/roboto
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-roboto-light/fonts-roboto-light_1.0_all.deb
+Size: 72108
+SHA256: 9e37511759757cac2ec290cce9c97f5558ca7ace179bbdc7be1b5604f6f60959
+SHA1: ddb0f821884ff6d956d0cc84f73a9c48c560f20d
+MD5sum: c6a31cdd180f913bdc05b0df223fc357
+Description: Google's signature font Roboto Light
+ Roboto is Google's signature family of fonts, the default font in
+ Android and ChromeOS and the recommended font for Google's visual
+ language, Material Design.
+ .
+ Roboto supports all Latin, Cyrillic, and Greek characters in Unicode
+ 7.0 as well as currency symbol for the Georgian lari, to be published
+ in Unicode 8.0.
+ .
+ This package contains Roboto font families which lack hinting.
+
+Package: fred
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Gillen Daniel <development@sits.lu>
+Installed-Size: 647
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1, libhivex0 (>= 1.3.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.11.0~rc1), libqt5network5 (>= 5.8), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.8), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5script5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.9.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5)
+Recommends: fred-reports
+Homepage: https://www.sits.lu/fred
+Priority: optional
+Section: x11
+Filename: pool/main/f/fred/fred_1.0.0_amd64.deb
+Size: 170720
+SHA256: cc63b81cf5093228f5e57241d8eeac0a366955b640bcf5622f8c506d1de08530
+SHA1: f4e5da073b4e760a851bf75553876c262100e626
+MD5sum: 8930d732f4aabb15f21cf672eb6f04e2
+Description: Forensic Registry EDitor
+ Forensic Registry EDitor (fred) is a cross-platform M$ registry
+ hive editor with special features useful during forensic
+ analysis.
+
+Package: fred-reports
+Source: fred
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Gillen Daniel <development@sits.lu>
+Installed-Size: 87
+Depends: fred
+Homepage: https://www.sits.lu/fred
+Priority: optional
+Section: x11
+Filename: pool/main/f/fred/fred-reports_1.0.0_amd64.deb
+Size: 12920
+SHA256: c2194d687119ebaf4542a928c7d1a5b14b1d88cd7d6a5c90940123ef40b24ca6
+SHA1: cc16302e78ec02ca03070ba3c0668071912c5fc0
+MD5sum: a670858d3d3fda48640807d8a6a72fe0
+Description: Forensic Registry EDitor
+ Forensic Registry EDitor (fred) is a cross-platform M$ registry
+ hive editor with special features useful during forensic
+ analysis.
+ .
+ This package contains the report-templates for fred.
+
+Package: greybird-gtk-theme
+Version: 3.23.4-0minios1
+Architecture: all
+Maintainer: MiniOS Team <zu1985@minios.dev>
+Installed-Size: 5419
+Depends: gtk2-engines-murrine
+Homepage: https://github.com/shimmerproject/Greybird
+Priority: optional
+Section: x11
+Filename: pool/main/g/greybird-gtk-theme/greybird-gtk-theme_3.23.4-0minios1_all.deb
+Size: 581492
+SHA256: c38450e2a09d9b9a688664745517bc4ad961dab4c2d9969014372e65f04889da
+SHA1: a75857777b3ac1596d56431fa9da34602b0f9a12
+MD5sum: 4153faaf3a693b54b7a15a25210ca02f
+Description: grey GTK+ theme from the Shimmer Project
+ Greybird has been the default theme for Xubuntu since 2011 when it
+ replaced Bluebird. Greybird can be described as more conservative yet more
+ modern than Bluebird. The Shimmer Project are the designers and developers of
+ both themes.
+ .
+ Although originally created for Xfce, Greybird also supports other
+ GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+
+Package: gtkask
+Version: 1.0-2
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 29
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
+Homepage: https://github.com/minios-linux/gtkask.git
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkask/gtkask_1.0-2_amd64.deb
+Size: 4772
+SHA256: 7960141c6515a699528dc6fdbec2615d05623482e8b85920b29712f092da6a0c
+SHA1: 9f870acade7aa6c30217541d63e4f4dbd6a0a901
+MD5sum: 593abd1c2148aaca288daa914f6acabf
+Description: Simple GTK2 dialog for Yes/No questions.
+
+Package: gtkdialog
+Version: 0.8.5d-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 302
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.4)
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.5d-1_amd64.deb
+Size: 101372
+SHA256: 2d9d2db940111899dc5b017fd582b05520b2ff3435863b3074f7090aeda5d001
+SHA1: d736d5573c7c7b6825febb5db2ff8623d1cd0c24
+MD5sum: e0b878c08e0ebbffdcb919497e98ab95
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
+Package: gtkdialog-dbgsym
+Source: gtkdialog
+Version: 0.8.5d-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 308
+Depends: gtkdialog (= 0.8.5d-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gtkdialog/gtkdialog-dbgsym_0.8.5d-1_amd64.deb
+Size: 259304
+SHA256: 935d9147f1bd17725a3cdedc5e802c9417e965efa97ddbaca5b53c3e824c70b2
+SHA1: d8d9c790a6b8898860318d71d96dfabaab180286
+MD5sum: deb44bbfc0fc9e4002e7b712703987d6
+Description: debug symbols for gtkdialog
+Build-Ids: fe5f3fdffa8c81e3445aa893e57cced0c1e65f56
+
+Package: hidpi-daemon
+Version: 18.04.6
+Architecture: all
+Maintainer: Aaron Honeycutt <aaron@system76.com>
+Installed-Size: 140
+Depends: python3:any (>= 3.4~), dconf-gsettings-backend | gsettings-backend, python3-gi, python3-pydbus, python3-xlib, gir1.2-notify-0.7
+Homepage: https://github.com/pop-os/hidpi-daemon
+Priority: optional
+Section: x11
+Filename: pool/main/h/hidpi-daemon/hidpi-daemon_18.04.6_all.deb
+Size: 22876
+SHA256: e62dd8a474c5519c778f47b2ee9a89b4e9aa0944bdff5f89c22b8a7f17ad78c6
+SHA1: ed4edc5d2f9c54764791d0c7d858bb0c4c9f01b4
+MD5sum: 0ad36f114e9caade2dfe93e763d34f79
+Description: Daemon to manage HiDPI and LoDPI monitors on X
+ HiDPI Daemon handles mixed-DPI monitor configurations and provides a simple mechanism to switch between HiDPI and LoDPI modes.
+
+Package: ipscan
+Version: 3.9.1
+Architecture: amd64
+Installed-Size: 1940
+Depends: java11-runtime
+Maintainer: Anton Keks <anton@azib.net>
+License: GPL-2
+Priority: optional
+Section: net
+Filename: pool/main/i/ipscan/ipscan_3.9.1_amd64.deb
+Size: 1721080
+SHA256: 50f914c195773487957cbdf262fa8e866e17e715bee3418e9591b2f161a16269
+SHA1: 4b02ff2e390a8fef8dacb563a169d2f80e31a751
+MD5sum: 5a0f6a62cef66c45a854a675184eaebf
+Description: Angry IP Scanner - fast and friendly IP Scanner
+ Angry IP Scanner is a cross-platform network scanner written in Java.
+ It can scan IP-based networks in any range, scan ports, and resolve
+ other information.
+ The program provides an easy to use GUI interface and is very extensible,
+ see https://angryip.org/ for more information.
+
+Package: lazydocker
+Version: 0.21.1-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@yandex.ru>
+Installed-Size: 10663
+Homepage: https://github.com/jesseduffield/lazydocker
+Priority: optional
+Section: utils
+Filename: pool/main/l/lazydocker/lazydocker_0.21.1-1_amd64.deb
+Size: 3192336
+SHA256: 68c0d9b8ec74d7610609797ee5e3d2fab88c1a6bd378dd2a5c6212bb00b1f256
+SHA1: acdc4cec25e3165336019d55cecaf414d1eda602
+MD5sum: ff38fc9c39c96e0c34392f1d4f52a35b
+Description: A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
+
+Package: libminioslive
+Version: 4.3
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 31
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/libm/libminioslive/libminioslive_4.3_all.deb
+Size: 7160
+SHA256: 4be24038ac328d3d851f74294899b7b06362b1e6cbbf4e736e89d2f08aa9d548
+SHA1: b7c59d94ca749f3bc0f6ac3710e02f696553d1ca
+MD5sum: 4565a7fdcedebf09e96827d1724d06c0
+Description: Library for MiniOS Linux scripts.
+ libminioslive contains functions used by various MiniOS Linux utilities.
+
+Package: linux-config-6.1
+Source: linux
+Version: 6.1.128-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1083
+Recommends: linux-source-6.1
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-config-6.1_6.1.128-1_amd64.deb
+Size: 1090876
+SHA256: ec1c9ac5cebc6a39b696f77bd154b856023e95b54ffd42788a72a922595a0f28
+SHA1: 385503f740e95a45af4f1bbdcf3a1ef1efda4c36
+MD5sum: 7a590ba4b3a97743f994f703a3a6a443
+Description: Debian kernel configurations for Linux 6.1
+ This package contains the configuration files used to build the official
+ Debian kernel files, but without references to Debian's signing
+ certificates.
+ .
+ These can be used as a basis for configuring custom kernels.
+
+Package: linux-headers-6.1-mos-amd64
+Version: 6.1.128
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.1.128-mos-amd64
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-amd64/linux-headers-6.1-mos-amd64_6.1.128_amd64.deb
+Size: 2240
+SHA256: 04ad7d7a3bd7f23056e1a73a658301d6885d52788c995c9cd0fe8bed9cfbc05d
+SHA1: eb46123e5d67e8377a772c90905254b4df1f2002
+MD5sum: 7daf2888c5b38814b2c9abefc161f864
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.1.112-mos-amd64
+Source: linux-upstream
+Version: 6.1.112-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52539
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.112-mos-amd64_6.1.112-mos-amd64-1_amd64.deb
+Size: 8889572
+SHA256: 8c1b77e38adfe606192ddb04440d63a54f680c3e4c32c30487c27d8d5ade44f5
+SHA1: 9125640d3d7eb56c88d2bf435dd8ad57e7d952c2
+MD5sum: d8849e0a9efa32cfae7963c34b81efa8
+Description: Linux kernel headers for 6.1.112-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.112-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.115-mos-amd64
+Source: linux-upstream
+Version: 6.1.115-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52551
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.115-mos-amd64_6.1.115-mos-amd64-1_amd64.deb
+Size: 8891620
+SHA256: 1038dbb296c77741d06e828aa2e1dbdbad59d67e935fbb6f448c4ae50e9699e6
+SHA1: ef269bd8fa37a6d275a34534f0d32a9d691ea5a2
+MD5sum: b76d1a94482187379ab8d48315daf941
+Description: Linux kernel headers for 6.1.115-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.115-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.119-mos-amd64
+Source: linux-upstream
+Version: 6.1.119-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52555
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.119-mos-amd64_6.1.119-mos-amd64-1_amd64.deb
+Size: 8892028
+SHA256: 381d323aac9118b89249fb109a9a8fbcb6554357facd507a8ace09983cf48d10
+SHA1: f37be901c332747ac1cddca986fec56ddf329ea8
+MD5sum: fed52f16ea4359178bf4afd50cca7544
+Description: Linux kernel headers for 6.1.119-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.119-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.124-mos-amd64
+Source: linux-upstream
+Version: 6.1.124-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52572
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.124-mos-amd64_6.1.124-mos-amd64-1_amd64.deb
+Size: 8895208
+SHA256: 4d361af2d3527d2b445b31ff48f89560e1630342ad95bf0ae9c396e04d17bfd9
+SHA1: 6682985622fac1b9553ae6b59eb81284c9ca4a47
+MD5sum: 53a5463c54c8ebf632ea8bcfac6a440b
+Description: Linux kernel headers for 6.1.124-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.124-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.128-mos-amd64
+Source: linux-upstream
+Version: 6.1.128-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52575
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.128-mos-amd64_6.1.128-mos-amd64-1_amd64.deb
+Size: 8895628
+SHA256: 9ec35c96c4adb405cebeb50883257cc4af75dbe51205614a1d568aeedbd1710d
+SHA1: 23f900c6351eaf7ef1b7b73d6f170b75a134c7fc
+MD5sum: 5b7f828164a5c450f41b7fa2a2a63035
+Description: Linux kernel headers for 6.1.128-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.128-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 52407
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 8870884
+SHA256: 8be74ea5449647bb210519fa09a13254401ebfe02fef5b02022aaf1ed3c6fcde
+SHA1: 425e4d12d0da5a8615689d7cc162289eb0afde05
+MD5sum: 4fc366177a5184999aa780e7968113ba
+Description: Linux kernel headers for 6.1.67-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.67-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.90-mos-amd64
+Source: linux-upstream
+Version: 6.1.90-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52458
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.90-mos-amd64_6.1.90-mos-amd64-1_amd64.deb
+Size: 8884700
+SHA256: e88e8127faa9d4d6e762181762800fb21694644a4bbe573995799a32adb83718
+SHA1: 34686ed0433f95d22b23692634a20e7b3ab94b8d
+MD5sum: 5325d68e5d09da73a56e1e49a97093da
+Description: Linux kernel headers for 6.1.90-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.90-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.99-mos-amd64
+Source: linux-upstream
+Version: 6.1.99-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 52503
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.99-mos-amd64_6.1.99-mos-amd64-1_amd64.deb
+Size: 8885912
+SHA256: 750e87b9304b3100f0f72efbdd1267e26c163ecfc03aaacc469b5845c936faaa
+SHA1: a5516726c0ce4e607645402fb30de19f80af3dcf
+MD5sum: fc6a46cf21ccfb44a567bfc77b72b5cd
+Description: Linux kernel headers for 6.1.99-mos-amd64 on amd64
+ This package provides kernel header files for 6.1.99-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.10-mos-amd64
+Version: 6.10.4
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.10.4-mos-amd64
+Provides: linux-headers-6.10-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.10-mos-amd64/linux-headers-6.10-mos-amd64_6.10.4_amd64.deb
+Size: 2232
+SHA256: 55f05afae47710ec5a61c935afd051dbb9d4b4a894d99b51f953cec6462279a3
+SHA1: 2706a6cc45242ba6b6924e8612f589d816a53cd4
+MD5sum: 5067ca5d5ece7649e0006e7eaf022e97
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.10.4-mos-amd64
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 54628
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.10.4-mos-amd64_6.10.4-mos-1_amd64.deb
+Size: 9491812
+SHA256: ecb3ec568fea7da680b1ee218715f01d96b69818140f3a18c53d9a2365820e88
+SHA1: aa28b5de1686be49e52bf86b84cceacc90b05a6b
+MD5sum: 5d91173a828c6704946b77ae4eb04a66
+Description: Linux kernel headers for 6.10.4-mos-amd64 on amd64
+ This package provides kernel header files for 6.10.4-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 53885
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 9147796
+SHA256: ab812d4bd588b211b4b7068884905be7de154908bd31985e469aa0add1295450
+SHA1: b991888dbc843ebfa8a67206b0690d8e771bdd8b
+MD5sum: 127312af2e829416b629b805a30e5160
+Description: Linux kernel headers for 6.5.10-mos-amd64 on amd64
+ This package provides kernel header files for 6.5.10-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.8-mos-amd64
+Version: 6.8.12
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.8.12-mos-amd64
+Provides: linux-headers-6.8-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.8-mos-amd64/linux-headers-6.8-mos-amd64_6.8.12_amd64.deb
+Size: 2240
+SHA256: 71396a912251c8429611b750aedf0f365f9614175c91a71df98d4965baaf6db5
+SHA1: b40027c462f73fca710c7b4d17933027a72d4824
+MD5sum: d599845ed950eab368aa8050fa746187
+Description: Header files for Linux amd64 configuration (meta-package)
+
+Package: linux-headers-6.8.12-mos-amd64
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 54176
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.8.12-mos-amd64_6.8.12-mos-1_amd64.deb
+Size: 9372752
+SHA256: 34fe3d842f6b23ff908fdcf65b970dfc0ec1bde145bf6d024d28cd066ad02704
+SHA1: 602d01fd96ad6e726f084a2640d27e19ccdf1ede
+MD5sum: 48b0f50473753ac3d0839382736bdc4e
+Description: Linux kernel headers for 6.8.12-mos-amd64 on amd64
+ This package provides kernel header files for 6.8.12-mos-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.1-mos-amd64
+Version: 6.1.128
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.1.128-mos-amd64
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.128-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-amd64/linux-image-6.1-mos-amd64_6.1.128_amd64.deb
+Size: 2256
+SHA256: 46ab982f19f50b65d8b86f0c3d8237207827d7bbd6fb0235997421758bbca427
+SHA1: 07e5a4d5cd7ab4c187992b1742b277c111480592
+MD5sum: f77337ece57b2ad923acf7ced5902771
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.1.112-mos-amd64
+Source: linux-upstream
+Version: 6.1.112-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409563
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.112-mos-amd64_6.1.112-mos-amd64-1_amd64.deb
+Size: 70601972
+SHA256: cb830f909e4ab15da62a0fe28d500004e7a67942abac14f44deb4fa18705b4d0
+SHA1: 3d02ce8c72888342b3a5104b417788cac06638d8
+MD5sum: 4bf69ac5e3a011841e8e9e2d1a70ace3
+Description: Linux kernel, version 6.1.112-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.112-mos-amd64.
+
+Package: linux-image-6.1.115-mos-amd64
+Source: linux-upstream
+Version: 6.1.115-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409716
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.115-mos-amd64_6.1.115-mos-amd64-1_amd64.deb
+Size: 70631184
+SHA256: 3df37fc1563384f230ef1ae1d7af76239561bf8e0ca232257eb80cbd42703d40
+SHA1: 8ffc6db69ed73d316ae6b12b4f94f1af82de152b
+MD5sum: 5df047e50c8c6e6b479191a0e0ae677f
+Description: Linux kernel, version 6.1.115-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.115-mos-amd64.
+
+Package: linux-image-6.1.119-mos-amd64
+Source: linux-upstream
+Version: 6.1.119-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409735
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.119-mos-amd64_6.1.119-mos-amd64-1_amd64.deb
+Size: 70667356
+SHA256: 6911da9530118bdd092cb1849b39621a5b03cf7c320c0c8e213b4abe5c82f43f
+SHA1: dce9861684de7d96ae900a51878bf5883dbe91dd
+MD5sum: f0d57cefab26712ade58b66efb9bfd34
+Description: Linux kernel, version 6.1.119-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.119-mos-amd64.
+
+Package: linux-image-6.1.124-mos-amd64
+Source: linux-upstream
+Version: 6.1.124-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409738
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.124-mos-amd64_6.1.124-mos-amd64-1_amd64.deb
+Size: 70644632
+SHA256: 69585131b716762220006c983b07237422be20ce5beae9ccb71d9dd8d0662faf
+SHA1: a7080b6c361c8ac66977ed900cc306db8030e7fb
+MD5sum: a63f9e8f7739918cca5690b8eed16966
+Description: Linux kernel, version 6.1.124-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.124-mos-amd64.
+
+Package: linux-image-6.1.128-mos-amd64
+Source: linux-upstream
+Version: 6.1.128-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409717
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.128-mos-amd64_6.1.128-mos-amd64-1_amd64.deb
+Size: 70663240
+SHA256: 79e8f407e6b0ebd4538420e877efd0698100ed7bfedd51818df02e1b072eae15
+SHA1: 0e7827306ad11f4bef023bd00b6217085c512422
+MD5sum: 4df9ce0a8933853c20ccb15487babf6f
+Description: Linux kernel, version 6.1.128-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.128-mos-amd64.
+
+Package: linux-image-6.1.67-mos-amd64
+Source: linux-upstream
+Version: 6.1.67-mos-amd64-1
+Architecture: amd64
+Maintainer: root <root@bookworm>
+Installed-Size: 409226
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-amd64_6.1.67-mos-amd64-1_amd64.deb
+Size: 70516376
+SHA256: efdcbc9ce94357b3fb563f1ea005821896073e1299c765d35606ee02c853fb42
+SHA1: b26e88613bd7aaed1c8582f2762f30dbe1fc5686
+MD5sum: 234cb3c6e31cfec310621b6de61a7433
+Description: Linux kernel, version 6.1.67-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.67-mos-amd64.
+
+Package: linux-image-6.1.90-mos-amd64
+Source: linux-upstream
+Version: 6.1.90-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409279
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.90-mos-amd64_6.1.90-mos-amd64-1_amd64.deb
+Size: 70513140
+SHA256: 8a506826dee647031dc406cf5264f09fe1d7003e18bace4880fd498e89843248
+SHA1: 5bf0c9d7685c10856db4e66a44285cf627518388
+MD5sum: c960864ba5fc235b5ccb39446c0fab29
+Description: Linux kernel, version 6.1.90-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.90-mos-amd64.
+
+Package: linux-image-6.1.99-mos-amd64
+Source: linux-upstream
+Version: 6.1.99-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 409356
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.99-mos-amd64_6.1.99-mos-amd64-1_amd64.deb
+Size: 70567256
+SHA256: ba13fe502983468bd3db9b96e0694cdaeec0bac489116e09206f4df435d5e3c2
+SHA1: 3f6218a4efff4a7029e207c49978f95bcfb770b5
+MD5sum: 23030e2ca36ce5446c4898740281249b
+Description: Linux kernel, version 6.1.99-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.99-mos-amd64.
+
+Package: linux-image-6.10-mos-amd64
+Version: 6.10.4
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.10.4-mos-amd64
+Provides: linux-image-6.10-mos-generic, linux-latest-modules-6.10.4-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.10-mos-amd64/linux-image-6.10-mos-amd64_6.10.4_amd64.deb
+Size: 2248
+SHA256: b7ec15434e972030f75cc2c224f25eec7c755db5cbc63fa7ac3129a769e019d4
+SHA1: e847e04a3d2817150b012cbe30c7ff162045c132
+MD5sum: 6aa82d0ceab1d36e3b8ac49a37339ba1
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.10.4-mos-amd64
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 114228
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.10.4-mos-amd64_6.10.4-mos-1_amd64.deb
+Size: 103503252
+SHA256: e2ee4157ad395271b6c14d84b123084e5eb1a335277a12197ea85706a4a0c341
+SHA1: b0e8c8b5508e2061c74e74e16cc105b2ca5d2f47
+MD5sum: 502d5acc6fdedc7ebb00b744362d5ec1
+Description: Linux kernel, version 6.10.4-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.10.4-mos-amd64.
+
+Package: linux-image-6.5.10-mos-amd64
+Source: linux-upstream
+Version: 6.5.10-mos-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 477048
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.5.10-mos-amd64_6.5.10-mos-1_amd64.deb
+Size: 77511072
+SHA256: a6aae389b2d4beec95e4f0f5be540a622ab9857f7b86e66d09d29b7a32386577
+SHA1: 45e3f2718b5d9b5327db1090763d856981020fed
+MD5sum: 4b34ac0918b16d5512ab5c248d5fe3ce
+Description: Linux kernel, version 6.5.10-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.5.10-mos-amd64.
+
+Package: linux-image-6.8-mos-amd64
+Version: 6.8.12
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.8.12-mos-amd64
+Provides: linux-image-6.8-mos-generic, linux-latest-modules-6.8.12-mos-amd64
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.8-mos-amd64/linux-image-6.8-mos-amd64_6.8.12_amd64.deb
+Size: 2252
+SHA256: 9c52defe8c3ba3be5dd8244c3f45dbeebec1326aee191c7c611256b1c99f02da
+SHA1: f521769f59afaa85b8d83b88c7225537a2aedab4
+MD5sum: cdb3735cb071111bd0388f8605ba7bdc
+Description: Linux for amd64 PCs (meta-package)
+
+Package: linux-image-6.8.12-mos-amd64
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 110972
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.8.12-mos-amd64_6.8.12-mos-1_amd64.deb
+Size: 100477060
+SHA256: 70438124e067a4396d9f2fcd7c9d78ba334c118971f6f0185a4898fffd7d2d05
+SHA1: 6254c3da00613cd6808a2a635a862408a686d14e
+MD5sum: 7cfc0cbc8bdf29b37b8e42b9586716bf
+Description: Linux kernel, version 6.8.12-mos-amd64
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.8.12-mos-amd64.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.1.128-mos-amd64-1
+Architecture: amd64
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 6637
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.128-mos-amd64-1_amd64.deb
+Size: 1277968
+SHA256: dc10d54d9bdaaa69712c299dcb5083be0047fee906c0f9f496fec74be02d931d
+SHA1: 36ab5e607bb1dd31a813cb54eb624e12d58be20d
+MD5sum: ef5beb24f086afb8a4e929320afc7c5b
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: minios-boot
+Version: 1.2.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 98
+Depends: bash (>= 4.4), coreutils (>= 8.28), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237)
+Recommends: libminioslive (>= 4.0)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-boot/minios-boot_1.2.4_all.deb
+Size: 17972
+SHA256: 91b5b73b7a2b7fb15e654ffc0409b86ae4751ad3ff8c8c4ac00766e43214f1d6
+SHA1: 71c3a7aad502efc1bcb3c8d6bae4044a59f09235
+MD5sum: b3dae77d3dbc841febe21ce61f30d216
+Description: MiniOS Linux boot scripts.
+ MiniOS Boot is a collection of scripts needed to boot MiniOS and
+ provide the MiniOS features described in the
+ <https://github.com/minios-linux/minios-live/wiki> documentation.
+
+Package: minios-configurator
+Version: 2.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 99
+Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-configurator/minios-configurator_2.0_all.deb
+Size: 15868
+SHA256: c10bd21351512490349f468f2c724b05d6e307028ff4a80659b1c94f3304b608
+SHA1: 72271681209d65b1002e9263ae62625e34bfd558
+MD5sum: f2a600e8a3749c580de5f762af6121fe
+Description: MiniOS Linux configuration utility.
+ MiniOS Configurator is a utility specially designed for quick and easy
+ configure MiniOS.
+
+Package: minios-installer
+Version: 2.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 144
+Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, extlinux, util-linux (>= 2.34), minios-configurator (= 2.0)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-installer/minios-installer_2.0_all.deb
+Size: 24272
+SHA256: ee701615a924871ab0f935f31c02ca47b85011a1b3ff6ed883f1031325900331
+SHA1: bc7b5abebb5364d6dcae0c721363ab5ab5caeb1d
+MD5sum: ebb73ee548d7118a9ae2c7747338700e
+Description: MiniOS Linux installation utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ install MiniOS on a USB flash drive.
+
+Package: minios-live
+Version: 4.0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 46534
+Depends: debootstrap, xorriso, binutils, squashfs-tools, grub-pc-bin, grub-efi-amd64-bin, dosfstools, mtools, xz-utils, liblz4-tool, zstd, curl, rsync, gettext-base
+Suggests: apt-cacher-ng
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-live/minios-live_4.0.0-1_amd64.deb
+Size: 8213052
+SHA256: 2712b0dcdfd2b903dee81b9afa3f922671317c0f651fbe3a26a508f355345189
+SHA1: 4ff73338e5413108548e6a51225360d6d2e5bb08
+MD5sum: d5d1a9a27477ab0a16a851a9355e3f9c
+Description: Scripts to build a bootable MiniOS ISO image.
+ MiniOS-live provides scripts to build a bootable MiniOS ISO image,
+ supporting various configurations such as Debian 10, Debian 12,
+ Debian Unstable, Ubuntu 22.04, and Ubuntu 24.04 with desktop
+ environments like Xfce4, Fluxbox, and LXQT. It offers a portable,
+ user-friendly system with a graphical interface, ideal for creating
+ lightweight, customizable live systems.
+
+Package: minios-tools
+Version: 1.3.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 224
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-tools/minios-tools_1.3.1_all.deb
+Size: 41156
+SHA256: 2224893ffd9488a1108355c0653df3af819770ae6d5acf20df958955eb5def70
+SHA1: e91ad8a4bf78a4acab3812a3545114622c79579e
+MD5sum: 34781f1af57f52a7443238dad8cb29a2
+Description: MiniOS Linux tools.
+ MiniOS Tools is a set of utilities designed to make MiniOS work.
+ They include utilities for booting the system as well as
+ utilities for working with modules.
+
+Package: minios-welcome
+Version: 5.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1339
+Depends: fonts-roboto-light
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-welcome/minios-welcome_5.0_all.deb
+Size: 350568
+SHA256: 792e50275f5f4018ef59fbdb8856bef3eb5cf0a2c5ac8043b65c08446dbf9f5d
+SHA1: 1e26497d5315aca1ee8f09f7a204c0103651cdeb
+MD5sum: 715726ff41a1e6d9d6736d37e74b035f
+Description: MiniOS HTML welcome page.
+ MiniOS welcome page - HTML page that opens when you start your
+ browser for the first time in MiniOS.
+
+Package: mintstick
+Version: 1.6.2+nmu1
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 286
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Priority: optional
+Section: misc
+Filename: pool/main/m/mintstick/mintstick_1.6.2+nmu1_all.deb
+Size: 48664
+SHA256: 20deba96ed87d2a35f03a11d142f0ebedf502b27c4258ba5856f4652ac52c3e9
+SHA1: 13df8ac04e4086f52723ba36d4ea35602418fbed
+MD5sum: c0e7b8836a95cabc53f4aad358d4a473
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: ntfs3-dkms
+Version: 1.0.12~mos+1
+Architecture: all
+Maintainer: EasyNetDev <devel@easynet.dev>
+Installed-Size: 8446
+Depends: dkms, linux-libc-dev, libc6-dev
+Homepage: https://github.com/EasyNetDev/ntfs3-dkms
+Priority: optional
+Section: admin
+Filename: pool/main/n/ntfs3-dkms/ntfs3-dkms_1.0.12~mos+1_all.deb
+Size: 190312
+SHA256: a39dee0695d42d1727377c60ec3d71a9f7285cc0349d6c6232c7957a86bcab42
+SHA1: 551fa77ff66382794fa7882aa3fc9f32e0066528
+MD5sum: b67b4b91671992fe07ee2f4140d22d54
+Description: NTFS Read-Write file system support
+ Windows OS native file system (NTFS) support up to NTFS version 3.1.
+ This is original Linux Driver ported as external module.
+
+Package: osinfo-db
+Version: 0.20240701-1+mos+1
+Architecture: all
+Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Installed-Size: 4345
+Multi-Arch: foreign
+Homepage: https://libosinfo.org/
+Priority: optional
+Section: libs
+Filename: pool/main/o/osinfo-db/osinfo-db_0.20240701-1+mos+1_all.deb
+Size: 159864
+SHA256: 17fde5e568062a4e4b4f84a6b62745069adb42ddadb5d3847f8176744d5441c6
+SHA1: 7601d1c97ae220ffbc5f92ba73dbe474209bf28a
+MD5sum: 75b575e86c3e77edfc92a64238a03876
+Description: Operating system database files
+ libosinfo is a GObject based library API for managing information about
+ operating systems, hypervisors and the (virtual) hardware devices they
+ can support. It provides APIs to match/identify optimal devices for deploying
+ an operating system on a hypervisor.
+ .
+ This package contains the actual database files.
+
+Package: partclone-nbd
+Installed-Size: 116
+Maintainer: admin@minios.dev
+Architecture: amd64
+Version: 0.0.3-1
+Depends: partclone
+Provides: partclone-nbd
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-nbd/partclone-nbd_0.0.3-1_amd64.deb
+Size: 37636
+SHA256: abcb50f2a7ed8d49f1f4dabf662858610074360676f8992d456b08e284aec562
+SHA1: f5d94b041878aca75b44f0537e0a5fe5012c583f
+MD5sum: 48077c23e858d14b43dd3827fa2e91c8
+Description: Package created with checkinstall 1.6.3
+
+Package: partclone-utils
+Installed-Size: 248
+Maintainer: admin@minios.dev
+Architecture: amd64
+Version: 0.4.2-1
+Depends: partclone
+Provides: partclone-utils
+Priority: extra
+Section: checkinstall
+Filename: pool/main/p/partclone-utils/partclone-utils_0.4.2-1_amd64.deb
+Size: 37528
+SHA256: a8e1cdccdb16e66d00b9c12ea527df0626a01ef27a57416166f6d413a8e863fa
+SHA1: ee643ff7e98877d134be9b941c8a547ffcc320f0
+MD5sum: 3d6e52b05d0b370fbe46fe0d57300b03
+Description: Package created with checkinstall 1.6.3
+
+Package: python3-fvs
+Source: fvs
+Version: 0.3.4-100pika1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 80
+Depends: python3-orjson, python3:any
+Multi-Arch: allowed
+Homepage: https://github.com/mirkobrombin/FVS
+Priority: optional
+Section: python
+Filename: pool/main/f/fvs/python3-fvs_0.3.4-100pika1_amd64.deb
+Size: 14166
+SHA256: 6dfd730b562a28441a0d09373b0c5de614b97b298864a0ec7d2d8ca6f31fa569
+SHA1: 3ab5f68901f80ef2080f17cdc6b336cd38d5ee79
+MD5sum: 01060a0977c1785752c8ec89fdfdb718
+Description: File Versioning System with hash comparison, deduplication and data storage to create unlinked states that can be deleted
+
+Package: python3-orjson
+Source: orjson
+Version: 3.9.7-99pika1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 629
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Multi-Arch: allowed
+Homepage: https://github.com/ijl/orjson
+Priority: optional
+Section: python
+Filename: pool/main/o/orjson/python3-orjson_3.9.7-99pika1_amd64.deb
+Size: 253522
+SHA256: 4ee6961037a3d5747167ffeaf64cf73f95a168f4dad860bbda81bfc90754a03b
+SHA1: cdd5a339a26b35c80eeab4223289e04e3c9d101b
+MD5sum: c964d370cc9e90a763209afe1b4b80d2
+Description: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+
+Package: python3-orjson-dbgsym
+Source: orjson
+Version: 3.10.5-1+mos1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 132
+Depends: python3-orjson (= 3.10.5-1+mos1)
+Priority: optional
+Section: debug
+Filename: pool/main/o/orjson/python3-orjson-dbgsym_3.10.5-1+mos1_amd64.deb
+Size: 29348
+SHA256: bcfed6d70d2308b80bdad8bebaec751011acb016ec86213e5c178657c547b443
+SHA1: 7a83740e66c9721680274d0c3b75c96e53451334
+MD5sum: 674ece66e1889eb719ff6f3ebfbbeb8d
+Description: debug symbols for python3-orjson
+Build-Ids: 3ce6fc85751e97d6ce124cac66aac42327dfe93a
+
+Package: python3-vkbasalt-cli
+Source: vkbasalt-cli
+Version: 3.1.1-100pika1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 71
+Depends: python3:any, vkbasalt
+Multi-Arch: allowed
+Homepage: https://gitlab.com/TheEvilSkeleton/vkbasalt-cli
+Priority: optional
+Section: python
+Filename: pool/main/v/vkbasalt-cli/python3-vkbasalt-cli_3.1.1-100pika1_amd64.deb
+Size: 16788
+SHA256: 92a063b37e5eb0f70528b8027bde93e0c2bf361c9d48266db7074aa1faf7dd25
+SHA1: f2e3d9010628b0d84956839f46ac0233c1a26f40
+MD5sum: b753e6961eca19b6524a7fd8ec59dc92
+Description: vkbasalt-cli (filename vkbasalt) is a CLI utility and library in conjunction with vkBasalt. This makes generating configuration files or running vkBasalt with games easier. This is mainly convenient in environments where integrating vkBasalt is wishful, for example a GUI application. Integrating vkbasalt-cli allows a front-end to easily generate and use specific configurations on the fly, without asking the user to manually write a configuration file.
+
+Package: python3-whichcraft
+Source: whichcraft
+Version: 0.4.1-3
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 28
+Depends: python3:any
+Homepage: https://github.com/pydanny/whichcraft
+Priority: optional
+Section: python
+Filename: pool/main/w/whichcraft/python3-whichcraft_0.4.1-3_all.deb
+Size: 5980
+SHA256: f1e910458a28d564c0487e071bacda9f39a7f0b23a50e0aa8c1e14a5fca0e42d
+SHA1: cfad5f5428e64e33d089b5cfe318515b07ee8dd0
+MD5sum: 47b6f5e1e2a81fa60799468a5b54c1f7
+Description: cross-platform cross-python shutil.which functionality (Python 3 module)
+ This is a shim of the "shutil.which" function that's designed to work across
+ multiple versions of Python and inside of Windows. The code for Python 2.x is
+ based on Python 3 code.
+ .
+ This package contains the Python 3 module.
+Python-Egg-Name: whichcraft
+
+Package: qdiskinfo
+Version: 0.3+git20240909+ds-1~mos+1
+Architecture: amd64
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 286
+Depends: pkexec, smartmontools, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
+Homepage: https://github.com/edisionnano/QDiskInfo
+Priority: optional
+Section: utils
+Filename: pool/main/q/qdiskinfo/qdiskinfo_0.3+git20240909+ds-1~mos+1_amd64.deb
+Size: 86140
+SHA256: a728813f0544e69de7b2adc8f148eadb29247ebb893bbd5998e68fd1c8578855
+SHA1: f29b48dc96effe998413754834648d13f3ce82f5
+MD5sum: b2c4c37d814294ae2b0f66b6d5684353
+Description: CrystalDiskInfo alternative for Linux
+ QDiskInfo is a frontend for smartctl. It provides a user experience
+ similar to CrystalDiskInfo. It shows the SMART (Self-Monitoring,
+ Analysis, and Reporting Technology) data of modern hard disk drives.
+
+Package: qphotorec
+Source: testdisk
+Version: 7.2-1+mos1
+Architecture: amd64
+Maintainer: Jean-Michel Kelbert <kelbert@debian.org>
+Installed-Size: 770
+Depends: libc6 (>= 2.34), libext2fs2 (>= 1.41.0), libgcc-s1 (>= 3.0), libjpeg62-turbo (>= 1.3.1), libntfs-3g89, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4), testdisk
+Priority: optional
+Section: admin
+Filename: pool/main/t/testdisk/qphotorec_7.2-1+mos1_amd64.deb
+Size: 257488
+SHA256: d9978f32b0856287b9d06ef8d84c923ea30658b3167df9a6251b24402c8bd26e
+SHA1: 13763e870c541e3b3c8f88e550baac98350d647c
+MD5sum: 7a4cca67beb15888bf88e1332c2a7a0b
+Description: GUI version of PhotoRec recovery tool
+ QPhotoRec is a file data recovery software application. It is a GUI version of the
+ PhotoRec recovery tool. It was designed to recover lost files from digital camera
+ memory, hard disks or CD-ROMs.
+
+Package: qphotorec-dbgsym
+Source: testdisk
+Version: 7.2-1+mos1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jean-Michel Kelbert <kelbert@debian.org>
+Installed-Size: 1776
+Depends: qphotorec (= 7.2-1+mos1)
+Breaks: testdisk-dbg (<< 7.1-5+nmu1~)
+Replaces: testdisk-dbg (<< 7.1-5+nmu1~)
+Priority: optional
+Section: debug
+Filename: pool/main/t/testdisk/qphotorec-dbgsym_7.2-1+mos1_amd64.deb
+Size: 1685892
+SHA256: 6df01f4278e96ba5c270e4140a617efc0aa006fc2feea057b73ef7319c7d0769
+SHA1: e6c7b97b463fb5831f8f51943252a91e203adb98
+MD5sum: 3e704c49736bc98fb9cbb7e40c851a2e
+Description: debug symbols for qphotorec
+Build-Ids: e9ccbe2d0acf9b2781fff0ed13611b28751b37ec
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: systrayicon
+Version: 1.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 25
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.16.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_amd64.deb
+Size: 4316
+SHA256: 6fbc34cc59995cc2a75d09d9d119414ec50bc867985b4ee8c30ff7f5a9e933f2
+SHA1: dfe4b812cb7041c1004b1fd5c0a1344f542fbeaa
+MD5sum: c93cda54f8fb389244b7677635b2fc43
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
+
+Package: testdisk
+Version: 7.2-1+mos1
+Architecture: amd64
+Maintainer: Jean-Michel Kelbert <kelbert@debian.org>
+Installed-Size: 1387
+Depends: libc6 (>= 2.34), libext2fs2 (>= 1.41.0), libjpeg62-turbo (>= 1.3.1), libncursesw6 (>= 6), libntfs-3g89, libtinfo6 (>= 6), zlib1g (>= 1:1.1.4), ntfs-3g
+Priority: optional
+Section: admin
+Filename: pool/main/t/testdisk/testdisk_7.2-1+mos1_amd64.deb
+Size: 360524
+SHA256: 95994d71b8dbe5370d4e90c4e570ce8e934dede2fdc7e49c4baea903b5d9fab2
+SHA1: c05e045bf5192ded263d2c522d74bc9721e46a61
+MD5sum: 87ebd02b78ac54a4e2ea41c72a6e5c0b
+Description: Partition scanner and disk recovery tool, and PhotoRec file recovery tool
+ TestDisk checks the partition and boot sectors of your disks.
+ It is very useful in forensics, recovering lost partitions.
+ It works with :
+  * DOS/Windows FAT12, FAT16 and FAT32
+  * NTFS ( Windows NT/2K/XP )
+  * Linux Ext2 and Ext3
+  * BeFS ( BeOS )
+  * BSD disklabel ( FreeBSD/OpenBSD/NetBSD )
+  * CramFS (Compressed File System)
+  * HFS and HFS+, Hierarchical File System
+  * JFS, IBM's Journaled File System
+  * Linux Raid
+  * Linux Swap (versions 1 and 2)
+  * LVM and LVM2, Linux Logical Volume Manager
+  * Netware NSS
+  * ReiserFS 3.5 and 3.6
+  * Sun Solaris i386 disklabel
+  * UFS and UFS2 (Sun/BSD/...)
+  * XFS, SGI's Journaled File System
+ .
+ PhotoRec is file data recovery software designed to recover
+ lost pictures from digital camera memory or even Hard Disks.
+ It has been extended to search also for non audio/video headers.
+ It searches for following files and is able to undelete them:
+  * Sun/NeXT audio data (.au)
+  * RIFF audio/video (.avi/.wav)
+  * BMP bitmap (.bmp)
+  * bzip2 compressed data (.bz2)
+  * Source code written in C (.c)
+  * Canon Raw picture (.crw)
+  * Canon catalog (.ctg)
+  * FAT subdirectory
+  * Microsoft Office Document (.doc)
+  * Nikon dsc (.dsc)
+  * HTML page (.html)
+  * JPEG picture (.jpg)
+  * MOV video (.mov)
+  * MP3 audio (MPEG ADTS, layer III, v1) (.mp3)
+  * Moving Picture Experts Group video (.mpg)
+  * Minolta Raw picture (.mrw)
+  * Olympus Raw Format picture (.orf)
+  * Portable Document Format (.pdf)
+  * Perl script (.pl)
+  * Portable Network Graphics (.png)
+  * Raw Fujifilm picture (.raf)
+  * Contax picture (.raw)
+  * Rollei picture (.rdc)
+  * Rich Text Format (.rtf)
+  * Shell script (.sh)
+  * Tar archive (.tar )
+  * Tag Image File Format (.tiff)
+  * Microsoft ASF (.wma)
+  * Sigma/Foveon X3 raw picture (.x3f)
+  * zip archive (.zip)
+
+Package: testdisk-dbgsym
+Source: testdisk
+Version: 7.2-1+mos1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jean-Michel Kelbert <kelbert@debian.org>
+Installed-Size: 2363
+Depends: testdisk (= 7.2-1+mos1)
+Breaks: testdisk-dbg (<< 7.1-5+nmu1~)
+Replaces: testdisk-dbg (<< 7.1-5+nmu1~)
+Priority: optional
+Section: debug
+Filename: pool/main/t/testdisk/testdisk-dbgsym_7.2-1+mos1_amd64.deb
+Size: 2156464
+SHA256: d234d25e1df6c3b850e0bbb3a38bcee435295f8798699678621677c2e4f629d8
+SHA1: 5e6e7798826eedd3066aa824cf1ac9b69a38e624
+MD5sum: 8fa01a9c0867a01826fe51f4c29def2b
+Description: debug symbols for testdisk
+Build-Ids: 225d7514ab48defbe6932f1a940d71b9813bcaa8 4ef21e2aec4f92536658a94f3ab900166a50d69e b752ecee13a3e8419c32f5ced92e03269b7be67c
+
+Package: unetbootin
+Version: 701+mos1-1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1334
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), mtools, p7zip-full, syslinux, syslinux-common, udev
+Recommends: extlinux, unetbootin-translations, gksu | kdesudo
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin_701+mos1-1_amd64.deb
+Size: 893860
+SHA256: b35e6cc7791961c0bdde63b9924b85675c5c7e5e4736718500c9d5ff6bee58d0
+SHA1: 6f043912d507ccc226375bc470ff0e203cdb264f
+MD5sum: 95458df789e930f8dbd5f6b4ae2b4413
+Description: installer of Linux/BSD distributions to a partition or USB drive
+ UNetbootin allows for the installation of various Linux/BSD distributions to a
+ partition or USB drive, so it's no different from a standard install, only it
+ doesn't need a CD. It can create a dual-boot install, or replace the existing
+ OS entirely.
+
+Package: unetbootin-dbgsym
+Source: unetbootin
+Version: 701+mos1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1714
+Depends: unetbootin (= 701+mos1-1)
+Priority: optional
+Section: debug
+Filename: pool/main/u/unetbootin/unetbootin-dbgsym_701+mos1-1_amd64.deb
+Size: 1668380
+SHA256: b7863c2a2d82f1a9e431610a2a18d249b8af83d17e26267e1aaea02402fff972
+SHA1: 7f3c8cb473d771a2b208e3d9e7ad87120e69d081
+MD5sum: e779b29041d89dc2fa40637c0456fbb4
+Description: debug symbols for unetbootin
+Build-Ids: 990f33bd3615718c391357a1278be47f739b727f
+
+Package: unetbootin-translations
+Source: unetbootin
+Version: 701+mos1-1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3115
+Recommends: unetbootin
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin-translations_701+mos1-1_all.deb
+Size: 235004
+SHA256: b3ec9f67ed4f87d111b54e93b2b101df82ab4dfb3f3df9499e467482fd96a968
+SHA1: 8dc454030e5f026b03028dbd8fd963b2b11114c3
+MD5sum: 2d47a9fb3ed2a5cebac3ccbcd341dbae
+Description: translations for the unetbootin distribution installer
+ UNetbootin is an installer of Linux/BSD distributions to a partition or USB
+ drive.
+ .
+ This package contains translation files for unetbootin.
+
+Package: veracrypt
+Version: 1.26.7-1
+Architecture: amd64
+Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+Installed-Size: 4765
+Depends: dmsetup, libc6 (>= 2.34), libfuse2 (>= 2.8), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), libwxbase3.2-1 (>= 3.2.2+dfsg), libwxgtk3.2-1 (>= 3.2.1+dfsg-2)
+Homepage: https://www.veracrypt.fr/en/Home.html
+Priority: optional
+Section: utils
+Filename: pool/main/v/veracrypt/veracrypt_1.26.7-1_amd64.deb
+Size: 1313068
+SHA256: 379ce297804dbe580934bba03fc18734340f96e884192fd8cd616f6220bb7998
+SHA1: 49a51a5e0031a22e2a062bb103a847650144b9c6
+MD5sum: 1f8eec11b4901a26b7e0eeb6b72b3895
+Description: Free open-source disk encryption software
+ VeraCrypt is a software system for establishing and maintaining an
+ on-the-fly-encrypted volume (data storage device). On-the-fly encryption
+ means that data are automatically encrypted or decrypted right before they
+ are loaded or saved, without any user intervention. No data stored on an
+ encrypted volume can be read (decrypted) without using the correct
+ password/keyfile(s) or correct encryption keys. Entire file system is
+ encrypted (e.g., file names, folder names, contents of every file,
+ free space, meta data, etc).
+
+Package: woeusb
+Version: 5.2.4
+Architecture: amd64
+Maintainer: pavroo <pavroo@onet.eu>
+Installed-Size: 460
+Depends: bash (>= 4.3), coreutils, dosfstools, findutils, gawk, gettext, grep, grub2-common, grub-pc-bin, ntfsprogs | ntfs-3g, p7zip-full, policykit-1, parted, util-linux, wget, wimtools
+Suggests: realpath, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.2+dfsg), libwxgtk3.0-0v5 (>= 3.0.2+dfsg)
+Homepage: https://github.com/WoeUSB/WoeUSB
+Priority: optional
+Section: utils
+Filename: pool/main/w/woeusb/woeusb_5.2.4_amd64.deb
+Size: 153872
+SHA256: cf2a7f5e2a77a15bbd7fa0de16c5244595a169c4631ab716e39cccf2217ea2f1
+SHA1: 555dd76b3f0633bc7ff778a7acac126fea19c66e
+MD5sum: 687348e0f3c6a37b49fa6840384db570
+Description: WoeUSB
+ A Microsoft Windows USB installation media preparer for GNU+Linux. It suppors Legacy PC/UEFI booting, FAT32 and NTFS filesystems, and supports using physical installation disc or disk image as source. Supported Windows installation images are Windows Vista and later, any language or edition variants, Windows PE.
+
+Package: woeusb-ng
+Version: 0.2.12
+Architecture: all
+Maintainer: pavroo <pavroo@onet.eu>
+Installed-Size: 968
+Depends: bash (>= 4.3), coreutils, dosfstools, findutils, gawk, gettext, grep, grub2-common, grub-pc-bin, ntfsprogs | ntfs-3g, p7zip-full, policykit-1, parted, util-linux, wget, wimtools, python3
+Suggests: realpath, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.2+dfsg), libwxgtk3.0-0v5 (>= 3.0.2+dfsg), python3, python3-wxgtk4.0, python3-xtermcolor
+Homepage: https://github.com/WoeUSB/WoeUSB-ng
+Priority: optional
+Section: utils
+Filename: pool/main/w/woeusb-ng/woeusb-ng_0.2.12_all.deb
+Size: 269076
+SHA256: e7a4f4470f1044a538f7f0cd427588d23d70349d0ec79da4cc33e88c3ffa3ba5
+SHA1: bd0aa77b7b4995ca926105197d14271fdb7432a5
+MD5sum: f1c7368b01db71032c555ac5e9be8490
+Description: WoeUSB-NG
+ A Microsoft Windows USB installation media preparer for GNU+Linux. It suppors Legacy PC/UEFI booting, FAT32 and NTFS filesystems, and supports using physical installation disc or disk image as source. Supported Windows installation images are Windows Vista and later, any language or edition variants, Windows PE.
+
+Package: xlunch-slax
+Version: 4.7.5-2
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 225
+Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/minios-linux/xlunch-slax.git
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-2_amd64.deb
+Size: 153744
+SHA256: a9bae6489c363fba1db7b1e5b1bbeb03eed0ed17e91e0f763f221a7f54f45a80
+SHA1: aa012e500776fa59d5122cff9660247cae9b792e
+MD5sum: b9cb3a55231791ef5ec95040e87e96ff
+Description: Graphical app launcher for X, using pure Xlib and Imlib2.
+ xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
+ Imlib2. It allows you to run programs, commands, or simply select something out
+ of a list using your mouse, keyboard, or both! UTF8 is fully supported meaning
+ you can have text of all kinds. The prompt allows you to run arbitrary commands,
+ and it works to filter your entries as well. xlunch is also highly configurable,
+ both in functionality and style, it can even be used as a desktop!
+
+Package: xmount
+Version: 1.1.1
+Architecture: amd64
+Maintainer: Gillen Daniel <development@sits.lu>
+Installed-Size: 8627
+Depends: libc6 (>= 2.28), libfuse2 (>= 2.7.1-2~bpo40+1), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.3.3)
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xmount/xmount_1.1.1_amd64.deb
+Size: 2340180
+SHA256: ac3bd4d83b8c1fcd655b0a139363a8b06ed6060cbd092460974e758f02e66574
+SHA1: 8a69d5b5195445bf224377344df986788115221c
+MD5sum: ee2d923ace3954583661dcb58c97e284
+Description: Tool to crossmount between multiple input and output harddisk image files
+ xmount allows you to convert on-the-fly between multiple input and output
+ harddisk image types. xmount creates a virtual file system using FUSE
+ (Filesystem in Userspace) that contains a virtual representation of the input
+ image. The virtual representation can be in raw DD, Apple's Disk Image format (DMG),
+ VirtualBox's virtual disk file format (VDI), VmWare's VMDK file format or Microsoft's
+ Virtual Hard Disk Image format (VHD). Input images can be raw DD, EWF
+ (Expert Witness Compression Format), AFF (Advanced Forensic Format v3 & v4),
+ VDI (VirtualBox Virtual Disk Image) or QCOW (QEMU Copy On Write) files.
+ In addition, xmount also supports virtual write access to the output files
+ that is redirected to a cache file. This makes it possible to boot acquired
+ harddisk images using QEMU, KVM, VirtualBox, VmWare or alike.
+

@@ -1,0 +1,35 @@
+Package: hdsentinel
+Source: hdsentinel-gui
+Version: 2.0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3157
+Depends: libc6 (>= 2.2.5)
+Homepage: https://www.hdsentinel.com/hard_disk_sentinel_linux_gui.php
+Priority: optional
+Section: utils
+Filename: pool/non-free/h/hdsentinel-gui/hdsentinel_2.0.0-1_amd64.deb
+Size: 1099688
+SHA256: 575fc80973db90318e42e5d34c4a8a8b4f9a85f725b1410eb3d6a27d8c910c15
+SHA1: 2c9e955b3a2b4300fcdbc7851414ee9b1cb4f714
+MD5sum: 15bd2ac20072930455e70a2424bc8d61
+Description: HD Sentinel command line utility
+ HD Sentinel is a hard disk monitoring software with highest possible support of HDD/SSD/SSHD (hybrid) drives.
+
+Package: hdsentinel-gui
+Version: 2.0.0-1
+Architecture: amd64
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 3569
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6, hdsentinel
+Homepage: https://www.hdsentinel.com/hard_disk_sentinel_linux_gui.php
+Priority: optional
+Section: utils
+Filename: pool/non-free/h/hdsentinel-gui/hdsentinel-gui_2.0.0-1_amd64.deb
+Size: 893748
+SHA256: 589a08cd1baee3b791e24aa0da92d07374a27ea0fbc9472196d141184bb8cd13
+SHA1: 3e2a966e38e3961ad302670c09b1cfa969878df7
+MD5sum: 85f697c03d5b5584b6a7a2f1c0169eed
+Description: HD Sentinel GUI
+ HD Sentinel is a hard disk monitoring software with highest possible support of HDD/SSD/SSHD (hybrid) drives. This package includes the GUI.
+

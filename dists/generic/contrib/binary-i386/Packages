@@ -1,0 +1,189 @@
+Package: minios-installer
+Version: 1.2
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 96
+Depends: bash (>= 4.4), util-linux (>= 2.31), gettext-base, polkitd | policykit-1, pkexec | policykit-1, sudo, parted, dosfstools, e2fsprogs, btrfs-progs, ntfs-3g, whiptail
+Suggests: yad
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/contrib/m/minios-installer/minios-installer_1.2_all.deb
+Size: 16120
+SHA256: d59faa595626d40334ad664d257f4fd8fba848cfd6191a12ddebf9773e4f2596
+SHA1: e4e26198d02c4ba2f89d845eb9dcd8d4a5fbed20
+MD5sum: c7b0dfb8e87227addc80d33edad95c1b
+Description: MiniOS Linux installation utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ install MiniOS on a USB flash drive.
+
+Package: realtek-rtl8188eus-dkms
+Version: 5.3.9~git20230921.3fae723-0kali2
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 11776
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/aircrack-ng/rtl8188eus
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8188eus-dkms/realtek-rtl8188eus-dkms_5.3.9~git20230921.3fae723-0kali2_all.deb
+Size: 1493340
+SHA256: 042d43c843bb6b4bdb669c30dffc09117426167902f173d3abb3e6b7411efbd6
+SHA1: 0f5d3cf048d29c970bb2d867b3fa609d1d796b6b
+MD5sum: 42ee54f7ded87b51b9ca10bb0f0ed14d
+Description: Realtek RTL8188EUS driver in DKMS format
+ This package provides the source code for RTL8188EUS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8723cs-dkms
+Version: 2020-1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 13586
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/Icenowy/rtl8723cs
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8723cs-dkms/realtek-rtl8723cs-dkms_2020-1_all.deb
+Size: 1724464
+SHA256: 2e09c6a66d69922b60d8a0e56ad4851e840407a05ec90456c130804b58de4e74
+SHA1: a0305a5bc7f418b110f21b2641acecfaac32e11a
+MD5sum: c35a6d676bfee0b573bd209226e61d8b
+Description: Realtek RTL8723CS driver in DKMS format
+ This package provides the source code for RTL8723CS Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8814au-dkms
+Version: 5.8.5.1~git20240527.d8208c8-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14341
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://github.com/morrownr/8814au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8814au-dkms/realtek-rtl8814au-dkms_5.8.5.1~git20240527.d8208c8-0kali1_all.deb
+Size: 1663224
+SHA256: 4dfe768e9011917e5f9868bb08a1a43327a962289a9a4f7bd14aacf96022f101
+SHA1: 46474e49de3d17b9bbea1d2129d7bc7b3184b98c
+MD5sum: 6ba83f8a1a302bfcb240fabca2aa10b3
+Description: Realtek RTL8814AU driver in DKMS format
+ This package provides the source code for RTL8814AU Linux driver (with monitor
+ mode and frame injection) to be build with dkms. Kernel sources or headers are
+ required to compile this module.
+
+Package: realtek-rtl8821au-dkms
+Version: 5.12.5.2-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 15661
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/morrownr/8821au-20210708
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8821au-dkms/realtek-rtl8821au-dkms_5.12.5.2-1_all.deb
+Size: 1881240
+SHA256: 8a7693836aae8794ed5c07b7dfa25c8b357d3e2611ccc412300c67109165dd3a
+SHA1: a3d04a287b811df15757a81c36cc2d9b3c6e17b1
+MD5sum: 8ac54e59267573539c65308797e4d483
+Description: Realtek RTL88X2BU driver in DKMS format
+ This package provides the source code for RTL88X2BU Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8821ce-dkms
+Version: 5.5.2.1-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 31274
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/tomaspinho/rtl8821ce
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl8821ce-dkms/realtek-rtl8821ce-dkms_5.5.2.1-1_all.deb
+Size: 2552836
+SHA256: f4c04ba36029304e216df0a871fa0426f352150721c93801c0bdb9c935941733
+SHA1: 408985723892f158a0c181c47794f5646458d35a
+MD5sum: f2511d20f508833b2ae1b35d96b26d4f
+Description: Realtek RTL88X2BU driver in DKMS format
+ This package provides the source code for RTL88X2BU Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl8821cu-dkms
+Version: 5.12.0+git20230215-1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 38300
+Depends: bc, dkms (>= 2.1.0.0)
+Homepage: https://github.com/morrownr/8821cu
+Priority: optional
+Section: kernel
+Filename: pool/contrib/r/realtek-rtl8821cu-dkms/realtek-rtl8821cu-dkms_5.12.0+git20230215-1_all.deb
+Size: 12009776
+SHA256: 1ce56fed19c0df3aea8fb1185f4e0eaf4a71f67d04158a0ed5c63a3110730385
+SHA1: bca8eb8dd5abf2b9ba2334251ffc196bfeabf7c6
+MD5sum: 6d82f315028a340d1831e528be25e097
+Description: rtl8821cu driver in DKMS format, builds up to 5.17 kernels.
+Modaliases: 8821cu(usb:v2001p331Dd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC80Cd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp8731d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp2006d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDAp8811d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC811d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Cd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Bd*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC82Ad*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC820d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApC821d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApB820d*dc*dsc*dp*icFFiscFFipFFin*, usb:v0BDApB82Bd*dc*dsc*dp*icFFiscFFipFFin*)
+Original-Maintainer: Gökhan Gökkaya <wirelessanten@gmail.com>
+
+Package: realtek-rtl88x2bu-dkms
+Version: 5.8.7.1-1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 27187
+Depends: dkms (>= 2.1.0.0)
+Homepage: https://github.com/cilynx/rtl88x2bu
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl88x2bu-dkms/realtek-rtl88x2bu-dkms_5.8.7.1-1_all.deb
+Size: 2401732
+SHA256: fd0c79026983ba9a4d8744fcc7c29d2f89befc4a86c7dfd1910a4911d84dcc56
+SHA1: bb1eaa27b9ce49913121fb29a9ae1a41a2d390af
+MD5sum: 13b8a40c04bd20a2cb0c55b5c1bab378
+Description: Realtek RTL88X2BU driver in DKMS format
+ This package provides the source code for RTL88X2BU Linux driver (with
+ monitor mode and frame injection) to be build with dkms. Kernel sources or
+ headers are required to compile this module.
+
+Package: realtek-rtl88xxau-dkms
+Version: 5.6.4.2~git20240726.63cf0b4-0kali1
+Architecture: all
+Maintainer: Kali Developers <devel@kali.org>
+Installed-Size: 14948
+Depends: dkms (>= 2.1.0.0), realtek-rtl8814au-dkms
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/r/realtek-rtl88xxau-dkms/realtek-rtl88xxau-dkms_5.6.4.2~git20240726.63cf0b4-0kali1_all.deb
+Size: 1788992
+SHA256: 30a3cbf7b38494c00454f2b7bce4ea14f061750298cdebbd56d231f93dfda51d
+SHA1: ae0ce45a98a1888fc6e5eab4710eb3017538117d
+MD5sum: c8ab427dc5a879f79a66cc6655dbd105
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.
+
+Package: rtl8821au-dkms
+Source: rtl8821au
+Version: 5.12.5.2+git20230727-1~mx21
+Architecture: all
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 15719
+Depends: dkms
+Homepage: https://github.com/morrownr/8821au-20210708
+Priority: optional
+Section: misc
+Filename: pool/contrib/r/rtl8821au/rtl8821au-dkms_5.12.5.2+git20230727-1~mx21_all.deb
+Size: 1895368
+SHA256: 2fabdda3482d5f1727f2913193f83bc63648e4aa0e491bcb2b51da39de5347ee
+SHA1: 4de94dbe01f558858e297243a8ee9dc45f434b8f
+MD5sum: 42b25123194d27712cff4993406f5f2b
+Description: rtl8821au/rtl8811au driver in DKMS format.
+ Driver for Realtek rtl8811au & rtl8821au wifi chipsets.
+ This package contains the DKMS files to build and install rtl8821au.
+

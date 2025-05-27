@@ -1,0 +1,1688 @@
+Package: adwaita-icon-theme-antix
+Version: 3.30.2~antix1
+Architecture: all
+Maintainer: anticapitalista <anticapitalista@riseup.net>
+Installed-Size: 2616
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Homepage: https://gitlab.com/antiX-Linux/adwaita-icon-theme-antix
+Priority: optional
+Section: antiX
+Filename: pool/main/a/adwaita-icon-theme-antix/adwaita-icon-theme-antix_3.30.2~antix1_all.deb
+Size: 1647500
+SHA256: 1f2e3b329728a31e4b918e250d21f412edd7c694f5566f0f4d8c6d8554d2133c
+SHA1: 8521572550ff7121ce82ace25c843d0d7af82b7a
+MD5sum: a42da42232869a2320dc464d2a359df9
+Description: default icon theme of GNOME.
+ This version is a much strippd down version for antiX Linux.
+ No cursers theme included.
+
+Package: adwaita-icon-theme-fake
+Version: 0.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Conflicts: adwaita-icon-theme
+Breaks: adwaita-icon-theme
+Replaces: adwaita-icon-theme
+Provides: adwaita-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/adwaita-icon-theme-fake/adwaita-icon-theme-fake_0.1_all.deb
+Size: 756
+SHA256: a84d051a7c81f281aa634f1aed7c470bb546a56c9e941b4488903f5765bbd6ae
+SHA1: 93bd0df9a4c89873f34c265bf81e9b83ea913a25
+MD5sum: 383a6a5bd758655cfacd84adb625b325
+Description: Fake package to prevent adwaita-icon-theme from being installed
+
+Package: cbatticon
+Version: 1.6.13-1
+Architecture: i386
+Maintainer: Ulises Vitulli <dererk@debian.org>
+Installed-Size: 170
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.16.0), libnotify4 (>= 0.7.6), libnotify-bin (>= 0.7.6)
+Homepage: https://github.com/valr/cbatticon
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbatticon/cbatticon_1.6.13-1_i386.deb
+Size: 29480
+SHA256: 0d786cc36497c369c48b2ec05fe959604ed70febcaf33cd8a577734476c9d09a
+SHA1: ecc34d8fe60e04ed309183bdacbe3391a80fd013
+MD5sum: dd70c0bbe995ac9c8bba0e1382ad8eb3
+Description: lightweight and fast battery icon status and more
+ Utility that displays battery information as battery status, remaining
+ percentage, remaining time, using an icon in the system tray.
+ .
+ Based on code from xbattbar-acpi, cbatticon sits in your system tray,
+ reporting on battery events, like plug-in, critical, remaining, etc.
+ .
+ A regular user can (re)define custom system's behaviour, like performing
+ graceful shutdown on critical status, by user-defined thresholds and commands
+ on low power/critical.
+
+Package: eddy
+Version: 1.3.2-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1197
+Depends: packagekit, libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgranite6 (>= 6.0.0), libgtk-3-0 (>= 3.21.4), libpackagekit-glib2-18 (>= 1.1.0), libzeitgeist-2.0-0 (>= 0.9.9), dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/donadigo/eddy
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy/eddy_1.3.2-1_i386.deb
+Size: 85228
+SHA256: 82782842193d039fac9cb24d610db436127659a6bcfa998813290242a518bc93
+SHA1: fc5ab96de6fad2d1d2a49e519b6b48b32630dc9b
+MD5sum: d1b574b24beb8b736b4e4cb3786153f2
+Description: Eddy - Debian package management tool for elementary OS
+ Eddy is a simple and user-friendly Debian package management tool.
+ It is designed specifically for elementary OS. It allows users to
+ install, update, and uninstall Debian packages with ease. In addition
+ to managing Debian packages, Eddy also supports other packaging
+ formats such as .rpm, thanks to its PackageKit backend. This makes
+ Eddy a versatile tool for managing packages on any Debian-based system.
+
+Package: eddy-dbgsym
+Source: eddy
+Version: 1.3.2-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 295
+Depends: eddy (= 1.3.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/e/eddy/eddy-dbgsym_1.3.2-1_i386.deb
+Size: 260840
+SHA256: 599174dab45f1ee8bfc5f463cc4043108a80e3615ec734401474484b41e567a8
+SHA1: d520848a50d93f1d926ef6b50a2d3e7328323359
+MD5sum: e954f73b4a90f0b664563f09122753be
+Description: debug symbols for eddy
+Build-Ids: d317cae3f07152a16d798e9078898840d27c7146
+
+Package: eddy-handler
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 42
+Depends: yad, apt, eddy, gettext-base
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/e/eddy-handler/eddy-handler_1.0_all.deb
+Size: 5004
+SHA256: eeaf7540f95e4f44b306e5f3cc350eca4276097bfabcdc79bae49a6fe9d4f99e
+SHA1: 7b103b2792b541f2305f705f5ca04ed9fe63e228
+MD5sum: a08c91171a355f6bf86be33cc50af743
+Description: Eddy Handler for package updates.
+ Eddy Handler is a utility designed to update the package database
+ before installing packages with Eddy. It checks if the package cache
+ is older than a day or does not exist, and if so, it updates the
+ package database. After the update, Eddy is launched for package
+ installation.
+
+Package: elementary-minios-icon-theme
+Source: elementary-minios
+Version: 0.20-2
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 55194
+Homepage: https://github.com/shimmerproject/elementary-xfce
+Priority: optional
+Section: x11
+Filename: pool/main/e/elementary-minios/elementary-minios-icon-theme_0.20-2_all.deb
+Size: 3956544
+SHA256: 275b1a7cffeb3670a5f70d23dad082db9ce010874402c22294c88b788eb88c27
+SHA1: 898cb47d46ae22aeec600121f89ee8aa56f6ce93
+MD5sum: 2813ac3781c822b513958b26175ddc7e
+Description: elementary icon theme modified for MiniOS
+ elementary-minios is a fork of the elementary-xfce.
+
+Package: fbxkb
+Version: 0.6-3.mos+1
+Architecture: i386
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 175
+Depends: libc6 (>= 2.7), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libx11-6
+Homepage: http://fbxkb.sourceforge.net
+Priority: optional
+Section: x11
+Filename: pool/main/f/fbxkb/fbxkb_0.6-3.mos+1_i386.deb
+Size: 93732
+SHA256: ca40a97459375cc7de3056d4b00ba6658e26fd84aebf49155a913eaec4db4368
+SHA1: 6f06f933c0ff8d47c503363b51261497073a1f50
+MD5sum: 2f453043506cccd1699560b140c0af2c
+Description: X11 keyboard indicator and switcher
+ It shows a flag of current keyboard in a systray area and
+ allows you to switch to another one. It's written in C and
+ uses the GTK+2.4 library only (no GNOME is needed).
+
+Package: flux-tools
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 109
+Depends: bash (>= 5.0), coreutils (>= 8.30), gettext-base (>= 0.19), grep (>= 3.3), sed (>= 4.7), util-linux (>= 2.33), gtkask, xlunch-slax
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/f/flux-tools/flux-tools_1.0_all.deb
+Size: 26716
+SHA256: 42660eeb9c26f6fa4e248fcb07eacb4a007f7fed826138b137d5a61bfb722fd4
+SHA1: c597b390eb436a901524c281a2c3caaad21f6251
+MD5sum: 903aefeed08756bbafe46af46023e807
+Description: Flux Tools for Fluxbox in MiniOS Linux.
+ Flux Tools is a set of utilities designed to be used
+ with Fluxbox for ease of use.
+
+Package: fluxbox-slax
+Version: 1.3.5-2.1
+Architecture: i386
+Maintainer: Dmitry E. Oboukhov <unera@debian.org>
+Installed-Size: 4081
+Depends: menu (>= 2.1.19), libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfribidi0 (>= 0.19.2), libgcc-s1 (>= 4.2), libimlib2 (>= 1.4.5), libstdc++6 (>= 5.2), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxrandr2, libxrender1
+Recommends: xfonts-terminus, feh | eterm | hsetroot | xloadimage
+Suggests: fbpager, fbdesk, fbautostart
+Conflicts: fluxbox
+Provides: x-window-manager
+Homepage: http://fluxbox.org
+Priority: optional
+Section: x11
+Filename: pool/main/f/fluxbox-slax/fluxbox-slax_1.3.5-2.1_i386.deb
+Size: 1244544
+SHA256: c2c151efbd9a4abb9960d6c3c4b49f6f78966fd37a7bdbc8b112581e3d1153fb
+SHA1: 369c65b6e76ec9c85a68d313ff061895bb6c15ba
+MD5sum: 737bfe57c18747fe1c104536b42ef237
+Description: Highly configurable and low resource X11 Window manager
+ Fairly similar to blackbox, from which it is derived, but has been
+ extended with features such as pwm-style window tabs, configurable
+ key bindings, toolbar, and an iconbar. It also includes some cosmetic
+ fixes over blackbox.
+ .
+ This package contains support for GNOME and KDE.
+
+Package: fonts-roboto-light
+Version: 1.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 173
+Breaks: fonts-roboto, fonts-roboto-hinted, fonts-roboto-unhinted
+Multi-Arch: foreign
+Homepage: https://github.com/google/roboto
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-roboto-light/fonts-roboto-light_1.0_all.deb
+Size: 72108
+SHA256: 9e37511759757cac2ec290cce9c97f5558ca7ace179bbdc7be1b5604f6f60959
+SHA1: ddb0f821884ff6d956d0cc84f73a9c48c560f20d
+MD5sum: c6a31cdd180f913bdc05b0df223fc357
+Description: Google's signature font Roboto Light
+ Roboto is Google's signature family of fonts, the default font in
+ Android and ChromeOS and the recommended font for Google's visual
+ language, Material Design.
+ .
+ Roboto supports all Latin, Cyrillic, and Greek characters in Unicode
+ 7.0 as well as currency symbol for the Georgian lari, to be published
+ in Unicode 8.0.
+ .
+ This package contains Roboto font families which lack hinting.
+
+Package: fred
+Version: 1.0.0
+Architecture: i386
+Maintainer: Gillen Daniel <development@sits.lu>
+Installed-Size: 643
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.2), libgl1, libhivex0 (>= 1.3.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.11.0~rc1), libqt5network5 (>= 5.8), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.8), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5script5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.9.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5)
+Recommends: fred-reports
+Homepage: https://www.sits.lu/fred
+Priority: optional
+Section: x11
+Filename: pool/main/f/fred/fred_1.0.0_i386.deb
+Size: 183096
+SHA256: 6ed937ccce4f3f40fb1d555406a51db12998151b81352012c35ff7cc7a338ecd
+SHA1: 9b5c2b93caa1203e98d0d7fbcfafceee64a8637e
+MD5sum: d1404a1a9591d378cfcc925ce77eddd9
+Description: Forensic Registry EDitor
+ Forensic Registry EDitor (fred) is a cross-platform M$ registry
+ hive editor with special features useful during forensic
+ analysis.
+
+Package: fred-reports
+Source: fred
+Version: 1.0.0
+Architecture: i386
+Maintainer: Gillen Daniel <development@sits.lu>
+Installed-Size: 87
+Depends: fred
+Homepage: https://www.sits.lu/fred
+Priority: optional
+Section: x11
+Filename: pool/main/f/fred/fred-reports_1.0.0_i386.deb
+Size: 12920
+SHA256: fa6e7059e86436a7cb6cb6e8cb3691f7058033c5b5e36ee2d6cacccb669a073a
+SHA1: 0addc52fa28b471ca60dbf661f63833763e143ec
+MD5sum: 09f39445259dee517c39b3f63705e67d
+Description: Forensic Registry EDitor
+ Forensic Registry EDitor (fred) is a cross-platform M$ registry
+ hive editor with special features useful during forensic
+ analysis.
+ .
+ This package contains the report-templates for fred.
+
+Package: greybird-gtk-theme
+Version: 3.23.4-0minios1
+Architecture: all
+Maintainer: MiniOS Team <zu1985@minios.dev>
+Installed-Size: 5419
+Depends: gtk2-engines-murrine
+Homepage: https://github.com/shimmerproject/Greybird
+Priority: optional
+Section: x11
+Filename: pool/main/g/greybird-gtk-theme/greybird-gtk-theme_3.23.4-0minios1_all.deb
+Size: 581492
+SHA256: c38450e2a09d9b9a688664745517bc4ad961dab4c2d9969014372e65f04889da
+SHA1: a75857777b3ac1596d56431fa9da34602b0f9a12
+MD5sum: 4153faaf3a693b54b7a15a25210ca02f
+Description: grey GTK+ theme from the Shimmer Project
+ Greybird has been the default theme for Xubuntu since 2011 when it
+ replaced Bluebird. Greybird can be described as more conservative yet more
+ modern than Bluebird. The Shimmer Project are the designers and developers of
+ both themes.
+ .
+ Although originally created for Xfce, Greybird also supports other
+ GTK+-based environments including Cinnamon, GNOME Shell, MATE, and Unity.
+
+Package: gtkask
+Version: 1.0-2
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.8.0)
+Homepage: https://github.com/minios-linux/gtkask.git
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkask/gtkask_1.0-2_i386.deb
+Size: 4736
+SHA256: 22d049ed93aec3ba01ab834ba9ee13caaa0c07caf4c71a92ceb81de6b2461e5b
+SHA1: aae75481733e73ba05a2b00fece104b1141a4be9
+MD5sum: da74654d48571e143accfd342f126d4c
+Description: Simple GTK2 dialog for Yes/No questions.
+
+Package: gtkdialog
+Version: 0.8.5d-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 351
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.21.4)
+Homepage: https://github.com/puppylinux-woof-CE/gtkdialog
+Priority: optional
+Section: unknown
+Filename: pool/main/g/gtkdialog/gtkdialog_0.8.5d-1_i386.deb
+Size: 109204
+SHA256: 3dee414b3e4d88882cc4f1922e776bac248a5f47fde2ab4acf691bd80b17511c
+SHA1: 32b68dcd67d99f096b7ecc9fd63a69d824f9cfc1
+MD5sum: a0f95ac9f5f4e8ba133a649fca19d32b
+Description: Small utility for fast and easy GUI building
+ Gtkdialog is a program that allows you to build graphical user
+ interfaces quickly and easily.
+
+Package: gtkdialog-dbgsym
+Source: gtkdialog
+Version: 0.8.5d-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 275
+Depends: gtkdialog (= 0.8.5d-1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gtkdialog/gtkdialog-dbgsym_0.8.5d-1_i386.deb
+Size: 227588
+SHA256: 81b9a6b7f18dea4579de86458702c2c548c96c105bde9871606aea748a59da90
+SHA1: 4007ec2ed27783c09b0a225639a28c6582cf0cf3
+MD5sum: b37d3fac281845cf12824061e61da1ce
+Description: debug symbols for gtkdialog
+Build-Ids: 9a0c21920f415d4212487dcb4a38dc0447b55c0c
+
+Package: hidpi-daemon
+Version: 18.04.6
+Architecture: all
+Maintainer: Aaron Honeycutt <aaron@system76.com>
+Installed-Size: 140
+Depends: python3:any (>= 3.4~), dconf-gsettings-backend | gsettings-backend, python3-gi, python3-pydbus, python3-xlib, gir1.2-notify-0.7
+Homepage: https://github.com/pop-os/hidpi-daemon
+Priority: optional
+Section: x11
+Filename: pool/main/h/hidpi-daemon/hidpi-daemon_18.04.6_all.deb
+Size: 22876
+SHA256: e62dd8a474c5519c778f47b2ee9a89b4e9aa0944bdff5f89c22b8a7f17ad78c6
+SHA1: ed4edc5d2f9c54764791d0c7d858bb0c4c9f01b4
+MD5sum: 0ad36f114e9caade2dfe93e763d34f79
+Description: Daemon to manage HiDPI and LoDPI monitors on X
+ HiDPI Daemon handles mixed-DPI monitor configurations and provides a simple mechanism to switch between HiDPI and LoDPI modes.
+
+Package: libminioslive
+Version: 4.3
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 31
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/libm/libminioslive/libminioslive_4.3_all.deb
+Size: 7160
+SHA256: 4be24038ac328d3d851f74294899b7b06362b1e6cbbf4e736e89d2f08aa9d548
+SHA1: b7c59d94ca749f3bc0f6ac3710e02f696553d1ca
+MD5sum: 4565a7fdcedebf09e96827d1724d06c0
+Description: Library for MiniOS Linux scripts.
+ libminioslive contains functions used by various MiniOS Linux utilities.
+
+Package: linux-config-6.1
+Source: linux
+Version: 6.1.128-1
+Architecture: i386
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 1109
+Recommends: linux-source-6.1
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux/linux-config-6.1_6.1.128-1_i386.deb
+Size: 1116928
+SHA256: bb0a4e9afd1a64fb4e6a76d20c3cd405ba9f4b42c86406b8eae5fc26d364bb4e
+SHA1: e0aefdf5c1c000c43b7c1392290d2e7d3e5856fe
+MD5sum: c81281b8c3c9dbab19b3fd1ea9482ffc
+Description: Debian kernel configurations for Linux 6.1
+ This package contains the configuration files used to build the official
+ Debian kernel files, but without references to Debian's signing
+ certificates.
+ .
+ These can be used as a basis for configuring custom kernels.
+
+Package: linux-headers-6.1-mos-686
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.1.128-mos-686
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-686/linux-headers-6.1-mos-686_6.1.128_i386.deb
+Size: 2236
+SHA256: 4578d9acddac4b2d0c4f7fbe3e4528a5644969a55a5126fc39948209770984cd
+SHA1: 1e56af14281e8abdb03441f6d7722d8d9d86d2ad
+MD5sum: 120107117b21407e93981449cd113b03
+Description: Header files for Linux 686 configuration (meta-package)
+
+Package: linux-headers-6.1-mos-686-pae
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.1.128-mos-686-pae
+Provides: linux-headers-6.1-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.1-mos-686-pae/linux-headers-6.1-mos-686-pae_6.1.128_i386.deb
+Size: 2240
+SHA256: b9252bd22159a58ea983bbe8488e441463a935fc23d33b1c4153fceb04aaf969
+SHA1: d2add5d7b391acf8d101e55aaa42c49bc56cc1b6
+MD5sum: 29833a4faca41b43b9cb2b80fe59b4b5
+Description: Header files for Linux 686-pae configuration (meta-package)
+
+Package: linux-headers-6.1.112-mos-686
+Source: linux-upstream
+Version: 6.1.112-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51626
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.112-mos-686_6.1.112-mos-686-1_i386.deb
+Size: 8600576
+SHA256: 4443d49bd79efb912795b7940f4399f81cac206a98a66dcfa44bc1e8c28582c4
+SHA1: a49b5a07730e35f084206863085dad2297578667
+MD5sum: 9e3626b427b749086438882947a60f14
+Description: Linux kernel headers for 6.1.112-mos-686 on i386
+ This package provides kernel header files for 6.1.112-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.112-mos-686-pae
+Source: linux-upstream
+Version: 6.1.112-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51677
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.112-mos-686-pae_6.1.112-mos-686-pae-1_i386.deb
+Size: 8600520
+SHA256: 2abd2b9c2b641e8f38216f9bf1465ef1c70c9581dcc932caf8968a75bec8743e
+SHA1: 665f916b1e9f73b3796ee9f5d4a997d55dbf2403
+MD5sum: 930d6438b53faea054fd80ece5f20c7a
+Description: Linux kernel headers for 6.1.112-mos-686-pae on i386
+ This package provides kernel header files for 6.1.112-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.115-mos-686
+Source: linux-upstream
+Version: 6.1.115-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51638
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.115-mos-686_6.1.115-mos-686-1_i386.deb
+Size: 8602932
+SHA256: 59f27b54829dc7a11e23e7c33fc8adb44fb655d299b8acc18dc27919a6997131
+SHA1: 7cfd9428754694eb48b50c1f9330e857a847ecca
+MD5sum: 85ec84eaff925a99bf4ee0b4cf9ea30c
+Description: Linux kernel headers for 6.1.115-mos-686 on i386
+ This package provides kernel header files for 6.1.115-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.115-mos-686-pae
+Source: linux-upstream
+Version: 6.1.115-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51688
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.115-mos-686-pae_6.1.115-mos-686-pae-1_i386.deb
+Size: 8604060
+SHA256: d8e62daa2bcee5f7a327bacde757e1381f27f4172354433c1770bf51e856e777
+SHA1: 2a494cab0a017e200125863766b97114bfc21135
+MD5sum: 661afbbcf46dc05343d6194c73690bd4
+Description: Linux kernel headers for 6.1.115-mos-686-pae on i386
+ This package provides kernel header files for 6.1.115-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.119-mos-686
+Source: linux-upstream
+Version: 6.1.119-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51642
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.119-mos-686_6.1.119-mos-686-1_i386.deb
+Size: 8606644
+SHA256: 53f45c0ae435acb25d92c2293b970db3da2c560be280e0bb66feb103eeadee8b
+SHA1: c35c5384c36aa2112584101a2c31b0943cdc81bd
+MD5sum: 12302dbd2b66cc7f747387c2b1aab7b9
+Description: Linux kernel headers for 6.1.119-mos-686 on i386
+ This package provides kernel header files for 6.1.119-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.119-mos-686-pae
+Source: linux-upstream
+Version: 6.1.119-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51692
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.119-mos-686-pae_6.1.119-mos-686-pae-1_i386.deb
+Size: 8604296
+SHA256: 212dd20cbdc99bdbb48d5110b21e60ff047aeb8705243ad0cfe784caf528e0c7
+SHA1: ab934e15ebc63e19f621ea91ee96c830d310ae85
+MD5sum: a065417b5cbf9bbcb718e76e3d0b360c
+Description: Linux kernel headers for 6.1.119-mos-686-pae on i386
+ This package provides kernel header files for 6.1.119-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.124-mos-686
+Source: linux-upstream
+Version: 6.1.124-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51658
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.124-mos-686_6.1.124-mos-686-1_i386.deb
+Size: 8605812
+SHA256: c5b29daeca9af264dc46e0615dbe61174b529758c4a7f9d1afd943bae5960e82
+SHA1: c3ec10cbe99830bdca7b73a5582bda5130f1a91c
+MD5sum: 94aae6dfda4757729f12c9f378c9d2bc
+Description: Linux kernel headers for 6.1.124-mos-686 on i386
+ This package provides kernel header files for 6.1.124-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.124-mos-686-pae
+Source: linux-upstream
+Version: 6.1.124-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51708
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.124-mos-686-pae_6.1.124-mos-686-pae-1_i386.deb
+Size: 8606872
+SHA256: 363f150c2e9c444795c2533a178dd455441e1b17f3736dc9c0b740b3a54a1da4
+SHA1: 09b033a86d1876f4395bf60f5010a685c04e7755
+MD5sum: 2efdc66eda3da586da9322d4d8fd9bd6
+Description: Linux kernel headers for 6.1.124-mos-686-pae on i386
+ This package provides kernel header files for 6.1.124-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.128-mos-686
+Source: linux-upstream
+Version: 6.1.128-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51661
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.128-mos-686_6.1.128-mos-686-1_i386.deb
+Size: 8605732
+SHA256: a0f50b8a51189710f701632e34ba9d1a660bfd52b260faa4f46dbbcc409d9521
+SHA1: fad910a33de471ed552ec27dc6e933101993f26c
+MD5sum: da7c95a3d8dc626b8e5f91d5ccb8fa0e
+Description: Linux kernel headers for 6.1.128-mos-686 on i386
+ This package provides kernel header files for 6.1.128-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.128-mos-686-pae
+Source: linux-upstream
+Version: 6.1.128-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51711
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.128-mos-686-pae_6.1.128-mos-686-pae-1_i386.deb
+Size: 8607228
+SHA256: 5fa9b8800e821372e3b29a872d7f457515f2dc32c3bd022ee03640a61f9c0770
+SHA1: 4db0ff790c238572006f939983cfbe4aa39dfa44
+MD5sum: bfafcadd30f9b57cd671bb6bf73737ee
+Description: Linux kernel headers for 6.1.128-mos-686-pae on i386
+ This package provides kernel header files for 6.1.128-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.67-mos-686
+Source: linux-upstream
+Version: 6.1.67-mos-686-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 51496
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-686_6.1.67-mos-686-1_i386.deb
+Size: 8583676
+SHA256: e741dc722f041b90d743f4ef44c1745e34d9ff41b92baebaddf9239121630274
+SHA1: 38cb5b842fe950acb8958893fbcdf85e5425ed4b
+MD5sum: 8a5960041d4c1a56bf2758b549908c62
+Description: Linux kernel headers for 6.1.67-mos-686 on i386
+ This package provides kernel header files for 6.1.67-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.67-mos-686-pae
+Source: linux-upstream
+Version: 6.1.67-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 51547
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.67-mos-686-pae_6.1.67-mos-686-pae-1_i386.deb
+Size: 8586004
+SHA256: d823fe6a39307922aad5bb1f1fd090e40f3d34514dd4cc87af567acf01c6501e
+SHA1: 0673eb04a1b7fb2e185dc9fd2ed65493564438a4
+MD5sum: 402c7a9f79d97a87e477b972f04ba8d2
+Description: Linux kernel headers for 6.1.67-mos-686-pae on i386
+ This package provides kernel header files for 6.1.67-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.90-mos-686
+Source: linux-upstream
+Version: 6.1.90-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51546
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.90-mos-686_6.1.90-mos-686-1_i386.deb
+Size: 8593684
+SHA256: 107cc85974670e1372797867076902cc399cae6f235dc3c4b745b86cdfa33a98
+SHA1: b1a67937b216038ec4febb95a8e95edd8754bd8d
+MD5sum: 9bd9d3adbfb36691608ab27d35dedfea
+Description: Linux kernel headers for 6.1.90-mos-686 on i386
+ This package provides kernel header files for 6.1.90-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.90-mos-686-pae
+Source: linux-upstream
+Version: 6.1.90-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51598
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.90-mos-686-pae_6.1.90-mos-686-pae-1_i386.deb
+Size: 8596596
+SHA256: 9e42723e04d4d14e75061167de7565524f6add73506d2e0551ba55a7c399844a
+SHA1: 4c71315cb7c6111abe9363930f6698ea127557bd
+MD5sum: 4b4dc28e0f503c8fd9a4e749efcf8e32
+Description: Linux kernel headers for 6.1.90-mos-686-pae on i386
+ This package provides kernel header files for 6.1.90-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.99-mos-686
+Source: linux-upstream
+Version: 6.1.99-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51592
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.99-mos-686_6.1.99-mos-686-1_i386.deb
+Size: 8596364
+SHA256: cde448c56d767b3f9577afd87f002a30ce4005c148823ace6dc45d5dcb9ce814
+SHA1: 8279c934ba5c44b862cb77e4dc9234bcf6c51e16
+MD5sum: b6e1e8c34863b04895f0cc40076f073e
+Description: Linux kernel headers for 6.1.99-mos-686 on i386
+ This package provides kernel header files for 6.1.99-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.99-mos-686-pae
+Source: linux-upstream
+Version: 6.1.99-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 51644
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.99-mos-686-pae_6.1.99-mos-686-pae-1_i386.deb
+Size: 8597740
+SHA256: f934d2b098cb289144d6fdd2fd3accf1f03782481590b15869c4cd9515f3b2ea
+SHA1: a45e5faaa8be3095c99a6b525a987f764dbab166
+MD5sum: 7dde8a5abf6202b0b25aa42397749a7a
+Description: Linux kernel headers for 6.1.99-mos-686-pae on i386
+ This package provides kernel header files for 6.1.99-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.10-mos-686
+Version: 6.10.4
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.10.4-mos-686
+Provides: linux-headers-6.10-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.10-mos-686/linux-headers-6.10-mos-686_6.10.4_i386.deb
+Size: 2232
+SHA256: 5ad40fd3c055e96f2af7c3a102d56cb72c48fc5893cbe6b80865ba439003ce4f
+SHA1: 4d25208841d8ca65dd936f2da2cbe80cfd46e2f5
+MD5sum: d8e16a53a890b9792eaa4bd8e81035dc
+Description: Header files for Linux 686 configuration (meta-package)
+
+Package: linux-headers-6.10-mos-686-pae
+Version: 6.10.4
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.10.4-mos-686-pae
+Provides: linux-headers-6.10-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.10-mos-686-pae/linux-headers-6.10-mos-686-pae_6.10.4_i386.deb
+Size: 2240
+SHA256: ab2e6b360faed2bd7f541f13baaa7b5c1ef7a50e0419d2d912b487a1f2befeb3
+SHA1: f7599271e8b4f22e1447261c2cde39a95ed7148c
+MD5sum: 14247a17aaa0a8042334f2107b61ef2e
+Description: Header files for Linux 686-pae configuration (meta-package)
+
+Package: linux-headers-6.10.4-mos-686
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 54322
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.10.4-mos-686_6.10.4-mos-1_i386.deb
+Size: 9270568
+SHA256: 4e17d9b754ac43d1edc4614a0acb5ea322415b348d2466e7c7dd886d11096ee4
+SHA1: 7a0d499a112ce6b5a598320a71b542cfe493de8e
+MD5sum: 31ad5ec317333d9de7d81970430fc105
+Description: Linux kernel headers for 6.10.4-mos-686 on i386
+ This package provides kernel header files for 6.10.4-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.10.4-mos-686-pae
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 53588
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.10.4-mos-686-pae_6.10.4-mos-1_i386.deb
+Size: 9163252
+SHA256: 6748cda40338d7754953e5eb6e994e6b59523a2c1bd95e67ce0784f2d6b21adb
+SHA1: 84300c2b0180b922d8e5fd085566d23b7851b91a
+MD5sum: 66d4f5cb056ce19925c1d76ac78b27a1
+Description: Linux kernel headers for 6.10.4-mos-686-pae on i386
+ This package provides kernel header files for 6.10.4-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.8-mos-686
+Version: 6.8.12
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.8.12-mos-686
+Provides: linux-headers-6.8-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.8-mos-686/linux-headers-6.8-mos-686_6.8.12_i386.deb
+Size: 2236
+SHA256: 9fa7447684cb37050d634bdf371ccee9350da75fa25d7bd7128d92ace2906d43
+SHA1: e01246b629b60bc18c4f7c6169eb9e299d28222e
+MD5sum: 585de288f574796e822ff9e3c117586e
+Description: Header files for Linux 686 configuration (meta-package)
+
+Package: linux-headers-6.8-mos-686-pae
+Version: 6.8.12
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-headers-6.8.12-mos-686-pae
+Provides: linux-headers-6.8-mos-generic
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-headers-6.8-mos-686-pae/linux-headers-6.8-mos-686-pae_6.8.12_i386.deb
+Size: 2236
+SHA256: 9b8382b8d60caf44ed49b95b5bba5819052d74c706d60a02a18ccd010abce9ab
+SHA1: 7bc5f4fb7c7693d4c2c2255b3cbeb406ea3d8a21
+MD5sum: e14dd90fab09d0fef96d7a4a28576790
+Description: Header files for Linux 686-pae configuration (meta-package)
+
+Package: linux-headers-6.8.12-mos-686
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 53907
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.8.12-mos-686_6.8.12-mos-1_i386.deb
+Size: 9162264
+SHA256: 3976fc8f4a2d5e985ecc4e0df97dcaf574e0227adbe02cffbfdb1b23a8b8cc88
+SHA1: 4224657bf1aae56adde529af8c0cee8f101964c2
+MD5sum: fffaf6fd49d359c4cb7c9f73c2661c84
+Description: Linux kernel headers for 6.8.12-mos-686 on i386
+ This package provides kernel header files for 6.8.12-mos-686 on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.8.12-mos-686-pae
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 53173
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.8.12-mos-686-pae_6.8.12-mos-1_i386.deb
+Size: 9054936
+SHA256: 6b4ee64496e0419e874e412f8177eb6e7fc0b7cd12f0f8128278722ad112acfc
+SHA1: 977bda779c32f9b11c0b62faa7f8d45d18087972
+MD5sum: fe66bc0205722014dc415b8caaef7471
+Description: Linux kernel headers for 6.8.12-mos-686-pae on i386
+ This package provides kernel header files for 6.8.12-mos-686-pae on i386
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-6.1-mos-686
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.1.128-mos-686
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.128-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-686/linux-image-6.1-mos-686_6.1.128_i386.deb
+Size: 2244
+SHA256: b5c5b45040c2a8ebf180361d8e52ce3aa9857b70f7bac09c575f48ef12338629
+SHA1: 90d7a6d0c2664d1a2be08a1aef2b7e2dd3d35829
+MD5sum: f4588e074a75e9c90824b0a112d80191
+Description: Linux for 686 PCs (meta-package)
+
+Package: linux-image-6.1-mos-686-pae
+Version: 6.1.128
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.1.128-mos-686-pae
+Provides: linux-image-6.1-mos-generic, linux-latest-modules-6.1.128-mos-686-pae
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.1-mos-686-pae/linux-image-6.1-mos-686-pae_6.1.128_i386.deb
+Size: 2248
+SHA256: e384a7e599164d62c9fc8c17971a81b84e2193b954a4a9211852828edce80ba6
+SHA1: 1736db749a551989b442d8b074d98f0ccd42cede
+MD5sum: e6213e0fd0f997de7ca51b693f644405
+Description: Linux for 686-pae PCs (meta-package)
+
+Package: linux-image-6.1.112-mos-686
+Source: linux-upstream
+Version: 6.1.112-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192141
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.112-mos-686_6.1.112-mos-686-1_i386.deb
+Size: 52136092
+SHA256: dd85dad2054a19e7e967024fb761bfb9373f3ea8223a927d398f0e28737906cf
+SHA1: 05c11e72f60c131092d7e25095c18747ccc182b1
+MD5sum: a7b9b4dfa27222c04366d6acd1e86a88
+Description: Linux kernel, version 6.1.112-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.112-mos-686.
+
+Package: linux-image-6.1.112-mos-686-pae
+Source: linux-upstream
+Version: 6.1.112-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192633
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.112-mos-686-pae_6.1.112-mos-686-pae-1_i386.deb
+Size: 52348844
+SHA256: 98f50e40507f5656cc71dbd32a83ad3d151df953bab93a5842376655705d0664
+SHA1: 7aa17c980269e99004b73a61671f6b77f4952178
+MD5sum: 7b789c8bd55ecfae0efaeb5f7e56ef75
+Description: Linux kernel, version 6.1.112-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.112-mos-686-pae.
+
+Package: linux-image-6.1.115-mos-686
+Source: linux-upstream
+Version: 6.1.115-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192178
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.115-mos-686_6.1.115-mos-686-1_i386.deb
+Size: 52134084
+SHA256: b69ee6b11c26dcf97645d7f2e8ddd148904f6f0c408d682f13c0df860a2bfd3e
+SHA1: 465726faf67ae5a40820164717114056bc950b64
+MD5sum: 46321be08a46f2515204b71640936082
+Description: Linux kernel, version 6.1.115-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.115-mos-686.
+
+Package: linux-image-6.1.115-mos-686-pae
+Source: linux-upstream
+Version: 6.1.115-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192678
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.115-mos-686-pae_6.1.115-mos-686-pae-1_i386.deb
+Size: 52367480
+SHA256: 1ed1e1ed73a93baa81fd3ade2932900e9d0b12f87b88c6975e8424c0f505bb0f
+SHA1: 4fd2487174037f9a0c669140fd97e2e9f6f4c027
+MD5sum: 93dd6e6d1461424048db6e8bbbbd4be3
+Description: Linux kernel, version 6.1.115-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.115-mos-686-pae.
+
+Package: linux-image-6.1.119-mos-686
+Source: linux-upstream
+Version: 6.1.119-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192186
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.119-mos-686_6.1.119-mos-686-1_i386.deb
+Size: 52145140
+SHA256: 04c70d6cd9368c7795793b116a7172e982e904d641fcaa62e50be495fd1b9460
+SHA1: 002bb431a6e70464081d27b2745c5f26ebb11362
+MD5sum: 6e420e8873170cd614778857800cc66f
+Description: Linux kernel, version 6.1.119-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.119-mos-686.
+
+Package: linux-image-6.1.119-mos-686-pae
+Source: linux-upstream
+Version: 6.1.119-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192688
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.119-mos-686-pae_6.1.119-mos-686-pae-1_i386.deb
+Size: 52376868
+SHA256: d0f13ba1da0cfe511d22813cfb3a71e1de2643b152d0308535bc5af901c6caa7
+SHA1: 51c18576679314554897a2feb608ed9c5aa2ec80
+MD5sum: ee32dfed877b619b72d14fb455948ead
+Description: Linux kernel, version 6.1.119-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.119-mos-686-pae.
+
+Package: linux-image-6.1.124-mos-686
+Source: linux-upstream
+Version: 6.1.124-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192243
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.124-mos-686_6.1.124-mos-686-1_i386.deb
+Size: 52149812
+SHA256: 1420dc2e13fa8c4148f41939d9d995ef8703de6a87e2b6269602c3f6743a0eb0
+SHA1: 497debd6e5c8e254d1e35b56ca4a7f33e8b9d263
+MD5sum: 4d30eda9c99af35cf999160354522c0e
+Description: Linux kernel, version 6.1.124-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.124-mos-686.
+
+Package: linux-image-6.1.124-mos-686-pae
+Source: linux-upstream
+Version: 6.1.124-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192744
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.124-mos-686-pae_6.1.124-mos-686-pae-1_i386.deb
+Size: 52399412
+SHA256: f4d68f2f03848a179595c8101efa9173a914ba4e501b7d4cd0cdc09a456cf136
+SHA1: 163ba5dfc467e19c0fa67c4a18e109226cab3034
+MD5sum: ac70cac0c714dc3003d34f6ed64795e3
+Description: Linux kernel, version 6.1.124-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.124-mos-686-pae.
+
+Package: linux-image-6.1.128-mos-686
+Source: linux-upstream
+Version: 6.1.128-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192255
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.128-mos-686_6.1.128-mos-686-1_i386.deb
+Size: 52157364
+SHA256: 157f5d144dd7559b2a64376b426b66a5d710fb59fdfc28fb9f9cef301e6466a3
+SHA1: 4650ba645cf2c1ed7fd66788bc2b8cc57a801596
+MD5sum: e6808054640301bc6de1269fadeb802e
+Description: Linux kernel, version 6.1.128-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.128-mos-686.
+
+Package: linux-image-6.1.128-mos-686-pae
+Source: linux-upstream
+Version: 6.1.128-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192757
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.128-mos-686-pae_6.1.128-mos-686-pae-1_i386.deb
+Size: 52396416
+SHA256: 62a092449eba87fcc449ce1d4fb3351f4e2c84cc36fba00ce63fa8d402f84e5c
+SHA1: 955ffe1d9a9095c0ad029f5b80703a3389a9d9b9
+MD5sum: fd010d2d50e0c87ed6a00f6bfbff5cf3
+Description: Linux kernel, version 6.1.128-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.128-mos-686-pae.
+
+Package: linux-image-6.1.67-mos-686
+Source: linux-upstream
+Version: 6.1.67-mos-686-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 191972
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-686_6.1.67-mos-686-1_i386.deb
+Size: 52074292
+SHA256: 0c2dc83eb9854bd17e8837d8f11a238ac5994e855526d05b29b3296fa5b75cd0
+SHA1: 32d15c77d9b0bf9215cf8156fee71e09a704b259
+MD5sum: d3ee009db65c3355b7b3e1f51e834e31
+Description: Linux kernel, version 6.1.67-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.67-mos-686.
+
+Package: linux-image-6.1.67-mos-686-pae
+Source: linux-upstream
+Version: 6.1.67-mos-686-pae-1
+Architecture: i386
+Maintainer: root <root@bookworm>
+Installed-Size: 192462
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.67-mos-686-pae_6.1.67-mos-686-pae-1_i386.deb
+Size: 52304264
+SHA256: 2d84f8a9246440fbfc438925140d426bbf7fcdc848a03c02b2a6b8b2007eb958
+SHA1: 6bdaf8d2c13422dd1151d8ac5060ec39df0c6287
+MD5sum: 1f4d046395668834f4da9b6fb91ddd69
+Description: Linux kernel, version 6.1.67-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.67-mos-686-pae.
+
+Package: linux-image-6.1.90-mos-686
+Source: linux-upstream
+Version: 6.1.90-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192019
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.90-mos-686_6.1.90-mos-686-1_i386.deb
+Size: 52066972
+SHA256: f65a1f29af449392b0eb53ada41da21de2681b1422ae51c0fabd1cc5d9366171
+SHA1: 3f96754f378040eb1715d1976269aea78aac2cad
+MD5sum: b41bd452a8af3f25125663c30d740c31
+Description: Linux kernel, version 6.1.90-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.90-mos-686.
+
+Package: linux-image-6.1.90-mos-686-pae
+Source: linux-upstream
+Version: 6.1.90-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192512
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.90-mos-686-pae_6.1.90-mos-686-pae-1_i386.deb
+Size: 52332476
+SHA256: 45e79c0b3bedfa72325866dd33c926143f69a77dbb3f1a3304a5b6575d18c9d1
+SHA1: 39db342321e847a803ae6489f156aa0705201fce
+MD5sum: 84a559878cdd19b8a3b554f32bbe0331
+Description: Linux kernel, version 6.1.90-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.90-mos-686-pae.
+
+Package: linux-image-6.1.99-mos-686
+Source: linux-upstream
+Version: 6.1.99-mos-686-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192051
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.99-mos-686_6.1.99-mos-686-1_i386.deb
+Size: 52098616
+SHA256: 2dae9cefce1f47e62d191cdea34be05e2c6722b3d8cc776b4783c3330f915b5b
+SHA1: cc1df503a5df670fba4ea7665a3558e6e94ef8c4
+MD5sum: 84a3f01edfb50f62ab0acf98c6893eef
+Description: Linux kernel, version 6.1.99-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.99-mos-686.
+
+Package: linux-image-6.1.99-mos-686-pae
+Source: linux-upstream
+Version: 6.1.99-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 192545
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.1.99-mos-686-pae_6.1.99-mos-686-pae-1_i386.deb
+Size: 52335312
+SHA256: 8aa61a4985cefa652a0c1d420c1d405f2bb54f8ffab6fbfa33d7bbbc93824bb2
+SHA1: 0f530a450648473012cf0fdefec11f24ea5e56f7
+MD5sum: 6624a31baef5321821d623b811324349
+Description: Linux kernel, version 6.1.99-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.99-mos-686-pae.
+
+Package: linux-image-6.10-mos-686
+Version: 6.10.4
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.10.4-mos-686
+Provides: linux-image-6.10-mos-generic, linux-latest-modules-6.10.4-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.10-mos-686/linux-image-6.10-mos-686_6.10.4_i386.deb
+Size: 2240
+SHA256: 474f2603c51f4b2ba4c2ac82260402e13c0992fbb57a86e014952203f1054ee1
+SHA1: e63e0a0c912304fdd3ae6995c0d1495b86689c63
+MD5sum: 60ec47faec05811ee74e152e3926433c
+Description: Linux for 686 PCs (meta-package)
+
+Package: linux-image-6.10-mos-686-pae
+Version: 6.10.4
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.10.4-mos-686-pae
+Provides: linux-image-6.10-mos-generic, linux-latest-modules-6.10.4-mos-686-pae
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.10-mos-686-pae/linux-image-6.10-mos-686-pae_6.10.4_i386.deb
+Size: 2252
+SHA256: 14c1dff627d4a4052df9f74c490d4e6823ae034dee00794f22e02e295887275e
+SHA1: c2cd6970795bd95f92e1d8cfabffeaffbc2fa79f
+MD5sum: 4ab2e37b02f02f23afff084b3a77c3b0
+Description: Linux for 686-pae PCs (meta-package)
+
+Package: linux-image-6.10.4-mos-686
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 74870
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.10.4-mos-686_6.10.4-mos-1_i386.deb
+Size: 66195096
+SHA256: db70c34123b000b0c18e51996aa619be7de1d5ddf320651c190428487817ba2a
+SHA1: bfdcbcd57af7510c8022f2d4fefa3a749dfbb568
+MD5sum: 635149a08012938c36ded499da918fc6
+Description: Linux kernel, version 6.10.4-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.10.4-mos-686.
+
+Package: linux-image-6.10.4-mos-686-pae
+Source: linux-upstream
+Version: 6.10.4-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 75120
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.10.4-mos-686-pae_6.10.4-mos-1_i386.deb
+Size: 66464732
+SHA256: f2fd28d8979b8ba0ef377576e0cd5aa4088a0a8394c280b88e708fe1e0ef6df0
+SHA1: fc03f69e6f4624808f1c61fd7f27ed9e79c17740
+MD5sum: effaea205606e3baf9470d6a138928b2
+Description: Linux kernel, version 6.10.4-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.10.4-mos-686-pae.
+
+Package: linux-image-6.8-mos-686
+Version: 6.8.12
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.8.12-mos-686
+Provides: linux-image-6.8-mos-generic, linux-latest-modules-6.8.12-mos-686
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.8-mos-686/linux-image-6.8-mos-686_6.8.12_i386.deb
+Size: 2236
+SHA256: 859adaba11433d99d7ba1f256c1a7d2e50d21a12a25f2aa2ae8728032448043d
+SHA1: 97ea8abda633cd2bfdf029e6bb8123b252efcbf7
+MD5sum: 10260f7147fa099b6fc1f313e99e9ce4
+Description: Linux for 686 PCs (meta-package)
+
+Package: linux-image-6.8-mos-686-pae
+Version: 6.8.12
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 9
+Depends: linux-image-6.8.12-mos-686-pae
+Provides: linux-image-6.8-mos-generic, linux-latest-modules-6.8.12-mos-686-pae
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-image-6.8-mos-686-pae/linux-image-6.8-mos-686-pae_6.8.12_i386.deb
+Size: 2248
+SHA256: 4d6f3db52a650a3d72bccd31d68176fc8ef8d27e68da6719e25ebe8c86d4435c
+SHA1: 1c4fa06b6e47e3e034659ab81dcf7d3114692609
+MD5sum: d4b958153124cfa6bd583bcfd5fcc23c
+Description: Linux for 686-pae PCs (meta-package)
+
+Package: linux-image-6.8.12-mos-686
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 73172
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.8.12-mos-686_6.8.12-mos-1_i386.deb
+Size: 64615168
+SHA256: b8730ca9f328a4630f97bafd8dffd91934c1f15c31300c87df6c7419596c874d
+SHA1: ae37191bb9984713dbc844a82ec9b21a20b1f30f
+MD5sum: fff6c969f26c358fa584a6ae7ab8cf47
+Description: Linux kernel, version 6.8.12-mos-686
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.8.12-mos-686.
+
+Package: linux-image-6.8.12-mos-686-pae
+Source: linux-upstream
+Version: 6.8.12-mos-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 73358
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.8.12-mos-686-pae_6.8.12-mos-1_i386.deb
+Size: 64847096
+SHA256: 955e1e6e4850f88783d92eab4aecfed7f70f7fd7f6e9a0d1ab5cbf53444dc25b
+SHA1: fc134a8b269d345c81509ef8f3e2d1f627c93aa7
+MD5sum: 485dbae20239a2b28ee7ebd38b68bd67
+Description: Linux kernel, version 6.8.12-mos-686-pae
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.8.12-mos-686-pae.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 6.1.128-mos-686-pae-1
+Architecture: i386
+Maintainer: MiniOS Kernel Team <team@minios.dev>
+Installed-Size: 6636
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.1.128-mos-686-pae-1_i386.deb
+Size: 1278056
+SHA256: 5c1fc1b63c3c665f0f3a4b847c88651702bd6f25c145a377338163e370287a49
+SHA1: 0c5eb38f965d316cebd880de982acc032e92e4bc
+MD5sum: 8c050a3d342a1882fe2fa9d0ec934c82
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: minios-boot
+Version: 1.2.4
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 98
+Depends: bash (>= 4.4), coreutils (>= 8.28), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31), systemd-sysv (>= 237)
+Recommends: libminioslive (>= 4.0)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-boot/minios-boot_1.2.4_all.deb
+Size: 17972
+SHA256: 91b5b73b7a2b7fb15e654ffc0409b86ae4751ad3ff8c8c4ac00766e43214f1d6
+SHA1: 71c3a7aad502efc1bcb3c8d6bae4044a59f09235
+MD5sum: b3dae77d3dbc841febe21ce61f30d216
+Description: MiniOS Linux boot scripts.
+ MiniOS Boot is a collection of scripts needed to boot MiniOS and
+ provide the MiniOS features described in the
+ <https://github.com/minios-linux/minios-live/wiki> documentation.
+
+Package: minios-configurator
+Version: 2.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 99
+Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-configurator/minios-configurator_2.0_all.deb
+Size: 15868
+SHA256: c10bd21351512490349f468f2c724b05d6e307028ff4a80659b1c94f3304b608
+SHA1: 72271681209d65b1002e9263ae62625e34bfd558
+MD5sum: f2a600e8a3749c580de5f762af6121fe
+Description: MiniOS Linux configuration utility.
+ MiniOS Configurator is a utility specially designed for quick and easy
+ configure MiniOS.
+
+Package: minios-installer
+Version: 2.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 144
+Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-gio-2.0, gir1.2-gdk-3.0, gir1.2-pango-1.0, parted, e2fsprogs, dosfstools, btrfs-progs, ntfs-3g, extlinux, util-linux (>= 2.34), minios-configurator (= 2.0)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-installer/minios-installer_2.0_all.deb
+Size: 24272
+SHA256: ee701615a924871ab0f935f31c02ca47b85011a1b3ff6ed883f1031325900331
+SHA1: bc7b5abebb5364d6dcae0c721363ab5ab5caeb1d
+MD5sum: ebb73ee548d7118a9ae2c7747338700e
+Description: MiniOS Linux installation utility.
+ MiniOS Installer is a utility specially designed for quick and easy
+ install MiniOS on a USB flash drive.
+
+Package: minios-tools
+Version: 1.3.1
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 224
+Depends: bash (>= 4.4), coreutils (>= 8.28), gettext-base (>= 0.19), grep (>= 3.1), sed (>= 4.4), mawk (>= 1.3), squashfs-tools (>= 4.3), util-linux (>= 2.31)
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-tools/minios-tools_1.3.1_all.deb
+Size: 41156
+SHA256: 2224893ffd9488a1108355c0653df3af819770ae6d5acf20df958955eb5def70
+SHA1: e91ad8a4bf78a4acab3812a3545114622c79579e
+MD5sum: 34781f1af57f52a7443238dad8cb29a2
+Description: MiniOS Linux tools.
+ MiniOS Tools is a set of utilities designed to make MiniOS work.
+ They include utilities for booting the system as well as
+ utilities for working with modules.
+
+Package: minios-welcome
+Version: 5.0
+Architecture: all
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 1339
+Depends: fonts-roboto-light
+Homepage: https://minios.dev
+Priority: optional
+Section: utils
+Filename: pool/main/m/minios-welcome/minios-welcome_5.0_all.deb
+Size: 350568
+SHA256: 792e50275f5f4018ef59fbdb8856bef3eb5cf0a2c5ac8043b65c08446dbf9f5d
+SHA1: 1e26497d5315aca1ee8f09f7a204c0103651cdeb
+MD5sum: 715726ff41a1e6d9d6736d37e74b035f
+Description: MiniOS HTML welcome page.
+ MiniOS welcome page - HTML page that opens when you start your
+ browser for the first time in MiniOS.
+
+Package: mintstick
+Version: 1.6.2+nmu1
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 286
+Depends: coreutils, genisoimage, gir1.2-glib-2.0, gir1.2-gtk-3.0, gir1.2-polkit-1.0, ntfs-3g, parted, polkitd | policykit-1, pkexec | policykit-1, procps, python3, python3-gi, python3-parted, python3-gnupg, python3-unidecode, gir1.2-udisks-2.0, gir1.2-xapp-1.0, util-linux, exfatprogs | exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Priority: optional
+Section: misc
+Filename: pool/main/m/mintstick/mintstick_1.6.2+nmu1_all.deb
+Size: 48664
+SHA256: 20deba96ed87d2a35f03a11d142f0ebedf502b27c4258ba5856f4652ac52c3e9
+SHA1: 13df8ac04e4086f52723ba36d4ea35602418fbed
+MD5sum: c0e7b8836a95cabc53f4aad358d4a473
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.
+
+Package: ntfs3-dkms
+Version: 1.0.12~mos+1
+Architecture: all
+Maintainer: EasyNetDev <devel@easynet.dev>
+Installed-Size: 8446
+Depends: dkms, linux-libc-dev, libc6-dev
+Homepage: https://github.com/EasyNetDev/ntfs3-dkms
+Priority: optional
+Section: admin
+Filename: pool/main/n/ntfs3-dkms/ntfs3-dkms_1.0.12~mos+1_all.deb
+Size: 190312
+SHA256: a39dee0695d42d1727377c60ec3d71a9f7285cc0349d6c6232c7957a86bcab42
+SHA1: 551fa77ff66382794fa7882aa3fc9f32e0066528
+MD5sum: b67b4b91671992fe07ee2f4140d22d54
+Description: NTFS Read-Write file system support
+ Windows OS native file system (NTFS) support up to NTFS version 3.1.
+ This is original Linux Driver ported as external module.
+
+Package: osinfo-db
+Version: 0.20240701-1+mos+1
+Architecture: all
+Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Installed-Size: 4345
+Multi-Arch: foreign
+Homepage: https://libosinfo.org/
+Priority: optional
+Section: libs
+Filename: pool/main/o/osinfo-db/osinfo-db_0.20240701-1+mos+1_all.deb
+Size: 159864
+SHA256: 17fde5e568062a4e4b4f84a6b62745069adb42ddadb5d3847f8176744d5441c6
+SHA1: 7601d1c97ae220ffbc5f92ba73dbe474209bf28a
+MD5sum: 75b575e86c3e77edfc92a64238a03876
+Description: Operating system database files
+ libosinfo is a GObject based library API for managing information about
+ operating systems, hypervisors and the (virtual) hardware devices they
+ can support. It provides APIs to match/identify optimal devices for deploying
+ an operating system on a hypervisor.
+ .
+ This package contains the actual database files.
+
+Package: python3-whichcraft
+Source: whichcraft
+Version: 0.4.1-3
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 28
+Depends: python3:any
+Homepage: https://github.com/pydanny/whichcraft
+Priority: optional
+Section: python
+Filename: pool/main/w/whichcraft/python3-whichcraft_0.4.1-3_all.deb
+Size: 5980
+SHA256: f1e910458a28d564c0487e071bacda9f39a7f0b23a50e0aa8c1e14a5fca0e42d
+SHA1: cfad5f5428e64e33d089b5cfe318515b07ee8dd0
+MD5sum: 47b6f5e1e2a81fa60799468a5b54c1f7
+Description: cross-platform cross-python shutil.which functionality (Python 3 module)
+ This is a shim of the "shutil.which" function that's designed to work across
+ multiple versions of Python and inside of Windows. The code for Python 2.x is
+ based on Python 3 code.
+ .
+ This package contains the Python 3 module.
+Python-Egg-Name: whichcraft
+
+Package: qdiskinfo
+Version: 0.3+git20240909+ds-1~mos+1
+Architecture: i386
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 281
+Depends: pkexec, smartmontools, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5)
+Homepage: https://github.com/edisionnano/QDiskInfo
+Priority: optional
+Section: utils
+Filename: pool/main/q/qdiskinfo/qdiskinfo_0.3+git20240909+ds-1~mos+1_i386.deb
+Size: 89772
+SHA256: 8a20156e0875d9a1af0ee588fd6ab496472d65fd3aa0832950654b68494b3ca4
+SHA1: e18ddc9384e0f3f61ccd36ee89d6ae6a3e930730
+MD5sum: 02d70589e2a9110366c50b7d72f90f7f
+Description: CrystalDiskInfo alternative for Linux
+ QDiskInfo is a frontend for smartctl. It provides a user experience
+ similar to CrystalDiskInfo. It shows the SMART (Self-Monitoring,
+ Analysis, and Reporting Technology) data of modern hard disk drives.
+
+Package: rescuezilla
+Version: 2.3.1-1-1
+Architecture: all
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 2690
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-whichcraft, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, nbdkit, efibootmgr
+Recommends: partimage, ecryptfs-utils
+Homepage: https://rescuezilla.com
+Priority: optional
+Section: admin
+Filename: pool/main/r/rescuezilla/rescuezilla_2.3.1-1-1_all.deb
+Size: 416524
+SHA256: d5539285ef61735cd65386153fbf152c5c4031ac049a16c18a98e6acf0ca9bba
+SHA1: 87101d7113149b0a28cceab07d0e8adf6cf68c13
+MD5sum: 2fee350c1f0da5fdefbef6c68bb58dce
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: systrayicon
+Version: 1.0-1
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.14.0), libgtk2.0-0 (>= 2.16.0)
+Homepage: https://github.com/minios-linux/systrayicon.git
+Priority: optional
+Section: unknown
+Filename: pool/main/s/systrayicon/systrayicon_1.0-1_i386.deb
+Size: 4328
+SHA256: 09d13b2abb3b894f872d47fb1c9f2a7bbcd58dba3da271b46a6978dfc1f235ed
+SHA1: 6e577a69788a7e65aa552c4647fc4a1739dda796
+MD5sum: f8ef9481ba3e1f02e8e48d65006618ba
+Description: Systray Icon Launcher.
+ This is a tiny launcher which shows an icon in system tray (systray) and runs a
+ command or application after user clicks the icon.
+
+Package: unetbootin-translations
+Source: unetbootin
+Version: 701+mos1-1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3115
+Recommends: unetbootin
+Homepage: http://unetbootin.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/main/u/unetbootin/unetbootin-translations_701+mos1-1_all.deb
+Size: 235004
+SHA256: b3ec9f67ed4f87d111b54e93b2b101df82ab4dfb3f3df9499e467482fd96a968
+SHA1: 8dc454030e5f026b03028dbd8fd963b2b11114c3
+MD5sum: 2d47a9fb3ed2a5cebac3ccbcd341dbae
+Description: translations for the unetbootin distribution installer
+ UNetbootin is an installer of Linux/BSD distributions to a partition or USB
+ drive.
+ .
+ This package contains translation files for unetbootin.
+
+Package: woeusb-ng
+Version: 0.2.12
+Architecture: all
+Maintainer: pavroo <pavroo@onet.eu>
+Installed-Size: 968
+Depends: bash (>= 4.3), coreutils, dosfstools, findutils, gawk, gettext, grep, grub2-common, grub-pc-bin, ntfsprogs | ntfs-3g, p7zip-full, policykit-1, parted, util-linux, wget, wimtools, python3
+Suggests: realpath, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libwxbase3.0-0v5 (>= 3.0.2+dfsg), libwxgtk3.0-0v5 (>= 3.0.2+dfsg), python3, python3-wxgtk4.0, python3-xtermcolor
+Homepage: https://github.com/WoeUSB/WoeUSB-ng
+Priority: optional
+Section: utils
+Filename: pool/main/w/woeusb-ng/woeusb-ng_0.2.12_all.deb
+Size: 269076
+SHA256: e7a4f4470f1044a538f7f0cd427588d23d70349d0ec79da4cc33e88c3ffa3ba5
+SHA1: bd0aa77b7b4995ca926105197d14271fdb7432a5
+MD5sum: f1c7368b01db71032c555ac5e9be8490
+Description: WoeUSB-NG
+ A Microsoft Windows USB installation media preparer for GNU+Linux. It suppors Legacy PC/UEFI booting, FAT32 and NTFS filesystems, and supports using physical installation disc or disk image as source. Supported Windows installation images are Windows Vista and later, any language or edition variants, Windows PE.
+
+Package: xlunch-slax
+Version: 4.7.5-2
+Architecture: i386
+Maintainer: crims0n <crims0n@minios.dev>
+Installed-Size: 227
+Depends: libc6 (>= 2.34), libimlib2 (>= 1.4.5), libx11-6
+Homepage: https://github.com/minios-linux/xlunch-slax.git
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xlunch-slax/xlunch-slax_4.7.5-2_i386.deb
+Size: 154272
+SHA256: 1df8eb215c84c562f642b138ceac886bf922fe61a443654edc16f7844bdf43f2
+SHA1: e128a40c56de88950ed9ff9373f79465a77aa263
+MD5sum: e11bf00b06d6573690355ad6762d709b
+Description: Graphical app launcher for X, using pure Xlib and Imlib2.
+ xlunch - graphical app launcher for Xorg/X11. It requires only pure Xlib and
+ Imlib2. It allows you to run programs, commands, or simply select something out
+ of a list using your mouse, keyboard, or both! UTF8 is fully supported meaning
+ you can have text of all kinds. The prompt allows you to run arbitrary commands,
+ and it works to filter your entries as well. xlunch is also highly configurable,
+ both in functionality and style, it can even be used as a desktop!
+
+Package: xmount
+Version: 1.1.1
+Architecture: i386
+Maintainer: Gillen Daniel <development@sits.lu>
+Installed-Size: 7801
+Depends: libc6 (>= 2.28), libfuse2 (>= 2.7.1-2~bpo40+1), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.3.3)
+Priority: optional
+Section: unknown
+Filename: pool/main/x/xmount/xmount_1.1.1_i386.deb
+Size: 2307436
+SHA256: e0d9ae271c588ffd2579a963918807f1f0a465d0470d2af67c3280abe7529224
+SHA1: 4e4e36a6e7268de1a75abb9adc4d84ce57543f50
+MD5sum: 3829052e1fa26a4d0101b142c9d00c84
+Description: Tool to crossmount between multiple input and output harddisk image files
+ xmount allows you to convert on-the-fly between multiple input and output
+ harddisk image types. xmount creates a virtual file system using FUSE
+ (Filesystem in Userspace) that contains a virtual representation of the input
+ image. The virtual representation can be in raw DD, Apple's Disk Image format (DMG),
+ VirtualBox's virtual disk file format (VDI), VmWare's VMDK file format or Microsoft's
+ Virtual Hard Disk Image format (VHD). Input images can be raw DD, EWF
+ (Expert Witness Compression Format), AFF (Advanced Forensic Format v3 & v4),
+ VDI (VirtualBox Virtual Disk Image) or QCOW (QEMU Copy On Write) files.
+ In addition, xmount also supports virtual write access to the output files
+ that is redirected to a cache file. This makes it possible to boot acquired
+ harddisk images using QEMU, KVM, VirtualBox, VmWare or alike.
+
