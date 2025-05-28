@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: oldstable
 Codename: bullseye
-Date: Wed, 28 May 2025 16:52:56 UTC
+Date: Wed, 28 May 2025 17:03:21 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  12761f53eda4937330939928dc416f3f50d09800daab68c2c088e14ba0bc9a7c 131 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmg3P2gACgkQ7CDxjGi2
-L2z4Dwv/cB4i2SUwu1WEM+k0p+328qh5TUR1R+0fYSlO5PrPcxRslLO310ppaQBm
-3HO8N66MlIguqCO2gknnIj2HEL7gzn3j7WHPFOAmZtOEIEIMmugyKvt20ciCagkK
-7ivBv+zoVDKq8DMrn5zf1hka9Kgr9dXuN4bibTpT9lVcy77SDJUmFfRiB4vsRhqp
-GtCxlVnasGNKgqA7UN5HmbRciA0obd2Rnq6S0fvlOfccGiHqMJiXA3ZkO3WYdTpG
-0NNlHn32F0ilDw1xVMEU3n/hpS5NYpsWnqA5jNbuMlNl150dsKIs/xg8nq6m1msK
-19cg2Nt2fMRcB+37+9+zmN0HdO2RL39Xk/ka60d+uiXhymMJaOaQsh/DHHq2mfaK
-XmXGi3La/vgsxCvhotFyTktM2Wdle0n0SRX9aymmONjs561EUJob8YhfqhvLnb4i
-R5K35dlua2SSaRmkDmaavu2MXw7hkBfW8LxeU6HyjJellAc1cbTO4WF6WAsbQsM4
-fmOwzvjL
-=k7X7
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmg3QdkACgkQ7CDxjGi2
+L2yEmgv/Su2w79sSKW53pr0+BWB7gyqgXQy7q97+1MQNRqStso7UGGe5cy6XmoBq
+LIl9Y0l4+F4q75CknVYTt39WMkKrOK+4nWvi1rcioPONDMBZSuK7+yx80UI9goNR
+D1/c/cME5R4/zm6nvaAwb0Jq+8DMrYZg4G0zxHo45x2W7xSkcYL57KW361ax+IAw
+iiJmjwXcAwsScAx0SWXaUwSx+hz7V9huGHNHHCpi8uUtnRNPJw9kMB8b55Dy45Bh
+R5YWuxdNxZLvc4HDI9ic1CkYg2o8kFX69EZG1AIURzqTS42C0cUBKwThZWfe9W9P
+qidUwqnhpxBWpCj7HIOUltqEwIat0ZLvJnVVOGeGt0ZjFfsMuE/i4+z+DWmHqJdB
+eD2lejG8PPwBm10UKlEQSr5UUwpJreb0yE/ESUPuXVzzGlVI360dtBT73ymjZZ0Y
+4rE9Lp18oblfTNUv9CxqtvMlDp0HKmQUkj19yVmvjFFwG0JNahKWFVyKNYkpREX6
+tyNo/NOf
+=kXoE
 -----END PGP SIGNATURE-----
