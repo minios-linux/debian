@@ -6,7 +6,7 @@ on:
       - master
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -20,19 +20,17 @@ jobs:
         with:
           lfs: true
 
-      - name: Pull LFS files
-        # Ensure LFS files are pulled after checkout
-        run: git lfs pull
-
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Deploy to gh-pages branch
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Upload site contents
+        uses: actions/upload-pages-artifact@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          force: true
-          directory: '.'
+          path: |
+            pool/
+            dists/
+
+  publish:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
