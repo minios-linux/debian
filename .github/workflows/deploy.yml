@@ -20,12 +20,17 @@ jobs:
         with:
           lfs: true
 
+      - name: Setup GitHub Pages
+        uses: actions/setup-pages@v2
+
       - name: Upload site contents
         uses: actions/upload-pages-artifact@v1
         with:
           path: |
             pool/
             dists/
+            README.md
+            minios-linux.asc
 
   publish:
     needs: deploy
