@@ -20,19 +20,6 @@ jobs:
         with:
           lfs: true
 
-      - name: Pull LFS objects
-        run: git lfs pull
-
-      - name: Install reprepro
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y reprepro
-
-      - name: Build APT repo
-        run: |
-          reprepro clearvanished
-          reprepro export
-
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
