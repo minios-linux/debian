@@ -20,8 +20,8 @@ jobs:
         with:
           lfs: true
 
-      - name: Setup GitHub Pages
-        uses: actions/setup-pages@v2
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
 
       - name: Upload site contents
         uses: actions/upload-pages-artifact@v1
@@ -29,6 +29,7 @@ jobs:
           path: |
             pool/
             dists/
+            images/
             README.md
             minios-linux.asc
 
