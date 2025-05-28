@@ -5,7 +5,7 @@ Origin: Debian
 Label: MiniOS Repository
 Suite: stable
 Codename: bookworm
-Date: Wed, 28 May 2025 17:03:21 UTC
+Date: Wed, 28 May 2025 17:12:51 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  4bfe1fe2f034f9be7d42bdc2fe6120772b9140cb483563dcbeaa6169414f9f97 128 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmg3QdoACgkQ7CDxjGi2
-L2zAcAv/f0XPrBEIpMyZnZgnir6MRP+BimaxYqMYWMzLIJ6uFLXehxwghT3ndvSU
-7MrLktHk6et9lRpgOBP6yverUQsish7hXjsrOC58rmaA60Nr8PvJQHxeV1xaPKUr
-tcqCDH3wnwVVATEH40PoyOT9HboF1UW3Mo0yLXtmwgKyR48rvWEJFvYQVADW+Qwx
-Rjjh+v0yqQGOh2i7DC/yutYL/QjL3JMgxgdX2cIXkUDvt3g9bnKO4dbOvxadguSp
-BDcpeD5gf9sn9/1g8gbYeP7ODozGreOuStQ7RZFsFmL9riFQmhcFhuQAbNyv5TGq
-GEbZboQtnNKJj+04nIQIdfPnGa/MP9YnRz8kvFCyo753VVdfiBlMPVvWfEsegG9t
-B0AjdWoSJEvT2TQMY5+u/0fJGbvDGvJ25t4+2d4SbKFxf/Nu6jN0O70ZH55/wMxe
-FjwOAeQEWeMgy0DAV3imy3dI+3LN7MAuWqSkPNMDaUb2y2ZB+4okoAhFVJaPL31C
-w/ow0LAs
-=p1WZ
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmg3RBMACgkQ7CDxjGi2
+L2xEFgwAu4Hxe6mA/IVKBwm81G4DhAZLCVDXTMWFCl20NMpE+tk7+/mCzi3cAaBo
+vAwGBp7r5HUnRjBjo7ofZeYPh6HfcwGs9huHvicmCNctyGdgLKLauIiAWMHu0Qj9
+rUNCGkiSouMN9ANm8b27D1eEQo3//KOAnwD44tDgEa8BaG3ny3wrMOJYj34hu2iJ
+8TMhOcsx2UW72oq3L+G/m9N/R+Y4sb5etWcwufFGUIk66ZjhPm9eUZZqD4Kunw23
+anFo92plZ/QCJ6mCHy2ZRKjeGztojvv3cqMMqyKCmsGQUyDsRsQEDS0F0IPpA9c5
+9hFFssq+96KbZ2RI/JVW5PVOnaCXHgmRkzbSyfn4MNSjpaX04iapgUiPNNqfR8/W
+fxQEvvgOzahcYpxGWLXU9NYq9cCrbNK2uir5eKjB4C1UPLYDNVN/cu3OtENsz1yC
+MyvBmwS5oSxYc74FuyvasymLgKblKeFEfxsjI/RVQ0Cvtwt3x9yvI7ruyPTa+3Kr
+HQ2GN3sP
+=5VCO
 -----END PGP SIGNATURE-----

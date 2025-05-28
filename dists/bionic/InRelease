@@ -5,7 +5,7 @@ Origin: Ubuntu
 Label: MiniOS Repository
 Suite: unstable
 Codename: bionic
-Date: Wed, 28 May 2025 17:03:23 UTC
+Date: Wed, 28 May 2025 17:12:53 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 Description: MiniOS Repository
@@ -131,15 +131,15 @@ SHA256:
  6cb7b42c32fdad2ec864b20b4b103586cb4e9db50fc745585b73af87b50e6af6 130 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmg3QdsACgkQ7CDxjGi2
-L2ztbQv/RdwaO4gKt9F0dwK04c4ZqLcg+gbyOoCwHTZyLPqMBLr5ZzGl2Zakdj9A
-nWzyPt1GQRBq7yWnlXqTGGomUF57gef2wWEhndzkUKyMpHAyn+KQ3lKuoTsfIuz8
-OIhFQPs3EmfDEgMfhzHeB1LwH/f9VLchND7xc6xcZ33Ak1HRu9OvBJDo2WcMUkOc
-6JFjpMw4dpCDJ742ZDAojOC1xYhHTa32xwuH1ddG1kXZYxjQQ4C1mqDbt7SumVjY
-nEy3Aza3gLTyXnwsMl9ItoNqOtxJ2ZlKSgV1UjZL7G8mw+xSAGfd28zdwYbo/mXh
-w8xOfq927zCLp28vAP18hwRnENne1h3n6o40inIbT8r9aL7nGeg2YwgUZGuPn6ha
-wtvJeXRtxMRquQW+Ty6TSDq1QqhODRJPb0tiMlX0HJrqGtwaQdm+zk9pZ9lQxDLB
-buTAE18xqNT0Gnav95hhuxMAJzW/ClkJvK2p5LALu/kl351g9U4cFi3WlrWXnPpM
-yhBnUJVh
-=GeB1
+iQGzBAEBCgAdFiEEIik85QmbxWE2CLDH7CDxjGi2L2wFAmg3RBUACgkQ7CDxjGi2
+L2ygjQv9GTxN5ZrCySFpWocKkQJ7irn5/PDA5lNnrxmy7Qtjoz8P6osAQ18qNVbM
+Fb52U78G2FzhZznW6qOeiN8iXrIiQ2+Y5OVS+fcuUl6lWPREHmPCNPJZ1MEgjmXz
+rvHytBNRaes7yGkPht1altfDlmOH+DAAuJTSdIHsFYMlYPabkUhIvQbtA8Vwz2Fj
+NooThBUOj7ncnEfFclivnx8CuC08DZTVrwf+XG3xhIQSQWKdaijF1VixpmqZTNYW
+4sVO+oJH9b8MM67poI8blCbUdtsKAwzQHwvVu39aNRqVpQ17dlRqT9jdMMmR0VCw
+l3Z/r/RkqnaJgyzPeXp+xKha41oNz9/dKk+cE6S9jrUzSMk5HQwHGl6JMaaZBSOd
+FTCu+vtMjqlamBAXR/cEgdbhksOTAH7g6Q0kp++SK+jcy6SzTayFOblBqSDH8IXs
+6uADdE/2NQ6enMH3QuDNZQ/Z7PaNwwQCcDoEoAQPQftxffRWqUAvUVatiWSuKn+p
+wedHc5IB
+=cw4s
 -----END PGP SIGNATURE-----
