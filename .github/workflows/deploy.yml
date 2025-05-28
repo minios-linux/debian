@@ -6,9 +6,9 @@ on:
       - master
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: 'read'
+  pages: 'write'
+  id-token: 'write'
 
 jobs:
   deploy:
@@ -20,15 +20,15 @@ jobs:
         with:
           lfs: true
 
-      - name: Ensure LFS objects are present
-        run: |
-          git lfs pull
+      - name: Pull Git LFS objects
+        run: git lfs pull
 
-      - name: Upload root directory as Pages artifact
+      - name: Upload site contents for Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "."
-          exclude: ".github/**"
+          path: |
+            pool/
+            dists/
 
   publish:
     needs: deploy
