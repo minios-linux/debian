@@ -6,19 +6,18 @@ on:
       - master
 
 permissions:
-  contents: read        # to pull code
-  pages: write          # to publish to Pages
-  id-token: write       # for OIDC if needed
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          lfs: true               # pull Git LFS files if you use them
+          lfs: true
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
@@ -26,25 +25,24 @@ jobs:
       - name: Upload site contents as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            pool/
-            dists/
-            images/
-            README.md
-            minios-linux.asc
+          path:
+            - pool/
+            - dists/
+            - images/
+            - README.md
+            - minios-linux.asc
+          name: github-pages
+          retention-days: 1
 
   publish:
     needs: deploy
     runs-on: ubuntu-latest
-
     permissions:
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
