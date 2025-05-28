@@ -1389,16 +1389,16 @@ Package: minios-configurator
 Version: 2.0
 Architecture: all
 Maintainer: crims0n <crims0n@minios.dev>
-Installed-Size: 99
+Installed-Size: 111
 Depends: python3 (>= 3.8), python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, gir1.2-gio-2.0, whois, openssl
 Homepage: https://minios.dev
 Priority: optional
 Section: utils
 Filename: pool/main/m/minios-configurator/minios-configurator_2.0_all.deb
-Size: 15868
-SHA256: c10bd21351512490349f468f2c724b05d6e307028ff4a80659b1c94f3304b608
-SHA1: 72271681209d65b1002e9263ae62625e34bfd558
-MD5sum: f2a600e8a3749c580de5f762af6121fe
+Size: 17388
+SHA256: 70f07191d88bc149e3d199c0d74cc8883706683407cd93b14fbceda124b14fdf
+SHA1: bb1492ad08cfc2c00fdfe483281f56483f52dbeb
+MD5sum: c3be018564cfa0819fda7ce09cd2d57d
 Description: MiniOS Linux configuration utility.
  MiniOS Configurator is a utility specially designed for quick and easy
  configure MiniOS.

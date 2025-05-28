@@ -1,4 +1,4 @@
-Archive: testing, kali-rolling
+Archive: stable
 Component: contrib
 Origin: Debian
 Label: MiniOS Repository

@@ -1,6 +1,5 @@
-Archive: unstable
 Component: non-free
-Origin: Debian
+Origin: Generic
 Label: MiniOS Repository
 Architecture: i386
 Description: MiniOS Repository

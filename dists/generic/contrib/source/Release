@@ -1,6 +1,5 @@
-Archive: unstable
 Component: contrib
-Origin: Debian
+Origin: Generic
 Label: MiniOS Repository
 Architecture: source
 Description: MiniOS Repository
