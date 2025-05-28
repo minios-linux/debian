@@ -20,6 +20,10 @@ jobs:
         with:
           lfs: true
 
+      - name: Pull LFS files
+        # Ensure LFS files are pulled after checkout
+        run: git lfs pull
+
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
